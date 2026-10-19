@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\publication_revision_20261018\privacy_and_package.py", line 25, in <module>
+    p=P/name;t=p.read_text();t=t.replace('The checker fixture files are unchanged upstream test data; original notices and commit metadata within them are retained.','The checker fixtures derive from upstream test data. Original notices are retained; 21 JSON commitInfo records have user/workspace identities removed and 21 checksum sidecars are omitted. See code/checker/tests/fixtures/MODIFICATIONS.md.').replace('Fixture bytes are unchanged and excluded from the CC BY data grant.','Original fixture identities were established before redaction. Publication copies are metadata-redacted derivatives, excluded from the CC BY data grant.').replace('All 52 legacy fixture files are identical to upstream delta-rs test data at the recorded base revision.','All 52 original legacy fixture files were verified identical to upstream delta-rs test data at the recorded base revision. Publication copies subsequently redact 21 commitInfo records and omit 21 checksum sidecars; 31 fixture files remain.').replace('Restoring them into staging allows the unchanged original checker test file to pass 11 tests with zero skips.','Restoring them into staging allows the unchanged original checker test file to pass 11 tests with zero skips. A final rerun also passes after commitInfo privacy redaction and checksum-sidecar exclusion.');p.write_text(t,encoding='utf8')
+               ^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+  File "<LOCAL_HOME>\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 53: character maps to <undefined>

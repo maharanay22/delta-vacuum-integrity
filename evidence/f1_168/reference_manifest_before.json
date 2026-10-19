@@ -1,0 +1,1490 @@
+[
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\.gitignore",
+    "Length": 41,
+    "LastWriteTimeUtc": "2026-10-13T22:33:44.7465783Z",
+    "SHA256": "D62FA2DF8D14311352D20120067B0EFE9BC1E6B35EEBC15DB21249707E35AB96"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\README.md",
+    "Length": 10290,
+    "LastWriteTimeUtc": "2026-10-14T01:25:55.3289846Z",
+    "SHA256": "0BAC8F7AF2A42BC80C15C574494655A3B95E3A0F32AE10DBE3366D85135BC4B5"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\pyproject.toml",
+    "Length": 356,
+    "LastWriteTimeUtc": "2026-10-13T22:31:41.7723900Z",
+    "SHA256": "D69FAA62691A831680317590DAD72470E4AAD5389ECBF23DF95C684BE873AEA3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\.gitignore",
+    "Length": 37,
+    "LastWriteTimeUtc": "2026-10-13T22:33:02.1355139Z",
+    "SHA256": "3ED731B65D06150C138E2DADB0BE0697550888A6B47EB8C45ECC9ADBA8B8E9BD"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\CACHEDIR.TAG",
+    "Length": 191,
+    "LastWriteTimeUtc": "2026-10-13T22:33:02.1355139Z",
+    "SHA256": "37DC88EF9A0ABEDDBE81053A6DD8FDFB13AFB613045EA1EB4A5C815A74A3BDE4"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\README.md",
+    "Length": 302,
+    "LastWriteTimeUtc": "2026-10-13T22:33:02.1334931Z",
+    "SHA256": "73FD6FCCDD802C419A6B2D983D6C3173B7DA97558AC4B589EDEC2DFE443DB9AD"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\v\\cache\\nodeids",
+    "Length": 924,
+    "LastWriteTimeUtc": "2026-10-14T00:42:40.8626254Z",
+    "SHA256": "B1C5D68443FF807D478F7E79D4FBCD2A7904DDED8161C4257D440707B11F8966"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\test_vacuumcheck.py",
+    "Length": 5620,
+    "LastWriteTimeUtc": "2026-10-13T22:32:39.1485846Z",
+    "SHA256": "CACF3711AD26DC470E5459C7C79D5C787805862F3BD6DF92AE907FAB77A2902E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin",
+    "Length": 45,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.3558565Z",
+    "SHA256": "980A33E97CC99D3EAE91AF97FF302C0C99C37883662951FD02CE9DC8E0CA7D79"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet",
+    "Length": 635,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.3761003Z",
+    "SHA256": "0DC5BE52021598FF614C4882E64E1E556FD0F6D4F0592F5F612128B9447C3C29"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\_delta_log\\00000000000000000000.json",
+    "Length": 1299,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.3379068Z",
+    "SHA256": "354E53EC9B71337367889D293444F9E7A836DC57F2E939B52722E516AB88417D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\_delta_log\\00000000000000000001.json",
+    "Length": 1593,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.3399321Z",
+    "SHA256": "F96AFA5CE0A2A383E0ACB7F696AC2C358738A6865D51008FF9D827F544E82116"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin",
+    "Length": 43,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.1943980Z",
+    "SHA256": "32E60FA67C8677E728960636DC1AE9E4F642369907C23D84CF396A9A144D0BBA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin",
+    "Length": 45,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.2282507Z",
+    "SHA256": "4C58898467F483D9E82A67A34BDA28376DCB71B5FBCCA5390B53DDDAC4922925"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet",
+    "Length": 10499,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.2439215Z",
+    "SHA256": "8ACB3179CE161C2168FB58D1A1064F2E044C2DD00E212200DADBB3425153951D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\_last_checkpoint",
+    "Length": 6089,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.1767216Z",
+    "SHA256": "6C38726CCE83CD7C18675EF926D9487E791E74FB169CF35C9AE1AA7BB73BC6AC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000000.crc",
+    "Length": 3280,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.5486779Z",
+    "SHA256": "3D4BE61D3352CD44D83DCF6576DDA158626575866394511ECD36960F7499DD79"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000000.json",
+    "Length": 2300,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.6897407Z",
+    "SHA256": "D0A349FD677CCEC45D5DACFFCC8B0B36EBF2ECC7C474B42E46467779ACEE397A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000001.crc",
+    "Length": 3345,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.7748466Z",
+    "SHA256": "F8150B7FEF177B4E0F0D4A7AB186D160FBF5BD9CF24E05AB7E4B43B9449167E0"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000001.json",
+    "Length": 1519,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.8129749Z",
+    "SHA256": "2C63D9370F982042140E5F4B5411023F959EFCE2686F70C8EAEF086C2A6E9B5E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000002.crc",
+    "Length": 3548,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.8291176Z",
+    "SHA256": "52FDF445FFA91A04AD02084997DA34703D6F1A9C5EB7D78A3DA186FB45917EFA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000002.json",
+    "Length": 1566,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.8486995Z",
+    "SHA256": "A8D34A8392B636CA2ECB08E4A74666AF28866501230215018A1C70D96196EAC9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000003.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.8665031Z",
+    "SHA256": "0C66DCEFA4FA8730154162864DEC2B1AFECF4902A03313914CDA55EEF4F10A84"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000003.json",
+    "Length": 2115,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.8859815Z",
+    "SHA256": "6E7271BC101E5F060DBFF3E67753F2E30CD52CD95E79C1254680EED3010600E9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000004.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:05.9320474Z",
+    "SHA256": "635F45B01E22AD26A3308104ED78674D130C34F3384D17851EAD2998D7F9A706"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000004.json",
+    "Length": 2236,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.0048850Z",
+    "SHA256": "1D1B22C700502FBDEE2C2F03AAB69BB62AA0E090A7E5B4DFF6C061AF7B0DA317"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000005.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.0238648Z",
+    "SHA256": "E303F688EFFA16AAE15D6B844774A1A9035045F71A6E2609383E3DCF72A13A89"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000005.json",
+    "Length": 779,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.0418103Z",
+    "SHA256": "75556147D737120EA46D9201D694878273BC17A359DE369E8F2971142D5F5519"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000006.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.0714827Z",
+    "SHA256": "40CCF3FA62467F4CD11F953DD411518A8352A2FAF1F0B546B46622B4803DA3A2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000006.json",
+    "Length": 751,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.2096244Z",
+    "SHA256": "2A67291205DEE51A16410E9885C60FBE77D8E27C43C541D9F268C71014F6A25D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000007.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.2845477Z",
+    "SHA256": "FD4FF9AC3D970BF1ABF2ADA562982DA3B349A2FC39032F80020B77E5CCDDDF91"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000007.json",
+    "Length": 751,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3012848Z",
+    "SHA256": "C71E6482306CD3A79B45A9F310FFE992F04A817477A00D5F9F4B358E5202959A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000008.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3230073Z",
+    "SHA256": "916F5757CDB98D4975D5F304203FDF9BC5FD6DDB0826F1456C9A2C01958ACA49"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000008.json",
+    "Length": 751,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3389784Z",
+    "SHA256": "1E0AC37404D8A4A21C296139B868F42EE70BF1B4BD40E73AA9C110567E341844"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000009.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3549071Z",
+    "SHA256": "4547705B448A2B690BD6DF9AC45D709AA1973286270F2C27639DC08BD039D015"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000009.json",
+    "Length": 751,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3739118Z",
+    "SHA256": "984021040288D07DFCCDEEE4D939F844B5F7A66985D8376E9D8924C93AEC1D2C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.checkpoint.parquet",
+    "Length": 27370,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.3906251Z",
+    "SHA256": "5332276F28CF1F16A2BEB6B060048DC6C383D9DB0B2C3312A1D33CC38159E3BE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.4045002Z",
+    "SHA256": "D789159A79F8BFF7FAFB0CAB87EB6506BC46FED31DF1AD900220D37147A18ADB"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.json",
+    "Length": 751,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.4201875Z",
+    "SHA256": "639484644940E7B394A78D98CBE601D56A3F620CC1EDFCD8703329CE109D2357"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000011.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.4339598Z",
+    "SHA256": "8B7EAE64A00D07E2E8D5A7FF2333A2C1A8F2B36AD7C8C9BE89E5C8CE75661D0E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000011.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.4557265Z",
+    "SHA256": "2BA82B0A35341357F86A8055D3EB5AB9B295BBD5090DC74F778EDB3DBA9A02F6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000012.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.5965162Z",
+    "SHA256": "D59F796D8C98571C90CEC97D1C3EDAA664D460D239EBB19F2CCECDF603F9586E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000012.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.7433976Z",
+    "SHA256": "2C98C9439868C0899F378E323D4B0D5DC40FC9A8395686C5D948FA3CBE790184"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000013.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.9021232Z",
+    "SHA256": "7FB218690400871B7D3F359DF3FD7AB6BC8256E504E332A076E9B9E688AAAAA2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000013.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:06.9991385Z",
+    "SHA256": "C7A6FB9B92BD9E139E8DA84E4665FF1A011D9B5A52DDFBF572ED10E7CBCDE43B"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000014.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.0607003Z",
+    "SHA256": "46C0E1897506859D62E6313C99CA240AFEE62A1D1C140A8AAFC73E09CD1B3E9C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000014.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.1082800Z",
+    "SHA256": "9A95915C641B1AA2247A1915208B9AC6A3C7C1E2064968644C9998A9E5FFCFDF"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000015.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.2270960Z",
+    "SHA256": "79465E2C49475897528AD47F6A08E2C16D0D579B731E8CDD5B225933B8023A18"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000015.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.3012501Z",
+    "SHA256": "35459D45B1813011E607329CB5FECD94135617301AF9F5B8957A0EFB974852FF"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000016.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.4319499Z",
+    "SHA256": "1950C20BC6D1C0418588A6558EAB1CE8E7536A4ED7AFE1CA88BFD31230CA679A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000016.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.4762880Z",
+    "SHA256": "6FA7335BF7B52F90F096F19D0CDF94D176592A09DE56A8D638668324DF9561F7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000017.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.5543802Z",
+    "SHA256": "E149CA1F03CEA93C899F04E24886C1A18C466EFD3F6B80D816BBA8873C613E18"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000017.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:07.8399622Z",
+    "SHA256": "514FDF2B16DB09D47E139739AA727FB8BA4DE3D56DE27D162015DFEF02B3D545"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000018.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.0040012Z",
+    "SHA256": "D6CBA03313FE1776776A6245A2400701CD4AE7DCFA4BFA87AB9CB1425AA7DDFD"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000018.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.0338781Z",
+    "SHA256": "AEA4DAC5895DED81F6B1B9B79460DE12A722F3B25A53AC3D9244AA1E9DBFA063"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000019.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.0717589Z",
+    "SHA256": "9A95E4DEBF7AFD1DBEED76FBF1F1C2C357CD2B2E73E9F56376DB53EE0B50F9CC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000019.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.0892245Z",
+    "SHA256": "BF46ACE38EFBBB0F5460795EBD1A07DF6A9E47A4D85E6CC1933763EDE7F99AC9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.checkpoint.parquet",
+    "Length": 27370,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.1074311Z",
+    "SHA256": "5332276F28CF1F16A2BEB6B060048DC6C383D9DB0B2C3312A1D33CC38159E3BE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.crc",
+    "Length": 3691,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.1254113Z",
+    "SHA256": "31CB0D04DF90EEE2FBDF20D89C3FD643D022598FFD0AFA817A31F49AD3EEEC6E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.json",
+    "Length": 752,
+    "LastWriteTimeUtc": "2026-10-13T22:32:08.1570256Z",
+    "SHA256": "C6F572F18CF6277A4F6F534D8F485CEE72D9D7C2841F4F90B5A62E65C7CE25C3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\__pycache__\\test_vacuumcheck.cpython-312-pytest-9.1.1.pyc",
+    "Length": 24213,
+    "LastWriteTimeUtc": "2026-10-13T22:32:56.0370895Z",
+    "SHA256": "CC5034C09F47909BFFE91EB8A90B93387008DB57EFEDE107B60769089CA37481"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__init__.py",
+    "Length": 253,
+    "LastWriteTimeUtc": "2026-10-13T22:31:40.5704010Z",
+    "SHA256": "57BD8C2A6A4A0C90DF4C712541D68CC44A8C36C4F4D4DF4C6590E119A8926678"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__main__.py",
+    "Length": 1311,
+    "LastWriteTimeUtc": "2026-10-13T22:31:39.3816020Z",
+    "SHA256": "02E9202724BB9A282FFA5D3DDE7D94EE411ACE80DA3A99CF2F4E7BA959FF972A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\check.py",
+    "Length": 3813,
+    "LastWriteTimeUtc": "2026-10-14T00:42:26.8440114Z",
+    "SHA256": "B4AEC3A1095B550C1E9621C57B81F5A1C036A7EA0BAE7BE00B72F33E357B2676"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\dv.py",
+    "Length": 6530,
+    "LastWriteTimeUtc": "2026-10-13T22:30:26.8703409Z",
+    "SHA256": "6D21D5B50703787EDF93226886307C01C3657FCAA7E987C51D62B57E7B8D342D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\log.py",
+    "Length": 3175,
+    "LastWriteTimeUtc": "2026-10-13T22:31:36.4751329Z",
+    "SHA256": "A65A8088DB8A7EC349007196F1F2384E451783BC024A20277641646527474FED"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\__init__.cpython-312.pyc",
+    "Length": 454,
+    "LastWriteTimeUtc": "2026-10-13T22:32:57.0752892Z",
+    "SHA256": "54F18C72CE77343725CCD89DE5A35CDBD33F39DC1807907F991033E7F267FF0F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\check.cpython-312.pyc",
+    "Length": 6673,
+    "LastWriteTimeUtc": "2026-10-14T00:42:31.4958778Z",
+    "SHA256": "106E422237A65B19EE71C7572CB3676F9E7E8D638BE3F0AF8A3A0D884C40C202"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\dv.cpython-312.pyc",
+    "Length": 11106,
+    "LastWriteTimeUtc": "2026-10-13T22:32:57.0917142Z",
+    "SHA256": "CA46F95426713B4D8F16713DE828D9A3468C04CFED2E2FD88D3A46401EFF6F1F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\log.cpython-312.pyc",
+    "Length": 6363,
+    "LastWriteTimeUtc": "2026-10-13T22:32:57.1079252Z",
+    "SHA256": "BCC22D5B8806C36D2A1B9726BA274A03870EDCCC2FEB58C397C5482AB822ABBF"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\ablation.py",
+    "Length": 4737,
+    "LastWriteTimeUtc": "2026-10-14T00:20:03.9470273Z",
+    "SHA256": "8E45333673D7FF3AFE548C3C6FF85B157BBB6BE98E399EFCB6048F07636383B9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\analyze.py",
+    "Length": 29404,
+    "LastWriteTimeUtc": "2026-10-14T01:25:25.5812600Z",
+    "SHA256": "4ACC2586B7422B75BA01EB6AC17DEAB0BA491E2F6EA40F87818E62F885A4A496"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\crosscheck_spark.py",
+    "Length": 4934,
+    "LastWriteTimeUtc": "2026-10-14T00:43:14.8071100Z",
+    "SHA256": "C1C17253EDE6FB8F6AA4F27B9245E9A75BC1A33C2C35E882880F5F2A541FD909"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\environment.py",
+    "Length": 4377,
+    "LastWriteTimeUtc": "2026-10-13T23:10:38.2450943Z",
+    "SHA256": "F423A415030B140074FBE2AD0B106156C6D0CCF0395A85C445DF7ED47F9E2F52"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\minimal.py",
+    "Length": 1773,
+    "LastWriteTimeUtc": "2026-10-13T23:15:43.3052111Z",
+    "SHA256": "DA03842EE77B8D6668CBF1D74FA2A7D36259F6574B390B8EE7E13BB943E10B6A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_run.py",
+    "Length": 5780,
+    "LastWriteTimeUtc": "2026-10-14T00:42:49.2950334Z",
+    "SHA256": "3281D66F22C432006652AEBBB3F2AFD0F555F7A9C3F49D2868A07979BC8F8F5D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_tables.py",
+    "Length": 2647,
+    "LastWriteTimeUtc": "2026-10-13T23:09:05.0151721Z",
+    "SHA256": "4E26F9D730CFCA91047AB12CCC6561097FDE5FF329F05751B6CF989384A8D92A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_worker.py",
+    "Length": 2072,
+    "LastWriteTimeUtc": "2026-10-13T23:09:15.3975586Z",
+    "SHA256": "4FAA762A77A53F873F9E93435089EDCA9C60AAA2266FFF95CA0F4CA1ADEB1B8D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\run_all.sh",
+    "Length": 2827,
+    "LastWriteTimeUtc": "2026-10-14T00:44:10.8512781Z",
+    "SHA256": "11012108884DF558CECAC5E2AC7697A3EB25E00C7621256D6A9ED7CC5E178678"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\vacuum_commits.py",
+    "Length": 1702,
+    "LastWriteTimeUtc": "2026-10-14T00:43:46.6286087Z",
+    "SHA256": "22BEE086920B626DB6F588E26C40777B2096CDB205CB11EC41D02C1440694A16"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_taxonomy.pdf",
+    "Length": 18810,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.2964113Z",
+    "SHA256": "C4C04AB04E107B71E512619FEB7B5F3AC1976ED1EBD2D577D878E1DFA1EF7DF3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_taxonomy.png",
+    "Length": 69562,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.1256135Z",
+    "SHA256": "92FF6FCE59948EF933314D59A27B9D54EF2AAF28CA590E67F0359EC0B2E5E343"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unreadable_rate.pdf",
+    "Length": 15332,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.5917399Z",
+    "SHA256": "7913F8BF715CA0B0482A7DB49F4CFCB1995A6D74885C608A670437AE05CFD067"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unreadable_rate.png",
+    "Length": 34715,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.5438400Z",
+    "SHA256": "B11F4EC9135B98E51E5DF7E4954756B295D26C84DC61EA4541407CFA3B4C3C7B"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unsafe_rate.pdf",
+    "Length": 16462,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.4405675Z",
+    "SHA256": "8568F725473822237706582660A32A81BD889EC04BE18D5AAFF30EC37C69A18D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unsafe_rate.png",
+    "Length": 34409,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.3924612Z",
+    "SHA256": "94669C3F64AB0F544512019CEFBDFC7918C3FAFABA91DFBF69980CA752B4B72C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq3_checker_time_small.pdf",
+    "Length": 45376,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.7457507Z",
+    "SHA256": "DEC7FD85E76606A290F8C7E90FBF66B9071B8C84693B686BC996E87BFE191449"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq3_checker_time_small.png",
+    "Length": 111727,
+    "LastWriteTimeUtc": "2026-10-14T01:25:30.6555329Z",
+    "SHA256": "230B942347BC91BD456C7918837E72D07534E50341D1807E780F86240E9AA8EA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_0h.pdf",
+    "Length": 21599,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.3080933Z",
+    "SHA256": "2CE46F9D795E78A10D97AF79204552BA33B96DAA9108042534F263EC0EDB78D5"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_0h.png",
+    "Length": 119340,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.2283130Z",
+    "SHA256": "013CCAC6019D9096C5648642DBA0D0BEE0AAEFF60BEE2C663C9E1FA37F4E2ADD"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_168h.pdf",
+    "Length": 21617,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.7583900Z",
+    "SHA256": "946A0E0CD6A442901A09F78277E24305DFC8DB0976B7B588BE1FEB099B44B1E3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_168h.png",
+    "Length": 109012,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.6791213Z",
+    "SHA256": "16F9E0174BC81F17E7D427CCA300CD48A6040A70DE4C16ED0CB4EDA16763208A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_0h.pdf",
+    "Length": 21182,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.1014422Z",
+    "SHA256": "CAA7FD4FB5E78CBB23AB32F2FD6DB0E18F548CDB7103FEF9CBB11D569E1AE694"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_0h.png",
+    "Length": 100036,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.0212835Z",
+    "SHA256": "76435B1DD0F5A0EA717A15577359EE0C8F9161922AE41D6D5FCEF5F71489F86B"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_168h.pdf",
+    "Length": 21177,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.5570006Z",
+    "SHA256": "3EA9B96066291AF39167D84E25CCE12059DC463D6435223F60E6EB6E7B112CDE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_168h.png",
+    "Length": 105417,
+    "LastWriteTimeUtc": "2026-10-14T01:25:31.4558298Z",
+    "SHA256": "AE061E454E756B188D4BAFDBEE4C7B00C2F142A73E778C5BE5FC5CA1BF27BD34"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\aging.py",
+    "Length": 4220,
+    "LastWriteTimeUtc": "2026-10-13T22:35:37.0367817Z",
+    "SHA256": "92644294F2E720290B3851F0A7CE5C19423E1609C2E0F13462F7AEEDCAAF9E03"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\generate.py",
+    "Length": 8720,
+    "LastWriteTimeUtc": "2026-10-13T23:11:07.7716320Z",
+    "SHA256": "1C1D50106136E2DDDFA1B30AAF822639A4415A775772CBFE7505A42055B56071"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\oracle.py",
+    "Length": 5930,
+    "LastWriteTimeUtc": "2026-10-14T00:02:16.6953601Z",
+    "SHA256": "0A472C4E6FE61F10FF0B7BA39F742C75D76AE43F4B38D74AA4E54B64012ACFC7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\runner.py",
+    "Length": 10193,
+    "LastWriteTimeUtc": "2026-10-14T00:02:16.6973818Z",
+    "SHA256": "3A303C4F7F4301606A184A9E8426CE4E56CBAC6C8903C24DAA146F27DB899528"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\sparkenv.py",
+    "Length": 2009,
+    "LastWriteTimeUtc": "2026-10-14T00:01:39.0488223Z",
+    "SHA256": "F16C76633536D181A7837F2A9AA8A7FB9A30E9F1BF99183FA06CC418B2B7BF61"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\aging.cpython-312.pyc",
+    "Length": 7296,
+    "LastWriteTimeUtc": "2026-10-13T22:51:12.4187627Z",
+    "SHA256": "EADC8329862BBA5689986425651C4C1137D4023FCA1510F8159943A74801A1F7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\generate.cpython-312.pyc",
+    "Length": 15512,
+    "LastWriteTimeUtc": "2026-10-13T23:11:26.1754959Z",
+    "SHA256": "258B7AFA96733F4932BB31022024BBCEA0E841F49F48D9E4BD9039315861B8F0"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\oracle.cpython-312.pyc",
+    "Length": 10598,
+    "LastWriteTimeUtc": "2026-10-14T00:02:51.2816438Z",
+    "SHA256": "22D92908B7B621F18EEBE41D30DAA81A039B73D97986F943C6F40E4490616745"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\sparkenv.cpython-312.pyc",
+    "Length": 3624,
+    "LastWriteTimeUtc": "2026-10-14T00:01:40.1629596Z",
+    "SHA256": "A42A3C80A71AAB14455033EF77F5D26F193D1C767FEFBCDA555C5C6B68724AC2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\ablation.csv",
+    "Length": 262806,
+    "LastWriteTimeUtc": "2026-10-14T00:25:23.4593066Z",
+    "SHA256": "20E1CC2D91E90812FDD71FA9E2A8EEDD608F355DACBC4E46FE4D73F578040C36"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\crosscheck_spark.csv",
+    "Length": 130611,
+    "LastWriteTimeUtc": "2026-10-14T01:02:46.2174231Z",
+    "SHA256": "C17415DDC0A66FEF063CB9C6FB8369D440305136553AE8F79EB0D92E35CB8BD4"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\environment.json",
+    "Length": 4340,
+    "LastWriteTimeUtc": "2026-10-14T01:23:26.4202346Z",
+    "SHA256": "2ED19BD48D23F199390030D6F140C223FEC0139EFD3E9F81732EE70FDD46956E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_main.jsonl",
+    "Length": 19329,
+    "LastWriteTimeUtc": "2026-10-14T00:28:10.8317461Z",
+    "SHA256": "8176791CC293E1C97B18C9FF11828DCE464E6FDB2A4747CF6DA58A2A97F1C071"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_pr4858.jsonl",
+    "Length": 14776,
+    "LastWriteTimeUtc": "2026-10-14T00:28:14.5714285Z",
+    "SHA256": "881F7B17A74830745C77F72B32809B883D6508533A4D88DBFF42500BBBBDDD8F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_prefix.jsonl",
+    "Length": 21204,
+    "LastWriteTimeUtc": "2026-10-14T00:28:06.8422253Z",
+    "SHA256": "9C80981F7440CE87F1D05056C48930F5B47D8D816CD9DFDF5D20140E925960E6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_spark.jsonl",
+    "Length": 14518,
+    "LastWriteTimeUtc": "2026-10-13T23:50:20.4975326Z",
+    "SHA256": "C57B379EA705D9B731809EE20CD1100FE16A474B6DF31C57BE81B3AB1413D99D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\perf.csv",
+    "Length": 45256,
+    "LastWriteTimeUtc": "2026-10-14T01:22:57.4368900Z",
+    "SHA256": "96663B3ED10A52D4316855330CEA23A3428B6FB36D73A585B95367107FA2C5BB"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\repeat_prefix_r1.jsonl",
+    "Length": 584479,
+    "LastWriteTimeUtc": "2026-10-14T00:31:22.5786451Z",
+    "SHA256": "1E9EAD610DF0F92D8E9303F29122C0749C52AF3F584CF71AE864671BDDD13751"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\repeat_prefix_r2.jsonl",
+    "Length": 585616,
+    "LastWriteTimeUtc": "2026-10-14T00:34:06.8681626Z",
+    "SHA256": "CEF2017A6674FE62EAF6FDFEA7CB6DA5DBEFF87A087AB408749DD56AF018C6B6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_main_b.jsonl",
+    "Length": 2327144,
+    "LastWriteTimeUtc": "2026-10-14T00:27:40.7752517Z",
+    "SHA256": "39335E377AE1DF3460C1A321E0A103CF8AD4B9A4EF9A8B25F6DBCE8FCC82980D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_main.jsonl",
+    "Length": 2072002,
+    "LastWriteTimeUtc": "2026-10-14T00:15:43.6787432Z",
+    "SHA256": "2B38BEFF6460FFB365E9E518BB7025E5B2828D9A4AA25A239E79AD61156C8324"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_pr4858_b.jsonl",
+    "Length": 1575047,
+    "LastWriteTimeUtc": "2026-10-14T00:24:43.0784734Z",
+    "SHA256": "696D83C520442B1BDAFE2D73511CADACED837C8B943C572AA7935F99A23A887D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_pr4858.jsonl",
+    "Length": 1467202,
+    "LastWriteTimeUtc": "2026-10-14T00:02:28.0850313Z",
+    "SHA256": "16F96F9857DF5CEB0B8785056FE35005F30FE6A636056752C643F1F6B62DE49E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_prefix_b.jsonl",
+    "Length": 2493673,
+    "LastWriteTimeUtc": "2026-10-14T00:27:47.9282623Z",
+    "SHA256": "7174708FCBDA8B54FEF0A5012A0CDFC5B7106EF214C22D96FA7CCCE01EF45F2A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_prefix.jsonl",
+    "Length": 2225795,
+    "LastWriteTimeUtc": "2026-10-14T00:15:29.2922681Z",
+    "SHA256": "F7C183386D6D79C2B9F19CDCDE240AF64F4C7DD18F7E0997A7C7100A13DD576F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_a.jsonl",
+    "Length": 439634,
+    "LastWriteTimeUtc": "2026-10-14T00:21:11.9035639Z",
+    "SHA256": "2203A8413C98EDDDF91CDC20D314AC991494177C4045D6E02372A59D9FE3FD80"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_b.jsonl",
+    "Length": 403517,
+    "LastWriteTimeUtc": "2026-10-14T00:20:56.8851936Z",
+    "SHA256": "FC44B3DCE8AECB692436464F8E6556728346DBE4BF9BA2A20CF1976C39F92023"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_c.jsonl",
+    "Length": 385917,
+    "LastWriteTimeUtc": "2026-10-14T00:32:28.6463288Z",
+    "SHA256": "D0D630B8C3A031F85ADCA940EB946EEEF1CF292216555F9C5178EF99E6C5FE71"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_d.jsonl",
+    "Length": 371412,
+    "LastWriteTimeUtc": "2026-10-14T00:31:45.7414542Z",
+    "SHA256": "C049310C3978FAE12CCEDC497124AC6ADCCD34B3F8FDD7D9C6918B7B3EB90064"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_e.jsonl",
+    "Length": 833222,
+    "LastWriteTimeUtc": "2026-10-14T00:56:47.6188064Z",
+    "SHA256": "C43A7CAF3D5A182435F4AB322E9C1C0BC479083E6C735A91783A52741C798C58"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_f.jsonl",
+    "Length": 865969,
+    "LastWriteTimeUtc": "2026-10-14T00:56:23.9961211Z",
+    "SHA256": "CF825B749B6133EF45B0FB86515D4FA1E70EDDF2A00703B1D8EF97E85217593C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs.csv",
+    "Length": 723721,
+    "LastWriteTimeUtc": "2026-10-14T01:25:26.5495207Z",
+    "SHA256": "34C3C73BE1BAD1AE64B936174D0A9B01ACEA0B6E72377608AB1D6A462F6F60BF"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\summary.md",
+    "Length": 42536,
+    "LastWriteTimeUtc": "2026-10-14T01:25:29.9460421Z",
+    "SHA256": "76FFA9FFE0DCE0BA7DD8B16D336D9293BC7B51565E922FDFA5A970D8102ABB45"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\vacuum_commits.csv",
+    "Length": 61588,
+    "LastWriteTimeUtc": "2026-10-14T00:56:58.2543673Z",
+    "SHA256": "A77B1E5835425668D3774D2A97301522878DDCC68FCD4D28ACDB1FDA6006D107"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\draft.docx",
+    "Length": 190240,
+    "LastWriteTimeUtc": "2026-10-14T01:49:15.7639163Z",
+    "SHA256": "2E2737F37ACBF9098EB5BC51D75B291D95E411D62EDE6F92EFCA6DCEADFDC8EF"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\NOTES-for-author.md",
+    "Length": 17677,
+    "LastWriteTimeUtc": "2026-10-14T01:48:42.6878084Z",
+    "SHA256": "C19BC759E3E2BE6D3C91A136801621A2B2CB4ABE855CD9162D759614079071BA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\preview-xetex.pdf",
+    "Length": 146120,
+    "LastWriteTimeUtc": "2026-10-14T01:49:15.2403285Z",
+    "SHA256": "1690ACA8C6EE29C56A6F95E6D8401BE36BE51D9964C3BDB4DF183E612513310C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq1_taxonomy.png",
+    "Length": 69562,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.3240572Z",
+    "SHA256": "92FF6FCE59948EF933314D59A27B9D54EF2AAF28CA590E67F0359EC0B2E5E343"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq1_unsafe_rate.png",
+    "Length": 34409,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.3240572Z",
+    "SHA256": "94669C3F64AB0F544512019CEFBDFC7918C3FAFABA91DFBF69980CA752B4B72C"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq4_memory_168h.png",
+    "Length": 109012,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.3541979Z",
+    "SHA256": "16F9E0174BC81F17E7D427CCA300CD48A6040A70DE4C16ED0CB4EDA16763208A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq4_runtime_168h.png",
+    "Length": 105417,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.3383267Z",
+    "SHA256": "AE061E454E756B188D4BAFDBEE4C7B00C2F142A73E778C5BE5FC5CA1BF27BD34"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tex2docx.py",
+    "Length": 21932,
+    "LastWriteTimeUtc": "2026-10-14T01:46:50.0665123Z",
+    "SHA256": "DD2D09EEC44626C564937FB238233EFC4D9DCA593B59520B53141123348C1945"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tools\\build_pdf.sh",
+    "Length": 1284,
+    "LastWriteTimeUtc": "2026-10-14T01:47:20.0894033Z",
+    "SHA256": "2157F43F70CE9FC56B31B26D9E3D126C3E014EF0158C3C4E8C75B7F8AA3A8C1F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tools\\texcheck.py",
+    "Length": 1244,
+    "LastWriteTimeUtc": "2026-10-14T01:47:20.0894033Z",
+    "SHA256": "06D93EF29E29CEEF7D16909611DCE4874EDE865CE68332F0BAEB1248EB13CEF3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\main.tex",
+    "Length": 43975,
+    "LastWriteTimeUtc": "2026-10-14T01:47:32.4315719Z",
+    "SHA256": "D2A511CC13E00EE39221942AA1EC3AD3026E9E482249B88A831CCEDA634B66AA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\refs.bib",
+    "Length": 7079,
+    "LastWriteTimeUtc": "2026-10-14T01:49:13.3079593Z",
+    "SHA256": "BF298E380A6977564258F676826B737872BC232F697306A5576B8D0FE0FD0F9A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq1_taxonomy.pdf",
+    "Length": 18810,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.2277910Z",
+    "SHA256": "C4C04AB04E107B71E512619FEB7B5F3AC1976ED1EBD2D577D878E1DFA1EF7DF3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq1_unsafe_rate.pdf",
+    "Length": 16462,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.2128572Z",
+    "SHA256": "8568F725473822237706582660A32A81BD889EC04BE18D5AAFF30EC37C69A18D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq4_memory_168h.pdf",
+    "Length": 21617,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.2620763Z",
+    "SHA256": "946A0E0CD6A442901A09F78277E24305DFC8DB0976B7B588BE1FEB099B44B1E3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq4_runtime_168h.pdf",
+    "Length": 21177,
+    "LastWriteTimeUtc": "2026-10-14T01:34:56.2437403Z",
+    "SHA256": "3EA9B96066291AF39167D84E25CCE12059DC463D6435223F60E6EB6E7B112CDE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A1_Timestamp_Tests\\A1_result.json",
+    "Length": 202,
+    "LastWriteTimeUtc": "2026-10-18T02:54:38.3027539Z",
+    "SHA256": "8588CE6CA4B1F05705B0329BABA743F462637712D7F216812562B810FA4CA7C2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_real_checkpoint_result.json",
+    "Length": 376,
+    "LastWriteTimeUtc": "2026-10-18T03:00:54.6699580Z",
+    "SHA256": "5E91B3411E83C8C574EED4D599107B5E27B433E6FDEA766A7C8488B7E1D15E65"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_result.json",
+    "Length": 205,
+    "LastWriteTimeUtc": "2026-10-18T02:55:09.9453305Z",
+    "SHA256": "001488D56AAE020A130EFB950AEA1E094B2E919DF9780A99E25CF5CEC3FFFECD"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_retention_comparison.json",
+    "Length": 462,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.9775236Z",
+    "SHA256": "F1CB6B1E04432C5B8172CC77573C0838C53DC10A89D418F70AB88BEFCE4BEBC7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\.part-00000-15b07546-42b9-48eb-9fd7-7f84e981d13e-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:53:50.5217076Z",
+    "SHA256": "26B880E20E50C69D0C93A9191AC424F4973850964BA43A503832C916B96146CE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\.part-00000-3220be6e-1e8d-4462-90a4-4d009075d660-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T03:53:55.5888810Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\part-00000-15b07546-42b9-48eb-9fd7-7f84e981d13e-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T03:53:50.5227071Z",
+    "SHA256": "2981767155DA38545A5936C15F968CA082A41AFF9F2E8D8CFB58EAA1B27599B2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\part-00000-3220be6e-1e8d-4462-90a4-4d009075d660-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T03:53:55.5898799Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000000.crc.ff5b712d-2f17-43eb-aabc-8be883cca063.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:53:53.6714579Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 20,
+    "LastWriteTimeUtc": "2026-10-18T03:53:50.7051154Z",
+    "SHA256": "A947CC25A7C309ED956B3DDABD84C7EC4EA350A46733F8CE5F339D5F8EE520A1"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000001.crc.ef01849d-542a-41c8-9ec1-3a59b73cc798.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:53:56.1171491Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:53:55.6244802Z",
+    "SHA256": "1CE35F2A116A1B3F7C74925DC0B8368054AA6C703727E7A499F28F946F8F38B3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\00000000000000000000.json",
+    "Length": 1076,
+    "LastWriteTimeUtc": "2026-10-18T03:53:50.7051154Z",
+    "SHA256": "EB74688D5CC427C06425D375E1D236DD18B36F2F64D36B342B27EA58334F1812"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\00000000000000000001.json",
+    "Length": 887,
+    "LastWriteTimeUtc": "2026-10-18T03:53:56.1311513Z",
+    "SHA256": "C6AB1D074AB1D37634C03017C11603DB8CA856098770CC6CB565292741F0FD94"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\A2_boundary_v2_results.json",
+    "Length": 511,
+    "LastWriteTimeUtc": "2026-10-18T04:10:34.1399451Z",
+    "SHA256": "B8C9B414DE6E67531C7C3EE15B002249BF0A523022A38E9FD7167C94879224EE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\run_boundary_v2.py",
+    "Length": 4545,
+    "LastWriteTimeUtc": "2026-10-18T04:10:03.2319062Z",
+    "SHA256": "085AE50E0CF4B643FAD3FC7A4A68102E0915492B6881476964C8E4F93FAFB9FA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\.part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.4838020Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\.part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1402848Z",
+    "SHA256": "3B8B1A743C5175307842BB9EB91DE5B865AF53A3719AA438AC4E068F8B956E7F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.4838020Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1412847Z",
+    "SHA256": "92896474295655DB997F9C8BAC80813A6D528B9E95114E082383666A017F6D47"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\_last_checkpoint",
+    "Length": 5385,
+    "LastWriteTimeUtc": "2026-10-18T04:10:34.0920593Z",
+    "SHA256": "7ECD5A465169C9593A4818CE7779E7570D6AAFB8E1ED535BB9E810A14C00D1EA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\._last_checkpoint.crc",
+    "Length": 52,
+    "LastWriteTimeUtc": "2026-10-18T04:10:34.0920593Z",
+    "SHA256": "E780E7B7398BA98FB10A1AFCFA9249020AF6E04B5B65965A3CB455AE908278C3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000000.crc.b429e424-29e1-4138-8ce6-985806c6f5a3.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.7383194Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc",
+    "Length": 152,
+    "LastWriteTimeUtc": "2026-10-18T04:10:34.0795559Z",
+    "SHA256": "5D453419D5314E14A68A2619F1EFD69390D4845F855CF0844F3005451DC954C7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000001.crc.eaa25795-ddc4-4cd6-adf4-32a67ea0583e.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:33.0839086Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000000.json",
+    "Length": 1078,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1612893Z",
+    "SHA256": "34E1FA95D424E8657A72D8A33F9B93F3F66E24D4BEB33E254FEEDCC1787DE4A3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000001.checkpoint.parquet",
+    "Length": 17966,
+    "LastWriteTimeUtc": "2026-10-18T04:10:34.0795559Z",
+    "SHA256": "B2479FADA9AFDC19629A946F76804E2A380BDA6E485BE2A66B6EEA1F5FFFA2F7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000001.json",
+    "Length": 886,
+    "LastWriteTimeUtc": "2026-10-18T04:10:33.0999068Z",
+    "SHA256": "0B15E0DFC8459F97F93A134E4EC0A7A63FD0BD52421000FA4AB8FDE275618689"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\.part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.6904454Z",
+    "SHA256": "3B8B1A743C5175307842BB9EB91DE5B865AF53A3719AA438AC4E068F8B956E7F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\.part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4413067Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.6914492Z",
+    "SHA256": "92896474295655DB997F9C8BAC80813A6D528B9E95114E082383666A017F6D47"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4413067Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\_last_checkpoint",
+    "Length": 5385,
+    "LastWriteTimeUtc": "2026-10-18T04:10:30.7477247Z",
+    "SHA256": "4C813E04D21DDBEDB892ED755F8852CAF60483489E8C64EEA4944B85EF0A7011"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\._last_checkpoint.crc",
+    "Length": 52,
+    "LastWriteTimeUtc": "2026-10-18T04:10:30.7477247Z",
+    "SHA256": "204A9F589167DED76F4DA3D3F607A1D7DC3E1BB7BBE47C99730FE32255AA7717"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000000.crc.5e6f4d03-78ef-4309-9ef7-59ae7f4c549b.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:26.1311634Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc",
+    "Length": 144,
+    "LastWriteTimeUtc": "2026-10-18T04:10:30.6919343Z",
+    "SHA256": "28F6E1BF0B6918D45A041F963AECA298ABC70F7366AA2B77FDCA1A57DDDAD582"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000001.crc.41408ca8-ab31-477d-9f6b-e6cfbc6698ad.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:29.0619802Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000000.json",
+    "Length": 1076,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.8871443Z",
+    "SHA256": "FD7435B14E261BE72C96A8B3644D8AE8528C44C86EC3B5739F60E1DFD99CE11A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000001.checkpoint.parquet",
+    "Length": 17320,
+    "LastWriteTimeUtc": "2026-10-18T04:10:30.6919343Z",
+    "SHA256": "16A074DA1587E618D932C4B898A1B27E8C80AF8B10CC3C3BF4134C9ADCC9D648"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000001.json",
+    "Length": 887,
+    "LastWriteTimeUtc": "2026-10-18T04:10:29.0919747Z",
+    "SHA256": "40E176D2E753AB098FD11B93EF9DA32AA43793A7AD3658C7319D1E3DDA92ED2D"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\.part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.4838020Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\.part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1402848Z",
+    "SHA256": "3B8B1A743C5175307842BB9EB91DE5B865AF53A3719AA438AC4E068F8B956E7F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.4838020Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1412847Z",
+    "SHA256": "92896474295655DB997F9C8BAC80813A6D528B9E95114E082383666A017F6D47"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000000.crc.b429e424-29e1-4138-8ce6-985806c6f5a3.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.7383194Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 20,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1602917Z",
+    "SHA256": "B60EC10F48E87A77DE38097BA711A305DE755430C4DBD2D5D3FDC3780859B7B9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000001.crc.eaa25795-ddc4-4cd6-adf4-32a67ea0583e.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:33.0839086Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.5058414Z",
+    "SHA256": "7B2F72798C5C97C5F8BE2B126F10738911B39D88510C96BDE39E1089AB181EE1"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\00000000000000000000.json",
+    "Length": 1078,
+    "LastWriteTimeUtc": "2026-10-18T04:10:31.1612893Z",
+    "SHA256": "34E1FA95D424E8657A72D8A33F9B93F3F66E24D4BEB33E254FEEDCC1787DE4A3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\00000000000000000001.json",
+    "Length": 828,
+    "LastWriteTimeUtc": "2026-10-18T04:10:32.5068525Z",
+    "SHA256": "D55A8E261E93BD3C9477EE8F18727C744D85BA811A4C12811A8AEF76327F28AA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\.part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.6904454Z",
+    "SHA256": "3B8B1A743C5175307842BB9EB91DE5B865AF53A3719AA438AC4E068F8B956E7F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\.part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4413067Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.6914492Z",
+    "SHA256": "92896474295655DB997F9C8BAC80813A6D528B9E95114E082383666A017F6D47"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4413067Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000000.crc.5e6f4d03-78ef-4309-9ef7-59ae7f4c549b.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:26.1311634Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 20,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.8871443Z",
+    "SHA256": "D6B817D0B66BFA0699EEEA18BB606BA7220EBDBD06424EE69CBBAB8B6513FB06"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000001.crc.41408ca8-ab31-477d-9f6b-e6cfbc6698ad.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T04:10:29.0619802Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4753045Z",
+    "SHA256": "7FEE2939B5A461633BFDC06A6F0D28502CB13AB92DC4A3D94B2137ABB716341A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\00000000000000000000.json",
+    "Length": 1076,
+    "LastWriteTimeUtc": "2026-10-18T04:10:22.8871443Z",
+    "SHA256": "FD7435B14E261BE72C96A8B3644D8AE8528C44C86EC3B5739F60E1DFD99CE11A"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\00000000000000000001.json",
+    "Length": 829,
+    "LastWriteTimeUtc": "2026-10-18T04:10:28.4753045Z",
+    "SHA256": "E0E89C9453191FC737D818B06E31D35599FC114416774E23A7E3D79D5201A3DA"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\.part-00000-3a78737c-a74c-422d-87e7-90b6fb75da65-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.2128358Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\.part-00000-c9d30612-290f-4d56-9a12-68b23bd9e4ea-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:47:57.1455791Z",
+    "SHA256": "26B880E20E50C69D0C93A9191AC424F4973850964BA43A503832C916B96146CE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\part-00000-3a78737c-a74c-422d-87e7-90b6fb75da65-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.2138370Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\part-00000-c9d30612-290f-4d56-9a12-68b23bd9e4ea-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T03:47:57.1455791Z",
+    "SHA256": "2981767155DA38545A5936C15F968CA082A41AFF9F2E8D8CFB58EAA1B27599B2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\_last_checkpoint",
+    "Length": 5385,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.9250560Z",
+    "SHA256": "44C22668FBFFD74CB59A85F40C759CA6B3B65C98C84BF79709D3BA9FC769DC77"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\._last_checkpoint.crc",
+    "Length": 52,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.9240553Z",
+    "SHA256": "33D2342399361914C1AE8A64832C358EEDB29A402E978C2DA21A6BE2D50E69E6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000000.crc.bbd16a20-7f96-4d37-92c7-65577f76810d.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:47:57.6524790Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 20,
+    "LastWriteTimeUtc": "2026-10-18T03:47:57.1585843Z",
+    "SHA256": "3D576BF29CCE6A14AEDC041C791219AF4C969B42504A3D2CB0F782B395B537ED"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc",
+    "Length": 152,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.9160554Z",
+    "SHA256": "152E7B84BA112268B4BE77E04FA24A7218EB0339EFB02279FBBE67DCAEB25C59"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.crc.592fac0d-f7c5-4dad-a8f9-879154f9af43.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.5468336Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.2218352Z",
+    "SHA256": "67A009CB9B319AED106026D7ED7044822F6DF37B7524C3689BDB47472E91FCE6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000000.json",
+    "Length": 1078,
+    "LastWriteTimeUtc": "2026-10-18T03:47:57.1585843Z",
+    "SHA256": "67943D1BDF1081F4D7D45E902078D677102305C4D92D7E87E9128F9C73C77EA3"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000001.checkpoint.parquet",
+    "Length": 17965,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.9160554Z",
+    "SHA256": "59AF39761CA14C17DF271F258A16AA9CDDF2DA5C74660A15B36478BA380FA186"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000001.json",
+    "Length": 828,
+    "LastWriteTimeUtc": "2026-10-18T03:47:58.2218352Z",
+    "SHA256": "2900F6D9C485E2C91E034180725B318E5FA4825FE37AC51632DD5DB33EDD638E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\.part-00000-2b84ade7-ed5f-4aaf-bf5c-80f58eb15589-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:00:47.5991233Z",
+    "SHA256": "3B8B1A743C5175307842BB9EB91DE5B865AF53A3719AA438AC4E068F8B956E7F"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\.part-00000-41f49de4-cad8-4177-876d-02148b865a8c-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T03:00:52.6955713Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\part-00000-2b84ade7-ed5f-4aaf-bf5c-80f58eb15589-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T03:00:47.6001211Z",
+    "SHA256": "92896474295655DB997F9C8BAC80813A6D528B9E95114E082383666A017F6D47"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\part-00000-41f49de4-cad8-4177-876d-02148b865a8c-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T03:00:52.6955713Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\_last_checkpoint",
+    "Length": 5385,
+    "LastWriteTimeUtc": "2026-10-18T03:00:54.0882229Z",
+    "SHA256": "E3993024B2605A50B30AFC242E7A8BB72ED0FC0BBE2C425BF50201A9C540BDD7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\._last_checkpoint.crc",
+    "Length": 52,
+    "LastWriteTimeUtc": "2026-10-18T03:00:54.0882229Z",
+    "SHA256": "B6AD438535478929A701A6DB7067BD0027EAB6280CA2E6F4A725982647C62717"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000000.crc.d67722a4-6cd1-4d79-a204-9994297baf0d.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:00:50.8094440Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:00:47.8003684Z",
+    "SHA256": "9F5384BC7460E777A658D4D7A97BB4B178B2A86AA1A8405C715C9CEFD52484BC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc",
+    "Length": 152,
+    "LastWriteTimeUtc": "2026-10-18T03:00:54.0327065Z",
+    "SHA256": "33D701C8550A6E23536D2501380BD571E7A8E30B034C66E5108675B6E54338E7"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.crc.f4879981-fbae-473d-8c70-3f7935058ed7.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:00:53.1913394Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:00:52.7305744Z",
+    "SHA256": "653CD9CCEB2322C6549826D4FA6053C4A9480DDA23D02FB05C368C132932DAB1"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000000.json",
+    "Length": 1020,
+    "LastWriteTimeUtc": "2026-10-18T03:00:47.8003684Z",
+    "SHA256": "A32C4F597EB67F290875EF3E33102D5072F795E2013B1B4548B4D28C9C6A7D1E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000001.checkpoint.parquet",
+    "Length": 17924,
+    "LastWriteTimeUtc": "2026-10-18T03:00:54.0327065Z",
+    "SHA256": "18DEB9C447E6655F5EE60E2917FDB49863280E9823A4D422A78B37CF2F454A37"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000001.json",
+    "Length": 829,
+    "LastWriteTimeUtc": "2026-10-18T03:00:52.7305744Z",
+    "SHA256": "115DC5D49F2CBB4ACCAD47B47BB0835FE93E17580C9840AF017C1515E8DFA4F2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\.part-00000-b2943757-2bce-4ae4-a9ff-b6b0e6365f4e-c000.snappy.parquet.crc",
+    "Length": 12,
+    "LastWriteTimeUtc": "2026-10-18T03:47:54.8267934Z",
+    "SHA256": "9A2F73DA3D620F2E367005CC6AAC91F594D8D64B4D873A3CF8770D99CEFC0EBC"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\.part-00000-ee9ef4cf-cf33-414e-9693-5671e5a05c45-c000.snappy.parquet.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:47:49.7320672Z",
+    "SHA256": "26B880E20E50C69D0C93A9191AC424F4973850964BA43A503832C916B96146CE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\part-00000-b2943757-2bce-4ae4-a9ff-b6b0e6365f4e-c000.snappy.parquet",
+    "Length": 296,
+    "LastWriteTimeUtc": "2026-10-18T03:47:54.8267934Z",
+    "SHA256": "8EB07202A7D5273FED4DF538C4B821B5DC648E6A7BEAB41B8482D961EB720DD9"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\part-00000-ee9ef4cf-cf33-414e-9693-5671e5a05c45-c000.snappy.parquet",
+    "Length": 530,
+    "LastWriteTimeUtc": "2026-10-18T03:47:49.7340583Z",
+    "SHA256": "2981767155DA38545A5936C15F968CA082A41AFF9F2E8D8CFB58EAA1B27599B2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\_last_checkpoint",
+    "Length": 5385,
+    "LastWriteTimeUtc": "2026-10-18T03:47:56.2287359Z",
+    "SHA256": "62F3B0C3174BCA99B299A679EA38FD8B86FD52B0E384F602F1548BBCC731CF9E"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\._last_checkpoint.crc",
+    "Length": 52,
+    "LastWriteTimeUtc": "2026-10-18T03:47:56.2277351Z",
+    "SHA256": "05EE79CFE71F601E07F4D0B14333ABE86D59D04C1FFC7BD3C995621C0A00B7D2"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000000.crc.f026d73b-72cf-45ea-b52e-261ec3d93673.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:47:52.9800293Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000000.json.crc",
+    "Length": 20,
+    "LastWriteTimeUtc": "2026-10-18T03:47:49.9418318Z",
+    "SHA256": "A22A101A83394B97D842BAC49182A96672A29986ED191ABE94F9A122257A3DDE"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc",
+    "Length": 152,
+    "LastWriteTimeUtc": "2026-10-18T03:47:56.1827345Z",
+    "SHA256": "B6A39899770FAECD5CEB0B6C4B26E11B09C382350710749CF03C18A364E6A0C6"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.crc.0e6795cc-48ca-4a33-9d17-b936090f7605.tmp",
+    "Length": 0,
+    "LastWriteTimeUtc": "2026-10-18T03:47:55.3432641Z",
+    "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.json.crc",
+    "Length": 16,
+    "LastWriteTimeUtc": "2026-10-18T03:47:54.8593074Z",
+    "SHA256": "A7A7AB99D4F2DAD136C2C0230D6522DB96FA1313A88E353F791A79023CDE9B54"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000000.json",
+    "Length": 1076,
+    "LastWriteTimeUtc": "2026-10-18T03:47:49.9418318Z",
+    "SHA256": "FA6E557A1CDC7401A9DDAB450471E4A02BA2A7FDC079ED360EB1BA691D3FBCB1"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000001.checkpoint.parquet",
+    "Length": 17959,
+    "LastWriteTimeUtc": "2026-10-18T03:47:56.1827345Z",
+    "SHA256": "04A2B1CB96C38181531C81523710F7600B4B9240F17262B9AF79A42E6D2F8668"
+  },
+  {
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000001.json",
+    "Length": 829,
+    "LastWriteTimeUtc": "2026-10-18T03:47:54.8603079Z",
+    "SHA256": "64C83ABC20F8408D53931438E12022F8A642F2EAA4920C5BF4823CB9D4538011"
+  }
+]

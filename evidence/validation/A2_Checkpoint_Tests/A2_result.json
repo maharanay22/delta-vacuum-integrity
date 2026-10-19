@@ -1,0 +1,7 @@
+{
+  "test": "A2_checkpoint_omission",
+  "cutoff_ms": 1999395200000,
+  "checker_safe": true,
+  "flagged_files": 0,
+  "note": "Synthetic checkpoint omission; not proof of a valid Delta checkpoint."
+}

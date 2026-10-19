@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "spark": "4.2.0",
+  "delta_spark": "4.4.1",
+  "packages": {
+    "delta-spark": "4.4.1",
+    "pyspark": "4.2.0",
+    "pyarrow": "26.0.0"
+  }
+}

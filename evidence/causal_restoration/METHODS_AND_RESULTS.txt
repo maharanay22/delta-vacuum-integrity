@@ -1,0 +1,54 @@
+Correction Pass 8 — F1 deletion-vector causal validation at 168-hour retention
+
+Conclusion: Both controlled experiments passed. On a disposable copy of the previously affected post-VACUUM table, restoring only the original, SHA-256-identical active deletion-vector file changed current-snapshot reads from failure to exactly 16 logical rows with the baseline row hash in both the existing independent reader and Spark. Conversely, a second disposable copy of the original pre-VACUUM table initially returned the same 16 rows and hash in both readers; removing only that active DV reproduced unreadability in both readers. Together, these interventions support loss of the active DV as the cause of the prior 168-hour F1 failure in this synthetic history.
+
+Test 1: DV restoration
+  Source: prior tables/prefix_native/aged_live_dv (post-VACUUM; latest log version 3).
+  Original data snapshot v1 is preserved by VACUUM bookkeeping versions 2 and 3.
+  Before restoration: both readers failed; neither produced a valid row count or row hash.
+  Intervention: add only the missing active DV from archived before_vacuum/prefix_native/aged_live_dv.
+  Restoration hash checked against the source file, prior pre-VACUUM inventory, and bytes in the verified prior ZIP.
+  After restoration: both readers succeeded, returning 16 logical rows and the baseline hash.
+
+Test 2: DV removal control
+  Source: prior before_vacuum/prefix_native/aged_live_dv (pre-VACUUM; latest log version 1).
+  Before removal: both readers succeeded, returning 16 logical rows and the baseline hash.
+  Intervention: remove only the active DV from this disposable copy.
+  After removal: both readers failed; neither produced a valid row count or row hash.
+
+DV file: deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+DV SHA-256: c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc
+Expected rows: 16
+Expected canonical row SHA-256: 1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+
+Observed outcomes (independent reader / Spark):
+  restoration_before:
+    independent: failed_read; observed rows=None; observed row hash=None
+    spark: failed_read; observed rows=None; observed row hash=None
+  restoration_after:
+    independent: success_matching_baseline; observed rows=16; observed row hash=1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+    spark: success_matching_baseline; observed rows=16; observed row hash=1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+  removal_before:
+    independent: success_matching_baseline; observed rows=16; observed row hash=1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+    spark: success_matching_baseline; observed rows=16; observed row hash=1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+  removal_after:
+    independent: failed_read; observed rows=None; observed row hash=None
+    spark: failed_read; observed rows=None; observed row hash=None
+
+Error interpretation: Independent-reader failures are FileNotFoundError for the missing DV. Full additional Python diagnostic traces replay the same existing reader primitives without its 300-character error truncation. Spark raises Py4JJavaError/SparkException with FAILED_READ_FILE.FILE_NOT_EXIST; its wrapper names the associated data Parquet file, but the deepest Java NoSuchFileException identifies the missing deletion_vector file. Both full Python and Java exception chains are preserved. Inventories confirm the Parquet file remains unchanged. These are failed reads, not successful reads yielding zero rows or incorrect row hashes. No successful read with incorrect rows/hash was observed.
+
+Methods and controls: Inputs were verified against every SHA-256 entry in the prior evidence manifest and the prior ZIP before use. Each test used a separate new disposable copy; content hashes and inventories confirmed the copy matched its source. Within each test, logs and data files were unchanged, and exactly one DV file was added or removed. Inventories were captured before and after each read, and reads did not change file contents. Spark clears both catalog and DeltaLog caches before every read and collects all columns from the current snapshot without versionAsOf. No historical-read policy rejection is being interpreted as data corruption. The independent reader replays the latest JSON log version; its schema, DV decoder, and canonical row hash implementation are the existing copied reference code.
+
+Retention context: These experiments follow the previously recorded FULL VACUUM at retention_hours=168 on a deliberately aged synthetic history (v0 212 h, v1 202 h). No new VACUUM, timestamp adjustment or system-clock change was performed in this pass. This pass tests the causal effect of presence/absence of the same DV after that prior operation.
+
+Environment: Python 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]; PySpark 4.2.0; delta-spark 4.4.1; PyArrow 26.0.0; JVM 17.0.20.1. Full metadata, JAR hashes and Spark settings appear in environment.json. The prior ZIP supplies original vacuum runtime/build provenance.
+
+Preservation: One experiment execution was attempted (attempt_001), containing two controlled interventions and eight reader evaluations. All attempted reads, expected failures, complete exception chains, and merged stdout/stderr execution logs are retained. Original prior evidence contents, prior ZIP hash, and 248 original research/validation reference file hashes were unchanged. Baselines were taken before these tests. The manuscript was not edited; no full matrix, publication or GitHub push occurred.
+
+Scope: A deterministic local NTFS synthetic history and two readers, not a frequency estimate or proof for every workload. Restoration demonstrates sufficiency of the byte-identical DV to recover this failure; removal demonstrates that this DV is required to read this snapshot under these conditions. The original independent reader and its decoder are reused, so reader diversity does not imply completely independent code paths.
+
+Package guide: attempts/attempt_001/results.json contains all results, expected/observed hashes, inventories, intervention diffs and integrity checks. Per-state *_exception.txt files preserve full errors. attempt_001_execution.log preserves process stdout/stderr including Spark executor stacks. reference_code/ contains unmodified copied reader/Spark configuration code. scripts/ contains experiment, reproduction and package scripts. inputs/ contains the unchanged verified prior ZIP, including both original pre/post tables and earlier logs. SHA256.json checks all files in this package; archive receipt is alongside the ZIP.
+
+Reproduction on this Windows PC: extract this package and invoke scripts/reproduce.ps1 -Destination <new-nonexistent-directory>. This preserves existing attempts and unpacks a fresh copy of prior evidence. It reuses the installed Spark/Python/JAR environment at the recorded research path. Execute with permissions to launch Spark and remove a file only inside the new disposable destination. A nonzero exit is a blocker: retain the entire attempt, inspect it, and do not change original evidence. No automatic retry is performed.
+
+Execution UTC: 2026-10-18T22:49:20.718848+00:00 through 2026-10-18T22:50:04.843368+00:00

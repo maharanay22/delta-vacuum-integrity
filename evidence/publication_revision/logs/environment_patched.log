@@ -1,0 +1,50 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "prefix": "<DISPOSABLE_WORKSPACE>\\environments\\patched",
+  "base_prefix": "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312",
+  "sys_path": [
+    "",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\DLLs",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\Lib",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312",
+    "<DISPOSABLE_WORKSPACE>\\environments\\patched",
+    "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages"
+  ],
+  "user_site_enabled": false,
+  "packages": {
+    "arro3-core": {
+      "version": "0.9.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "deltalake": {
+      "version": "1.6.5",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": "{\"url\":\"file:///<LOCAL_HOME>/Documents/Research/delta-vacuum-integrity/wheels/pr4858/deltalake-1.6.5-cp311-abi3-win_amd64.whl\",\"archive_info\":{}}"
+    },
+    "Deprecated": {
+      "version": "3.0.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pyarrow": {
+      "version": "26.0.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pyroaring": {
+      "version": "1.2.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "wrapt": {
+      "version": "2.5.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages",
+      "direct_url": null
+    }
+  },
+  "native_sha256": {
+    "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Lib\\site-packages\\deltalake\\_internal.pyd": "c7728025c531c824afb5ff50a305058950da346477864b07657936d45381d239"
+  }
+}

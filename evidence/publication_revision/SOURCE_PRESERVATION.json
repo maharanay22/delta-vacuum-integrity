@@ -1,0 +1,9 @@
+{
+  "checked_original_inputs": 200,
+  "changed": [],
+  "upstream_restored_fixtures_hash_matches": 52,
+  "prior_packages_intact": {
+    "Delta_Publication_Candidate.zip": "da8cec77a4673a9c2585c353da332d71b29e1496b4fe28e10cdd6b3f21b05ddc",
+    "Delta_Publication_Review.zip": "d34706f6c5213879713715fff9c5498b7e1244e27dbf0dfe472f630664d657fc"
+  }
+}

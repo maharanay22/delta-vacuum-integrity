@@ -1,0 +1,13 @@
+[project]
+name = "vacuumcheck"
+version = "0.1.0"
+description = "Pre-vacuum safety checker for Delta Lake tables with deletion vectors (retained-reference invariant)"
+requires-python = ">=3.10"
+dependencies = ["pyarrow>=14"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["vacuumcheck"]

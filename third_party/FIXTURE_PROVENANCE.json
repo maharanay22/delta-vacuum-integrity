@@ -1,0 +1,748 @@
+{
+  "upstream_project": "https://github.com/delta-io/delta-rs",
+  "revision": "640dc8937cd6d5c49c16fbf203d72083d86c5b21",
+  "license": "Apache-2.0",
+  "method": "52 original fixture Git object IDs match upstream tree objects; byte SHA-256 recorded",
+  "files": [
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/_delta_log/00000000000000000000.json",
+      "sha256": "354e53ec9b71337367889d293444f9e7a836dc57f2e939b52722e516ab88417d",
+      "git_blob": "3760ad99302b353986714155dc1fd3ebdaae6050",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/_delta_log/00000000000000000000.json"
+      ],
+      "staged_sha256": "354e53ec9b71337367889d293444f9e7a836dc57f2e939b52722e516ab88417d",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/_delta_log/00000000000000000001.json",
+      "sha256": "f96afa5ce0a2a383e0acb7f696ac2c358738a6865d51008ff9d827f544e82116",
+      "git_blob": "e5bcdc1163c3ac5226904f2f021c375d9de9cd43",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/_delta_log/00000000000000000001.json"
+      ],
+      "staged_sha256": "f96afa5ce0a2a383e0acb7f696ac2c358738a6865d51008ff9d827f544e82116",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin",
+      "sha256": "980a33e97cc99d3eae91af97ff302c0c99c37883662951fd02ce9dc8e0ca7d79",
+      "git_blob": "f1a01e661cdcca08ff5d67e7d2de53381980735a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin"
+      ],
+      "staged_sha256": "980a33e97cc99d3eae91af97ff302c0c99c37883662951fd02ce9dc8e0ca7d79",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet",
+      "sha256": "0dc5be52021598ff614c4882e64e1e556fd0f6d4f0592f5f612128b9447c3c29",
+      "git_blob": "640e643b56bc742ab95b0a50ffb7765bda516797",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet"
+      ],
+      "staged_sha256": "0dc5be52021598ff614c4882e64e1e556fd0f6d4f0592f5f612128b9447c3c29",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.crc",
+      "sha256": "3d4be61d3352cd44d83dcf6576dda158626575866394511ecd36960f7499dd79",
+      "git_blob": "9f80b8330bd81be70012887f861348ab1f94b823",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000000.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.json",
+      "sha256": "d0a349fd677ccec45d5dacffcc8b0b36ebf2ecc7c474b42e46467779acee397a",
+      "git_blob": "bd535299af20c87ecbe98dc06bff4d49f5fa092a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000000.json"
+      ],
+      "staged_sha256": "496c60825f44e5590006fd666c0ec459ac7634ff32aaf36469613ca30ddb58f4",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.crc",
+      "sha256": "f8150b7fef177b4e0f0d4a7ab186d160fbf5bd9cf24e05ab7e4b43b9449167e0",
+      "git_blob": "7a806745e93d83f8f0d9a0945f8e56400ea599fc",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000001.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.json",
+      "sha256": "2c63d9370f982042140e5f4b5411023f959efce2686f70c8eaef086c2a6e9b5e",
+      "git_blob": "e8ec28d1b65b2e166914bb4203471034bf14761f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000001.json"
+      ],
+      "staged_sha256": "d552f279a2ea12eb877dbc966efe6e59fc2291f79a771e388931d240376cea3f",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.crc",
+      "sha256": "52fdf445ffa91a04ad02084997da34703d6f1a9c5eb7d78a3da186fb45917efa",
+      "git_blob": "030c087a54432ad1ed6bb2398c1cc98c05b88d6b",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000002.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.json",
+      "sha256": "a8d34a8392b636ca2ecb08e4a74666af28866501230215018a1c70d96196eac9",
+      "git_blob": "ff1e9e344e55eef86babec9d7d0ad87f866ac85d",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000002.json"
+      ],
+      "staged_sha256": "622d03a785ef89780c58c90eccd29b27417b6d4839a76dd26da8450514c0a4fd",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.crc",
+      "sha256": "0c66dcefa4fa8730154162864dec2b1afecf4902a03313914cda55eef4f10a84",
+      "git_blob": "c7685325bc3e416fca6fc9f08f67643dd9025c3a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000003.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.json",
+      "sha256": "6e7271bc101e5f060dbff3e67753f2e30cd52cd95e79c1254680eed3010600e9",
+      "git_blob": "548c8477eb19dd93874216c55e7449e8ac96a3ba",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000003.json"
+      ],
+      "staged_sha256": "cf64d7a575779cc860b4fdf47c9d8afe67f7e2ad916c9c65f372f55c86c12c0a",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.crc",
+      "sha256": "635f45b01e22ad26a3308104ed78674d130c34f3384d17851ead2998d7f9a706",
+      "git_blob": "9839761722a6536eed1c0b64af611638c348154c",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000004.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.json",
+      "sha256": "1d1b22c700502fbdee2c2f03aab69bb62aa0e090a7e5b4dff6c061af7b0da317",
+      "git_blob": "9cc69610ac73da76bf7de6562b233f0ba257d046",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000004.json"
+      ],
+      "staged_sha256": "455029511126b2bde5a1ba81fb566613cf7feddbf1d000c6628aaa192b1b6e94",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.crc",
+      "sha256": "e303f688effa16aae15d6b844774a1a9035045f71a6e2609383e3dcf72a13a89",
+      "git_blob": "6399786d2cb4d51403fbc590fbb7009d137b796f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000005.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.json",
+      "sha256": "75556147d737120ea46d9201d694878273bc17a359de369e8f2971142d5f5519",
+      "git_blob": "57bb1496692cebb462199cf5368404f9bf751d48",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000005.json"
+      ],
+      "staged_sha256": "8c77602e7881c9530d52639d4086d43f01e49bc7948cfef0a151b64889474054",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.crc",
+      "sha256": "40ccf3fa62467f4cd11f953dd411518a8352a2faf1f0b546b46622b4803da3a2",
+      "git_blob": "067a14756a3dc87ab1b723d7a8b84f70e7762aa6",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000006.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.json",
+      "sha256": "2a67291205dee51a16410e9885c60fbe77d8e27c43c541d9f268c71014f6a25d",
+      "git_blob": "36ab69ddca13defb8fe1b5d3ba5afad53432c6c7",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000006.json"
+      ],
+      "staged_sha256": "a4b8663a4f20365ac2ab23691406aff90d2589f454766134cf7c0a5c99f1e054",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.crc",
+      "sha256": "fd4ff9ac3d970bf1abf2ada562982da3b349a2fc39032f80020b77e5ccdddf91",
+      "git_blob": "e0283754175c3a744ac3db1ab106d55001b7353f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000007.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.json",
+      "sha256": "c71e6482306cd3a79b45a9f310ffe992f04a817477a00d5f9f4b358e5202959a",
+      "git_blob": "83fec599b4f85d44fac1483ce59972e9205bf436",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000007.json"
+      ],
+      "staged_sha256": "35e727ca90d97401c2cf4b926f89d44df399e6383b2e2ea50a055aca4be27e1a",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.crc",
+      "sha256": "916f5757cdb98d4975d5f304203fdf9bc5fd6ddb0826f1456c9a2c01958aca49",
+      "git_blob": "1bffab337aa0bb739085ef5ec4eb897c31ef967f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000008.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.json",
+      "sha256": "1e0ac37404d8a4a21c296139b868f42ee70bf1b4bd40e73aa9c110567e341844",
+      "git_blob": "71b5b6d0f93a9fde0d2fcbb088a9196241d0247f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000008.json"
+      ],
+      "staged_sha256": "0236a029122ee6e8031361c238ed9818e8c155e9370dba527b26f8b9abaf664b",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.crc",
+      "sha256": "4547705b448a2b690bd6df9ac45d709aa1973286270f2c27639dc08bd039d015",
+      "git_blob": "17ecad05617bf5ac9de65159b604548371a14235",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000009.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.json",
+      "sha256": "984021040288d07dfccdeee4d939f844b5f7a66985d8376e9d8924c93aec1d2c",
+      "git_blob": "eeed2bf9a5a5005465ed367d2d8ade027bb4c182",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000009.json"
+      ],
+      "staged_sha256": "6d66337bb43c8105361ccddaa7ce1f8892bfba9d16f6f8175bdef9f4b2f75c29",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+      "sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "git_blob": "dba9baff3420f414fd83cf9c6fcc7882c8365344",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet"
+      ],
+      "staged_sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.crc",
+      "sha256": "d789159a79f8bff7fafb0cab87eb6506bc46fed31df1ad900220d37147a18adb",
+      "git_blob": "ba50b2e48be87e9766943ce09c7265ed63df8b0a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.json",
+      "sha256": "639484644940e7b394a78d98cbe601d56a3f620cc1edfcd8703329ce109d2357",
+      "git_blob": "e4c3841c7c249b675c3736cfd3ac26de6a6c30ce",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.json"
+      ],
+      "staged_sha256": "ce2d2bf6f7d1f28784dd5f7ffb96f0780a936824914c5bb8caa836d40d717402",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.crc",
+      "sha256": "8b7eae64a00d07e2e8d5a7ff2333a2c1a8f2b36ad7c8c9be89e5c8ce75661d0e",
+      "git_blob": "88b15e2e36ccf996d30440705120fe86e26feec4",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000011.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.json",
+      "sha256": "2ba82b0a35341357f86a8055d3eb5ab9b295bbd5090dc74f778edb3dba9a02f6",
+      "git_blob": "e15f988e1290172b7422738274192423643143cf",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000011.json"
+      ],
+      "staged_sha256": "a76e249d0d9ff1a5872db3e76eacac8b546403300b851e8047260dcfe56d407d",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.crc",
+      "sha256": "d59f796d8c98571c90cec97d1c3edaa664d460d239ebb19f2ccecdf603f9586e",
+      "git_blob": "602d240c48fa8a5cdd63e7f941262d515a3e560e",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000012.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.json",
+      "sha256": "2c98c9439868c0899f378e323d4b0d5dc40fc9a8395686c5d948fa3cbe790184",
+      "git_blob": "d6766610a72e8a0252e33603c65b73b411d4846a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000012.json"
+      ],
+      "staged_sha256": "b9a48522b4e27954fe294291b579ba8a5c0e64247d3001bb84184aeba0a9c8b8",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.crc",
+      "sha256": "7fb218690400871b7d3f359df3fd7ab6bc8256e504e332a076e9b9e688aaaaa2",
+      "git_blob": "70c98c5292ab8956ebeece1f1b8b6731a0a6ee3b",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000013.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.json",
+      "sha256": "c7a6fb9b92bd9e139e8da84e4665ff1a011d9b5a52ddfbf572ed10e7cbcde43b",
+      "git_blob": "32679fb392b318d6ac99e490fc6d2a0aebe20f0f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000013.json"
+      ],
+      "staged_sha256": "11aa2928c9a6b8a822b605c0ac26c72acb274b911be648ca4c2199bafb65842c",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.crc",
+      "sha256": "46c0e1897506859d62e6313c99ca240afee62a1d1c140a8aafc73e09cd1b3e9c",
+      "git_blob": "97020a48230db33343f88498ace693d33c88b4b3",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000014.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.json",
+      "sha256": "9a95915c641b1aa2247a1915208b9ac6a3c7c1e2064968644c9998a9e5ffcfdf",
+      "git_blob": "a531214fad0e20ff697dddb7c06c7eefc46a9343",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000014.json"
+      ],
+      "staged_sha256": "aba40c4bc87d724cb7471dd3da6c722686014201e42c294f781810e0dcd4b5a4",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.crc",
+      "sha256": "79465e2c49475897528ad47f6a08e2c16d0d579b731e8cdd5b225933b8023a18",
+      "git_blob": "2d79c9e0bf7ebb5db1b0775781a63d13a4ce5345",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000015.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.json",
+      "sha256": "35459d45b1813011e607329cb5fecd94135617301af9f5b8957a0efb974852ff",
+      "git_blob": "488313996afc1816621e14b585504efc263c0d76",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000015.json"
+      ],
+      "staged_sha256": "b67171e5fe17e218ffb3771874740a50653314e3943901a86bffaab1316a1671",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.crc",
+      "sha256": "1950c20bc6d1c0418588a6558eab1ce8e7536a4ed7afe1ca88bfd31230ca679a",
+      "git_blob": "da0e237635d5947d6c4c20854a3ab10964f474c5",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000016.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.json",
+      "sha256": "6fa7335bf7b52f90f096f19d0cdf94d176592a09de56a8d638668324df9561f7",
+      "git_blob": "f16509dc7cc802c5b7b177abd234e6058b903a92",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000016.json"
+      ],
+      "staged_sha256": "e65c4e9693e6f17dd2f53849bb2e7b34ae2fd57e0d9cac829c2fe9979ede0ce9",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.crc",
+      "sha256": "e149ca1f03cea93c899f04e24886c1a18c466efd3f6b80d816bba8873c613e18",
+      "git_blob": "8a5f747ce6d2117c26b09e4e463b2daa19fad549",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000017.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.json",
+      "sha256": "514fdf2b16db09d47e139739aa727fb8ba4de3d56de27d162015dfef02b3d545",
+      "git_blob": "fca9cb4129f07eaeaace625e71fcac182c5728c0",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000017.json"
+      ],
+      "staged_sha256": "2a566df03cd2a767dacc35257c788cfef13ab25d696a5d671c96c4cd6b03bb02",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.crc",
+      "sha256": "d6cba03313fe1776776a6245a2400701cd4ae7dcfa4bfa87ab9cb1425aa7ddfd",
+      "git_blob": "8f8530274dea49317457dc90857d6a99e5e1e41f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000018.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.json",
+      "sha256": "aea4dac5895ded81f6b1b9b79460de12a722f3b25a53ac3d9244aa1e9dbfa063",
+      "git_blob": "37c479653fbf3db53e97d9d0586ca7e99225ded7",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000018.json"
+      ],
+      "staged_sha256": "d14faa6ee919d71fcd39557900daf3d3fc3de0680742ae1e78737c06e539bd50",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.crc",
+      "sha256": "9a95e4debf7afd1dbeed76fbf1f1c2c357cd2b2e73e9f56376db53ee0b50f9cc",
+      "git_blob": "3379a8cf0792ccea871815fb90fc50864a75a118",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000019.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.json",
+      "sha256": "bf46ace38efbbb0f5460795ebd1a07df6a9e47a4d85e6cc1933763ede7f99ac9",
+      "git_blob": "357406d534c7c2901538d163a9856da7dbbfd168",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000019.json"
+      ],
+      "staged_sha256": "6370ac9a6978c1a1c6d9d1a08ebfae3c68adf89c0a299355ac803bc6cdc23c7c",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet",
+      "sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "git_blob": "dba9baff3420f414fd83cf9c6fcc7882c8365344",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet"
+      ],
+      "staged_sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.crc",
+      "sha256": "31cb0d04df90eee2fbdf20d89c3fd643d022598ffd0afa817a31f49ad3eeec6e",
+      "git_blob": "c4891d5a47554ff88c899b38c9d5b6e0d0e138d4",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.crc"
+      ],
+      "publication_status": "omitted_crc_sidecar"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.json",
+      "sha256": "c6f572f18cf6277a4f6f534d8f485cee72d9d7c2841f4f90b5a62e65c7ce25c3",
+      "git_blob": "434f5770af4c08a67b95e2423efa38f682515e5f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.json"
+      ],
+      "staged_sha256": "da0bf45498c290fe91b6cf8a4577bbbf6cefbc7329ce2e50aa1b298869d8521c",
+      "publication_status": "metadata_redacted_derivative"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/_last_checkpoint",
+      "sha256": "6c38726cce83cd7c18675ef926d9487e791e74fb169cf35c9ae1aa7bb73bc6ac",
+      "git_blob": "f9bc26480248ab0e02ac4f26a4021b97877d4f7a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/_last_checkpoint"
+      ],
+      "staged_sha256": "6c38726cce83cd7c18675ef926d9487e791e74fb169cf35c9ae1aa7bb73bc6ac",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin",
+      "sha256": "32e60fa67c8677e728960636dc1ae9e4f642369907c23d84cf396a9a144d0bba",
+      "git_blob": "d4dabcfeabb0e5681014115e8a510abb6bf41fd8",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin"
+      ],
+      "staged_sha256": "32e60fa67c8677e728960636dc1ae9e4f642369907c23d84cf396a9a144d0bba",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin",
+      "sha256": "4c58898467f483d9e82a67a34bda28376dcb71b5fbcca5390b53dddac4922925",
+      "git_blob": "ae07081ef475acf92982d6b91bae236723a4611c",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin"
+      ],
+      "staged_sha256": "4c58898467f483d9e82a67a34bda28376dcb71b5fbcca5390b53dddac4922925",
+      "publication_status": "unchanged_upstream_bytes"
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet",
+      "sha256": "8acb3179ce161c2168fb58d1a1064f2e044c2dd00e212200dadbb3425153951d",
+      "git_blob": "806fa7067b6ea9e80215febfdb412c269e0a4df1",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet"
+      ],
+      "staged_sha256": "8acb3179ce161c2168fb58d1a1064f2e044c2dd00e212200dadbb3425153951d",
+      "publication_status": "unchanged_upstream_bytes"
+    }
+  ],
+  "publication_modifications": {
+    "modified_json_files": [
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.json",
+        "original_sha256": "d0a349fd677ccec45d5dacffcc8b0b36ebf2ecc7c474b42e46467779acee397a",
+        "staged_sha256": "496c60825f44e5590006fd666c0ec459ac7634ff32aaf36469613ca30ddb58f4",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.json",
+        "original_sha256": "2c63d9370f982042140e5f4b5411023f959efce2686f70c8eaef086c2a6e9b5e",
+        "staged_sha256": "d552f279a2ea12eb877dbc966efe6e59fc2291f79a771e388931d240376cea3f",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.json",
+        "original_sha256": "a8d34a8392b636ca2ecb08e4a74666af28866501230215018a1c70d96196eac9",
+        "staged_sha256": "622d03a785ef89780c58c90eccd29b27417b6d4839a76dd26da8450514c0a4fd",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.json",
+        "original_sha256": "6e7271bc101e5f060dbff3e67753f2e30cd52cd95e79c1254680eed3010600e9",
+        "staged_sha256": "cf64d7a575779cc860b4fdf47c9d8afe67f7e2ad916c9c65f372f55c86c12c0a",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.json",
+        "original_sha256": "1d1b22c700502fbdee2c2f03aab69bb62aa0e090a7e5b4dff6c061af7b0da317",
+        "staged_sha256": "455029511126b2bde5a1ba81fb566613cf7feddbf1d000c6628aaa192b1b6e94",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.json",
+        "original_sha256": "75556147d737120ea46d9201d694878273bc17a359de369e8f2971142d5f5519",
+        "staged_sha256": "8c77602e7881c9530d52639d4086d43f01e49bc7948cfef0a151b64889474054",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.json",
+        "original_sha256": "2a67291205dee51a16410e9885c60fbe77d8e27c43c541d9f268c71014f6a25d",
+        "staged_sha256": "a4b8663a4f20365ac2ab23691406aff90d2589f454766134cf7c0a5c99f1e054",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.json",
+        "original_sha256": "c71e6482306cd3a79b45a9f310ffe992f04a817477a00d5f9f4b358e5202959a",
+        "staged_sha256": "35e727ca90d97401c2cf4b926f89d44df399e6383b2e2ea50a055aca4be27e1a",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.json",
+        "original_sha256": "1e0ac37404d8a4a21c296139b868f42ee70bf1b4bd40e73aa9c110567e341844",
+        "staged_sha256": "0236a029122ee6e8031361c238ed9818e8c155e9370dba527b26f8b9abaf664b",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.json",
+        "original_sha256": "984021040288d07dfccdeee4d939f844b5f7a66985d8376e9d8924c93aec1d2c",
+        "staged_sha256": "6d66337bb43c8105361ccddaa7ce1f8892bfba9d16f6f8175bdef9f4b2f75c29",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.json",
+        "original_sha256": "639484644940e7b394a78d98cbe601d56a3f620cc1edfcd8703329ce109d2357",
+        "staged_sha256": "ce2d2bf6f7d1f28784dd5f7ffb96f0780a936824914c5bb8caa836d40d717402",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.json",
+        "original_sha256": "2ba82b0a35341357f86a8055d3eb5ab9b295bbd5090dc74f778edb3dba9a02f6",
+        "staged_sha256": "a76e249d0d9ff1a5872db3e76eacac8b546403300b851e8047260dcfe56d407d",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.json",
+        "original_sha256": "2c98c9439868c0899f378e323d4b0d5dc40fc9a8395686c5d948fa3cbe790184",
+        "staged_sha256": "b9a48522b4e27954fe294291b579ba8a5c0e64247d3001bb84184aeba0a9c8b8",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.json",
+        "original_sha256": "c7a6fb9b92bd9e139e8da84e4665ff1a011d9b5a52ddfbf572ed10e7cbcde43b",
+        "staged_sha256": "11aa2928c9a6b8a822b605c0ac26c72acb274b911be648ca4c2199bafb65842c",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.json",
+        "original_sha256": "9a95915c641b1aa2247a1915208b9ac6a3c7c1e2064968644c9998a9e5ffcfdf",
+        "staged_sha256": "aba40c4bc87d724cb7471dd3da6c722686014201e42c294f781810e0dcd4b5a4",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.json",
+        "original_sha256": "35459d45b1813011e607329cb5fecd94135617301af9f5b8957a0efb974852ff",
+        "staged_sha256": "b67171e5fe17e218ffb3771874740a50653314e3943901a86bffaab1316a1671",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.json",
+        "original_sha256": "6fa7335bf7b52f90f096f19d0cdf94d176592a09de56a8d638668324df9561f7",
+        "staged_sha256": "e65c4e9693e6f17dd2f53849bb2e7b34ae2fd57e0d9cac829c2fe9979ede0ce9",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.json",
+        "original_sha256": "514fdf2b16db09d47e139739aa727fb8ba4de3d56de27d162015dfef02b3d545",
+        "staged_sha256": "2a566df03cd2a767dacc35257c788cfef13ab25d696a5d671c96c4cd6b03bb02",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.json",
+        "original_sha256": "aea4dac5895ded81f6b1b9b79460de12a722f3b25a53ac3d9244aa1e9dbfa063",
+        "staged_sha256": "d14faa6ee919d71fcd39557900daf3d3fc3de0680742ae1e78737c06e539bd50",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.json",
+        "original_sha256": "bf46ace38efbbb0f5460795ebd1a07df6a9e47a4d85e6cc1933763ede7f99ac9",
+        "staged_sha256": "6370ac9a6978c1a1c6d9d1a08ebfae3c68adf89c0a299355ac803bc6cdc23c7c",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.json",
+        "original_sha256": "c6f572f18cf6277a4f6f534d8f485cee72d9d7c2841f4f90b5a62e65c7ce25c3",
+        "staged_sha256": "da0bf45498c290fe91b6cf8a4577bbbf6cefbc7329ce2e50aa1b298869d8521c",
+        "change": "Remove nonessential commitInfo user/workspace identifiers; add/remove/protocol/metaData actions unchanged"
+      }
+    ],
+    "omitted_sidecars": [
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.crc",
+        "original_sha256": "3d4be61d3352cd44d83dcf6576dda158626575866394511ecd36960f7499dd79",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.crc",
+        "original_sha256": "f8150b7fef177b4e0f0d4a7ab186d160fbf5bd9cf24e05ab7e4b43b9449167e0",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.crc",
+        "original_sha256": "52fdf445ffa91a04ad02084997da34703d6f1a9c5eb7d78a3da186fb45917efa",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.crc",
+        "original_sha256": "0c66dcefa4fa8730154162864dec2b1afecf4902a03313914cda55eef4f10a84",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.crc",
+        "original_sha256": "635f45b01e22ad26a3308104ed78674d130c34f3384d17851ead2998d7f9a706",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.crc",
+        "original_sha256": "e303f688effa16aae15d6b844774a1a9035045f71a6e2609383e3dcf72a13a89",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.crc",
+        "original_sha256": "40ccf3fa62467f4cd11f953dd411518a8352a2faf1f0b546b46622b4803da3a2",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.crc",
+        "original_sha256": "fd4ff9ac3d970bf1abf2ada562982da3b349a2fc39032f80020b77e5ccdddf91",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.crc",
+        "original_sha256": "916f5757cdb98d4975d5f304203fdf9bc5fd6ddb0826f1456c9a2c01958aca49",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.crc",
+        "original_sha256": "4547705b448a2b690bd6df9ac45d709aa1973286270f2c27639dc08bd039d015",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.crc",
+        "original_sha256": "d789159a79f8bff7fafb0cab87eb6506bc46fed31df1ad900220d37147a18adb",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.crc",
+        "original_sha256": "8b7eae64a00d07e2e8d5a7ff2333a2c1a8f2b36ad7c8c9be89e5c8ce75661d0e",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.crc",
+        "original_sha256": "d59f796d8c98571c90cec97d1c3edaa664d460d239ebb19f2ccecdf603f9586e",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.crc",
+        "original_sha256": "7fb218690400871b7d3f359df3fd7ab6bc8256e504e332a076e9b9e688aaaaa2",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.crc",
+        "original_sha256": "46c0e1897506859d62e6313c99ca240afee62a1d1c140a8aafc73e09cd1b3e9c",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.crc",
+        "original_sha256": "79465e2c49475897528ad47f6a08e2c16d0d579b731e8cdd5b225933b8023a18",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.crc",
+        "original_sha256": "1950c20bc6d1c0418588a6558eab1ce8e7536a4ed7afe1ca88bfd31230ca679a",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.crc",
+        "original_sha256": "e149ca1f03cea93c899f04e24886c1a18c466efd3f6b80d816bba8873c613e18",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.crc",
+        "original_sha256": "d6cba03313fe1776776a6245a2400701cd4ae7dcfa4bfa87ab9cb1425aa7ddfd",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.crc",
+        "original_sha256": "9a95e4debf7afd1dbeed76fbf1f1c2c357cd2b2e73e9f56376db53ee0b50f9cc",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      },
+      {
+        "path": "code/checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.crc",
+        "original_sha256": "31cb0d04df90eee2fbdf20d89c3fd643d022598ffd0afa817a31f49ad3eeec6e",
+        "reason": "Local filesystem checksum sidecars excluded after metadata redaction"
+      }
+    ],
+    "original_origin_verified_files": 52,
+    "included_files": 31
+  }
+}

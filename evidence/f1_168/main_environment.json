@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\main\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "deltalake": "1.6.5",
+  "deltalake_file": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\main\\Lib\\site-packages\\deltalake\\__init__.py",
+  "packages": {
+    "deltalake": "1.6.5",
+    "pyarrow": "26.0.0"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "prefix": "<DISPOSABLE_WORKSPACE>\\environments\\spark",
+  "base_prefix": "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312",
+  "sys_path": [
+    "",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\DLLs",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\Lib",
+    "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312",
+    "<DISPOSABLE_WORKSPACE>\\environments\\spark",
+    "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages"
+  ],
+  "user_site_enabled": false,
+  "packages": {
+    "colorama": {
+      "version": "0.4.6",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "delta_spark": {
+      "version": "4.4.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "importlib_metadata": {
+      "version": "8.7.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "iniconfig": {
+      "version": "2.3.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "packaging": {
+      "version": "26.3",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pluggy": {
+      "version": "1.7.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "py4j": {
+      "version": "0.10.9.9",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pyarrow": {
+      "version": "26.0.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "Pygments": {
+      "version": "2.21.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pyroaring": {
+      "version": "1.2.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pyspark": {
+      "version": "4.2.0",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "pytest": {
+      "version": "9.1.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    },
+    "zipp": {
+      "version": "4.1.1",
+      "location": "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Lib\\site-packages",
+      "direct_url": null
+    }
+  },
+  "native_sha256": {}
+}

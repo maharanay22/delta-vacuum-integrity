@@ -1,0 +1,24 @@
+[
+  {
+    "wheel": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\inexact\\deltalake-1.6.5-cp311-abi3-win_amd64.whl",
+    "member": "deltalake/_internal.pyd",
+    "sha256": "CC2248D6FB9600E1BBDC59E485E8BA2BB9E2C3DE50289E9F6B77C4DDD7AB1EA1",
+    "installed_matches": []
+  },
+  {
+    "wheel": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\main\\deltalake-1.6.5-cp311-abi3-win_amd64.whl",
+    "member": "deltalake/_internal.pyd",
+    "sha256": "0BCF6C21A455C0C6379BA12EAD846EBE0E42A16A4F594A5929EBB1732297F368",
+    "installed_matches": [
+      "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\main\\Lib\\site-packages\\deltalake\\_internal.pyd"
+    ]
+  },
+  {
+    "wheel": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\pr4858\\deltalake-1.6.5-cp311-abi3-win_amd64.whl",
+    "member": "deltalake/_internal.pyd",
+    "sha256": "C7728025C531C824AFB5FF50A305058950DA346477864B07657936D45381D239",
+    "installed_matches": [
+      "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\pr4858\\Lib\\site-packages\\deltalake\\_internal.pyd"
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+26/10/18 22:09:52 WARN Shell: Did not find winutils.exe: java.io.FileNotFoundException: Could not locate Hadoop executable: <LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\deps\hadoop\bin\winutils.exe -see https://cwiki.apache.org/confluence/display/HADOOP2/WindowsProblems
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/18 22:09:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/18 22:10:05 ERROR Executor: Exception in task 0.0 in stage 13.0 (TID 13)
+org.apache.spark.SparkException: [FAILED_READ_FILE.FILE_NOT_EXIST] Encountered error while reading file file:/<DISPOSABLE_WORKSPACE>/disposable_runs/prefix_native/table/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet. File does not exist. It is possible the underlying files have been updated.
+You can explicitly invalidate the cache in Spark by running 'REFRESH TABLE tableName' command in SQL or by recreating the Dataset/DataFrame involved. SQLSTATE: KD001
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.fileNotExistError(QueryExecutionErrors.scala:902)
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:140)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:149)
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.FileNotFoundException: File `<DISPOSABLE_WORKSPACE>\disposable_runs\prefix_native\table\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin` does not exist.
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:247)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:225)
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:462)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:201)
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:631)
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:998)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.$anonfun$read$1(DeletionVectorStore.scala:197)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource(SparkErrorUtils.scala:49)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource$(SparkErrorUtils.scala:48)
+	at org.apache.spark.util.Utils$.tryWithResource(Utils.scala:97)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.read(DeletionVectorStore.scala:197)
+	at org.apache.spark.sql.delta.deletionvectors.DeletionVectorStoredBitmap.load(StoredBitmap.scala:80)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance(RowIndexMarkingFilters.scala:89)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance$(RowIndexMarkingFilters.scala:79)
+	at org.apache.spark.sql.delta.deletionvectors.DropMarkedRowsFilter$.createInstance(RowIndexMarkingFilters.scala:111)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$iteratorWithAdditionalMetadataColumns$2(DeltaParquetFileFormat.scala:356)
+	at scala.Option.map(Option.scala:242)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.iteratorWithAdditionalMetadataColumns(DeltaParquetFileFormat.scala:340)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$buildReaderWithPartitionValues$5(DeltaParquetFileFormat.scala:233)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:238)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:298)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:147)
+	... 22 more
+Caused by: java.nio.file.NoSuchFileException: <DISPOSABLE_WORKSPACE>\disposable_runs\prefix_native\table\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:238)
+	... 44 more
+26/10/18 22:10:05 ERROR TaskSetManager: Task 0 in stage 13.0 failed 1 times; aborting job
+SUCCESS: The process with PID 38396 (child process of PID 16312) has been terminated.
+SUCCESS: The process with PID 16312 (child process of PID 29768) has been terminated.
+SUCCESS: The process with PID 29768 (child process of PID 29736) has been terminated.

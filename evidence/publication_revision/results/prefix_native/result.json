@@ -1,0 +1,79 @@
+{
+  "kind": "new_supplemental_fixture_rerun_not_original_matrix",
+  "retention_h": 168,
+  "mode": "full",
+  "deltalake": "1.6.6",
+  "target_commit_timestamps": [
+    1791612475108,
+    1791648475108
+  ],
+  "run_now_ms": 1792375675108,
+  "cutoff_ms": 1791770875108,
+  "before_read": {
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "error": "",
+    "status": "successful_read"
+  },
+  "inventory_before": {
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791648474331000000
+    },
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791612474923000000
+    },
+    "_delta_log/00000000000000000000.json": {
+      "sha256": "b7eda8599fc8db664d1082e4e65351f208f059aef8c8ff1b68953ab3507c9615",
+      "mtime_ns": 1791612475108000000
+    },
+    "_delta_log/00000000000000000001.json": {
+      "sha256": "b40c6d708e551cfba4dd99dd805627e6318ad944aa0de7f69c09ebd5fb745df8",
+      "mtime_ns": 1791648475108000000
+    }
+  },
+  "latest_references": [
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin",
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet"
+  ],
+  "plan_raw": [
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin"
+  ],
+  "vacuum_return": [
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin"
+  ],
+  "inventory_after": {
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791612474923000000
+    },
+    "_delta_log/00000000000000000000.json": {
+      "sha256": "b7eda8599fc8db664d1082e4e65351f208f059aef8c8ff1b68953ab3507c9615",
+      "mtime_ns": 1791612475108000000
+    },
+    "_delta_log/00000000000000000001.json": {
+      "sha256": "b40c6d708e551cfba4dd99dd805627e6318ad944aa0de7f69c09ebd5fb745df8",
+      "mtime_ns": 1791648475108000000
+    },
+    "_delta_log/00000000000000000002.json": {
+      "sha256": "ebde41ca1fa6124c3f8b374f231f1625895bfbbbd231d96faf938c11b271ddd4",
+      "mtime_ns": 1792375675287256900
+    },
+    "_delta_log/00000000000000000003.json": {
+      "sha256": "0d351904a886ef7efe9b15409ee2363e566efc3eb0a8270deb8b9bf2057c15ac",
+      "mtime_ns": 1792375675304282800
+    }
+  },
+  "deleted": [
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin"
+  ],
+  "after_read": {
+    "ok": false,
+    "rows": null,
+    "digest": null,
+    "error": "Traceback (most recent call last):\n  File \"<DISPOSABLE_WORKSPACE>\\repository\\code\\harness\\oracle.py\", line 104, in read_state\n    deleted = read_deleted_rows(add.dv, table) if add.dv is not None else frozenset()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<DISPOSABLE_WORKSPACE>\\repository\\code\\checker\\vacuumcheck\\dv.py\", line 158, in read_deleted_rows\n    with open(target, \"rb\") as fh:\n         ^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '<LOCAL_HOME>\\\\.codex\\\\.chatgpt-projects\\\\g-p-6ace69accadc8191aa0136d6b9f388a8\\\\publication_revision_20261018\\\\disposable_runs\\\\prefix_native\\\\table\\\\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin'\n",
+    "status": "failed_read"
+  }
+}

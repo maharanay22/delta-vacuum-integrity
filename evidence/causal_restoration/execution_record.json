@@ -1,0 +1,9 @@
+{
+  "Attempt": "attempt_001",
+  "ProcessExitCode": 0,
+  "Command": "spark venv python.exe -B scripts/causal.py ../f1_168_evidence_20261018 ../f1_168_evidence_20261018_verified.zip attempt_001",
+  "ExecutionMode": "Approved execution outside sandbox; all interventions within attempt_001/tables",
+  "Log": "attempt_001_execution.log",
+  "AdditionalExperimentAttempts": 0,
+  "ExpectedFailedReaderEvaluations": 4
+}

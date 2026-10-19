@@ -1,0 +1,61 @@
+{
+  "family": "minimal",
+  "seed": 1,
+  "plan": {
+    "seed": 1,
+    "initial_rows": 20,
+    "initial_files": 1,
+    "ops": [
+      {
+        "op": "delete_mod",
+        "m": 5,
+        "r": 0
+      }
+    ],
+    "checkpoint_after_op": [],
+    "gaps_hours": [
+      0,
+      10
+    ]
+  },
+  "checkpoints_written_after_op": [],
+  "versions": [
+    {
+      "version": 0,
+      "operation": "WRITE",
+      "commit_ts": 1792347989358,
+      "files": 1,
+      "dv_files": 0,
+      "rows": 20,
+      "digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+      "own_reader_ok": true,
+      "spark_rows": 20,
+      "spark_digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+      "readers_agree": true
+    },
+    {
+      "version": 1,
+      "operation": "DELETE",
+      "commit_ts": 1792347999971,
+      "files": 1,
+      "dv_files": 1,
+      "rows": 16,
+      "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+      "own_reader_ok": true,
+      "spark_rows": 16,
+      "spark_digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+      "readers_agree": true
+    }
+  ],
+  "offsets_hours": [
+    12.5,
+    2.5
+  ],
+  "orig_mtimes_ms": {
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": 1792347999194,
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": 1792347989173,
+    "_delta_log/00000000000000000000.json": 1792347989528,
+    "_delta_log/00000000000000000001.json": 1792348000008
+  },
+  "generation_seconds": 22.85
+}

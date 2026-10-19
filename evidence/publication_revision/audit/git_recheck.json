@@ -1,0 +1,549 @@
+{
+  "repositories": [
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "listing_exit": 0,
+      "head": "693de88f08fbb23db3b835f29479d375d662ebbf",
+      "status": "",
+      "objects": {
+        "blob": 162,
+        "tree": 43,
+        "commit": 11
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "listing_exit": 0,
+      "head": "a7d68b2e3147ac6e597221b7153ac4bafb23525f",
+      "status": "",
+      "objects": {
+        "blob": 89,
+        "tree": 13,
+        "commit": 1
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "listing_exit": 0,
+      "head": "HEAD",
+      "status": "A  .gitignore\nA  LICENSE.txt\nA  PROVENANCE.md\nA  README.md\nA  RELEASE_NOTES.md\nA  SHA256_MANIFEST.json\nA  audits/Delta_Lake_Ablation_Recomputed.csv\nA  audits/Delta_Lake_Detailed_Ablation_Performance_Audit.md\nA  audits/Delta_Lake_Performance_Recomputed.csv\nA  audits/Delta_Lake_Publication_Audit_2026-10-17.md\nA  deps/BINARY_VALIDATION.md\nA  deps/BUILD_INSTRUCTIONS.md\nA  deps/BUILD_PROVENANCE.md\nA  deps/DEPENDENCY_SOURCES.md\nA  deps/Delta_Maven_Verification.csv\nA  deps/download_jars.ps1\nA  deps/jars.sha256\nA  deps/wheels.sha256\nA  figures/rq1_taxonomy.pdf\nA  figures/rq1_taxonomy.png\nA  figures/rq1_unreadable_rate.pdf\nA  figures/rq1_unreadable_rate.png\nA  figures/rq1_unsafe_rate.pdf\nA  figures/rq1_unsafe_rate.png\nA  figures/rq3_checker_time_small.pdf\nA  figures/rq3_checker_time_small.png\nA  figures/rq4_memory_0h.pdf\nA  figures/rq4_memory_0h.png\nA  figures/rq4_memory_168h.pdf\nA  figures/rq4_memory_168h.png\nA  figures/rq4_runtime_0h.pdf\nA  figures/rq4_runtime_0h.png\nA  figures/rq4_runtime_168h.pdf\nA  figures/rq4_runtime_168h.png\nA  pr4858-rebased.patch\nA  reproduction/README.md\nA  reproduction/seed1_main.jsonl\nA  reproduction/seed1_pr4858.jsonl\nA  results/ablation.csv\nA  results/crosscheck_spark.csv\nA  results/minimal_main.jsonl\nA  results/minimal_pr4858.jsonl\nA  results/minimal_prefix.jsonl\nA  results/minimal_spark.jsonl\nA  results/perf.csv\nA  results/repeat_prefix_r1.jsonl\nA  results/repeat_prefix_r2.jsonl\nA  results/runs.csv\nA  results/runs_main.jsonl\nA  results/runs_main_b.jsonl\nA  results/runs_pr4858.jsonl\nA  results/runs_pr4858_b.jsonl\nA  results/runs_prefix.jsonl\nA  results/runs_prefix_b.jsonl\nA  results/runs_spark_a.jsonl\nA  results/runs_spark_b.jsonl\nA  results/runs_spark_c.jsonl\nA  results/runs_spark_d.jsonl\nA  results/runs_spark_e.jsonl\nA  results/runs_spark_f.jsonl\nA  results/summary.md\nA  results/vacuum_commits.csv\nA  source/README.md\nA  source/checker/pyproject.toml\nA  source/checker/tests/test_vacuumcheck.py\nA  source/checker/vacuumcheck/__init__.py\nA  source/checker/vacuumcheck/__main__.py\nA  source/checker/vacuumcheck/check.py\nA  source/checker/vacuumcheck/dv.py\nA  source/checker/vacuumcheck/log.py\nA  source/experiments/ablation.py\nA  source/experiments/analyze.py\nA  source/experiments/crosscheck_spark.py\nA  source/experiments/environment.py\nA  source/experiments/minimal.py\nA  source/experiments/perf_run.py\nA  source/experiments/perf_tables.py\nA  source/experiments/perf_worker.py\nA  source/experiments/run_all.sh\nA  source/experiments/run_from_repository.sh\nA  source/experiments/vacuum_commits.py\nA  source/harness/aging.py\nA  source/harness/generate.py\nA  source/harness/oracle.py\nA  source/harness/runner.py\nA  source/harness/sparkenv.py\nA  supplemental/mutation_pilot_results.json\nA  supplemental/stage3c_results.json\nA  supplemental/stage3d_results.json\n",
+      "objects": {
+        "blob": 92,
+        "tree": 43,
+        "commit": 20
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "listing_exit": 0,
+      "head": "03f8b25c1a73dd389c66a96187c3dc8662c3d6c2",
+      "status": "",
+      "objects": {
+        "blob": 102,
+        "commit": 8,
+        "tree": 26,
+        "tag": 1
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "listing_exit": 0,
+      "head": "1181bf4607d97b6197c3ec7d33195c4ee5657a20",
+      "status": " M README.md\n M RELEASE_NOTES.md\n M source/README.md\n?? DATA_AND_FIGURES_LICENSE.md\n?? RELEASE_RC2_SHA256.json\n?? RUST_DEPENDENCY_LICENSE_AUDIT.md\n?? THIRD_PARTY_NOTICES.md\n?? deps/requirements/\n?? reproduction/fresh_environment/\n",
+      "objects": {
+        "blob": 92,
+        "tree": 43,
+        "commit": 19
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "listing_exit": 0,
+      "head": "1181bf4607d97b6197c3ec7d33195c4ee5657a20",
+      "status": "",
+      "objects": {
+        "blob": 92,
+        "tree": 43,
+        "commit": 19
+      },
+      "skipped": [],
+      "secret_findings": [],
+      "read_errors": []
+    }
+  ],
+  "evidence_content_hits": [
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "16347e5d7ad1171382a2cffb5aac1b63c1ed3f33",
+      "bytes": 723721,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file <LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc0",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file <LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "18f105eb561f5634ada9d8e83fe2a8db8b7c0bfb",
+      "bytes": 2072002,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "1f9c97a96a05526d7b8aade14dad7afa353b47ab",
+      "bytes": 655664,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file <LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc0",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file <LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "8d6c04dec232f1f25c65404ac1ab17330b905cf6",
+      "bytes": 1575047,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "9056ed2e565ed71c58d8974465e17c849144bca5",
+      "bytes": 2327144,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "9fbd405541bdc8addc45216114319e1ee5047bcc",
+      "bytes": 1467202,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "bb67dbc0f8d7e5c221398905b6c6455c63b706bc",
+      "bytes": 2493673,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code",
+      "oid": "c02f39deb037d3d0bce30657947b2d158930b430",
+      "bytes": 865969,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "33bd691e5c7350cb098264f93133dfbe182e5ad5",
+      "bytes": 2071602,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "375ba7d19b95d6f4f85d314d3ed0d31a63d66e34",
+      "bytes": 1574647,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "3942400fffef19a3322dc7040daec956a1355bd5",
+      "bytes": 2493273,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "6b82d69059d062ccc131c8bd0f1df7719e9bade8",
+      "bytes": 1466802,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "74064b463e980e93381d7b05c4db34972e5f8c8f",
+      "bytes": 865769,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "b60a8c5822810a87a9f8e683b11375bd7c7c9c5c",
+      "bytes": 700360,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc076bc94ba7-c000.snappy.parquet -> Access ",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3f-c000.snappy.parquet -> Access is denie",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Clean",
+      "oid": "d611ab3999feb0f6df5cd2901a6bb8a099da6554",
+      "bytes": 2326744,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "1708ded68ff4c2afe4b37dc2aa67079249a089e2",
+      "bytes": 703561,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc076bc94ba7-c000.snappy.parquet -> Access ",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3f-c000.snappy.parquet -> Access is denie",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "18f105eb561f5634ada9d8e83fe2a8db8b7c0bfb",
+      "bytes": 2072002,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "8d6c04dec232f1f25c65404ac1ab17330b905cf6",
+      "bytes": 1575047,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "9056ed2e565ed71c58d8974465e17c849144bca5",
+      "bytes": 2327144,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "9fbd405541bdc8addc45216114319e1ee5047bcc",
+      "bytes": 1467202,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "bb67dbc0f8d7e5c221398905b6c6455c63b706bc",
+      "bytes": 2493673,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Exact",
+      "oid": "c02f39deb037d3d0bce30657947b2d158930b430",
+      "bytes": 865969,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "1708ded68ff4c2afe4b37dc2aa67079249a089e2",
+      "bytes": 703561,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc076bc94ba7-c000.snappy.parquet -> Access ",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3f-c000.snappy.parquet -> Access is denie",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "18f105eb561f5634ada9d8e83fe2a8db8b7c0bfb",
+      "bytes": 2072002,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "4c5a23bf85a3bb72e0c5e5d0a44a151e2bea4562",
+      "bytes": 5120,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 1, \"mode\": \"full\", \"retention_h\": 168, \"n_versions\": 12, \"n_protected\": 10, \"has_checkpoint\": false, \"ops\": [\"append\", \"delete_range\", \"delete_mod\", \"optimize\", \"update\", \"merge\", \"purge\", \"append\", \"purge\", \"delete_mod\", \"append\", \"purge\"], \"files_before\": 19, \"needed_files\": 19, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.0124568000028"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "8d6c04dec232f1f25c65404ac1ab17330b905cf6",
+      "bytes": 1575047,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "9056ed2e565ed71c58d8974465e17c849144bca5",
+      "bytes": 2327144,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "9fbd405541bdc8addc45216114319e1ee5047bcc",
+      "bytes": 1467202,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "bb67dbc0f8d7e5c221398905b6c6455c63b706bc",
+      "bytes": 2493673,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Publication_Final",
+      "oid": "c02f39deb037d3d0bce30657947b2d158930b430",
+      "bytes": 865969,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "1708ded68ff4c2afe4b37dc2aa67079249a089e2",
+      "bytes": 703561,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc076bc94ba7-c000.snappy.parquet -> Access ",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3f-c000.snappy.parquet -> Access is denie",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "18f105eb561f5634ada9d8e83fe2a8db8b7c0bfb",
+      "bytes": 2072002,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "8d6c04dec232f1f25c65404ac1ab17330b905cf6",
+      "bytes": 1575047,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "9056ed2e565ed71c58d8974465e17c849144bca5",
+      "bytes": 2327144,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "9fbd405541bdc8addc45216114319e1ee5047bcc",
+      "bytes": 1467202,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "bb67dbc0f8d7e5c221398905b6c6455c63b706bc",
+      "bytes": 2493673,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<LOCAL_HOME>\\Downloads\\Delta_Source_Only_Publication",
+      "oid": "c02f39deb037d3d0bce30657947b2d158930b430",
+      "bytes": 865969,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "1708ded68ff4c2afe4b37dc2aa67079249a089e2",
+      "bytes": 703561,
+      "matches": [
+        "deltars-main,nockpt,49,full,0,14,1,False,31,22,47,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,9,22,19,11,8,0,0,0,0,0,0,19,0.03826969995861873,,0.01773920003324747,113,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_49_full_0\\part-00000-233e8dcd-0128-4b69-9005-cc076bc94ba7-c000.snappy.parquet -> Access ",
+        "deltars-main,nockpt,11,lite,0,15,1,False,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,9,9,0,8,1,0,0,0,0,0,0,0.02696230000583455,0.026584999985061586,0.030078399984631687,234,,",
+        "deltars-main,nockpt,68,lite,0,11,1,False,22,3,6,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,2,8,5,0,4,1,0,0,0,0,0,0,0.12489990005269647,,0.01862089999485761,70,delete-failed-access-denied,vacuum: OSError: Generic LocalFileSystem error -> Unable to delete file ${RESEARCH_ROOT}\\data\\work\\deltars-main\\nockpt_68_lite_0\\part-00000-410d6126-dedb-414f-bdbb-9b9048fe4f3f-c000.snappy.parquet -> Access is denie",
+        "deltars-main+4858,nockpt,2,lite,168,8,8,False,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,True,0,0,0,0,0,0,0,0,0,0,0,0,0,0.06367699999827892,0.10129200003575534,0.02605540002696216,53,,"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "18f105eb561f5634ada9d8e83fe2a8db8b7c0bfb",
+      "bytes": 2072002,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 11, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 15, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"delete_mod\", \"update\", \"append\", \"append\", \"update\", \"update\", \"append\", \"append\", \"update\", \"delete_mod\", \"delete_mod\", \"delete_range\", \"update\", \"orphan\"], \"files_before\": 31, \"needed_files\": 22, \"reclaimable_files\": 9, \"",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 49, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 14, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"purge\", \"update\", \"update\", \"append\", \"update\", \"optimize\", \"update\", \"delete_mod\", \"delete_range\", \"merge\", \"purge\", \"update\", \"update\", \"delete_mod\"], \"files_before\": 31, \"needed_files\": 9, \"reclaimable_files\": 22, \"error\": \"vacuum: OSEr"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "8d6c04dec232f1f25c65404ac1ab17330b905cf6",
+      "bytes": 1575047,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0200028999825008",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0505059999995864",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.06886200001463294, \"plan\": [\"part-00000-4b319fd",
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 0.04361250001238659, \"plan\": [\"deletion_vector_02"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "9056ed2e565ed71c58d8974465e17c849144bca5",
+      "bytes": 2327144,
+      "matches": [
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 68, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_range\", \"optimize\", \"orphan\", \"update\", \"append\", \"append\", \"append\", \"delete_mod\", \"update\", \"update\", \"merge\"], \"files_before\": 22, \"needed_files\": 14, \"reclaimable_files\": 8, \"error\": \"vacuum: OSError: Generic LocalFileSystem err",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"vacuum: OSError: Generic LocalFileSyste",
+        "{\"impl\": \"deltars-main\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.0224195999908261, \"pl",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil",
+        "{\"impl\": \"deltars-main\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fil"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "9fbd405541bdc8addc45216114319e1ee5047bcc",
+      "bytes": 1467202,
+      "matches": [
+        "{\"impl\": \"deltars-main+4858\", \"family\": \"nockpt\", \"seed\": 2, \"mode\": \"lite\", \"retention_h\": 168, \"n_versions\": 8, \"n_protected\": 8, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_mod\", \"update\", \"update\", \"orphan\", \"delete_range\", \"optimize\", \"purge\", \"delete_range\"], \"files_before\": 15, \"needed_files\": 14, \"reclaimable_files\": 0, \"error\": \"\", \"dry_run_s\": 0.06367699999827892, \"plan\": [], "
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "bb67dbc0f8d7e5c221398905b6c6455c63b706bc",
+      "bytes": 2493673,
+      "matches": [
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.01538360002450645, \"",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 0.025684299995191395, ",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi",
+        "{\"impl\": \"deltars-1.6.6\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"vacuum: OSError: Generic LocalFileSystem error -> Unable to delete fi"
+      ]
+    },
+    {
+      "repo": "<DISPOSABLE_WORKSPACE>\\private_review\\bundle_mirror.git",
+      "oid": "c02f39deb037d3d0bce30657947b2d158930b430",
+      "bytes": 865969,
+      "matches": [
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.9478882999974303, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"nockpt\", \"seed\": 91, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 11, \"n_protected\": 1, \"has_checkpoint\": false, \"ops\": [\"delete_mod\", \"delete_range\", \"delete_mod\", \"merge\", \"merge\", \"update\", \"update\", \"delete_mod\", \"delete_range\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 13, \"reclaimable_files\": 9, \"error\": \"\", \"dry_run_s\": 1.8096919999807142, \"pla",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"lite\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 2.228663999994751, \"plan\": [\"deletion_vector_02e30cd2-5",
+        "{\"impl\": \"spark-4.4.1\", \"family\": \"ckpt\", \"seed\": 93, \"mode\": \"full\", \"retention_h\": 0, \"n_versions\": 10, \"n_protected\": 1, \"has_checkpoint\": true, \"ops\": [\"append\", \"delete_mod\", \"update\", \"optimize\", \"merge\", \"append\", \"merge\", \"update\", \"delete_mod\"], \"files_before\": 22, \"needed_files\": 9, \"reclaimable_files\": 13, \"error\": \"\", \"dry_run_s\": 1.889081300003454, \"plan\": [\"deletion_vector_02e30cd2-5"
+      ]
+    }
+  ],
+  "bundle_sha256": "21b714ef56c4ad096047f0c399bcdd049f2a70a41703148f2cf6f09477453ad2"
+}

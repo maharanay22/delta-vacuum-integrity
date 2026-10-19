@@ -1,0 +1,55 @@
+{
+  "state": "HOLD_FOR_EXPLICIT_PUBLICATION_APPROVAL",
+  "original_source_files_rehashed": 200,
+  "original_changes": [],
+  "prior_candidate_manifest_verified": 225,
+  "fresh_install_envs": 3,
+  "native_module_identities_match_original": true,
+  "F1_168_pre_fix": {
+    "unsafe_plan": [
+      "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin"
+    ],
+    "deleted": [
+      "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin"
+    ],
+    "independent": "failed_read",
+    "spark": "failed_read"
+  },
+  "F1_168_patched": {
+    "plan": [],
+    "deleted": [],
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7"
+  },
+  "causal_controls_passed": true,
+  "recovered_original_test_bodies": 3,
+  "original_A1_result_matches_new_rerun": true,
+  "A3": {
+    "runs": 3200,
+    "error_free_runs": 2696,
+    "error_free_differences": 0,
+    "missing_fields": 0,
+    "difference_record_disagreements": 0,
+    "error_runs": 504,
+    "error_stratum_differences": 367
+  },
+  "checker_tests": {
+    "passed": 11,
+    "skipped": 0
+  },
+  "Pass10_replay_totals_equal": true,
+  "upstream_fixture_files_identified": 52,
+  "fresh_native_build": false,
+  "new_table_generation": false,
+  "experiment_input": "new disposable copies of archived supplemental synthetic F1 fixture, explicitly re-aged only in the F1 copies",
+  "platform_scope": "same Windows host, new venvs, cached package installs, existing verified JDK/JARs; not a new machine or fresh Rust compilation",
+  "privacy": {
+    "redacted_upstream_json_commits": 21,
+    "omitted_crc_sidecars": 21,
+    "original_fixture_origin_matches": 52,
+    "included_fixture_files": 31,
+    "final_tests": "11 passed, no skips",
+    "final_high_risk_findings": 0,
+    "final_email_matches": 0
+  }
+}

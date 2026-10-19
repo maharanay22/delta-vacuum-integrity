@@ -1,0 +1,20 @@
+[
+  {
+    "case": "short_retention",
+    "retention": "interval 1 hours",
+    "json_remove_count": 1,
+    "checkpoint_remove_count": 1,
+    "checker_safe": false,
+    "flagged_files": 1,
+    "vacuum_executed": false
+  },
+  {
+    "case": "long_retention",
+    "retention": "interval 168 hours",
+    "json_remove_count": 1,
+    "checkpoint_remove_count": 1,
+    "checker_safe": false,
+    "flagged_files": 1,
+    "vacuum_executed": false
+  }
+]

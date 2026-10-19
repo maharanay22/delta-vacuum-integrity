@@ -1,0 +1,136 @@
+[
+  {
+    "kind": "JAR",
+    "name": "com.fasterxml.jackson.datatype_jackson-datatype-jdk8-2.13.5.jar",
+    "expected_sha256": "e58761751fea8a00dc626aae1c5f1be38c5cfd487aeb333d933a4ab5f5a73c55",
+    "actual_sha256": "e58761751fea8a00dc626aae1c5f1be38c5cfd487aeb333d933a4ab5f5a73c55",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "hadoop-bare-naked-local-fs-0.1.0.jar",
+    "expected_sha256": "e0cc30fb0531eb0b59468dc0abf5b257533d2365b5e9f45e795edd707aa78c62",
+    "actual_sha256": "e0cc30fb0531eb0b59468dc0abf5b257533d2365b5e9f45e795edd707aa78c62",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.delta_delta-kernel-api-4.4.1.jar",
+    "expected_sha256": "19c93b5e6740bb3001d3deca0b8c3fa5470197c520ffa36ffa58df98e91ae459",
+    "actual_sha256": "19c93b5e6740bb3001d3deca0b8c3fa5470197c520ffa36ffa58df98e91ae459",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.delta_delta-kernel-defaults-4.4.1.jar",
+    "expected_sha256": "329995bbc9b2e5d74a9a7c9e968574c1e438bbb183aaf1b2c629a87ce8558fe2",
+    "actual_sha256": "329995bbc9b2e5d74a9a7c9e968574c1e438bbb183aaf1b2c629a87ce8558fe2",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.delta_delta-kernel-unitycatalog-4.4.1.jar",
+    "expected_sha256": "4d92b9248f8a5f9b3043fea2bb7666f0db26f5491e279c30868280be35450368",
+    "actual_sha256": "4d92b9248f8a5f9b3043fea2bb7666f0db26f5491e279c30868280be35450368",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.delta_delta-spark_4.2_2.13-4.4.1.jar",
+    "expected_sha256": "2b1d2cd411bf0bbced64b96fe621f8ffce7bb6e394c8064ab783fc6edce449be",
+    "actual_sha256": "2b1d2cd411bf0bbced64b96fe621f8ffce7bb6e394c8064ab783fc6edce449be",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.delta_delta-storage-4.4.1.jar",
+    "expected_sha256": "f585818d646cb3625b305270ec24f3e6f0b6ea63ed9bac1ae8f340f8faaeae8f",
+    "actual_sha256": "f585818d646cb3625b305270ec24f3e6f0b6ea63ed9bac1ae8f340f8faaeae8f",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.unitycatalog_unitycatalog-client-0.6.0.jar",
+    "expected_sha256": "48257499a86b801a3e2372cec55ac226ca1c1c7eabe5c118e7302f29a1fdbc19",
+    "actual_sha256": "48257499a86b801a3e2372cec55ac226ca1c1c7eabe5c118e7302f29a1fdbc19",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "io.unitycatalog_unitycatalog-hadoop-0.6.0.jar",
+    "expected_sha256": "c47b63c961c87102b9e1d63809a0915ba4c86b7652f57c8d39ca3a05b441a150",
+    "actual_sha256": "c47b63c961c87102b9e1d63809a0915ba4c86b7652f57c8d39ca3a05b441a150",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "org.roaringbitmap_RoaringBitmap-0.9.25.jar",
+    "expected_sha256": "73f8e24f636a1ba6509decacbb5605c833eb5ead6db3971722ffcc2543b3e393",
+    "actual_sha256": "73f8e24f636a1ba6509decacbb5605c833eb5ead6db3971722ffcc2543b3e393",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "JAR",
+    "name": "org.roaringbitmap_shims-0.9.25.jar",
+    "expected_sha256": "0b82ed6cb1caf0706304b42358d568eb6faf190eadea7f2b2d365cb63156b40d",
+    "actual_sha256": "0b82ed6cb1caf0706304b42358d568eb6faf190eadea7f2b2d365cb63156b40d",
+    "matches": true,
+    "redistributed": false
+  },
+  {
+    "kind": "Cargo.lock",
+    "name": "main",
+    "sha256": "18499628585ec1f51ca499f8925d3265db6d4706d0c01ce10fbda68de8cd3d7b",
+    "packages": 852,
+    "registry_packages": 837
+  },
+  {
+    "kind": "experimental_wheel",
+    "name": "deltalake-1.6.5-cp311-abi3-win_amd64.whl",
+    "build_label": "main",
+    "sha256": "98ecb30240574b9e5a9cf7294c3f97f3a120f44a9bfc7a8560cc0388b9c5f306",
+    "native_sha256": "0bcf6c21a455c0c6379ba12ead846ebe0e42a16a4f594a5929ebb1732297f368",
+    "matches_installed_module": true,
+    "license_entries": [
+      {
+        "name": "deltalake-1.6.5.dist-info/licenses/LICENSE.txt",
+        "bytes": 14,
+        "relative_reference_only": true
+      }
+    ],
+    "redistributed": false
+  },
+  {
+    "kind": "Cargo.lock",
+    "name": "pr4858",
+    "sha256": "18499628585ec1f51ca499f8925d3265db6d4706d0c01ce10fbda68de8cd3d7b",
+    "packages": 852,
+    "registry_packages": 837
+  },
+  {
+    "kind": "experimental_wheel",
+    "name": "deltalake-1.6.5-cp311-abi3-win_amd64.whl",
+    "build_label": "pr4858",
+    "sha256": "55a5f56ebcdca2eb4e230f6194f019027625337b86e462db53c3363a8ebb0f64",
+    "native_sha256": "c7728025c531c824afb5ff50a305058950da346477864b07657936d45381d239",
+    "matches_installed_module": true,
+    "license_entries": [
+      {
+        "name": "deltalake-1.6.5.dist-info/licenses/LICENSE.txt",
+        "bytes": 14,
+        "relative_reference_only": true
+      }
+    ],
+    "redistributed": false
+  }
+]

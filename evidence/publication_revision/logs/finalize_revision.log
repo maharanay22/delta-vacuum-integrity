@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<DISPOSABLE_WORKSPACE>\finalize_revision.py", line 171, in <module>
+    assert '.git' not in p.relative_to(P).parts and '__pycache__' not in p.relative_to(P).parts,n
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: code/checker/tests/__pycache__/test_vacuumcheck.cpython-312-pytest-9.1.1.pyc

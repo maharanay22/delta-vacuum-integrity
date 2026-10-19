@@ -1,0 +1,9 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+26/10/18 22:10:09 WARN Shell: Did not find winutils.exe: java.io.FileNotFoundException: Could not locate Hadoop executable: <LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\deps\hadoop\bin\winutils.exe -see https://cwiki.apache.org/confluence/display/HADOOP2/WindowsProblems
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/18 22:10:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+SUCCESS: The process with PID 3256 (child process of PID 11696) has been terminated.
+SUCCESS: The process with PID 11696 (child process of PID 17740) has been terminated.
+SUCCESS: The process with PID 17740 (child process of PID 37844) has been terminated.

@@ -1,0 +1,12 @@
+{
+  "basis": "new staging copy only",
+  "changes": [
+    "Full scoped licenses and notices prepared",
+    "52 unchanged upstream fixtures and original checker test source restored",
+    "Independent-reader diagnostic truncation replaced by full traceback",
+    "Original A1/A3 here-string bodies recovered; no new test logic attributed as original",
+    "New read-only A3 set-difference audit and Spark cross-check helper added",
+    "New clean-install F1/control outputs, all attempts and updated docs added"
+  ],
+  "experiments": "new supplemental fixture-copy reruns only; no new random history; no original matrix rerun"
+}

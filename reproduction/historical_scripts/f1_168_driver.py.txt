@@ -1,0 +1,105 @@
+import os, sys, json, time, traceback, hashlib, platform, shutil, importlib.metadata as md
+from pathlib import Path
+ROOT = Path(__file__).resolve().parent
+RESEARCH = Path(r'<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity')
+os.environ['PYTHONDONTWRITEBYTECODE']='1'
+sys.dont_write_bytecode=True
+sys.path[:0]=[str(ROOT/'harness'),str(ROOT/'checker')]
+import sparkenv
+sparkenv.DEPS=RESEARCH/'deps'
+from generate import generate, spark_hash
+from runner import run_one, deltars_vacuum, spark_vacuum
+from oracle import replay, referenced_files
+
+def dump(p,obj):
+    p.write_text(json.dumps(obj,indent=2,default=str),encoding='utf-8')
+
+phase=sys.argv[1]
+if phase=='generate':
+    if (ROOT/'histories').exists(): raise RuntimeError('Refuse to overwrite histories')
+    spark=sparkenv.spark_session(ROOT/'warehouse_generation')
+    spark.conf.set('spark.databricks.delta.retentionDurationCheck.enabled','true')
+    plan={'seed':1,'initial_rows':20,'initial_files':1,'ops':[{'op':'delete_mod','m':5,'r':0}], 'checkpoint_after_op':[], 'gaps_hours':[0,10]}
+    meta=generate(spark,ROOT/'histories','minimal',1,plan)
+    assert all(v['readers_agree'] for v in meta['versions'])
+    assert meta['versions'][-1]['dv_files']>0
+    dump(ROOT/'generation.json',meta)
+    spark.stop()
+elif phase=='run':
+    label=sys.argv[2]
+    out=ROOT/(label+'.json')
+    if out.exists(): raise RuntimeError('Refuse to overwrite results')
+    hist=ROOT/'histories'/'minimal'/'seed_1'
+    base=json.loads((hist/'meta.json').read_text())
+    fn,versions=spark_vacuum(ROOT/'spark_runtime') if label=='spark' else deltars_vacuum()
+    if label=='spark':
+        from pyspark.sql import SparkSession
+        SparkSession.getActiveSession().conf.set('spark.databricks.delta.retentionDurationCheck.enabled','true')
+    env={'python':sys.version,'executable':sys.executable,'platform':platform.platform(),**versions,'packages':{}}
+    for pkg in ['deltalake','delta-spark','pyspark','pyarrow']:
+        try: env['packages'][pkg]=md.version(pkg)
+        except md.PackageNotFoundError: pass
+    dump(ROOT/(label+'_environment.json'),env)
+    rows=[]
+    for case,ages in [('recent_control',[12.5,2.5]),('aged_live_dv',[212,202])]:
+        work=ROOT/'tables'/label/case
+        if work.exists(): raise RuntimeError('Refuse to overwrite table')
+        meta=dict(base,offsets_hours=ages)
+        def captured(table,mode,retention,dry_run):
+            assert table.resolve().is_relative_to((ROOT/'tables').resolve())
+            if dry_run:
+                shutil.copytree(table,ROOT/'before_vacuum'/label/case,copy_function=shutil.copy2)
+                dump(ROOT/(label+'_'+case+'_inventory_before.json'),{p.relative_to(table).as_posix():{'size':p.stat().st_size,'mtime_ns':p.stat().st_mtime_ns,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in table.rglob('*') if p.is_file()})
+            try:
+                result=fn(table,mode,retention,dry_run)
+                dump(ROOT/(label+'_'+case+('_plan_raw.json' if dry_run else '_vacuum_return.json')),result)
+                return result
+            except Exception:
+                (ROOT/(label+'_'+case+('_dry_error.txt' if dry_run else '_vacuum_error.txt'))).write_text(traceback.format_exc(),encoding='utf-8')
+                raise
+        row=run_one(captured,label,hist,meta,'full',168,work)
+        row.update(case=case,ages_hours=ages,table=str(work))
+        state=replay(work)[-1]
+        row['latest_references']=sorted(referenced_files(state,work))
+        rows.append(row)
+        dump(out,rows)
+        print(json.dumps(row),flush=True)
+elif phase=='current':
+    from oracle import canonical_hash
+    spark=sparkenv.spark_session(ROOT/'warehouse_current')
+    results=[]
+    for label in ['prefix_native','main','pr4858','spark']:
+        for row in json.loads((ROOT/(label+'.json')).read_text()):
+            r={'label':label,'case':row['case'],'read':'current snapshot without versionAsOf'}
+            try:
+                spark.catalog.clearCache()
+                spark._jvm.org.apache.spark.sql.delta.DeltaLog.clearCache()
+                values=spark.read.format('delta').load(Path(row['table']).as_posix()).collect()
+                h=canonical_hash(tuple(v) for v in values)
+                expected=json.loads((ROOT/'generation.json').read_text())['versions'][1]
+                r.update(ok=True,rows=len(values),digest=h,matches_baseline=h==expected['digest'])
+            except Exception:
+                r.update(ok=False,error=traceback.format_exc())
+            results.append(r)
+            dump(ROOT/'spark_current_reads.json',results)
+            print(json.dumps(r),flush=True)
+    spark.stop()
+elif phase=='crosscheck':
+    spark=sparkenv.spark_session(ROOT/'warehouse_crosscheck')
+    results=[]
+    for label in ['prefix_native','main','pr4858','spark']:
+        for row in json.loads((ROOT/(label+'.json')).read_text()):
+            for v in [0,1]:
+                r={'label':label,'case':row['case'],'version':v}
+                try:
+                    spark.catalog.clearCache()
+                    spark._jvm.org.apache.spark.sql.delta.DeltaLog.clearCache()
+                    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)
+                    expected=json.loads((ROOT/'generation.json').read_text())['versions'][v]
+                    r.update(ok=True,rows=n,digest=h,matches_baseline=h==expected['digest'])
+                except Exception:
+                    r.update(ok=False,error=traceback.format_exc())
+                results.append(r)
+                dump(ROOT/'spark_crosscheck.json',results)
+                print(json.dumps(r),flush=True)
+    spark.stop()

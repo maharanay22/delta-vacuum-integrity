@@ -1,0 +1,10 @@
+{
+  "CC-BY-4.0": {
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  "Apache-2.0": {
+    "source": "previously verified upstream full license",
+    "sha256": "af6be94772d154d4caa7709dd10109182dc6471732b40a8eadc5a527129aa3c6"
+  }
+}

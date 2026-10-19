@@ -1,0 +1,1310 @@
+{
+  "archive_sha256": "9faa78ccd006422b2b1fe0d266ba48d3fec10895056d827a05e871258c5cf22b",
+  "evidence": {
+    "before_vacuum/main/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "7aea5c69fe187da85adcf2e6219efdc3159591cc8790f13d38ba3eff6574fff8",
+      "mtime_ns": 1791584828758000000
+    },
+    "before_vacuum/main/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "2272014653ccb9e64a003870c2d3fbdc2b98adbcbb82c2fe398bd6158bdfcfff",
+      "mtime_ns": 1791620828758000000
+    },
+    "before_vacuum/main/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620827981000000
+    },
+    "before_vacuum/main/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584828573000000
+    },
+    "before_vacuum/main/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "d0efdf6fe3db70fefaecd0d97d72890570ced759a20630659cc399679ec6e375",
+      "mtime_ns": 1792303027679000000
+    },
+    "before_vacuum/main/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "180c8711d2cc470ec690edb1243060d8e6445323bf0988c6311bf4ea15ea7e0b",
+      "mtime_ns": 1792339027679000000
+    },
+    "before_vacuum/main/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339026902000000
+    },
+    "before_vacuum/main/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303027494000000
+    },
+    "before_vacuum/pr4858/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "9ab86db819077e3c3c1207e4eb2a77daaa040f367c008ca4322ed41777fc803e",
+      "mtime_ns": 1791584833238000000
+    },
+    "before_vacuum/pr4858/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "c2986351781def42a8aaeea4bc8b069c440a64a74fbc67e79340e1e2ecc08c6d",
+      "mtime_ns": 1791620833238000000
+    },
+    "before_vacuum/pr4858/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620832461000000
+    },
+    "before_vacuum/pr4858/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584833053000000
+    },
+    "before_vacuum/pr4858/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "be28bd20fbb50b01f6c8d83744924d87eedb3e7a4903e5654925de96559d0ca8",
+      "mtime_ns": 1792303031807000000
+    },
+    "before_vacuum/pr4858/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "80496d3a53847c71f780d17d97cec7895c537c0f33dcad5d61d1ff5d9ce354bf",
+      "mtime_ns": 1792339031807000000
+    },
+    "before_vacuum/pr4858/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339031030000000
+    },
+    "before_vacuum/pr4858/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303031622000000
+    },
+    "before_vacuum/prefix/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "e349e9ec5f0dab193fbe7296ef2988b60c2d1d140019137babb1c9816b38c298",
+      "mtime_ns": 1791584822580000000
+    },
+    "before_vacuum/prefix/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "0419a7db31ebf1cc5fe384427d70d5639a9c3dd9605e8eb23856f2544f9bdda2",
+      "mtime_ns": 1791620822580000000
+    },
+    "before_vacuum/prefix/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620821803000000
+    },
+    "before_vacuum/prefix/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584822395000000
+    },
+    "before_vacuum/prefix/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "986c5b539ad1671d77cb4fe23a7db3384e198e343d1f29bbb178dbf6abb60d20",
+      "mtime_ns": 1792303021496000000
+    },
+    "before_vacuum/prefix/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "41238f72673b0348d21b79bab99144ecca441dbe3fdb8c26a6e21a4d1e9487b3",
+      "mtime_ns": 1792339021496000000
+    },
+    "before_vacuum/prefix/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339020719000000
+    },
+    "before_vacuum/prefix/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303021311000000
+    },
+    "before_vacuum/prefix_native/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "d74d3d5877301da55eaa637012381c5abfa74f4310915d9d92f1a2bad0a2c007",
+      "mtime_ns": 1791586842775000000
+    },
+    "before_vacuum/prefix_native/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "5d3ad236ced1d7fa06bf0f7a403751f5c3036414b1aa8a8eb6bc49e5e23a338e",
+      "mtime_ns": 1791622842775000000
+    },
+    "before_vacuum/prefix_native/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791622841998000000
+    },
+    "before_vacuum/prefix_native/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791586842590000000
+    },
+    "before_vacuum/prefix_native/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "351218edb044e779de24d22253f47061c434b98ed1451defbfe2a04cc2514324",
+      "mtime_ns": 1792305042164000000
+    },
+    "before_vacuum/prefix_native/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "f639e36520b8ca8a99ac82472180ac9a5d4b7936a65ca37d854e1767d5d95d23",
+      "mtime_ns": 1792341042164000000
+    },
+    "before_vacuum/prefix_native/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792341041387000000
+    },
+    "before_vacuum/prefix_native/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792305041979000000
+    },
+    "before_vacuum/prefix_retry/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "3bc27e92ffc5cb9f8392811002a4e3c48811e1bb1fc3f4c73ffb2e062005696a",
+      "mtime_ns": 1791584865346000000
+    },
+    "before_vacuum/prefix_retry/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "bf3d02700717470832552b6606bb76f3987ea2dd44d0d8090137dfc3298d1a95",
+      "mtime_ns": 1791620865346000000
+    },
+    "before_vacuum/prefix_retry/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620864569000000
+    },
+    "before_vacuum/prefix_retry/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584865161000000
+    },
+    "before_vacuum/prefix_retry/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "3f7fbd5d7237b7bfbae901bf525efd80bafca3b3815af0219b4f1202bde3e090",
+      "mtime_ns": 1792303064173000000
+    },
+    "before_vacuum/prefix_retry/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "31c976db7fe38570d8274aece878c36bb3575bb2d0d70cfea662805034afdd7d",
+      "mtime_ns": 1792339064173000000
+    },
+    "before_vacuum/prefix_retry/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339063396000000
+    },
+    "before_vacuum/prefix_retry/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303063988000000
+    },
+    "before_vacuum/spark/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "eebef994c1895db0f92707168e8ec91e512876a9decbbcaf3756006da7f2d4dc",
+      "mtime_ns": 1791586978400000000
+    },
+    "before_vacuum/spark/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "3726741c3cf15bbf4de337a6a3d5ae0597a8cb91ce1be9dcef594bb486d5265c",
+      "mtime_ns": 1791622978400000000
+    },
+    "before_vacuum/spark/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791622977623000000
+    },
+    "before_vacuum/spark/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791586978215000000
+    },
+    "before_vacuum/spark/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "4bc063d1cdff2c199f7c02dd01e4da917475870ad5ed37d5ffeb9a3b8c2b6903",
+      "mtime_ns": 1792305161571000000
+    },
+    "before_vacuum/spark/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "701754b17076a39e64b0c1084c1539d3262dd6b1f44c1eda620175b10fd02bef",
+      "mtime_ns": 1792341161571000000
+    },
+    "before_vacuum/spark/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792341160794000000
+    },
+    "before_vacuum/spark/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792305161386000000
+    },
+    "checker/vacuumcheck/__init__.py": {
+      "size": 253,
+      "sha256": "57bd8c2a6a4a0c90df4c712541d68cc44a8c36c4f4d4df4c6590e119a8926678",
+      "mtime_ns": 1791930700570401000
+    },
+    "checker/vacuumcheck/__main__.py": {
+      "size": 1311,
+      "sha256": "02e9202724bb9a282ffa5d3dde7d94ee411ace80da3a99cf2f4e7ba959ff972a",
+      "mtime_ns": 1791930699381602000
+    },
+    "checker/vacuumcheck/__pycache__/__init__.cpython-312.pyc": {
+      "size": 454,
+      "sha256": "54f18c72ce77343725ccd89de5a35cdbd33f39dc1807907f991033e7f267ff0f",
+      "mtime_ns": 1791930777075289200
+    },
+    "checker/vacuumcheck/__pycache__/check.cpython-312.pyc": {
+      "size": 6673,
+      "sha256": "106e422237a65b19ee71c7572cb3676f9e7e8d638be3f0af8a3a0d884c40c202",
+      "mtime_ns": 1791938551495877800
+    },
+    "checker/vacuumcheck/__pycache__/dv.cpython-312.pyc": {
+      "size": 11106,
+      "sha256": "ca46f95426713b4d8f16713de828d9a3468c04cfed2e2fd88d3a46401eff6f1f",
+      "mtime_ns": 1791930777091714200
+    },
+    "checker/vacuumcheck/__pycache__/log.cpython-312.pyc": {
+      "size": 6363,
+      "sha256": "bcc22d5b8806c36d2a1b9726ba274a03870edccc2feb58c397c5482ab822abbf",
+      "mtime_ns": 1791930777107925200
+    },
+    "checker/vacuumcheck/check.py": {
+      "size": 3813,
+      "sha256": "b4aec3a1095b550c1e9621c57b81f5a1c036a7ea0bae7be00b72f33e357b2676",
+      "mtime_ns": 1791938546844011400
+    },
+    "checker/vacuumcheck/dv.py": {
+      "size": 6530,
+      "sha256": "6d21d5b50703787edf93226886307c01c3657fcaa7e987c51d62b57e7b8d342d",
+      "mtime_ns": 1791930626870340900
+    },
+    "checker/vacuumcheck/log.py": {
+      "size": 3175,
+      "sha256": "a65a8088db8a7ec349007196f1f2384e451783bc024a20277641646527474fed",
+      "mtime_ns": 1791930696475132900
+    },
+    "crosscheck.log": {
+      "size": 12635,
+      "sha256": "fb40004ee01410e729f1877be918c10be54a79cfbf8abbf5da4f16ebb259df18",
+      "mtime_ns": 1792350234887701000
+    },
+    "current_reads.log": {
+      "size": 23097,
+      "sha256": "c459f68a730388f959dbc00382664f666f06011e6f827084d2b98057a9c2f6b4",
+      "mtime_ns": 1792350317460183900
+    },
+    "generation.json": {
+      "size": 1609,
+      "sha256": "64373d667225973361d16f3021d4e9b4a7ffb393f578c47bced57fa14ce60c03",
+      "mtime_ns": 1792348005303834000
+    },
+    "generation.log": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792347877157477300
+    },
+    "generation_retry.log": {
+      "size": 959,
+      "sha256": "c5ba29e9de1954629ec043e8ee7264e3b6fdc02cc15e88756f88f55eae8ef3ef",
+      "mtime_ns": 1792348005940889100
+    },
+    "harness/aging.py": {
+      "size": 4220,
+      "sha256": "92644294f2e720290b3851f0a7ce5c19423e1609c2e0f13462f7aeedcaaf9e03",
+      "mtime_ns": 1791930937036781700
+    },
+    "harness/generate.py": {
+      "size": 8720,
+      "sha256": "1c1d50106136e2dddfa1b30aaf822639a4415a775772cbfe7505a42055b56071",
+      "mtime_ns": 1791933067771632000
+    },
+    "harness/oracle.py": {
+      "size": 5930,
+      "sha256": "0a472c4e6fe61f10ff0b7ba39f742c75d76ae43f4b38d74aa4e54b64012acfc7",
+      "mtime_ns": 1791936136695360100
+    },
+    "harness/runner.py": {
+      "size": 10193,
+      "sha256": "3a303c4f7f4301606a184a9e8426ce4e56cbac6c8903c24daa146f27db899528",
+      "mtime_ns": 1791936136697381800
+    },
+    "harness/sparkenv.py": {
+      "size": 2009,
+      "sha256": "f16c76633536d181a7837f2a9aa8a7fb9a30e9f1bf99183fa06cc418b2b7bf61",
+      "mtime_ns": 1791936099048822300
+    },
+    "histories/minimal/seed_1/meta.json": {
+      "size": 1471,
+      "sha256": "430f8b6a94db9954a97103a9b08fe5a4eb2ee4e53a803fa1bf28da1582919a1d",
+      "mtime_ns": 1792348005302833100
+    },
+    "histories/minimal/seed_1/table/_delta_log/00000000000000000000.json": {
+      "size": 1393,
+      "sha256": "7a195be54ae33f4c8c0d30813612c119fa522964c3f1ebe7434c2429a65a752b",
+      "mtime_ns": 1792347989528764600
+    },
+    "histories/minimal/seed_1/table/_delta_log/00000000000000000001.json": {
+      "size": 1342,
+      "sha256": "398fecf987f0855a67e75cdd28946bce3771930833c282e5f85e257bbae9eb05",
+      "mtime_ns": 1792348000008471400
+    },
+    "histories/minimal/seed_1/table/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792347999194349900
+    },
+    "histories/minimal/seed_1/table/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792347989173229400
+    },
+    "jar_hashes.json": {
+      "size": 2781,
+      "sha256": "f176ade48336815cb9fea5755c1aaec8c07e6423576a06e953dc4597fb95033e",
+      "mtime_ns": 1792348012666641500
+    },
+    "java_version.txt": {
+      "size": 196,
+      "sha256": "2c05c59b13a701146c37d79936303eb8080cd353e096756dfab1cd833a306423",
+      "mtime_ns": 1792348037713219200
+    },
+    "main.json": {
+      "size": 3331,
+      "sha256": "c25810d1634c55f83287ec9e0498d335f93a595f9fe5887144b81e4738d0d4d8",
+      "mtime_ns": 1792348028845550600
+    },
+    "main.log": {
+      "size": 2526,
+      "sha256": "3a1a80ac24dbe3e22bae723f57caac1aa527f2284203b1a4a4633884c5518c12",
+      "mtime_ns": 1792348028845550600
+    },
+    "main_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "2ec15e54538c5e781f16bc5e0cf6e8b7387a6f36e0632937757e3e66bd110a2f",
+      "mtime_ns": 1792348028814583600
+    },
+    "main_aged_live_dv_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348028823617500
+    },
+    "main_aged_live_dv_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348028835212000
+    },
+    "main_environment.json": {
+      "size": 505,
+      "sha256": "46012735be27804f0c153042451fae07a28fd66da4d3ce0e62480d7c006debee",
+      "mtime_ns": 1792348027671354200
+    },
+    "main_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "8b87f49e9691d071d1c06542b31d559b88b72d3a625be8235a669940bd19a279",
+      "mtime_ns": 1792348027716358500
+    },
+    "main_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348027810657100
+    },
+    "main_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348027820656600
+    },
+    "minimal_main.jsonl": {
+      "size": 19329,
+      "sha256": "8176791cc293e1c97b18c9ff11828dce464e6fdb2a4747cf6da58a2a97f1c071",
+      "mtime_ns": 1791937690831746100
+    },
+    "minimal_pr4858.jsonl": {
+      "size": 14776,
+      "sha256": "881f7b17a74830745c77f72b32809b883d6508533a4d88dbff42500bbbbddd8f",
+      "mtime_ns": 1791937694571428500
+    },
+    "minimal_prefix.jsonl": {
+      "size": 21204,
+      "sha256": "9c80981f7440ce87f1d05056c48930f5b47d8d816cd9dfdf5d20140e925960e6",
+      "mtime_ns": 1791937686842225300
+    },
+    "minimal_spark.jsonl": {
+      "size": 14518,
+      "sha256": "c57b379ea705d9b731809ee20cd1100fe16a474b6df31c57be81b3ab1413d99d",
+      "mtime_ns": 1791935420497532600
+    },
+    "native_module_hashes.json": {
+      "size": 777,
+      "sha256": "39beae9e7617f73a34fafb97396336b565899120767174f0d49a3d990b852aa6",
+      "mtime_ns": 1792350177211470000
+    },
+    "package.py": {
+      "size": 9837,
+      "sha256": "86b23e6f67513b3df7894b730866f32f49a0e761add7427854d9bdb6851f30cb",
+      "mtime_ns": 1792350307519780400
+    },
+    "pr4858.json": {
+      "size": 3339,
+      "sha256": "82c1ff2cd4c272314d52ec2c4e9ec01bb368b3d7c8430681fa60a54ff06cc4ae",
+      "mtime_ns": 1792348033322506700
+    },
+    "pr4858.log": {
+      "size": 2534,
+      "sha256": "e4aa676f9dfb34d346410fdd42a459703e3373848c63f859dd0e9844cd73c9da",
+      "mtime_ns": 1792348033323515900
+    },
+    "pr4858_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "eab4495839990343dbe953481cdfe92e0c99c12b932573ff63d6f39a181173bd",
+      "mtime_ns": 1792348033290064000
+    },
+    "pr4858_aged_live_dv_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348033301256500
+    },
+    "pr4858_aged_live_dv_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348033311264300
+    },
+    "pr4858_environment.json": {
+      "size": 509,
+      "sha256": "88f8ebeb781335d59c3197b17b05bb77be2d5ecd29ac4184ef5f4dbc92fc5178",
+      "mtime_ns": 1792348031794101000
+    },
+    "pr4858_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "8b596739ea8c3920dc4b773a50531754c5b615c8381a740effdd36148fbca0d9",
+      "mtime_ns": 1792348031954045800
+    },
+    "pr4858_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348032059431200
+    },
+    "pr4858_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348032070436400
+    },
+    "prefix.json": {
+      "size": 3796,
+      "sha256": "ea64aa3b9aac35c25f5540be50a238ecf7373b830892a430db3186641b90ad5f",
+      "mtime_ns": 1792348024699572700
+    },
+    "prefix.log": {
+      "size": 2926,
+      "sha256": "e3242d41aafa684559f956b33cfc5bbcf6c0e8d31d04ca46f2161292402e3831",
+      "mtime_ns": 1792348024708572200
+    },
+    "prefix_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "f61d2fec0f484d7581e484d724492239a16b053f7071a8aca1a89672b5b05ac7",
+      "mtime_ns": 1792348022646113600
+    },
+    "prefix_aged_live_dv_plan_raw.json": {
+      "size": 66,
+      "sha256": "a243a76a1b4bf9fc8f989230103d8897c61310e389896a481b784f2cf67c550d",
+      "mtime_ns": 1792348022654113000
+    },
+    "prefix_aged_live_dv_vacuum_error.txt": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792348022690162200
+    },
+    "prefix_environment.json": {
+      "size": 509,
+      "sha256": "8d6abcadfc846e4874ce12251c6705eafd5c7a7c24236436872ac482107283a1",
+      "mtime_ns": 1792348021486010200
+    },
+    "prefix_native.json": {
+      "size": 4434,
+      "sha256": "f225aa8c5c6c1d3235ff252a16b633b1ef6082c731bde972e12ea14410e5ce70",
+      "mtime_ns": 1792350042878287700
+    },
+    "prefix_native.log": {
+      "size": 3394,
+      "sha256": "8a157f8a470b4cfa500310877eb24ef994df1b8a2d96d39b3c40e97e1526c52b",
+      "mtime_ns": 1792350042879288100
+    },
+    "prefix_native_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "df3c9bde515ff047e5429d05e0e1f1bdc079f86f69a038994c2f397788a3e9d1",
+      "mtime_ns": 1792350042814275400
+    },
+    "prefix_native_aged_live_dv_plan_raw.json": {
+      "size": 66,
+      "sha256": "a243a76a1b4bf9fc8f989230103d8897c61310e389896a481b784f2cf67c550d",
+      "mtime_ns": 1792350042819276400
+    },
+    "prefix_native_aged_live_dv_vacuum_return.json": {
+      "size": 66,
+      "sha256": "a243a76a1b4bf9fc8f989230103d8897c61310e389896a481b784f2cf67c550d",
+      "mtime_ns": 1792350042872275700
+    },
+    "prefix_native_environment.json": {
+      "size": 509,
+      "sha256": "8d6abcadfc846e4874ce12251c6705eafd5c7a7c24236436872ac482107283a1",
+      "mtime_ns": 1792350042158251900
+    },
+    "prefix_native_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "f2ee5c39ecd93d26731a40251e40ef03392cb863d57fa919dfc59495af092b02",
+      "mtime_ns": 1792350042216321900
+    },
+    "prefix_native_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350042224348500
+    },
+    "prefix_native_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350042229347600
+    },
+    "prefix_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "7ed725ba54e3830a780bd0fb0346be82390a3ec5b39c6c40cfca1688993b461d",
+      "mtime_ns": 1792348021556007400
+    },
+    "prefix_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348021647070300
+    },
+    "prefix_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348021657871900
+    },
+    "prefix_retry.json": {
+      "size": 3800,
+      "sha256": "0e000237a42efde76386e268e5a773eb568205daac8cc53cb05e9681be912f65",
+      "mtime_ns": 1792348067460406300
+    },
+    "prefix_retry.log": {
+      "size": 2930,
+      "sha256": "2875322656ea7b42518d4d482a539c4fd0da8f60fec391c35550752c815b18e8",
+      "mtime_ns": 1792348067461407000
+    },
+    "prefix_retry_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "1bbafe977f10fb5fdbf504b12cadf277ead9542771e91a6958fccb2085508176",
+      "mtime_ns": 1792348065416273700
+    },
+    "prefix_retry_aged_live_dv_plan_raw.json": {
+      "size": 66,
+      "sha256": "a243a76a1b4bf9fc8f989230103d8897c61310e389896a481b784f2cf67c550d",
+      "mtime_ns": 1792348065427276500
+    },
+    "prefix_retry_aged_live_dv_vacuum_error.txt": {
+      "size": 874,
+      "sha256": "da101191cec4f8d360d98e3322615d7844dabeece475e0f6e010303e36c1de6f",
+      "mtime_ns": 1792348065446275800
+    },
+    "prefix_retry_environment.json": {
+      "size": 509,
+      "sha256": "8d6abcadfc846e4874ce12251c6705eafd5c7a7c24236436872ac482107283a1",
+      "mtime_ns": 1792348064162782000
+    },
+    "prefix_retry_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "d4d6578849904f1eff9a2024a9c0613467b37a9187992ba6e7c858a93217a3a0",
+      "mtime_ns": 1792348064234324900
+    },
+    "prefix_retry_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348064248326700
+    },
+    "prefix_retry_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792348064261804500
+    },
+    "reference_environment.json": {
+      "size": 4340,
+      "sha256": "2ed19bd48d23f199390030d6f140c223fec0139efd3e9f81732ee70fdd46956e",
+      "mtime_ns": 1791941006420234600
+    },
+    "reference_integrity_check.json": {
+      "size": 340,
+      "sha256": "e6bc8e641e250611d1ac39fea5e27561e9f80e4c694f87cb06f914804a1bac9c",
+      "mtime_ns": 1792350324937076000
+    },
+    "reference_manifest_before.json": {
+      "size": 80594,
+      "sha256": "9e0211ded298dcc14adff0c02e749745ee6473c90a3d5b7450dbdfb4f9cc4b74",
+      "mtime_ns": 1792348012564377500
+    },
+    "REPORT.txt": {
+      "size": 8397,
+      "sha256": "8195859f4343211976ff319ace3eff90535aa5a827ce9fbdb5ac7c7f6c90e472",
+      "mtime_ns": 1792350324938078100
+    },
+    "reproduce.ps1": {
+      "size": 1382,
+      "sha256": "6ee99e69c1c1495bdbbf99c76bd4131245f9c5222599aa59629ac61e38518616",
+      "mtime_ns": 1792350307126699400
+    },
+    "run.py": {
+      "size": 5654,
+      "sha256": "5d968cfa9a73bb310ea3ad5a3ac68c428b7a281651e0fb3b4ba2f7ecd7ed9251",
+      "mtime_ns": 1792350272578940200
+    },
+    "SHA256.json": {
+      "size": 27805,
+      "sha256": "13ebd3a8c9a03ce7064f1c30f163097356b0c0542843fb95c7028a37770ab7a1",
+      "mtime_ns": 1792350330089519200
+    },
+    "spark.json": {
+      "size": 3327,
+      "sha256": "9e596a0560e80b85a8b6cadf859416100ac0e2c68aa8f403d0db7a387d37ef4e",
+      "mtime_ns": 1792350186240047100
+    },
+    "spark.log": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792348033424036800
+    },
+    "spark_aged_live_dv_inventory_before.json": {
+      "size": 812,
+      "sha256": "d3c9bbfd50ca0620891b0a0b67823e637add4661a8cf82226ca6565284b430fd",
+      "mtime_ns": 1792350178474547600
+    },
+    "spark_aged_live_dv_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350181266225800
+    },
+    "spark_aged_live_dv_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350186220033900
+    },
+    "spark_crosscheck.json": {
+      "size": 12307,
+      "sha256": "34847889f656c1747dddca81969bed7ad4d72f98be0368f8b22d9e7237e27531",
+      "mtime_ns": 1792350233847082500
+    },
+    "spark_current_reads.json": {
+      "size": 15809,
+      "sha256": "884e9c11d3b8229a2d3c3e806ac88a8b69766f7f454d0ea912576c183644f2c7",
+      "mtime_ns": 1792350316753846900
+    },
+    "spark_environment.json": {
+      "size": 413,
+      "sha256": "bc6972750e41c085243a5b85276ab7d04667bcb0fee2ba943892aff120173622",
+      "mtime_ns": 1792350161566066600
+    },
+    "spark_native.log": {
+      "size": 3605,
+      "sha256": "ab1568451bfead2226e1de060547f1b5b9c17e1e41c76bbba1fd88e8e0e8d945",
+      "mtime_ns": 1792350186587410700
+    },
+    "spark_recent_control_inventory_before.json": {
+      "size": 812,
+      "sha256": "75f0f11fa341db4e9e15e68801d1f5ae13e6dafb212135478eb80825f5847c77",
+      "mtime_ns": 1792350161605581800
+    },
+    "spark_recent_control_plan_raw.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350171930578400
+    },
+    "spark_recent_control_vacuum_return.json": {
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "mtime_ns": 1792350178294802900
+    },
+    "tables/main/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "7aea5c69fe187da85adcf2e6219efdc3159591cc8790f13d38ba3eff6574fff8",
+      "mtime_ns": 1791584828758000000
+    },
+    "tables/main/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "2272014653ccb9e64a003870c2d3fbdc2b98adbcbb82c2fe398bd6158bdfcfff",
+      "mtime_ns": 1791620828758000000
+    },
+    "tables/main/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620827981000000
+    },
+    "tables/main/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584828573000000
+    },
+    "tables/main/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "d0efdf6fe3db70fefaecd0d97d72890570ced759a20630659cc399679ec6e375",
+      "mtime_ns": 1792303027679000000
+    },
+    "tables/main/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "180c8711d2cc470ec690edb1243060d8e6445323bf0988c6311bf4ea15ea7e0b",
+      "mtime_ns": 1792339027679000000
+    },
+    "tables/main/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339026902000000
+    },
+    "tables/main/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303027494000000
+    },
+    "tables/pr4858/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "9ab86db819077e3c3c1207e4eb2a77daaa040f367c008ca4322ed41777fc803e",
+      "mtime_ns": 1791584833238000000
+    },
+    "tables/pr4858/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "c2986351781def42a8aaeea4bc8b069c440a64a74fbc67e79340e1e2ecc08c6d",
+      "mtime_ns": 1791620833238000000
+    },
+    "tables/pr4858/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620832461000000
+    },
+    "tables/pr4858/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584833053000000
+    },
+    "tables/pr4858/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "be28bd20fbb50b01f6c8d83744924d87eedb3e7a4903e5654925de96559d0ca8",
+      "mtime_ns": 1792303031807000000
+    },
+    "tables/pr4858/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "80496d3a53847c71f780d17d97cec7895c537c0f33dcad5d61d1ff5d9ce354bf",
+      "mtime_ns": 1792339031807000000
+    },
+    "tables/pr4858/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339031030000000
+    },
+    "tables/pr4858/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303031622000000
+    },
+    "tables/prefix/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "e349e9ec5f0dab193fbe7296ef2988b60c2d1d140019137babb1c9816b38c298",
+      "mtime_ns": 1791584822580000000
+    },
+    "tables/prefix/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "0419a7db31ebf1cc5fe384427d70d5639a9c3dd9605e8eb23856f2544f9bdda2",
+      "mtime_ns": 1791620822580000000
+    },
+    "tables/prefix/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620821803000000
+    },
+    "tables/prefix/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584822395000000
+    },
+    "tables/prefix/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "986c5b539ad1671d77cb4fe23a7db3384e198e343d1f29bbb178dbf6abb60d20",
+      "mtime_ns": 1792303021496000000
+    },
+    "tables/prefix/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "41238f72673b0348d21b79bab99144ecca441dbe3fdb8c26a6e21a4d1e9487b3",
+      "mtime_ns": 1792339021496000000
+    },
+    "tables/prefix/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339020719000000
+    },
+    "tables/prefix/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303021311000000
+    },
+    "tables/prefix_native/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "d74d3d5877301da55eaa637012381c5abfa74f4310915d9d92f1a2bad0a2c007",
+      "mtime_ns": 1791586842775000000
+    },
+    "tables/prefix_native/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "5d3ad236ced1d7fa06bf0f7a403751f5c3036414b1aa8a8eb6bc49e5e23a338e",
+      "mtime_ns": 1791622842775000000
+    },
+    "tables/prefix_native/aged_live_dv/_delta_log/00000000000000000002.json": {
+      "size": 336,
+      "sha256": "373927da34ba1617e5b42fcd37d59325d51d084e15b6c1748f95299d7c83ccbc",
+      "mtime_ns": 1792350042825275600
+    },
+    "tables/prefix_native/aged_live_dv/_delta_log/00000000000000000003.json": {
+      "size": 249,
+      "sha256": "68ed7a401998ba06016eb08bcd61368e1d680b6cfc142e07ef999a81e67a2290",
+      "mtime_ns": 1792350042852275600
+    },
+    "tables/prefix_native/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791586842590000000
+    },
+    "tables/prefix_native/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "351218edb044e779de24d22253f47061c434b98ed1451defbfe2a04cc2514324",
+      "mtime_ns": 1792305042164000000
+    },
+    "tables/prefix_native/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "f639e36520b8ca8a99ac82472180ac9a5d4b7936a65ca37d854e1767d5d95d23",
+      "mtime_ns": 1792341042164000000
+    },
+    "tables/prefix_native/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792341041387000000
+    },
+    "tables/prefix_native/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792305041979000000
+    },
+    "tables/prefix_retry/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "3bc27e92ffc5cb9f8392811002a4e3c48811e1bb1fc3f4c73ffb2e062005696a",
+      "mtime_ns": 1791584865346000000
+    },
+    "tables/prefix_retry/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "bf3d02700717470832552b6606bb76f3987ea2dd44d0d8090137dfc3298d1a95",
+      "mtime_ns": 1791620865346000000
+    },
+    "tables/prefix_retry/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791620864569000000
+    },
+    "tables/prefix_retry/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791584865161000000
+    },
+    "tables/prefix_retry/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "3f7fbd5d7237b7bfbae901bf525efd80bafca3b3815af0219b4f1202bde3e090",
+      "mtime_ns": 1792303064173000000
+    },
+    "tables/prefix_retry/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "31c976db7fe38570d8274aece878c36bb3575bb2d0d70cfea662805034afdd7d",
+      "mtime_ns": 1792339064173000000
+    },
+    "tables/prefix_retry/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792339063396000000
+    },
+    "tables/prefix_retry/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792303063988000000
+    },
+    "tables/spark/aged_live_dv/_delta_log/.00000000000000000002.crc.e686bdd2-a7c1-4ff3-b3db-fff5bb89f954.tmp": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792350184810496600
+    },
+    "tables/spark/aged_live_dv/_delta_log/.00000000000000000002.json.crc": {
+      "size": 12,
+      "sha256": "5b8c5578e867adeb95e6b2c5c6b1c8d2b3f78ff95d73bf2d39f02857f5a3856f",
+      "mtime_ns": 1792350183568500200
+    },
+    "tables/spark/aged_live_dv/_delta_log/.00000000000000000003.crc.f66d7f05-0b6b-4a1e-a228-6c0cfdddc76b.tmp": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792350186154842000
+    },
+    "tables/spark/aged_live_dv/_delta_log/.00000000000000000003.json.crc": {
+      "size": 12,
+      "sha256": "a646a37d55c8516b88ec77b032b6b8c9fa084d5f98f05f1fc90a648a0092fd8b",
+      "mtime_ns": 1792350185371756400
+    },
+    "tables/spark/aged_live_dv/_delta_log/._last_vacuum_info.crc": {
+      "size": 12,
+      "sha256": "2aaf95c1d45e57e005e7434bce516a2a1edf9e8455e7818ae9af1f863f6bee35",
+      "mtime_ns": 1792350186160843000
+    },
+    "tables/spark/aged_live_dv/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "eebef994c1895db0f92707168e8ec91e512876a9decbbcaf3756006da7f2d4dc",
+      "mtime_ns": 1791586978400000000
+    },
+    "tables/spark/aged_live_dv/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "3726741c3cf15bbf4de337a6a3d5ae0597a8cb91ce1be9dcef594bb486d5265c",
+      "mtime_ns": 1791622978400000000
+    },
+    "tables/spark/aged_live_dv/_delta_log/00000000000000000002.json": {
+      "size": 399,
+      "sha256": "5bce52ce0fdbf59d1ce6265938c351a26549fafdc5ac74d4f7d2131e7fcd2afd",
+      "mtime_ns": 1792350183569500000
+    },
+    "tables/spark/aged_live_dv/_delta_log/00000000000000000003.json": {
+      "size": 357,
+      "sha256": "775d907910d1699f1efbc8f79c7a4a0532484a1c5573202b829bdc3198468c8c",
+      "mtime_ns": 1792350185372750600
+    },
+    "tables/spark/aged_live_dv/_delta_log/_last_vacuum_info": {
+      "size": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "mtime_ns": 1792350186160843000
+    },
+    "tables/spark/aged_live_dv/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791622977623000000
+    },
+    "tables/spark/aged_live_dv/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791586978215000000
+    },
+    "tables/spark/recent_control/_delta_log/.00000000000000000002.crc.dfa4f0fd-251e-404b-9d7e-549a6cd4a7c0.tmp": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792350176993331100
+    },
+    "tables/spark/recent_control/_delta_log/.00000000000000000002.json.crc": {
+      "size": 12,
+      "sha256": "ea9b86a019f46c7ee83810dbb2ae9b32255612244f8d90f8d96e40ea5e600539",
+      "mtime_ns": 1792350174739065400
+    },
+    "tables/spark/recent_control/_delta_log/.00000000000000000003.crc.cf103867-85c0-4666-8687-e915a8cf44f1.tmp": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1792350178167172700
+    },
+    "tables/spark/recent_control/_delta_log/.00000000000000000003.json.crc": {
+      "size": 12,
+      "sha256": "94916a901a7f7eae4cfd5ddc99c4d5a4a667e74cf96941f5f279e680df734119",
+      "mtime_ns": 1792350177420464200
+    },
+    "tables/spark/recent_control/_delta_log/._last_vacuum_info.crc": {
+      "size": 12,
+      "sha256": "2aaf95c1d45e57e005e7434bce516a2a1edf9e8455e7818ae9af1f863f6bee35",
+      "mtime_ns": 1792350178194072000
+    },
+    "tables/spark/recent_control/_delta_log/00000000000000000000.json": {
+      "size": 1397,
+      "sha256": "4bc063d1cdff2c199f7c02dd01e4da917475870ad5ed37d5ffeb9a3b8c2b6903",
+      "mtime_ns": 1792305161571000000
+    },
+    "tables/spark/recent_control/_delta_log/00000000000000000001.json": {
+      "size": 1345,
+      "sha256": "701754b17076a39e64b0c1084c1539d3262dd6b1f44c1eda620175b10fd02bef",
+      "mtime_ns": 1792341161571000000
+    },
+    "tables/spark/recent_control/_delta_log/00000000000000000002.json": {
+      "size": 399,
+      "sha256": "e01df2353966794024d756974dc967437df0288e12d5751eef241cbf1c13522a",
+      "mtime_ns": 1792350174740071300
+    },
+    "tables/spark/recent_control/_delta_log/00000000000000000003.json": {
+      "size": 357,
+      "sha256": "73518cc2cfd3433b01a7e43c1449c954e9394196344e0aa12b6d1efebf6171d6",
+      "mtime_ns": 1792350177420464200
+    },
+    "tables/spark/recent_control/_delta_log/_last_vacuum_info": {
+      "size": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "mtime_ns": 1792350178195074300
+    },
+    "tables/spark/recent_control/deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "size": 49,
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1792341160794000000
+    },
+    "tables/spark/recent_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "size": 1203,
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1792305161386000000
+    },
+    "wheel_hashes.json": {
+      "size": 769,
+      "sha256": "57891cee4e087b527f686391f2af7995ca7c70ed5e7ec3d1de573f047f1be1a2",
+      "mtime_ns": 1792350176154400800
+    },
+    "wheel_native_verification.json": {
+      "size": 1182,
+      "sha256": "8d76c01dad73f71fa2382ba5b7c12de3ee5e9d9837c0b1fac45e4f9fcd78a4bf",
+      "mtime_ns": 1792350329952749500
+    }
+  },
+  "original_research_hashes": {
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\.gitignore": "d62fa2df8d14311352d20120067b0efe9bc1e6b35eebc15db21249707e35ab96",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\README.md": "0bac8f7af2a42bc80c15c574494655a3b95e3a0f32ae10dbe3366d85135bc4b5",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\pyproject.toml": "d69faa62691a831680317590dad72470e4aad5389ecbf23df95c684be873aea3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\.gitignore": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\CACHEDIR.TAG": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\README.md": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\.pytest_cache\\v\\cache\\nodeids": "b1c5d68443ff807d478f7e79d4fbcd2a7904dded8161c4257d440707b11f8966",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\test_vacuumcheck.py": "cacf3711ad26dc470e5459c7c79d5c787805862f3bd6df92ae907fab77a2902e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin": "980a33e97cc99d3eae91af97ff302c0c99c37883662951fd02ce9dc8e0ca7d79",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet": "0dc5be52021598ff614c4882e64e1e556fd0f6d4f0592f5f612128b9447c3c29",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\_delta_log\\00000000000000000000.json": "354e53ec9b71337367889d293444f9e7a836dc57f2e939b52722e516ab88417d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table-with-dv-small\\_delta_log\\00000000000000000001.json": "f96afa5ce0a2a383e0acb7f696ac2c358738a6865d51008ff9d827f544e82116",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin": "32e60fa67c8677e728960636dc1ae9e4f642369907c23d84cf396a9a144d0bba",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin": "4c58898467f483d9e82a67a34bda28376dcb71b5fbcca5390b53dddac4922925",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet": "8acb3179ce161c2168fb58d1a1064f2e044c2dd00e212200dadbb3425153951d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\_last_checkpoint": "6c38726cce83cd7c18675ef926d9487e791e74fb169cf35c9ae1aa7bb73bc6ac",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000000.crc": "3d4be61d3352cd44d83dcf6576dda158626575866394511ecd36960f7499dd79",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000000.json": "d0a349fd677ccec45d5dacffcc8b0b36ebf2ecc7c474b42e46467779acee397a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000001.crc": "f8150b7fef177b4e0f0d4a7ab186d160fbf5bd9cf24e05ab7e4b43b9449167e0",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000001.json": "2c63d9370f982042140e5f4b5411023f959efce2686f70c8eaef086c2a6e9b5e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000002.crc": "52fdf445ffa91a04ad02084997da34703d6f1a9c5eb7d78a3da186fb45917efa",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000002.json": "a8d34a8392b636ca2ecb08e4a74666af28866501230215018a1c70d96196eac9",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000003.crc": "0c66dcefa4fa8730154162864dec2b1afecf4902a03313914cda55eef4f10a84",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000003.json": "6e7271bc101e5f060dbff3e67753f2e30cd52cd95e79c1254680eed3010600e9",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000004.crc": "635f45b01e22ad26a3308104ed78674d130c34f3384d17851ead2998d7f9a706",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000004.json": "1d1b22c700502fbdee2c2f03aab69bb62aa0e090a7e5b4dff6c061af7b0da317",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000005.crc": "e303f688effa16aae15d6b844774a1a9035045f71a6e2609383e3dcf72a13a89",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000005.json": "75556147d737120ea46d9201d694878273bc17a359de369e8f2971142d5f5519",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000006.crc": "40ccf3fa62467f4cd11f953dd411518a8352a2faf1f0b546b46622b4803da3a2",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000006.json": "2a67291205dee51a16410e9885c60fbe77d8e27c43c541d9f268c71014f6a25d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000007.crc": "fd4ff9ac3d970bf1abf2ada562982da3b349a2fc39032f80020b77e5ccdddf91",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000007.json": "c71e6482306cd3a79b45a9f310ffe992f04a817477a00d5f9f4b358e5202959a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000008.crc": "916f5757cdb98d4975d5f304203fdf9bc5fd6ddb0826f1456c9a2c01958aca49",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000008.json": "1e0ac37404d8a4a21c296139b868f42ee70bf1b4bd40e73aa9c110567e341844",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000009.crc": "4547705b448a2b690bd6df9ac45d709aa1973286270f2c27639dc08bd039d015",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000009.json": "984021040288d07dfccdeee4d939f844b5f7a66985d8376e9d8924c93aec1d2c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.checkpoint.parquet": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.crc": "d789159a79f8bff7fafb0cab87eb6506bc46fed31df1ad900220d37147a18adb",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000010.json": "639484644940e7b394a78d98cbe601d56a3f620cc1edfcd8703329ce109d2357",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000011.crc": "8b7eae64a00d07e2e8d5a7ff2333a2c1a8f2b36ad7c8c9be89e5c8ce75661d0e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000011.json": "2ba82b0a35341357f86a8055d3eb5ab9b295bbd5090dc74f778edb3dba9a02f6",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000012.crc": "d59f796d8c98571c90cec97d1c3edaa664d460d239ebb19f2ccecdf603f9586e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000012.json": "2c98c9439868c0899f378e323d4b0d5dc40fc9a8395686c5d948fa3cbe790184",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000013.crc": "7fb218690400871b7d3f359df3fd7ab6bc8256e504e332a076e9b9e688aaaaa2",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000013.json": "c7a6fb9b92bd9e139e8da84e4665ff1a011d9b5a52ddfbf572ed10e7cbcde43b",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000014.crc": "46c0e1897506859d62e6313c99ca240afee62a1d1c140a8aafc73e09cd1b3e9c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000014.json": "9a95915c641b1aa2247a1915208b9ac6a3c7c1e2064968644c9998a9e5ffcfdf",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000015.crc": "79465e2c49475897528ad47f6a08e2c16d0d579b731e8cdd5b225933b8023a18",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000015.json": "35459d45b1813011e607329cb5fecd94135617301af9f5b8957a0efb974852ff",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000016.crc": "1950c20bc6d1c0418588a6558eab1ce8e7536a4ed7afe1ca88bfd31230ca679a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000016.json": "6fa7335bf7b52f90f096f19d0cdf94d176592a09de56a8d638668324df9561f7",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000017.crc": "e149ca1f03cea93c899f04e24886c1a18c466efd3f6b80d816bba8873c613e18",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000017.json": "514fdf2b16db09d47e139739aa727fb8ba4de3d56de27d162015dfef02b3d545",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000018.crc": "d6cba03313fe1776776a6245a2400701cd4ae7dcfa4bfa87ab9cb1425aa7ddfd",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000018.json": "aea4dac5895ded81f6b1b9b79460de12a722f3b25a53ac3d9244aa1e9dbfa063",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000019.crc": "9a95e4debf7afd1dbeed76fbf1f1c2c357cd2b2e73e9f56376db53ee0b50f9cc",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000019.json": "bf46ace38efbbb0f5460795ebd1a07df6a9e47a4d85e6cc1933763ede7f99ac9",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.checkpoint.parquet": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.crc": "31cb0d04df90eee2fbdf20d89c3fd643d022598ffd0afa817a31f49ad3eeec6e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\fixtures\\table_with_deletion_logs\\_delta_log\\00000000000000000020.json": "c6f572f18cf6277a4f6f534d8f485cee72d9d7c2841f4f90b5a62e65c7ce25c3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\tests\\__pycache__\\test_vacuumcheck.cpython-312-pytest-9.1.1.pyc": "cc5034c09f47909bffe91eb8a90b93387008db57efede107b60769089ca37481",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__init__.py": "57bd8c2a6a4a0c90df4c712541d68cc44a8c36c4f4d4df4c6590e119a8926678",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__main__.py": "02e9202724bb9a282ffa5d3dde7d94ee411ace80da3a99cf2f4e7ba959ff972a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\check.py": "b4aec3a1095b550c1e9621c57b81f5a1c036a7ea0bae7be00b72f33e357b2676",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\dv.py": "6d21d5b50703787edf93226886307c01c3657fcaa7e987c51d62b57e7b8d342d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\log.py": "a65a8088db8a7ec349007196f1f2384e451783bc024a20277641646527474fed",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\__init__.cpython-312.pyc": "54f18c72ce77343725ccd89de5a35cdbd33f39dc1807907f991033e7f267ff0f",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\check.cpython-312.pyc": "106e422237a65b19ee71c7572cb3676f9e7e8d638be3f0af8a3a0d884c40c202",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\dv.cpython-312.pyc": "ca46f95426713b4d8f16713de828d9a3468c04cfed2e2fd88d3a46401eff6f1f",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\checker\\vacuumcheck\\__pycache__\\log.cpython-312.pyc": "bcc22d5b8806c36d2a1b9726ba274a03870edccc2feb58c397c5482ab822abbf",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\ablation.py": "8e45333673d7ff3afe548c3c6ff85b157bbb6be98e399efcb6048f07636383b9",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\analyze.py": "4acc2586b7422b75ba01eb6ac17deab0ba491e2f6ea40f87818e62f885a4a496",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\crosscheck_spark.py": "c1c17253ede6fb8f6aa4f27b9245e9a75bc1a33c2c35e882880f5f2a541fd909",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\environment.py": "f423a415030b140074fbe2ad0b106156c6d0ccf0395a85c445df7ed47f9e2f52",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\minimal.py": "da03842ee77b8d6668cbf1d74fa2a7d36259f6574b390b8ee7e13bb943e10b6a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_run.py": "3281d66f22c432006652aebbb3f2afd0f555f7a9c3f49d2868a07979bc8f8f5d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_tables.py": "4e26f9d730cfca91047ab12ccc6561097fde5ff329f05751b6cf989384a8d92a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\perf_worker.py": "4faa762a77a53f873f9e93435089edca9c60aaa2266fff95ca0f4ca1adeb1b8d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\run_all.sh": "11012108884df558cecac5e2ac7697a3eb25e00c7621256d6a9ed7cc5e178678",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\experiments\\vacuum_commits.py": "22bee086920b626db6f588e26c40777b2096cdb205cb11ec41d02c1440694a16",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_taxonomy.pdf": "c4c04ab04e107b71e512619feb7b5f3ac1976ed1ebd2d577d878e1dfa1ef7df3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_taxonomy.png": "92ff6fce59948ef933314d59a27b9d54ef2aaf28ca590e67f0359ec0b2e5e343",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unreadable_rate.pdf": "7913f8bf715ca0b0482a7db49f4cfcb1995a6d74885c608a670437ae05cfd067",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unreadable_rate.png": "b11f4ec9135b98e51e5df7e4954756b295d26c84dc61ea4541407cfa3b4c3c7b",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unsafe_rate.pdf": "8568f725473822237706582660a32a81bd889ec04be18d5aaff30ec37c69a18d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq1_unsafe_rate.png": "94669c3f64ab0f544512019cefbdfc7918c3fafaba91dfbf69980ca752b4b72c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq3_checker_time_small.pdf": "dec7fd85e76606a290f8c7e90fbf66b9071b8c84693b686bc996e87bfe191449",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq3_checker_time_small.png": "230b942347bc91bd456c7918837e72d07534e50341d1807e780f86240e9aa8ea",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_0h.pdf": "2ce46f9d795e78a10d97af79204552ba33b96daa9108042534f263ec0edb78d5",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_0h.png": "013ccac6019d9096c5648642dba0d0bee0aaeff60bee2c663c9e1fa37f4e2add",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_168h.pdf": "946a0e0cd6a442901a09f78277e24305dfc8db0976b7b588be1feb099b44b1e3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_memory_168h.png": "16f9e0174bc81f17e7d427cca300cd48a6040a70de4c16ed0cb4eda16763208a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_0h.pdf": "caa7fd4fb5e78cbb23ab32f2fd6db0e18f548cdb7103fef9cbb11d569e1ae694",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_0h.png": "76435b1dd0f5a0ea717a15577359ee0c8f9161922ae41d6d5fcef5f71489f86b",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_168h.pdf": "3ea9b96066291af39167d84e25cce12059dc463d6435223f60e6eb6e7b112cde",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\figures\\rq4_runtime_168h.png": "ae061e454e756b188d4bafdbee4c7b00c2f142a73e778c5be5fc5ca1bf27bd34",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\aging.py": "92644294f2e720290b3851f0a7ce5c19423e1609c2e0f13462f7aeedcaaf9e03",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\generate.py": "1c1d50106136e2dddfa1b30aaf822639a4415a775772cbfe7505a42055b56071",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\oracle.py": "0a472c4e6fe61f10ff0b7ba39f742c75d76ae43f4b38d74aa4e54b64012acfc7",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\runner.py": "3a303c4f7f4301606a184a9e8426ce4e56cbac6c8903c24daa146f27db899528",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\sparkenv.py": "f16c76633536d181a7837f2a9aa8a7fb9a30e9f1bf99183fa06cc418b2b7bf61",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\aging.cpython-312.pyc": "eadc8329862bba5689986425651c4c1137d4023fca1510f8159943a74801a1f7",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\generate.cpython-312.pyc": "258b7afa96733f4932bb31022024bbcea0e841f49f48d9e4bd9039315861b8f0",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\oracle.cpython-312.pyc": "22d92908b7b621f18eebe41d30daa81a039b73d97986f943c6f40e4490616745",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\harness\\__pycache__\\sparkenv.cpython-312.pyc": "a42a3c80a71aab14455033ef77f5d26f193d1c767fefbcda555c5c6b68724ac2",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\ablation.csv": "20e1cc2d91e90812fdd71fa9e2a8eedd608f355dacbc4e46fe4d73f578040c36",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\crosscheck_spark.csv": "c17415ddc0a66fef063cb9c6fb8369d440305136553ae8f79eb0d92e35cb8bd4",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\environment.json": "2ed19bd48d23f199390030d6f140c223fec0139efd3e9f81732ee70fdd46956e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_main.jsonl": "8176791cc293e1c97b18c9ff11828dce464e6fdb2a4747cf6da58a2a97f1c071",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_pr4858.jsonl": "881f7b17a74830745c77f72b32809b883d6508533a4d88dbff42500bbbbddd8f",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_prefix.jsonl": "9c80981f7440ce87f1d05056c48930f5b47d8d816cd9dfdf5d20140e925960e6",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\minimal_spark.jsonl": "c57b379ea705d9b731809ee20cd1100fe16a474b6df31c57be81b3ab1413d99d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\perf.csv": "96663b3ed10a52d4316855330cea23a3428b6fb36d73a585b95367107fa2c5bb",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\repeat_prefix_r1.jsonl": "1e9ead610df0f92d8e9303f29122c0749c52af3f584cf71ae864671bddd13751",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\repeat_prefix_r2.jsonl": "cef2017a6674fe62eaf6fdfea7cb6da5dbeff87a087ab408749dd56af018c6b6",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_main_b.jsonl": "39335e377ae1df3460c1a321e0a103cf8ad4b9a4ef9a8b25f6dbce8fcc82980d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_main.jsonl": "2b38beff6460ffb365e9e518bb7025e5b2828d9a4aa25a239e79ad61156c8324",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_pr4858_b.jsonl": "696d83c520442b1bdafe2d73511cadaced837c8b943c572aa7935f99a23a887d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_pr4858.jsonl": "16f96f9857df5ceb0b8785056fe35005f30fe6a636056752c643f1f6b62de49e",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_prefix_b.jsonl": "7174708fcbda8b54fef0a5012a0cdfc5b7106ef214c22d96fa7ccce01ef45f2a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_prefix.jsonl": "f7c183386d6d79c2b9f19cdcde240af64f4c7dd18f7e0997a7c7100a13dd576f",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_a.jsonl": "2203a8413c98edddf91cdc20d314ac991494177c4045d6e02372a59d9fe3fd80",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_b.jsonl": "fc44b3dce8aecb692436464f8e6556728346dbe4bf9ba2a20cf1976c39f92023",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_c.jsonl": "d0d630b8c3a031f85adca940eb946eeef1cf292216555f9c5178ef99e6c5fe71",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_d.jsonl": "c049310c3978fae12ccedc497124ac6adccd34b3f8fdd7d9c6918b7b3eb90064",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_e.jsonl": "c43a7caf3d5a182435f4ab322e9c1c0bc479083e6c735a91783a52741c798c58",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs_spark_f.jsonl": "cf825b749b6133ef45b0fb86515d4fa1e70eddf2a00703b1d8ef97e85217593c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\runs.csv": "34c3c73be1bad1ae64b936174d0a9b01acea0b6e72377608ab1d6a462f6f60bf",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\summary.md": "76ffa9ffe0dce0ba7dd8b16d336d9293bc7b51565e922fdfa5a970d8102abb45",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\code\\results\\vacuum_commits.csv": "a77b1e5835425668d3774d2a97301522878ddcc68fcd4d28acdb1fda6006d107",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\draft.docx": "2e2737f37acbf9098eb5bc51d75b291d95e411d62ede6f92efca6dceadfdc8ef",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\NOTES-for-author.md": "c19bc759e3e2be6d3c91a136801621a2b2cb4abe855cd9162d759614079071ba",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\preview-xetex.pdf": "1690aca8c6ee29c56a6f95e6d8401be36be51d9964c3bdb4df183e612513310c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq1_taxonomy.png": "92ff6fce59948ef933314d59a27b9d54ef2aaf28ca590e67f0359ec0b2e5e343",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq1_unsafe_rate.png": "94669c3f64ab0f544512019cefbdfc7918c3fafaba91dfbf69980ca752b4b72c",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq4_memory_168h.png": "16f9e0174bc81f17e7d427cca300cd48a6040a70de4c16ed0cb4eda16763208a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\rq4_runtime_168h.png": "ae061e454e756b188d4bafdbee4c7b00c2f142a73e778c5be5fc5ca1bf27bd34",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tex2docx.py": "dd2d09eec44626c564937fb238233efc4d9dca593b59520b53141123348c1945",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tools\\build_pdf.sh": "2157f43f70ce9fc56b31b26d9e3d126c3e014ef0158c3c4e8c75b7f8aa3a8c1f",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\build\\tools\\texcheck.py": "06d93ef29e29ceef7d16909611dce4874ede865ce68332f0baeb1248eb13cef3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\main.tex": "d2a511cc13e00ee39221942aa1ec3ad3026e9e482249b88a831cceda634b66aa",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\refs.bib": "bf298e380a6977564258f676826b737872bc232f697306a5576b8d0fe0fd0f9a",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq1_taxonomy.pdf": "c4c04ab04e107b71e512619feb7b5f3ac1976ed1ebd2d577d878e1dfa1ef7df3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq1_unsafe_rate.pdf": "8568f725473822237706582660a32a81bd889ec04be18d5aaff30ec37c69a18d",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq4_memory_168h.pdf": "946a0e0cd6a442901a09f78277e24305dfc8db0976b7b588be1feb099b44b1e3",
+    "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\paper\\latex\\figures\\rq4_runtime_168h.pdf": "3ea9b96066291af39167d84e25cce12059dc463d6435223f60e6eb6e7b112cde",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A1_Timestamp_Tests\\A1_result.json": "8588ce6ca4b1f05705b0329baba743f462637712d7f216812562b810fa4ca7c2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_real_checkpoint_result.json": "5e91b3411e83c8c574eed4d599107b5e27b433e6fdea766a7c8488b7e1d15e65",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_result.json": "001488d56aae020a130efb950aea1e094b2e919df9780a99e25cf5cec3fffecd",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\A2_retention_comparison.json": "f1cb6b1e04432c5b8172cc77573c0838c53dc10a89d418f70ab88befce4bebc7",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\.part-00000-15b07546-42b9-48eb-9fd7-7f84e981d13e-c000.snappy.parquet.crc": "26b880e20e50c69d0c93a9191ac424f4973850964ba43a503832c916b96146ce",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\.part-00000-3220be6e-1e8d-4462-90a4-4d009075d660-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\part-00000-15b07546-42b9-48eb-9fd7-7f84e981d13e-c000.snappy.parquet": "2981767155da38545a5936c15f968ca082a41aff9f2e8d8cfb58eaa1b27599b2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\part-00000-3220be6e-1e8d-4462-90a4-4d009075d660-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000000.crc.ff5b712d-2f17-43eb-aabc-8be883cca063.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000000.json.crc": "a947cc25a7c309ed956b3ddabd84c7ec4ea350a46733f8ce5f339d5f8ee520a1",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000001.crc.ef01849d-542a-41c8-9ec1-3a59b73cc798.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\.00000000000000000001.json.crc": "1ce35f2a116a1b3f7c74925dc0b8368054aa6c703727e7a499f28f946f8f38b3",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\00000000000000000000.json": "eb74688d5cc427c06425d375e1d236dd18b36f2f64d36b342b27ea58334f1812",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_short\\_delta_log\\00000000000000000001.json": "c6ab1d074ab1d37634c03017c11603db8ca856098770cc6cb565292741f0fd94",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\A2_boundary_v2_results.json": "b8c9b414de6e67531c7c3ee15b002249bf0a523022a38e9fd7167c94879224ee",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\run_boundary_v2.py": "085ae50e0cf4b643fad3fc7a4a68102e0915492b6881476964c8e4f93fafb9fa",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\.part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\.part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet.crc": "3b8b1a743c5175307842bb9eb91de5b865af53a3719aa438ac4e068f8b956e7f",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet": "92896474295655db997f9c8bac80813a6d528b9e95114e082383666a017f6d47",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\_last_checkpoint": "7ecd5a465169c9593a4818ce7779e7570d6aafb8e1ed535bb9e810a14c00d1ea",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\._last_checkpoint.crc": "e780e7b7398ba98fb10a1afcfa9249020af6e04b5b65965a3cb455ae908278c3",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000000.crc.b429e424-29e1-4138-8ce6-985806c6f5a3.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc": "5d453419d5314e14a68a2619f1efd69390d4845f855cf0844f3005451dc954c7",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\.00000000000000000001.crc.eaa25795-ddc4-4cd6-adf4-32a67ea0583e.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000000.json": "34e1fa95d424e8657a72d8a33f9b93f3f66e24d4beb33e254feedcc1787de4a3",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000001.checkpoint.parquet": "b2479fada9afdc19629a946f76804e2a380bda6e485be2a66b6eea1f5fffa2f7",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_long_aged\\_delta_log\\00000000000000000001.json": "0b15e0dfc8459f97f93a134e4ec0a7a63fd0bd52421000fa4ab8fde275618689",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\.part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet.crc": "3b8b1a743c5175307842bb9eb91de5b865af53a3719aa438ac4e068f8b956e7f",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\.part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet": "92896474295655db997f9c8bac80813a6d528b9e95114e082383666a017f6d47",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\_last_checkpoint": "4c813e04d21ddbedb892ed755f8852caf60483489e8c64eea4944b85ef0a7011",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\._last_checkpoint.crc": "204a9f589167ded76f4da3d3f607a1d7dc3e1bb7bbe47c99730fe32255aa7717",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000000.crc.5e6f4d03-78ef-4309-9ef7-59ae7f4c549b.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc": "28f6e1bf0b6918d45a041f963aeca298abc70f7366aa2b77fdca1a57dddad582",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\.00000000000000000001.crc.41408ca8-ab31-477d-9f6b-e6cfbc6698ad.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000000.json": "fd7435b14e261be72c96a8b3644d8ae8528c44c86ec3b5739f60e1dfd99ce11a",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000001.checkpoint.parquet": "16a074da1587e618d932c4b898a1b27e8c80af8b10cc3c3bf4134c9adcc9d648",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_evidence\\boundary_v2_short_aged\\_delta_log\\00000000000000000001.json": "40e176d2e753ab098fd11b93ef9da32aa43793a7ad3658c7319d1e3dda92ed2d",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\.part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\.part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet.crc": "3b8b1a743c5175307842bb9eb91de5b865af53a3719aa438ac4e068f8b956e7f",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\part-00000-a2627213-5a74-4d3f-80c9-7e85b795c1b7-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\part-00000-fbfe5bc2-eccd-440a-8d87-4b8a4e6e9394-c000.snappy.parquet": "92896474295655db997f9c8bac80813a6d528b9e95114e082383666a017f6d47",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000000.crc.b429e424-29e1-4138-8ce6-985806c6f5a3.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000000.json.crc": "b60ec10f48e87a77de38097ba711a305de755430c4dbd2d5d3fdc3780859b7b9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000001.crc.eaa25795-ddc4-4cd6-adf4-32a67ea0583e.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\.00000000000000000001.json.crc": "7b2f72798c5c97c5f8be2b126f10738911b39d88510c96bde39e1089ab181ee1",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\00000000000000000000.json": "34e1fa95d424e8657a72d8a33f9b93f3f66e24d4beb33e254feedcc1787de4a3",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_long\\_delta_log\\00000000000000000001.json": "d55a8e261e93bd3c9477ee8f18727c744d85ba811a4c12811a8aef76327f28aa",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\.part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet.crc": "3b8b1a743c5175307842bb9eb91de5b865af53a3719aa438ac4e068f8b956e7f",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\.part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\part-00000-a333ba21-3021-40c2-a1cd-20aaa0f58ddc-c000.snappy.parquet": "92896474295655db997f9c8bac80813a6d528b9e95114e082383666a017f6d47",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\part-00000-e56495e3-2861-4469-abcb-ceb2c41b8f85-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000000.crc.5e6f4d03-78ef-4309-9ef7-59ae7f4c549b.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000000.json.crc": "d6b817d0b66bfa0699eeea18bb606ba7220ebdbd06424ee69cbbab8b6513fb06",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000001.crc.41408ca8-ab31-477d-9f6b-e6cfbc6698ad.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\.00000000000000000001.json.crc": "7fee2939b5a461633bfdc06a6f0d28502cb13ab92dc4a3d94b2137abb716341a",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\00000000000000000000.json": "fd7435b14e261be72c96a8b3644d8ae8528c44c86ec3b5739f60e1dfd99ce11a",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\boundary_v2_short\\_delta_log\\00000000000000000001.json": "e0e89c9453191fc737d818b06e31d35599fc114416774e23a7e3d79d5201a3da",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\.part-00000-3a78737c-a74c-422d-87e7-90b6fb75da65-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\.part-00000-c9d30612-290f-4d56-9a12-68b23bd9e4ea-c000.snappy.parquet.crc": "26b880e20e50c69d0c93a9191ac424f4973850964ba43a503832c916b96146ce",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\part-00000-3a78737c-a74c-422d-87e7-90b6fb75da65-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\part-00000-c9d30612-290f-4d56-9a12-68b23bd9e4ea-c000.snappy.parquet": "2981767155da38545a5936c15f968ca082a41aff9f2e8d8cfb58eaa1b27599b2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\_last_checkpoint": "44c22668fbffd74cb59a85f40c759ca6b3b65c98c84bf79709d3ba9fc769dc77",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\._last_checkpoint.crc": "33d2342399361914c1ae8a64832c358eedb29a402e978c2da21a6be2d50e69e6",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000000.crc.bbd16a20-7f96-4d37-92c7-65577f76810d.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000000.json.crc": "3d576bf29cce6a14aedc041c791219af4c969b42504a3d2cb0f782b395b537ed",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc": "152e7b84ba112268b4be77e04fa24a7218eb0339efb02279fbbe67dcaeb25c59",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.crc.592fac0d-f7c5-4dad-a8f9-879154f9af43.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\.00000000000000000001.json.crc": "67a009cb9b319aed106026d7ed7044822f6df37b7524c3689bdb47472e91fce6",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000000.json": "67943d1bdf1081f4d7d45e902078d677102305c4d92d7e87e9128f9c73c77ea3",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000001.checkpoint.parquet": "59af39761ca14c17df271f258a16aa9cddf2da5c74660a15b36478ba380fa186",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\long_retention\\_delta_log\\00000000000000000001.json": "2900f6d9c485e2c91e034180725b318e5fa4825fe37ac51632dd5db33edd638e",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\.part-00000-2b84ade7-ed5f-4aaf-bf5c-80f58eb15589-c000.snappy.parquet.crc": "3b8b1a743c5175307842bb9eb91de5b865af53a3719aa438ac4e068f8b956e7f",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\.part-00000-41f49de4-cad8-4177-876d-02148b865a8c-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\part-00000-2b84ade7-ed5f-4aaf-bf5c-80f58eb15589-c000.snappy.parquet": "92896474295655db997f9c8bac80813a6d528b9e95114e082383666a017f6d47",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\part-00000-41f49de4-cad8-4177-876d-02148b865a8c-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\_last_checkpoint": "e3993024b2605a50b30afc242e7a8bb72ed0fc0bbe2c425bf50201a9c540bdd7",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\._last_checkpoint.crc": "b6ad438535478929a701a6db7067bd0027eab6280ca2e6f4a725982647c62717",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000000.crc.d67722a4-6cd1-4d79-a204-9994297baf0d.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000000.json.crc": "9f5384bc7460e777a658d4d7a97bb4b178b2a86aa1a8405c715c9cefd52484bc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc": "33d701c8550a6e23536d2501380bd571e7a8e30b034c66e5108675b6e54338e7",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.crc.f4879981-fbae-473d-8c70-3f7935058ed7.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\.00000000000000000001.json.crc": "653cd9cceb2322c6549826d4fa6053c4a9480dda23d02fb05c368c132932dab1",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000000.json": "a32c4f597eb67f290875ef3e33102d5072f795e2013b1b4548b4d28c9c6a7d1e",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000001.checkpoint.parquet": "18deb9c447e6655f5ee60e2917fdb49863280e9823a4d422a78b37cf2f454a37",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\real_delta_checkpoint_table\\_delta_log\\00000000000000000001.json": "115dc5d49f2cbb4accad47b47bb0835fe93e17580c9840af017c1515e8dfa4f2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\.part-00000-b2943757-2bce-4ae4-a9ff-b6b0e6365f4e-c000.snappy.parquet.crc": "9a2f73da3d620f2e367005cc6aac91f594d8d64b4d873a3cf8770d99cefc0ebc",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\.part-00000-ee9ef4cf-cf33-414e-9693-5671e5a05c45-c000.snappy.parquet.crc": "26b880e20e50c69d0c93a9191ac424f4973850964ba43a503832c916b96146ce",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\part-00000-b2943757-2bce-4ae4-a9ff-b6b0e6365f4e-c000.snappy.parquet": "8eb07202a7d5273fed4df538c4b821b5dc648e6a7beab41b8482d961eb720dd9",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\part-00000-ee9ef4cf-cf33-414e-9693-5671e5a05c45-c000.snappy.parquet": "2981767155da38545a5936c15f968ca082a41aff9f2e8d8cfb58eaa1b27599b2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\_last_checkpoint": "62f3b0c3174bca99b299a679ea38fd8b86fd52b0e384f602f1548bbcc731cf9e",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\._last_checkpoint.crc": "05ee79cfe71f601e07f4d0b14333abe86d59d04c1ffc7bd3c995621c0a00b7d2",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000000.crc.f026d73b-72cf-45ea-b52e-261ec3d93673.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000000.json.crc": "a22a101a83394b97d842bac49182a96672a29986ed191abe94f9a122257a3dde",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.checkpoint.parquet.crc": "b6a39899770faecd5ceb0b6c4b26e11b09c382350710749cf03c18a364e6a0c6",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.crc.0e6795cc-48ca-4a33-9d17-b936090f7605.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\.00000000000000000001.json.crc": "a7a7ab99d4f2dad136c2c0230d6522db96fa1313a88e353f791a79023cde9b54",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000000.json": "fa6e557a1cdc7401a9ddab450471e4a02ba2a7fdc079ed360eb1ba691d3fbcb1",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000001.checkpoint.parquet": "04a2b1cb96c38181531c81523710f7600b4b9240f17262b9af79a42e6d2f8668",
+    "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A2_Checkpoint_Tests\\short_retention\\_delta_log\\00000000000000000001.json": "64c83abc20f8408d53931438e12022f8a642f2eaa4920c5bf4823cb9d4538011"
+  }
+}

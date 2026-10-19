@@ -1,0 +1,22 @@
+[
+  {
+    "case": "boundary_v2_short",
+    "retention_hours": 1,
+    "adjusted_age_hours": 2,
+    "checkpoint_remove_count": 0,
+    "checker_safe": true,
+    "flagged_files": 0,
+    "timestamp_adjusted": true,
+    "vacuum_executed": false
+  },
+  {
+    "case": "boundary_v2_long",
+    "retention_hours": 168,
+    "adjusted_age_hours": 2,
+    "checkpoint_remove_count": 1,
+    "checker_safe": false,
+    "flagged_files": 1,
+    "timestamp_adjusted": true,
+    "vacuum_executed": false
+  }
+]

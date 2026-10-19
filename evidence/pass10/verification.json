@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "All 9,600 class/run deleted-file counts match the original runs.csv taxonomy.",
+    "Pass10_Exposure_Summary.csv: 405 rows; artifact-tool export matches independently written analysis CSV field-for-field.",
+    "Pass10_Per_Run_Exposure.csv: 9600 rows; artifact-tool export matches independently written analysis CSV field-for-field.",
+    "Pass10_Per_Seed_Exposure.csv: 4800 rows; artifact-tool export matches independently written analysis CSV field-for-field.",
+    "Each of 200 retained original histories has at least one matrix row with exact physical-path linkage; all 3,200 joins pass versions, physical count, protected count, checkpoint flag and oracle-needed-set checks.",
+    "Zero exposure-unknown runs in the final reconstructed matrix; 2,075 absolute run clocks remain unknown and are not replaced with zero."
+  ],
+  "source_hash_count": 21829,
+  "minimum_structural_file_mtime_cutoff_margin_ms": 1799324.0,
+  "original_histories_with_exact_path_evidence": 200,
+  "unknown_absolute_run_clocks": 2075,
+  "zero_unknown_exposure_runs": true,
+  "utc": "2026-10-19T00:04:05.038646+00:00"
+}

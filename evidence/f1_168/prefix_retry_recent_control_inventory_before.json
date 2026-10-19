@@ -1,0 +1,22 @@
+{
+  "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+    "size": 49,
+    "mtime_ns": 1792339063396000000,
+    "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc"
+  },
+  "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+    "size": 1203,
+    "mtime_ns": 1792303063988000000,
+    "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e"
+  },
+  "_delta_log/00000000000000000000.json": {
+    "size": 1397,
+    "mtime_ns": 1792303064173000000,
+    "sha256": "3f7fbd5d7237b7bfbae901bf525efd80bafca3b3815af0219b4f1202bde3e090"
+  },
+  "_delta_log/00000000000000000001.json": {
+    "size": 1345,
+    "mtime_ns": 1792339064173000000,
+    "sha256": "31c976db7fe38570d8274aece878c36bb3575bb2d0d70cfea662805034afdd7d"
+  }
+}

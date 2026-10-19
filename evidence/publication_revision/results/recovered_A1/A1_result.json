@@ -1,0 +1,8 @@
+{
+  "test": "A1_timestamp_mismatch",
+  "cutoff_ms": 1999395200000,
+  "remove_timestamp_ms": 1999391600000,
+  "commit_timestamp_ms": 1999398800000,
+  "checker_safe": true,
+  "flagged_files": 0
+}

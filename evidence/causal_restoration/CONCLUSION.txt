@@ -1,0 +1,14 @@
+Correction Pass 8 — Scientific conclusion
+
+Both controlled tests support loss of the active deletion vector as the cause of the prior F1 unreadability following FULL VACUUM at 168-hour retention in this synthetic history.
+
+DV restoration: A new copy of the affected post-VACUUM table initially failed in both the existing independent reader and Spark. Restoring only the missing DV from verified pre-VACUUM evidence recovered exactly 16 logical rows and the baseline canonical row hash in both readers. The restored DV SHA-256 matched its original file, prior inventory and archived bytes.
+
+DV removal control: Another new copy of the pre-VACUUM table initially returned the same 16 rows and hash in both readers. Removing only its active DV reproduced unreadability in both readers. Spark's full exception chains identify the missing DV in the deepest NoSuchFileException; the independent reader reports FileNotFoundError.
+
+Failed reads produced no valid row count or hash; they are not successful reads yielding zero or incorrect rows. No successful read with an incorrect result was observed. Logs and data files remained unchanged within each intervention.
+
+These results establish restoration and removal causality for this one local synthetic history, not failure rates or general behavior across workloads. No new VACUUM, aging, system-clock change, manuscript edit, matrix rerun, publication or push occurred. Original evidence and all 248 checked research/validation files retained their hashes.
+
+Baseline row SHA-256: 1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7
+DV SHA-256: c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc

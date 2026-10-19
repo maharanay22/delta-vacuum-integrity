@@ -1,0 +1,40 @@
+{
+  "mode": "offline replay using the delivered script and evidence_snapshot; no original source reads",
+  "checks": [
+    {
+      "file": "Pass10_Exposure_Summary.csv",
+      "byte_identical": true,
+      "sha256": "5eff86f106ef5f24dfff679c7240002a8ef4cad4de59c6b3669efd360a1e1798"
+    },
+    {
+      "file": "Pass10_Per_Run_Exposure.csv",
+      "byte_identical": true,
+      "sha256": "5c2125f73a2b876ed9794ee394daa206ce1510cd7c87f4c29dcccac4477fb82c"
+    },
+    {
+      "file": "Pass10_Per_Seed_Exposure.csv",
+      "byte_identical": true,
+      "sha256": "6f9d3d7f291a78f60268de344f5611a19d99fe661e8834fb314de00273482833"
+    },
+    {
+      "file": "Pass10_File_Level_Preconditions.csv",
+      "byte_identical": true,
+      "sha256": "b013d532dd518ab52801fe0384d1cd408bf65803f249312236f390bbb34566ef"
+    },
+    {
+      "file": "history_join_checks.json",
+      "byte_identical": true,
+      "sha256": "a34704bec3758fa894789d95bcc2ebec48c2498e2ecdb31710c80c16b04d0a84"
+    },
+    {
+      "file": "retained_work_checks.json",
+      "byte_identical": true,
+      "sha256": "c29a7c44bc32414cc7d3249c6ee0157b4506e5ac4e2576438180e54da67a1ecf"
+    },
+    {
+      "file": "audit_totals.json",
+      "byte_identical": true,
+      "sha256": "54fba804c1c6e3f4e3292eccd9583660272d616536e29515cea31c822781554e"
+    }
+  ]
+}

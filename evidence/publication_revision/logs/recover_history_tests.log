@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<DISPOSABLE_WORKSPACE>\recover_history_tests.py", line 4, in <module>
+    R=Path(__file__).parent.resolve();P=R/'repository';h=Path(r'<LOCAL_HOME>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt');data=h.read_bytes();lines=data.decode('utf8-sig').splitlines()
+                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+LookupError: unknown encoding: utf8-sig

@@ -1,0 +1,162 @@
+import sys, os, json, hashlib, shutil, traceback, platform, zipfile
+from pathlib import Path
+from datetime import datetime, timezone
+from dataclasses import asdict
+import importlib.metadata as md
+
+sys.dont_write_bytecode = True
+os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
+os.environ['PYTHONUTF8'] = '1'
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE = Path(sys.argv[1]).resolve()
+ARCHIVE = Path(sys.argv[2]).resolve()
+ATTEMPT = ROOT/'attempts'/sys.argv[3]
+ATTEMPT.mkdir(parents=True, exist_ok=False)
+sys.path[:0] = [str(ROOT/'reference_code'/'harness'), str(ROOT/'reference_code'/'checker')]
+import oracle
+import sparkenv
+from vacuumcheck.dv import dv_file_path
+sparkenv.DEPS = Path(r'<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\deps')
+
+def now(): return datetime.now(timezone.utc).isoformat()
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def dump(name, value):
+    (ATTEMPT/name).write_text(json.dumps(value, indent=2, default=str), encoding='utf-8')
+def inventory(root):
+    return {p.relative_to(root).as_posix(): {'size':p.stat().st_size, 'sha256':sha(p), 'mtime_ns':p.stat().st_mtime_ns} for p in sorted(root.rglob('*')) if p.is_file()}
+def content(i): return {p:(v['size'],v['sha256']) for p,v in i.items()}
+def delta(before,after):
+    return {'added':sorted(after.keys()-before.keys()), 'removed':sorted(before.keys()-after.keys()), 'changed':sorted(p for p in before.keys() & after.keys() if before[p]!=after[p])}
+def safe(path):
+    assert path.resolve().is_relative_to((ATTEMPT/'tables').resolve()), path
+    assert not path.is_symlink()
+    return path
+
+results={'started_utc':now(),'source':str(SOURCE),'archive':str(ARCHIVE),'attempt':str(ATTEMPT),'states':{}}
+spark=None
+baseline_refs={}
+try:
+    manifest=json.loads((SOURCE/'SHA256.json').read_text())
+    with zipfile.ZipFile(ARCHIVE) as z:
+        prefix=SOURCE.name+'/'
+        assert z.testzip() is None
+        for name,digest in manifest.items():
+            assert hashlib.sha256(z.read(prefix+name)).hexdigest()==digest, name
+            assert sha(SOURCE/name)==digest, name
+    archive_hash=sha(ARCHIVE)
+    protected=[SOURCE,ARCHIVE]
+    old_refs=json.loads((SOURCE/'reference_manifest_before.json').read_text(encoding='utf-8-sig'))
+    for ref in old_refs: baseline_refs[ref['Path']]=sha(Path(ref['Path']))
+    source_before=inventory(SOURCE)
+    dump('source_integrity_before.json',{'archive_sha256':archive_hash,'evidence':source_before,'original_research_hashes':baseline_refs})
+    pre=SOURCE/'before_vacuum'/'prefix_native'/'aged_live_dv'
+    post=SOURCE/'tables'/'prefix_native'/'aged_live_dv'
+    expected=json.loads((SOURCE/'generation.json').read_text())['versions'][1]
+    assert expected['rows']==16
+    pre_state=oracle.replay(pre)[-1]
+    post_state=oracle.replay(post)[-1]
+    dvs=[dv_file_path(a.dv,pre).resolve().relative_to(pre.resolve()).as_posix() for a in pre_state.adds if a.dv]
+    assert len(dvs)==1
+    dv=dvs[0]
+    assert oracle.referenced_files(pre_state,pre)==oracle.referenced_files(post_state,post)
+    assert (pre/dv).is_file() and not (post/dv).exists()
+    archived_inventory=json.loads((SOURCE/'prefix_native_aged_live_dv_inventory_before.json').read_text())
+    dv_hash=sha(pre/dv)
+    assert dv_hash==archived_inventory[dv]['sha256']
+    with zipfile.ZipFile(ARCHIVE) as z:
+        assert hashlib.sha256(z.read(prefix+'before_vacuum/prefix_native/aged_live_dv/'+dv)).hexdigest()==dv_hash
+    results.update(active_dv=dv,active_dv_sha256=dv_hash,expected_rows=16,expected_row_hash=expected['digest'],original_pre_version=pre_state.version,original_post_version=post_state.version,original_pre_inventory=inventory(pre),original_post_inventory=inventory(post),source_archive_verified=True)
+    dump('results.json',results)
+    env={'python':sys.version,'executable':sys.executable,'platform':platform.platform(),'packages':{p:md.version(p) for p in ['pyspark','delta-spark','pyarrow']},'java_home':r'<LOCAL_HOME>\tools\jdk-17.0.20.1+1','jars':{p.name:sha(p) for p in sparkenv.DEPS.joinpath('jars').glob('*.jar')}}
+    dump('environment.json',env)
+    spark=sparkenv.spark_session(ATTEMPT/'warehouse')
+    spark.conf.set('spark.databricks.delta.retentionDurationCheck.enabled','true')
+    env.update(spark_version=spark.version,java_version=spark._jvm.java.lang.System.getProperty('java.version'),spark_read='current snapshot, no versionAsOf; collect all columns',retention_check_enabled=spark.conf.get('spark.databricks.delta.retentionDurationCheck.enabled'))
+    dump('environment.json',env)
+
+    def read_both(table,label):
+        state=oracle.replay(table)[-1]
+        record={'utc':now(),'table':str(table),'latest_log_version':state.version,'inventory_before':inventory(table)}
+        own=oracle.read_state(state,table)
+        record['independent']=dict(asdict(own),rows=own.rows if own.ok else None,digest=own.digest if own.ok else None,status=('success_matching_baseline' if own.rows==16 and own.digest==expected['digest'] else 'success_incorrect_rows_or_hash') if own.ok else 'failed_read',matches_baseline=own.ok and own.rows==16 and own.digest==expected['digest'])
+        if not own.ok:
+            try:
+                # Uncaught replay of the same existing reader primitives preserves the full Python chain.
+                for add in state.adds:
+                    oracle.pq.read_table(table/oracle.table_relative(add.path,table))
+                    if add.dv: oracle.read_deleted_rows(add.dv,table)
+            except Exception:
+                full=traceback.format_exc()
+                record['independent']['full_diagnostic_exception']=full
+                (ATTEMPT/(label+'_independent_exception.txt')).write_text(full,encoding='utf-8')
+                print(full,flush=True)
+        try:
+            spark.catalog.clearCache()
+            spark._jvm.org.apache.spark.sql.delta.DeltaLog.clearCache()
+            rows=spark.read.format('delta').load(table.as_posix()).collect()
+            digest=oracle.canonical_hash(tuple(r) for r in rows)
+            match=len(rows)==16 and digest==expected['digest']
+            record['spark']={'status':'success_matching_baseline' if match else 'success_incorrect_rows_or_hash','ok':True,'rows':len(rows),'digest':digest,'matches_baseline':match}
+        except Exception as exc:
+            full=traceback.format_exc()
+            record['spark']={'status':'failed_read','ok':False,'rows':None,'digest':None,'matches_baseline':False,'exception_type':type(exc).__name__,'exception_chain':full}
+            java=getattr(exc,'java_exception',None)
+            if java is not None:
+                writer=spark._jvm.java.io.StringWriter()
+                printer=spark._jvm.java.io.PrintWriter(writer)
+                java.printStackTrace(printer)
+                printer.flush()
+                record['spark']['java_exception_chain']=str(writer.toString())
+            (ATTEMPT/(label+'_spark_exception.txt')).write_text(full+'\nJAVA FULL CHAIN:\n'+record['spark'].get('java_exception_chain',''),encoding='utf-8')
+            print(full,flush=True)
+        record['inventory_after']=inventory(table)
+        assert content(record['inventory_before'])==content(record['inventory_after']), 'Read mutated table content'
+        results['states'][label]=record
+        dump('results.json',results)
+        print(label,json.dumps({k:record[k]['status'] for k in ['independent','spark']}),flush=True)
+        return record
+
+    restore=safe(ATTEMPT/'tables'/'restoration')
+    shutil.copytree(post,restore,copy_function=shutil.copy2)
+    assert inventory(restore)==inventory(post)
+    before=read_both(restore,'restoration_before')
+    assert all(not before[k]['ok'] for k in ['independent','spark']), 'Original failure not confirmed; stop'
+    rb=inventory(restore)
+    shutil.copy2(pre/dv,safe(restore/dv))
+    assert sha(restore/dv)==dv_hash
+    ra=inventory(restore)
+    change=delta(content(rb),content(ra))
+    assert change=={'added':[dv],'removed':[],'changed':[]}
+    results['restoration_intervention']={'change':change,'source_sha256':dv_hash,'restored_sha256':sha(restore/dv),'sha256_verified':True}
+    after=read_both(restore,'restoration_after')
+    assert all(after[k]['matches_baseline'] for k in ['independent','spark']), 'Restoration did not recover baseline'
+
+    removal=safe(ATTEMPT/'tables'/'removal_control')
+    shutil.copytree(pre,removal,copy_function=shutil.copy2)
+    assert inventory(removal)==inventory(pre)
+    before=read_both(removal,'removal_before')
+    assert all(before[k]['matches_baseline'] for k in ['independent','spark']), 'Removal baseline unreadable; stop'
+    rb=inventory(removal)
+    assert sha(safe(removal/dv))==dv_hash
+    safe(removal/dv).unlink()
+    ra=inventory(removal)
+    change=delta(content(rb),content(ra))
+    assert change=={'added':[],'removed':[dv],'changed':[]}
+    results['removal_intervention']={'change':change,'removed_sha256':dv_hash}
+    after=read_both(removal,'removal_after')
+    assert all(not after[k]['ok'] for k in ['independent','spark']), 'Removal failed to reproduce unreadability'
+    results.update(completed=True,conclusion='Restoring only the byte-identical active DV recovers 16 logical rows and the baseline row hash in both readers; removing only that DV from a readable pre-VACUUM copy reproduces failure in both readers. These controlled interventions support missing active DV as the cause of the prior 168-hour F1 unreadability in this synthetic history. Failed reads returned no valid row count or digest; no incorrect successful read was observed.')
+except BaseException:
+    results.update(completed=False,fatal_exception=traceback.format_exc())
+    (ATTEMPT/'fatal_exception.txt').write_text(results['fatal_exception'],encoding='utf-8')
+    raise
+finally:
+    if spark is not None:
+        try: spark.stop()
+        except Exception: results['spark_stop_exception']=traceback.format_exc()
+    if baseline_refs:
+        results['original_research_changed']=[p for p,d in baseline_refs.items() if sha(Path(p))!=d]
+        results['original_evidence_content_unchanged']=content(source_before)==content(inventory(SOURCE))
+        results['source_archive_unchanged']=sha(ARCHIVE)==archive_hash
+    results['finished_utc']=now()
+    dump('results.json',results)

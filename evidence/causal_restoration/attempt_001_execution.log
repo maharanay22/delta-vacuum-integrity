@@ -1,0 +1,705 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+26/10/18 18:49:48 WARN Shell: Did not find winutils.exe: java.io.FileNotFoundException: Could not locate Hadoop executable: <LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\deps\hadoop\bin\winutils.exe -see https://cwiki.apache.org/confluence/display/HADOOP2/WindowsProblems
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/18 18:49:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\scripts\causal.py", line 87, in read_both
+    if add.dv: oracle.read_deleted_rows(add.dv,table)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\reference_code\checker\vacuumcheck\dv.py", line 158, in read_deleted_rows
+    with open(target, "rb") as fh:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\correction_pass8_f1_causal\\attempts\\attempt_001\\tables\\restoration\\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin'
+
+26/10/18 18:50:00 ERROR Executor: Exception in task 0.0 in stage 13.0 (TID 13)
+org.apache.spark.SparkException: [FAILED_READ_FILE.FILE_NOT_EXIST] Encountered error while reading file file:/<LOCAL_HOME>/.codex/.chatgpt-projects/g-p-6ace69accadc8191aa0136d6b9f388a8/correction_pass8_f1_causal/attempts/attempt_001/tables/restoration/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet. File does not exist. It is possible the underlying files have been updated.
+You can explicitly invalidate the cache in Spark by running 'REFRESH TABLE tableName' command in SQL or by recreating the Dataset/DataFrame involved. SQLSTATE: KD001
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.fileNotExistError(QueryExecutionErrors.scala:902)
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:140)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:149)
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.FileNotFoundException: File `<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\restoration\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin` does not exist.
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:247)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:225)
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:462)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:201)
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:631)
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:998)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.$anonfun$read$1(DeletionVectorStore.scala:197)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource(SparkErrorUtils.scala:49)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource$(SparkErrorUtils.scala:48)
+	at org.apache.spark.util.Utils$.tryWithResource(Utils.scala:97)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.read(DeletionVectorStore.scala:197)
+	at org.apache.spark.sql.delta.deletionvectors.DeletionVectorStoredBitmap.load(StoredBitmap.scala:80)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance(RowIndexMarkingFilters.scala:89)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance$(RowIndexMarkingFilters.scala:79)
+	at org.apache.spark.sql.delta.deletionvectors.DropMarkedRowsFilter$.createInstance(RowIndexMarkingFilters.scala:111)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$iteratorWithAdditionalMetadataColumns$2(DeltaParquetFileFormat.scala:356)
+	at scala.Option.map(Option.scala:242)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.iteratorWithAdditionalMetadataColumns(DeltaParquetFileFormat.scala:340)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$buildReaderWithPartitionValues$5(DeltaParquetFileFormat.scala:233)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:238)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:298)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:147)
+	... 22 more
+Caused by: java.nio.file.NoSuchFileException: <LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\restoration\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:238)
+	... 44 more
+26/10/18 18:50:00 ERROR TaskSetManager: Task 0 in stage 13.0 failed 1 times; aborting job
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\scripts\causal.py", line 96, in read_both
+    rows=spark.read.format('delta').load(table.as_posix()).collect()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\pyspark\sql\classic\dataframe.py", line 503, in collect
+    sock_info = self._jdf.collectToPython()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\py4j\java_gateway.py", line 1362, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 251, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\py4j\protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o62.collectToPython.
+: org.apache.spark.SparkException: [FAILED_READ_FILE.FILE_NOT_EXIST] Encountered error while reading file file:/<LOCAL_HOME>/.codex/.chatgpt-projects/g-p-6ace69accadc8191aa0136d6b9f388a8/correction_pass8_f1_causal/attempts/attempt_001/tables/restoration/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet. File does not exist. It is possible the underlying files have been updated.
+You can explicitly invalidate the cache in Spark by running 'REFRESH TABLE tableName' command in SQL or by recreating the Dataset/DataFrame involved. SQLSTATE: KD001
+
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.fileNotExistError(QueryExecutionErrors.scala:902)
+
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:140)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:149)
+
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1063)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2561)
+
+	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1073)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:169)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:134)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:417)
+
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:1072)
+
+	at org.apache.spark.sql.execution.SparkPlan.executeCollect(SparkPlan.scala:480)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$collectToPython$1(Dataset.scala:2144)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$3(Dataset.scala:2325)
+
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:872)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2323)
+
+	at org.apache.spark.sql.execution.QueryExecution.withQueryExecutionId(QueryExecution.scala:429)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2323)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:228)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:352)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:189)
+
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:189)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:375)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:188)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:810)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:130)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:317)
+
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2322)
+
+	at org.apache.spark.sql.classic.Dataset.collectToPython(Dataset.scala:2140)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: java.io.FileNotFoundException: File `<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\restoration\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin` does not exist.
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:247)
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:225)
+
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:462)
+
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:201)
+
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:631)
+
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:998)
+
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.$anonfun$read$1(DeletionVectorStore.scala:197)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource(SparkErrorUtils.scala:49)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource$(SparkErrorUtils.scala:48)
+
+	at org.apache.spark.util.Utils$.tryWithResource(Utils.scala:97)
+
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.read(DeletionVectorStore.scala:197)
+
+	at org.apache.spark.sql.delta.deletionvectors.DeletionVectorStoredBitmap.load(StoredBitmap.scala:80)
+
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance(RowIndexMarkingFilters.scala:89)
+
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance$(RowIndexMarkingFilters.scala:79)
+
+	at org.apache.spark.sql.delta.deletionvectors.DropMarkedRowsFilter$.createInstance(RowIndexMarkingFilters.scala:111)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$iteratorWithAdditionalMetadataColumns$2(DeltaParquetFileFormat.scala:356)
+
+	at scala.Option.map(Option.scala:242)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.iteratorWithAdditionalMetadataColumns(DeltaParquetFileFormat.scala:340)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$buildReaderWithPartitionValues$5(DeltaParquetFileFormat.scala:233)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:238)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:298)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:138)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:147)
+
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+	... 1 more
+
+Caused by: java.nio.file.NoSuchFileException: <LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\restoration\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:238)
+
+	... 44 more
+
+
+
+restoration_before {"independent": "failed_read", "spark": "failed_read"}
+restoration_after {"independent": "success_matching_baseline", "spark": "success_matching_baseline"}
+removal_before {"independent": "success_matching_baseline", "spark": "success_matching_baseline"}
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\scripts\causal.py", line 87, in read_both
+    if add.dv: oracle.read_deleted_rows(add.dv,table)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\reference_code\checker\vacuumcheck\dv.py", line 158, in read_deleted_rows
+    with open(target, "rb") as fh:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\correction_pass8_f1_causal\\attempts\\attempt_001\\tables\\removal_control\\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin'
+
+26/10/18 18:50:04 ERROR Executor: Exception in task 0.0 in stage 55.0 (TID 55)
+org.apache.spark.SparkException: [FAILED_READ_FILE.FILE_NOT_EXIST] Encountered error while reading file file:/<LOCAL_HOME>/.codex/.chatgpt-projects/g-p-6ace69accadc8191aa0136d6b9f388a8/correction_pass8_f1_causal/attempts/attempt_001/tables/removal_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet. File does not exist. It is possible the underlying files have been updated.
+You can explicitly invalidate the cache in Spark by running 'REFRESH TABLE tableName' command in SQL or by recreating the Dataset/DataFrame involved. SQLSTATE: KD001
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.fileNotExistError(QueryExecutionErrors.scala:902)
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:140)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:149)
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.io.FileNotFoundException: File `<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\removal_control\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin` does not exist.
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:247)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:225)
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:462)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:201)
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:631)
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:998)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.$anonfun$read$1(DeletionVectorStore.scala:197)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource(SparkErrorUtils.scala:49)
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource$(SparkErrorUtils.scala:48)
+	at org.apache.spark.util.Utils$.tryWithResource(Utils.scala:97)
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.read(DeletionVectorStore.scala:197)
+	at org.apache.spark.sql.delta.deletionvectors.DeletionVectorStoredBitmap.load(StoredBitmap.scala:80)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance(RowIndexMarkingFilters.scala:89)
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance$(RowIndexMarkingFilters.scala:79)
+	at org.apache.spark.sql.delta.deletionvectors.DropMarkedRowsFilter$.createInstance(RowIndexMarkingFilters.scala:111)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$iteratorWithAdditionalMetadataColumns$2(DeltaParquetFileFormat.scala:356)
+	at scala.Option.map(Option.scala:242)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.iteratorWithAdditionalMetadataColumns(DeltaParquetFileFormat.scala:340)
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$buildReaderWithPartitionValues$5(DeltaParquetFileFormat.scala:233)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:238)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:298)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:138)
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:147)
+	... 22 more
+Caused by: java.nio.file.NoSuchFileException: <LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\removal_control\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:238)
+	... 44 more
+26/10/18 18:50:04 ERROR TaskSetManager: Task 0 in stage 55.0 failed 1 times; aborting job
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\scripts\causal.py", line 96, in read_both
+    rows=spark.read.format('delta').load(table.as_posix()).collect()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\pyspark\sql\classic\dataframe.py", line 503, in collect
+    sock_info = self._jdf.collectToPython()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\py4j\java_gateway.py", line 1362, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 251, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\spark\Lib\site-packages\py4j\protocol.py", line 327, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o81.collectToPython.
+: org.apache.spark.SparkException: [FAILED_READ_FILE.FILE_NOT_EXIST] Encountered error while reading file file:/<LOCAL_HOME>/.codex/.chatgpt-projects/g-p-6ace69accadc8191aa0136d6b9f388a8/correction_pass8_f1_causal/attempts/attempt_001/tables/removal_control/part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet. File does not exist. It is possible the underlying files have been updated.
+You can explicitly invalidate the cache in Spark by running 'REFRESH TABLE tableName' command in SQL or by recreating the Dataset/DataFrame involved. SQLSTATE: KD001
+
+	at org.apache.spark.sql.errors.QueryExecutionErrors$.fileNotExistError(QueryExecutionErrors.scala:902)
+
+	at org.apache.spark.sql.execution.datasources.v2.FileDataSourceV2$.attachFilePath(FileDataSourceV2.scala:140)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:149)
+
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:1063)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2496)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2517)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2536)
+
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:2561)
+
+	at org.apache.spark.rdd.RDD.$anonfun$collect$1(RDD.scala:1073)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:169)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:134)
+
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:417)
+
+	at org.apache.spark.rdd.RDD.collect(RDD.scala:1072)
+
+	at org.apache.spark.sql.execution.SparkPlan.executeCollect(SparkPlan.scala:480)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$collectToPython$1(Dataset.scala:2144)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$3(Dataset.scala:2325)
+
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:872)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$2(Dataset.scala:2323)
+
+	at org.apache.spark.sql.execution.QueryExecution.withQueryExecutionId(QueryExecution.scala:429)
+
+	at org.apache.spark.sql.classic.Dataset.$anonfun$withAction$1(Dataset.scala:2323)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$8(SQLExecution.scala:228)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSessionTagsApplied(SQLExecution.scala:352)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$7(SQLExecution.scala:189)
+
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:112)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.withClassLoaderIfNeeded(ArtifactManager.scala:106)
+
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:111)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$6(SQLExecution.scala:189)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:375)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId0$1(SQLExecution.scala:188)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:810)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId0(SQLExecution.scala:130)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:317)
+
+	at org.apache.spark.sql.classic.Dataset.withAction(Dataset.scala:2322)
+
+	at org.apache.spark.sql.classic.Dataset.collectToPython(Dataset.scala:2140)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:184)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:108)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: java.io.FileNotFoundException: File `<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\removal_control\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin` does not exist.
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:247)
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:225)
+
+	at org.apache.hadoop.fs.FilterFileSystem.getFileStatus(FilterFileSystem.java:462)
+
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:201)
+
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:631)
+
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:998)
+
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.$anonfun$read$1(DeletionVectorStore.scala:197)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource(SparkErrorUtils.scala:49)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithResource$(SparkErrorUtils.scala:48)
+
+	at org.apache.spark.util.Utils$.tryWithResource(Utils.scala:97)
+
+	at org.apache.spark.sql.delta.storage.dv.HadoopFileSystemDVStore.read(DeletionVectorStore.scala:197)
+
+	at org.apache.spark.sql.delta.deletionvectors.DeletionVectorStoredBitmap.load(StoredBitmap.scala:80)
+
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance(RowIndexMarkingFilters.scala:89)
+
+	at org.apache.spark.sql.delta.deletionvectors.RowIndexMarkingFiltersBuilder.createInstance$(RowIndexMarkingFilters.scala:79)
+
+	at org.apache.spark.sql.delta.deletionvectors.DropMarkedRowsFilter$.createInstance(RowIndexMarkingFilters.scala:111)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$iteratorWithAdditionalMetadataColumns$2(DeltaParquetFileFormat.scala:356)
+
+	at scala.Option.map(Option.scala:242)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.iteratorWithAdditionalMetadataColumns(DeltaParquetFileFormat.scala:340)
+
+	at org.apache.spark.sql.delta.DeltaParquetFileFormatBase.$anonfun$buildReaderWithPartitionValues$5(DeltaParquetFileFormat.scala:233)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.org$apache$spark$sql$execution$datasources$FileScanRDD$$anon$$readCurrentFile(FileScanRDD.scala:238)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.nextIterator(FileScanRDD.scala:298)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext0(FileScanRDD.scala:138)
+
+	at org.apache.spark.sql.execution.datasources.FileScanRDD$$anon$1.hasNext(FileScanRDD.scala:147)
+
+	at org.apache.spark.sql.execution.FileSourceScanExec$$anon$1.hasNext(DataSourceScanExec.scala:777)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.columnartorow_nextBatch_0$(Unknown Source)
+
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1.processNext(Unknown Source)
+
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:44)
+
+	at org.apache.spark.sql.execution.WholeStageCodegenEvaluatorFactory$WholeStageCodegenPartitionEvaluator$$anon$1.hasNext(WholeStageCodegenEvaluatorFactory.scala:50)
+
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$2(SparkPlan.scala:418)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:910)
+
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:910)
+
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:57)
+
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:374)
+
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:338)
+
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:93)
+
+	at org.apache.spark.TaskContext.runTaskWithListeners(TaskContext.scala:206)
+
+	at org.apache.spark.scheduler.Task.run(Task.scala:147)
+
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$4(Executor.scala:894)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally(SparkErrorUtils.scala:86)
+
+	at org.apache.spark.util.SparkErrorUtils.tryWithSafeFinally$(SparkErrorUtils.scala:83)
+
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:97)
+
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:897)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+	... 1 more
+
+Caused by: java.nio.file.NoSuchFileException: <LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\correction_pass8_f1_causal\attempts\attempt_001\tables\removal_control\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin
+
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+
+	at com.globalmentor.apache.hadoop.fs.NakedLocalFileSystem.getFileStatus(NakedLocalFileSystem.java:238)
+
+	... 44 more
+
+
+
+removal_after {"independent": "failed_read", "spark": "failed_read"}
+SUCCESS: The process with PID 27124 (child process of PID 25924) has been terminated.
+SUCCESS: The process with PID 25924 (child process of PID 33868) has been terminated.
+SUCCESS: The process with PID 33868 (child process of PID 26540) has been terminated.

@@ -1,0 +1,13 @@
+{
+  "test": "A2_real_delta_checkpoint",
+  "spark_version": "4.2.0",
+  "json_remove_count": 1,
+  "checkpoint_remove_count": 1,
+  "checkpoint_files": [
+    "00000000000000000001.checkpoint.parquet"
+  ],
+  "candidate": "part-00000-2b84ade7-ed5f-4aaf-bf5c-80f58eb15589-c000.snappy.parquet",
+  "checker_safe": false,
+  "flagged_files": 1,
+  "vacuum_executed": false
+}

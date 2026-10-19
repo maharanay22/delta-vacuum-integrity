@@ -1,0 +1,16 @@
+Using Python 3.12.10 environment at: publication_revision_20261018\environments\spark
+Resolved 13 packages in 76ms
+Installed 13 packages in 981ms
+ + colorama==0.4.6
+ + delta-spark==4.4.1
+ + importlib-metadata==8.7.1
+ + iniconfig==2.3.1
+ + packaging==26.3
+ + pluggy==1.7.0
+ + py4j==0.10.9.9
+ + pyarrow==26.0.0
+ + pygments==2.21.0
+ + pyroaring==1.2.0
+ + pyspark==4.2.0
+ + pytest==9.1.1
+ + zipp==4.1.1

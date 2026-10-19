@@ -1,0 +1,81 @@
+@'`
+import pathlib`
+import json`
+import collections`
+import sys`
+`
+root = pathlib.Path(sys.argv[1])`
+results = root / "code" / "results"`
+`
+files = sorted(results.glob("runs*.jsonl"))`
+`
+if not files:`
+    raise RuntimeError("No experiment JSONL files found")`
+`
+print("=== A3: Dry-Run vs Actual VACUUM ===")`
+`
+total = 0`
+compared = 0`
+differences = 0`
+errors = 0`
+by_impl = collections.defaultdict(`
+    lambda: {"runs": 0, "compared": 0, "different": 0}`
+)`
+`
+examples = []`
+`
+for file in files:`
+    with file.open(encoding="utf-8") as f:`
+        for line in f:`
+            if not line.strip():`
+                continue`
+`
+            row = json.loads(line)`
+            impl = row.get("impl", file.stem)`
+            total += 1`
+            by_impl[impl]["runs"] += 1`
+`
+            if row.get("error"):`
+                errors += 1`
+                continue`
+`
+            if "plan_vs_actual_diff" not in row:`
+                continue`
+`
+            compared += 1`
+            by_impl[impl]["compared"] += 1`
+`
+            diff = row["plan_vs_actual_diff"]`
+`
+            if diff:`
+                differences += 1`
+                by_impl[impl]["different"] += 1`
+`
+                if len(examples) < 10:`
+                    examples.append({`
+                        "impl": impl,`
+                        "file": file.name,`
+                        "seed": row.get("seed"),`
+                        "family": row.get("family"),`
+                        "mode": row.get("mode"),`
+                        "retention_h": row.get("retention_h"),`
+                        "difference": diff[:10]`
+                    })`
+`
+print("Total records:", total)`
+print("Comparable records:", compared)`
+print("Records with errors:", errors)`
+print("Plan/execution differences:", differences)`
+`
+print("\n=== By implementation ===")`
+`
+for impl, stats in sorted(by_impl.items()):`
+    print(impl, stats)`
+`
+print("\n=== Difference examples ===")`
+`
+for example in examples:`
+    print(json.dumps(example, indent=2))`
+`
+print("\nPASS: A3 historical evidence inspection completed")`
+'@ | py -3.12 - $root

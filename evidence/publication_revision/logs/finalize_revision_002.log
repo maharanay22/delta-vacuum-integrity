@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<DISPOSABLE_WORKSPACE>\finalize_revision.py", line 185, in <module>
+    critical=[x for x in found if x['rule']!='email_review'];assert not critical,critical
+                                                                    ^^^^^^^^^^^^
+AssertionError: [{'file': 'evidence/publication_revision/logs/fixture.log', 'rule': 'original_home_path', 'matches': 1, 'matched_hashes': ['fa8a7d736c8ab7548126db0915872f8cc997670ca450dfb0542576133a7c6be0']}, {'file': 'evidence/publication_revision/results/causal/results.json', 'rule': 'original_home_path', 'matches': 2, 'matched_hashes': ['fa8a7d736c8ab7548126db0915872f8cc997670ca450dfb0542576133a7c6be0']}, {'file': 'evidence/publication_revision/results/prefix_native/result.json', 'rule': 'original_home_path', 'matches': 1, 'matched_hashes': ['fa8a7d736c8ab7548126db0915872f8cc997670ca450dfb0542576133a7c6be0']}]

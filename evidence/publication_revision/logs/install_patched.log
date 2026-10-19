@@ -1,0 +1,9 @@
+Using Python 3.12.10 environment at: publication_revision_20261018\environments\patched
+Resolved 6 packages in 17ms
+Installed 6 packages in 247ms
+ + arro3-core==0.9.1
+ + deltalake==1.6.5 (from file:///<LOCAL_HOME>/Documents/Research/delta-vacuum-integrity/wheels/pr4858/deltalake-1.6.5-cp311-abi3-win_amd64.whl)
+ + deprecated==3.0.0
+ + pyarrow==26.0.0
+ + pyroaring==1.2.0
+ + wrapt==2.5.1

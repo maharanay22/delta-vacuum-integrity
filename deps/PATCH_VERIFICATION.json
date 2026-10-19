@@ -1,0 +1,16 @@
+{
+  "base_commit": "640dc8937cd6d5c49c16fbf203d72083d86c5b21",
+  "patched_commit": "407201ca5bb795d85e7f4b0e35a688a0a9477bdc",
+  "old_patch_sha256": "335fc1250af9ffe9f798e2a59b174e4a2dbef975c1656ddfcb577297f095b776",
+  "verified_patch_sha256": "febaa6daa62b28c72784176e9ddab5be10d4446aa01362ef616c36f5c386bbdb",
+  "old_vs_new_equal_after_line_ending_normalization": true,
+  "apply_check_passed": true,
+  "all_patched_files_equal_local_tip": true,
+  "files": [
+    "crates/core/src/kernel/snapshot/iterators.rs",
+    "crates/core/src/kernel/snapshot/iterators/tombstones.rs",
+    "crates/core/src/operations/vacuum.rs"
+  ],
+  "upstream_checkout_modified": false,
+  "network_used": false
+}

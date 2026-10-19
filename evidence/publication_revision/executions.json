@@ -1,0 +1,120 @@
+[
+  {
+    "label": "environment_prefix_native",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\prefix_native\\Scripts\\python.exe",
+      "-c",
+      "import sys,json,importlib.metadata as m,hashlib,pathlib,site\npackages={d.metadata['Name']:{'version':d.version,'location':str(d.locate_file('')),'direct_url':d.read_text('direct_url.json')} for d in m.distributions()}\nnative={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in pathlib.Path(sys.prefix).rglob('_internal*.pyd')}\nprint(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'sys_path':sys.path,'user_site_enabled':site.ENABLE_USER_SITE,'packages':packages,'native_sha256':native},indent=2))"
+    ],
+    "exit": 0,
+    "started_unix": 1792375674.0015693,
+    "elapsed_s": 0.503225564956665,
+    "log_sha256": "74c3196d5f771637d4d3e53a67b5eba43090e90118ad969fbb3ca3eb579dae34"
+  },
+  {
+    "label": "f1_prefix_native",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\prefix_native\\Scripts\\python.exe",
+      "<DISPOSABLE_WORKSPACE>\\repository\\reproduction\\f1_vacuum.py",
+      "--execute",
+      "--output",
+      "<DISPOSABLE_WORKSPACE>\\disposable_runs\\prefix_native"
+    ],
+    "exit": 0,
+    "started_unix": 1792375674.521829,
+    "elapsed_s": 0.827155590057373,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "environment_patched",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Scripts\\python.exe",
+      "-c",
+      "import sys,json,importlib.metadata as m,hashlib,pathlib,site\npackages={d.metadata['Name']:{'version':d.version,'location':str(d.locate_file('')),'direct_url':d.read_text('direct_url.json')} for d in m.distributions()}\nnative={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in pathlib.Path(sys.prefix).rglob('_internal*.pyd')}\nprint(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'sys_path':sys.path,'user_site_enabled':site.ENABLE_USER_SITE,'packages':packages,'native_sha256':native},indent=2))"
+    ],
+    "exit": 0,
+    "started_unix": 1792375675.3499897,
+    "elapsed_s": 0.4822652339935303,
+    "log_sha256": "fe12b6274665ac8b4ce4ae84a8b2e1bd693331fbd78e127f197eb88ff4b49065"
+  },
+  {
+    "label": "f1_patched",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\patched\\Scripts\\python.exe",
+      "<DISPOSABLE_WORKSPACE>\\repository\\reproduction\\f1_vacuum.py",
+      "--execute",
+      "--output",
+      "<DISPOSABLE_WORKSPACE>\\disposable_runs\\patched"
+    ],
+    "exit": 0,
+    "started_unix": 1792375675.8512914,
+    "elapsed_s": 0.4906785488128662,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "environment_spark",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Scripts\\python.exe",
+      "-c",
+      "import sys,json,importlib.metadata as m,hashlib,pathlib,site\npackages={d.metadata['Name']:{'version':d.version,'location':str(d.locate_file('')),'direct_url':d.read_text('direct_url.json')} for d in m.distributions()}\nnative={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in pathlib.Path(sys.prefix).rglob('_internal*.pyd')}\nprint(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'sys_path':sys.path,'user_site_enabled':site.ENABLE_USER_SITE,'packages':packages,'native_sha256':native},indent=2))"
+    ],
+    "exit": 0,
+    "started_unix": 1792375676.34197,
+    "elapsed_s": 0.1999819278717041,
+    "log_sha256": "4d35f0c7e1a78c81ad8faa7c0abad1146a763ed6eb6ef511d7bdf81fef335538"
+  },
+  {
+    "label": "causal_spark",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Scripts\\python.exe",
+      "<DISPOSABLE_WORKSPACE>\\repository\\reproduction\\f1_causal.py",
+      "--execute",
+      "--output",
+      "<DISPOSABLE_WORKSPACE>\\disposable_runs\\causal"
+    ],
+    "exit": 0,
+    "started_unix": 1792375676.560499,
+    "elapsed_s": 19.292197942733765,
+    "log_sha256": "11f0145100033fbe59f96fb1a7b755bc2f92b824661b0e219231f719bbd75422"
+  },
+  {
+    "label": "checker_tests",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "<DISPOSABLE_WORKSPACE>\\repository\\code\\checker\\tests",
+      "--basetemp",
+      "<DISPOSABLE_WORKSPACE>\\disposable_runs\\pytest"
+    ],
+    "exit": 0,
+    "started_unix": 1792375695.8768954,
+    "elapsed_s": 3.181320905685425,
+    "log_sha256": "c31bda9942486b5be448dd329e6aa87f013f99b9eb2d64c48a918913c9eec46c"
+  },
+  {
+    "label": "matrix",
+    "argv": [
+      "<LOCAL_HOME>\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "<DISPOSABLE_WORKSPACE>\\repository\\tools\\check_matrix.py"
+    ],
+    "exit": 0,
+    "started_unix": 1792375699.0710652,
+    "elapsed_s": 0.48223233222961426,
+    "log_sha256": "ae6802f82c580a5aaa0d67fcfe0b69a64fcadbee6fb52ba29801ef6802ad23ae"
+  },
+  {
+    "label": "fixture",
+    "argv": [
+      "<DISPOSABLE_WORKSPACE>\\environments\\spark\\Scripts\\python.exe",
+      "<DISPOSABLE_WORKSPACE>\\repository\\tools\\check_f1_fixture.py"
+    ],
+    "exit": 0,
+    "started_unix": 1792375699.5553,
+    "elapsed_s": 0.28542184829711914,
+    "log_sha256": "9f9a8160bf7d81f7316309c63b4c56afbe8b98f1547a3ceb65f6177b1f753244"
+  }
+]

@@ -1,0 +1,15 @@
+=== A3: Dry-Run vs Actual VACUUM ===
+Total records: 3200
+Comparable records: 2696
+Records with errors: 504
+Plan/execution differences: 0
+
+=== By implementation ===
+deltars-1.6.6 {'runs': 800, 'compared': 550, 'different': 0}
+deltars-main {'runs': 800, 'compared': 546, 'different': 0}
+deltars-main+4858 {'runs': 800, 'compared': 800, 'different': 0}
+spark-4.4.1 {'runs': 800, 'compared': 800, 'different': 0}
+
+=== Difference examples ===
+
+PASS: A3 historical evidence inspection completed

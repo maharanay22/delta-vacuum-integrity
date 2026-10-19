@@ -1,0 +1,14 @@
+Delta Lake VACUUM Integrity Research Artifact â€” proposed publication candidate
+
+Research author attribution: Maha Rana Yadavalli (retained project metadata).
+
+This candidate includes Apache-2.0 material from delta-io/delta-rs:
+https://github.com/delta-io/delta-rs
+Upstream base: 640dc8937cd6d5c49c16fbf203d72083d86c5b21
+Experimental patched revision: 407201ca5bb795d85e7f4b0e35a688a0a9477bdc
+The rebased patch in deps/pr4858-rebased.patch modifies upstream source; its exact paths and change records are preserved in the patch and PATCH_VERIFICATION.json.
+The checker fixtures derive from upstream test data. Original notices are retained; 21 JSON commitInfo records have user/workspace identities removed and 21 checksum sidecars are omitted. See code/checker/tests/fixtures/MODIFICATIONS.md. Their path and blob mapping is in third_party/FIXTURE_PROVENANCE.json. The inspected upstream root/core/python license files are Apache-2.0; no root or core NOTICE file was present at the inspected base revision.
+The full upstream Apache license is third_party/delta-rs-APACHE-2.0.txt.
+
+Protocol examples/test vectors in the checker tests are identified in source comments (Delta protocol and ZeroMQ RFC 32). These interoperability examples are not claimed as independently invented research observations.
+No endorsement by Delta Lake, Apache, Microsoft, IEEE or the dependency authors is implied.

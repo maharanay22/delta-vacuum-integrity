@@ -1,0 +1,89 @@
+import json
+import pathlib
+import sys
+import tempfile
+
+research = pathlib.Path(sys.argv[1])
+test_dir = pathlib.Path(sys.argv[2])
+
+sys.path.insert(0, str(research / "code" / "checker"))
+
+from vacuumcheck import check_plan
+
+HOUR = 3_600_000
+now = 2_000_000_000_000
+cutoff = now - 168 * HOUR
+
+# Remove timestamp is 1 hour before cutoff.
+remove_ts = cutoff - HOUR
+
+# Commit timestamp is 1 hour after cutoff.
+commit_ts = cutoff + HOUR
+
+with tempfile.TemporaryDirectory(dir=test_dir) as temp:
+    table = pathlib.Path(temp)
+    log = table / "_delta_log"
+    log.mkdir()
+
+    def write_commit(version, actions):
+        path = log / f"{version:020d}.json"
+        path.write_text(
+            "".join(json.dumps(a) + "\n" for a in actions),
+            encoding="utf-8"
+        )
+
+    write_commit(0, [
+        {"add": {"path": "protected.parquet"}}
+    ])
+
+    write_commit(1, [
+        {"remove": {
+            "path": "protected.parquet",
+            "deletionTimestamp": remove_ts
+        }},
+        {"commitInfo": {"timestamp": commit_ts}}
+    ])
+
+    result = check_plan(
+        table,
+        ["protected.parquet"],
+        retention_hours=168,
+        now_ms=now
+    )
+
+    print("=== A1 Timestamp Validation ===")
+    print("Retention hours:", 168)
+    print("Remove timestamp before cutoff:", remove_ts < cutoff)
+    print("Commit timestamp after cutoff:", commit_ts > cutoff)
+    print("Checker reports safe:", result.safe)
+    print("Checker flagged files:", len(result.unsafe))
+
+    if result.safe:
+        print(
+            "OBSERVED: Checker approves the candidate "
+            "deletion despite the later commit timestamp."
+        )
+    else:
+        print("OBSERVED: Checker rejects the candidate deletion.")
+
+    evidence = {
+        "test": "A1_timestamp_mismatch",
+        "retention_hours": 168,
+        "cutoff_ms": cutoff,
+        "remove_timestamp_ms": remove_ts,
+        "commit_timestamp_ms": commit_ts,
+        "checker_safe": result.safe,
+        "flagged_files": len(result.unsafe)
+    }
+
+    output = test_dir / "A1_result.json"
+
+    if output.exists():
+        raise RuntimeError("STOP: Evidence file already exists.")
+
+    output.write_text(
+        json.dumps(evidence, indent=2) + "\n",
+        encoding="utf-8"
+    )
+
+    print("Evidence saved:", output)

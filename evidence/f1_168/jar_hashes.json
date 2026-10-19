@@ -1,0 +1,57 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E58761751FEA8A00DC626AAE1C5F1BE38C5CFD487AEB333D933A4AB5F5A73C55",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\com.fasterxml.jackson.datatype_jackson-datatype-jdk8-2.13.5.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E0CC30FB0531EB0B59468DC0ABF5B257533D2365B5E9F45E795EDD707AA78C62",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\hadoop-bare-naked-local-fs-0.1.0.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "19C93B5E6740BB3001D3DECA0B8C3FA5470197C520FFA36FFA58DF98E91AE459",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.delta_delta-kernel-api-4.4.1.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "329995BBC9B2E5D74A9A7C9E968574C1E438BBB183AAF1B2C629A87CE8558FE2",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.delta_delta-kernel-defaults-4.4.1.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4D92B9248F8A5F9B3043FEA2BB7666F0DB26F5491E279C30868280BE35450368",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.delta_delta-kernel-unitycatalog-4.4.1.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2B1D2CD411BF0BBCED64B96FE621F8FFCE7BB6E394C8064AB783FC6EDCE449BE",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.delta_delta-spark_4.2_2.13-4.4.1.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "F585818D646CB3625B305270EC24F3E6F0B6EA63ED9BAC1AE8F340F8FAAEAE8F",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.delta_delta-storage-4.4.1.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "48257499A86B801A3E2372CEC55AC226CA1C1C7EABE5C118E7302F29A1FDBC19",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.unitycatalog_unitycatalog-client-0.6.0.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C47B63C961C87102B9E1D63809A0915BA4C86B7652F57C8D39CA3A05B441A150",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\io.unitycatalog_unitycatalog-hadoop-0.6.0.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "73F8E24F636A1BA6509DECACBB5605C833EB5EAD6DB3971722FFCC2543B3E393",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\org.roaringbitmap_RoaringBitmap-0.9.25.jar"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0B82ED6CB1CAF0706304B42358D568EB6FAF190EADEA7F2B2D365CB63156B40D",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\deps\\jars\\org.roaringbitmap_shims-0.9.25.jar"
+  }
+]

@@ -1,0 +1,785 @@
+{
+  "basis": "User states independently developed; Git attribution supports provenance but does not prove legal title. No employer assignment evidence supplied.",
+  "upstream_revision": "640dc8937cd6d5c49c16fbf203d72083d86c5b21",
+  "upstream_notice_license_paths": [
+    "LICENSE.txt",
+    "crates/core/LICENSE.txt",
+    "python/LICENSE.txt"
+  ],
+  "authored_candidates": [
+    {
+      "path": "checker/pyproject.toml",
+      "sha256": "d69faa62691a831680317590dad72470e4aad5389ecbf23df95c684be873aea3",
+      "git_blob": "7ca1e6ff76eef20b31b6ad155a0193af390f0995",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/test_vacuumcheck.py",
+      "sha256": "cacf3711ad26dc470e5459c7c79d5c787805862f3bd6df92ae907fab77a2902e",
+      "git_blob": "0706056e06edf3b615e5153668b33836fbe944e6",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/vacuumcheck/__init__.py",
+      "sha256": "57bd8c2a6a4a0c90df4c712541d68cc44a8c36c4f4d4df4c6590e119a8926678",
+      "git_blob": "3acb3b6e475476b142fec6e86dc6d50cff4d489c",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/vacuumcheck/__main__.py",
+      "sha256": "02e9202724bb9a282ffa5d3dde7d94ee411ace80da3a99cf2f4e7ba959ff972a",
+      "git_blob": "17fa7876637bddea50f9d668be1cca36f265b327",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/vacuumcheck/check.py",
+      "sha256": "b4aec3a1095b550c1e9621c57b81f5a1c036a7ea0bae7be00b72f33e357b2676",
+      "git_blob": "ddd171eaa3e8cba82a16e9b7f87d0bc633546217",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/vacuumcheck/dv.py",
+      "sha256": "6d21d5b50703787edf93226886307c01c3657fcaa7e987c51d62b57e7b8d342d",
+      "git_blob": "8d28899d280983966ff3d3d3510c4eac456c1acb",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/vacuumcheck/log.py",
+      "sha256": "a65a8088db8a7ec349007196f1f2384e451783bc024a20277641646527474fed",
+      "git_blob": "707694c2a0ff10efd5fbbcb0ec4cba353a193d90",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/ablation.py",
+      "sha256": "8e45333673d7ff3afe548c3c6ff85b157bbb6be98e399efcb6048f07636383b9",
+      "git_blob": "464e27fc62d064a5a887c265781db184d8c7ad38",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "c21432d0c5e011c4bf4c869689b09863b827fe7b 2026-10-13T20:36:01-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/analyze.py",
+      "sha256": "4acc2586b7422b75ba01eb6ac17deab0ba491e2f6ea40f87818e62f885a4a496",
+      "git_blob": "4d246bd46ca3c87b07f4722c367080355df2cc08",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "e7cab7ca92aed422c88b73cf90b2df2ec6fa3ed0 2026-10-13T19:10:38-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/crosscheck_spark.py",
+      "sha256": "c1c17253ede6fb8f6aa4f27b9245e9a75bc1a33c2c35e882880f5f2a541fd909",
+      "git_blob": "76f14bfb0bb92a36b2977aba4f270cc44f63a271",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "8ec763de06d3ff52cbcf35977847a276b08342d3 2026-10-13T19:32:12-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/environment.py",
+      "sha256": "f423a415030b140074fbe2ad0b106156c6d0ccf0395a85c445df7ed47f9e2f52",
+      "git_blob": "509d3a2204f665419f041fbb2d4ed4f45b0a7050",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "e7cab7ca92aed422c88b73cf90b2df2ec6fa3ed0 2026-10-13T19:10:38-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/minimal.py",
+      "sha256": "da03842ee77b8d6668cbf1d74fa2a7d36259f6574b390b8ee7e13bb943e10b6a",
+      "git_blob": "f82891d56eb36bc595ba1456bd1389e86a4dda2a",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "8ec763de06d3ff52cbcf35977847a276b08342d3 2026-10-13T19:32:12-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/perf_run.py",
+      "sha256": "3281d66f22c432006652aebbb3f2afd0f555f7a9c3f49d2868a07979bc8f8f5d",
+      "git_blob": "99517710e0ac8598d79503e1bf9ac4b99ad48cb3",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "e7cab7ca92aed422c88b73cf90b2df2ec6fa3ed0 2026-10-13T19:10:38-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/perf_tables.py",
+      "sha256": "4e26f9d730cfca91047ab12ccc6561097fde5ff329f05751b6cf989384a8d92a",
+      "git_blob": "419d2cb17a946755e2980c41962d2ed4b5de65bb",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "e7cab7ca92aed422c88b73cf90b2df2ec6fa3ed0 2026-10-13T19:10:38-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/perf_worker.py",
+      "sha256": "4faa762a77a53f873f9e93435089edca9c60aaa2266fff95ca0f4ca1adeb1b8d",
+      "git_blob": "964aa15a3fab03f150d7258e0500c5dc23d53c12",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "e7cab7ca92aed422c88b73cf90b2df2ec6fa3ed0 2026-10-13T19:10:38-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/run_all.sh",
+      "sha256": "11012108884df558cecac5e2ac7697a3eb25e00c7621256d6a9ed7cc5e178678",
+      "git_blob": "e9a774f09c8376610bc4a0ea508529c095706a0e",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "8ec763de06d3ff52cbcf35977847a276b08342d3 2026-10-13T19:32:12-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "experiments/vacuum_commits.py",
+      "sha256": "22bee086920b626db6f588e26c40777b2096cdb205cb11ec41d02c1440694a16",
+      "git_blob": "b43db68262c3812022c22458372f555ce5c03d4a",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "30e3845fa6b7778611d87628d649b98a97a7c3de 2026-10-13T20:44:11-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "harness/aging.py",
+      "sha256": "92644294f2e720290b3851f0a7ce5c19423e1609c2e0f13462f7aeedcaaf9e03",
+      "git_blob": "4a743a5faeb7e165f9e5db4a6b4468b1f4bf6c8a",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "288d082e9ba154ffc7a701306a69dcc05fefda22 2026-10-13T19:04:23-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "harness/generate.py",
+      "sha256": "1c1d50106136e2dddfa1b30aaf822639a4415a775772cbfe7505a42055b56071",
+      "git_blob": "621413d8158132a5dd9f51ca38d9fec0da5a8382",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "288d082e9ba154ffc7a701306a69dcc05fefda22 2026-10-13T19:04:23-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "harness/oracle.py",
+      "sha256": "0a472c4e6fe61f10ff0b7ba39f742c75d76ae43f4b38d74aa4e54b64012acfc7",
+      "git_blob": "e7d26633c8eade1108c43b8194b2adaabd13d7ce",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "288d082e9ba154ffc7a701306a69dcc05fefda22 2026-10-13T19:04:23-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "harness/runner.py",
+      "sha256": "3a303c4f7f4301606a184a9e8426ce4e56cbac6c8903c24daa146f27db899528",
+      "git_blob": "3a87ab821b4176865d40925f71ff6cfab1cb637a",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "288d082e9ba154ffc7a701306a69dcc05fefda22 2026-10-13T19:04:23-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "harness/sparkenv.py",
+      "sha256": "f16c76633536d181a7837f2a9aa8a7fb9a30e9f1bf99183fa06cc418b2b7bf61",
+      "git_blob": "e1a811cccd7ca4808492d04b37f55da8f4cb2694",
+      "upstream_identical_paths": [],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    }
+  ],
+  "excluded_fixtures": [
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/_delta_log/00000000000000000000.json",
+      "sha256": "354e53ec9b71337367889d293444f9e7a836dc57f2e939b52722e516ab88417d",
+      "git_blob": "3760ad99302b353986714155dc1fd3ebdaae6050",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/_delta_log/00000000000000000000.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/_delta_log/00000000000000000001.json",
+      "sha256": "f96afa5ce0a2a383e0acb7f696ac2c358738a6865d51008ff9d827f544e82116",
+      "git_blob": "e5bcdc1163c3ac5226904f2f021c375d9de9cd43",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/_delta_log/00000000000000000001.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin",
+      "sha256": "980a33e97cc99d3eae91af97ff302c0c99c37883662951fd02ce9dc8e0ca7d79",
+      "git_blob": "f1a01e661cdcca08ff5d67e7d2de53381980735a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/deletion_vector_61d16c75-6994-46b7-a15b-8b538852e50e.bin"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table-with-dv-small/part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet",
+      "sha256": "0dc5be52021598ff614c4882e64e1e556fd0f6d4f0592f5f612128b9447c3c29",
+      "git_blob": "640e643b56bc742ab95b0a50ffb7765bda516797",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table-with-dv-small/part-00000-fae5310a-a37d-4e51-827b-c3d5516560ca-c000.snappy.parquet"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.crc",
+      "sha256": "3d4be61d3352cd44d83dcf6576dda158626575866394511ecd36960f7499dd79",
+      "git_blob": "9f80b8330bd81be70012887f861348ab1f94b823",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000000.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000000.json",
+      "sha256": "d0a349fd677ccec45d5dacffcc8b0b36ebf2ecc7c474b42e46467779acee397a",
+      "git_blob": "bd535299af20c87ecbe98dc06bff4d49f5fa092a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000000.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.crc",
+      "sha256": "f8150b7fef177b4e0f0d4a7ab186d160fbf5bd9cf24e05ab7e4b43b9449167e0",
+      "git_blob": "7a806745e93d83f8f0d9a0945f8e56400ea599fc",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000001.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000001.json",
+      "sha256": "2c63d9370f982042140e5f4b5411023f959efce2686f70c8eaef086c2a6e9b5e",
+      "git_blob": "e8ec28d1b65b2e166914bb4203471034bf14761f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000001.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.crc",
+      "sha256": "52fdf445ffa91a04ad02084997da34703d6f1a9c5eb7d78a3da186fb45917efa",
+      "git_blob": "030c087a54432ad1ed6bb2398c1cc98c05b88d6b",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000002.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000002.json",
+      "sha256": "a8d34a8392b636ca2ecb08e4a74666af28866501230215018a1c70d96196eac9",
+      "git_blob": "ff1e9e344e55eef86babec9d7d0ad87f866ac85d",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000002.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.crc",
+      "sha256": "0c66dcefa4fa8730154162864dec2b1afecf4902a03313914cda55eef4f10a84",
+      "git_blob": "c7685325bc3e416fca6fc9f08f67643dd9025c3a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000003.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000003.json",
+      "sha256": "6e7271bc101e5f060dbff3e67753f2e30cd52cd95e79c1254680eed3010600e9",
+      "git_blob": "548c8477eb19dd93874216c55e7449e8ac96a3ba",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000003.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.crc",
+      "sha256": "635f45b01e22ad26a3308104ed78674d130c34f3384d17851ead2998d7f9a706",
+      "git_blob": "9839761722a6536eed1c0b64af611638c348154c",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000004.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000004.json",
+      "sha256": "1d1b22c700502fbdee2c2f03aab69bb62aa0e090a7e5b4dff6c061af7b0da317",
+      "git_blob": "9cc69610ac73da76bf7de6562b233f0ba257d046",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000004.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.crc",
+      "sha256": "e303f688effa16aae15d6b844774a1a9035045f71a6e2609383e3dcf72a13a89",
+      "git_blob": "6399786d2cb4d51403fbc590fbb7009d137b796f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000005.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000005.json",
+      "sha256": "75556147d737120ea46d9201d694878273bc17a359de369e8f2971142d5f5519",
+      "git_blob": "57bb1496692cebb462199cf5368404f9bf751d48",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000005.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.crc",
+      "sha256": "40ccf3fa62467f4cd11f953dd411518a8352a2faf1f0b546b46622b4803da3a2",
+      "git_blob": "067a14756a3dc87ab1b723d7a8b84f70e7762aa6",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000006.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000006.json",
+      "sha256": "2a67291205dee51a16410e9885c60fbe77d8e27c43c541d9f268c71014f6a25d",
+      "git_blob": "36ab69ddca13defb8fe1b5d3ba5afad53432c6c7",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000006.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.crc",
+      "sha256": "fd4ff9ac3d970bf1abf2ada562982da3b349a2fc39032f80020b77e5ccdddf91",
+      "git_blob": "e0283754175c3a744ac3db1ab106d55001b7353f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000007.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000007.json",
+      "sha256": "c71e6482306cd3a79b45a9f310ffe992f04a817477a00d5f9f4b358e5202959a",
+      "git_blob": "83fec599b4f85d44fac1483ce59972e9205bf436",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000007.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.crc",
+      "sha256": "916f5757cdb98d4975d5f304203fdf9bc5fd6ddb0826f1456c9a2c01958aca49",
+      "git_blob": "1bffab337aa0bb739085ef5ec4eb897c31ef967f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000008.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000008.json",
+      "sha256": "1e0ac37404d8a4a21c296139b868f42ee70bf1b4bd40e73aa9c110567e341844",
+      "git_blob": "71b5b6d0f93a9fde0d2fcbb088a9196241d0247f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000008.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.crc",
+      "sha256": "4547705b448a2b690bd6df9ac45d709aa1973286270f2c27639dc08bd039d015",
+      "git_blob": "17ecad05617bf5ac9de65159b604548371a14235",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000009.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000009.json",
+      "sha256": "984021040288d07dfccdeee4d939f844b5f7a66985d8376e9d8924c93aec1d2c",
+      "git_blob": "eeed2bf9a5a5005465ed367d2d8ade027bb4c182",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000009.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+      "sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "git_blob": "dba9baff3420f414fd83cf9c6fcc7882c8365344",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.crc",
+      "sha256": "d789159a79f8bff7fafb0cab87eb6506bc46fed31df1ad900220d37147a18adb",
+      "git_blob": "ba50b2e48be87e9766943ce09c7265ed63df8b0a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000010.json",
+      "sha256": "639484644940e7b394a78d98cbe601d56a3f620cc1edfcd8703329ce109d2357",
+      "git_blob": "e4c3841c7c249b675c3736cfd3ac26de6a6c30ce",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.crc",
+      "sha256": "8b7eae64a00d07e2e8d5a7ff2333a2c1a8f2b36ad7c8c9be89e5c8ce75661d0e",
+      "git_blob": "88b15e2e36ccf996d30440705120fe86e26feec4",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000011.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000011.json",
+      "sha256": "2ba82b0a35341357f86a8055d3eb5ab9b295bbd5090dc74f778edb3dba9a02f6",
+      "git_blob": "e15f988e1290172b7422738274192423643143cf",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000011.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.crc",
+      "sha256": "d59f796d8c98571c90cec97d1c3edaa664d460d239ebb19f2ccecdf603f9586e",
+      "git_blob": "602d240c48fa8a5cdd63e7f941262d515a3e560e",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000012.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000012.json",
+      "sha256": "2c98c9439868c0899f378e323d4b0d5dc40fc9a8395686c5d948fa3cbe790184",
+      "git_blob": "d6766610a72e8a0252e33603c65b73b411d4846a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000012.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.crc",
+      "sha256": "7fb218690400871b7d3f359df3fd7ab6bc8256e504e332a076e9b9e688aaaaa2",
+      "git_blob": "70c98c5292ab8956ebeece1f1b8b6731a0a6ee3b",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000013.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000013.json",
+      "sha256": "c7a6fb9b92bd9e139e8da84e4665ff1a011d9b5a52ddfbf572ed10e7cbcde43b",
+      "git_blob": "32679fb392b318d6ac99e490fc6d2a0aebe20f0f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000013.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.crc",
+      "sha256": "46c0e1897506859d62e6313c99ca240afee62a1d1c140a8aafc73e09cd1b3e9c",
+      "git_blob": "97020a48230db33343f88498ace693d33c88b4b3",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000014.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000014.json",
+      "sha256": "9a95915c641b1aa2247a1915208b9ac6a3c7c1e2064968644c9998a9e5ffcfdf",
+      "git_blob": "a531214fad0e20ff697dddb7c06c7eefc46a9343",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000014.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.crc",
+      "sha256": "79465e2c49475897528ad47f6a08e2c16d0d579b731e8cdd5b225933b8023a18",
+      "git_blob": "2d79c9e0bf7ebb5db1b0775781a63d13a4ce5345",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000015.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000015.json",
+      "sha256": "35459d45b1813011e607329cb5fecd94135617301af9f5b8957a0efb974852ff",
+      "git_blob": "488313996afc1816621e14b585504efc263c0d76",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000015.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.crc",
+      "sha256": "1950c20bc6d1c0418588a6558eab1ce8e7536a4ed7afe1ca88bfd31230ca679a",
+      "git_blob": "da0e237635d5947d6c4c20854a3ab10964f474c5",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000016.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000016.json",
+      "sha256": "6fa7335bf7b52f90f096f19d0cdf94d176592a09de56a8d638668324df9561f7",
+      "git_blob": "f16509dc7cc802c5b7b177abd234e6058b903a92",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000016.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.crc",
+      "sha256": "e149ca1f03cea93c899f04e24886c1a18c466efd3f6b80d816bba8873c613e18",
+      "git_blob": "8a5f747ce6d2117c26b09e4e463b2daa19fad549",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000017.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000017.json",
+      "sha256": "514fdf2b16db09d47e139739aa727fb8ba4de3d56de27d162015dfef02b3d545",
+      "git_blob": "fca9cb4129f07eaeaace625e71fcac182c5728c0",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000017.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.crc",
+      "sha256": "d6cba03313fe1776776a6245a2400701cd4ae7dcfa4bfa87ab9cb1425aa7ddfd",
+      "git_blob": "8f8530274dea49317457dc90857d6a99e5e1e41f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000018.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000018.json",
+      "sha256": "aea4dac5895ded81f6b1b9b79460de12a722f3b25a53ac3d9244aa1e9dbfa063",
+      "git_blob": "37c479653fbf3db53e97d9d0586ca7e99225ded7",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000018.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.crc",
+      "sha256": "9a95e4debf7afd1dbeed76fbf1f1c2c357cd2b2e73e9f56376db53ee0b50f9cc",
+      "git_blob": "3379a8cf0792ccea871815fb90fc50864a75a118",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000019.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000019.json",
+      "sha256": "bf46ace38efbbb0f5460795ebd1a07df6a9e47a4d85e6cc1933763ede7f99ac9",
+      "git_blob": "357406d534c7c2901538d163a9856da7dbbfd168",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000019.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet",
+      "sha256": "5332276f28cf1f16a2beb6b060048dc6c383d9db0b2c3312a1d33cc38159e3be",
+      "git_blob": "dba9baff3420f414fd83cf9c6fcc7882c8365344",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000010.checkpoint.parquet",
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.checkpoint.parquet"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.crc",
+      "sha256": "31cb0d04df90eee2fbdf20d89c3fd643d022598ffd0afa817a31f49ad3eeec6e",
+      "git_blob": "c4891d5a47554ff88c899b38c9d5b6e0d0e138d4",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.crc"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/00000000000000000020.json",
+      "sha256": "c6f572f18cf6277a4f6f534d8f485cee72d9d7c2841f4f90b5a62e65c7ce25c3",
+      "git_blob": "434f5770af4c08a67b95e2423efa38f682515e5f",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/00000000000000000020.json"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/_delta_log/_last_checkpoint",
+      "sha256": "6c38726cce83cd7c18675ef926d9487e791e74fb169cf35c9ae1aa7bb73bc6ac",
+      "git_blob": "f9bc26480248ab0e02ac4f26a4021b97877d4f7a",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/_delta_log/_last_checkpoint"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin",
+      "sha256": "32e60fa67c8677e728960636dc1ae9e4f642369907c23d84cf396a9a144d0bba",
+      "git_blob": "d4dabcfeabb0e5681014115e8a510abb6bf41fd8",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/deletion_vector_8e4ca8be-7615-43cf-bc06-5d131148683f.bin"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin",
+      "sha256": "4c58898467f483d9e82a67a34bda28376dcb71b5fbcca5390b53dddac4922925",
+      "git_blob": "ae07081ef475acf92982d6b91bae236723a4611c",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/deletion_vector_a2084964-69d4-4e1e-95f5-9bbd6571d5c3.bin"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    },
+    {
+      "path": "checker/tests/fixtures/table_with_deletion_logs/part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet",
+      "sha256": "8acb3179ce161c2168fb58d1a1064f2e044c2dd00e212200dadbb3425153951d",
+      "git_blob": "806fa7067b6ea9e80215febfdb412c269e0a4df1",
+      "upstream_identical_paths": [
+        "crates/test/tests/data/table_with_deletion_logs/part-00000-cb251d5e-b665-437a-a9a7-fbfc5137c77d.c000.snappy.parquet"
+      ],
+      "first_commit": [
+        "f7ea33035da97dcd6b09f5d5ba789d1d9fdc6dbc 2026-10-13T18:33:46-04:00 Maha Rana Yadavalli"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Third-party scope and obligations
+
+`NOTICE`, `LICENSING.md`, `third_party/FIXTURE_PROVENANCE.json` and the full Apache-2.0 text apply to upstream-derived delta-rs patch and fixtures. Preserve upstream notices; retain license text and mark modified upstream files if applying/distributing the patch. No root/core NOTICE was found at the recorded base revision. Original fixture identities were established before redaction. Publication copies are metadata-redacted derivatives, excluded from the CC BY data grant.
+
+Separately obtained dependencies include delta-rs, Spark/PySpark, Delta Spark, PyArrow, PyRoaring, Hadoop Bare Naked Local FileSystem, JDK, Maven dependencies and Rust transitive crates. Recorded hashes, requirement snapshots, Cargo.lock and the Rust declaration inventory provide provenance, not a complete compiled-binary license assessment. External dependencies retain their own license and attribution obligations when installed or redistributed. No JAR, wheel, executable, native library or virtual environment is shipped in this candidate. Therefore approval here does not authorize a later binary release; one would need its own complete linked/transitive license and NOTICE audit.
+
+The two experimental delta-rs wheels used privately contain a relative-reference-only license entry. The full upstream license is supplied for the source patch, and the wheels remain excluded from publication. Old staging histories and binary release packages must not be reused as a public upload.

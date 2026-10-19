@@ -1,0 +1,41 @@
+{
+  "history_source": "Windows PowerShell PSReadLine ConsoleHost_history.txt (private user profile path omitted)",
+  "history_sha256": "2ad963ae8157e6aa7b1cd9007e8042c6994cc54387372a6b6dae7fb00bf36342",
+  "history_bytes": 204062,
+  "limitations": "History has no per-command timestamps or original captured stdout. Recovered text alone does not prove successful historical execution. First A1 invocation is visibly truncated. Last A1 body matches retained result schema. All executions below are NEW reruns.",
+  "blocks": [
+    {
+      "test": "A1",
+      "name": "A1_attempt_1",
+      "history_start_line": 4518,
+      "history_end_line": 4608,
+      "raw_excerpt_sha256": "6b69fc038cbad9bdd59c27c137a400b2bc7cd900ea08844fa2df4f5b842c4ec6",
+      "normalized_python_sha256": "84fec7e1f9afd568c3cf9f6b01f97ebad0bafeedad12afe13f2003c41df2d6f9",
+      "normalization": "Removed one PSReadLine multiline-continuation backtick per line; extracted original here-string body; LF UTF-8",
+      "invocation": "'@ | py -3.12 - $research $",
+      "classification": "recovered_original_executable_text_from_shell_history_not_new_test_logic"
+    },
+    {
+      "test": "A1",
+      "name": "A1_attempt_2",
+      "history_start_line": 4614,
+      "history_end_line": 4691,
+      "raw_excerpt_sha256": "565289841463c807db2e8abc0d2c0fa5abc00e110b25d996afbc0fb72902837e",
+      "normalized_python_sha256": "34c3b7cd53fc20e7abeff70949e55a9c47a9ed8d074a938b3fc07ade065d2a58",
+      "normalization": "Removed one PSReadLine multiline-continuation backtick per line; extracted original here-string body; LF UTF-8",
+      "invocation": "'@ | py -3.12 - $research $testDir",
+      "classification": "recovered_original_executable_text_from_shell_history_not_new_test_logic"
+    },
+    {
+      "test": "A3",
+      "name": "A3_original_analysis",
+      "history_start_line": 5744,
+      "history_end_line": 5824,
+      "raw_excerpt_sha256": "7980af860d4416241b8fea04caaf2b82ba8fcef89d95983e3ca5529de6d2fce6",
+      "normalized_python_sha256": "f3977cae5afce64aff1caef2b01de7e5177b57b134c97dbcf2eb065fb3340ee1",
+      "normalization": "Removed one PSReadLine multiline-continuation backtick per line; extracted original here-string body; LF UTF-8",
+      "invocation": "'@ | py -3.12 - $root",
+      "classification": "recovered_original_executable_text_from_shell_history_not_new_test_logic"
+    }
+  ]
+}

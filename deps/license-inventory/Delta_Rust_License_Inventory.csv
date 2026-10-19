@@ -1,0 +1,838 @@
+Package,Version,License,Status
+RustyXML,0.3.0,MIT/Apache-2.0,FOUND
+adler2,2.0.1,0BSD OR MIT OR Apache-2.0,FOUND
+aes,0.8.4,MIT OR Apache-2.0,FOUND
+ahash,0.8.12,MIT OR Apache-2.0,FOUND
+aho-corasick,1.1.5,Unlicense OR MIT,FOUND
+alloc-no-stdlib,2.0.4,BSD-3-Clause,FOUND
+alloc-no-stdlib,3.0.0,BSD-3-Clause,FOUND
+alloc-stdlib,0.2.2,BSD-3-Clause,FOUND
+alloc-stdlib,0.3.0,BSD-3-Clause,FOUND
+allocator-api2,0.2.21,MIT OR Apache-2.0,FOUND
+android_system_properties,0.1.6,MIT OR Apache-2.0,FOUND
+anes,0.1.6,MIT OR Apache-2.0,FOUND
+anstream,1.0.0,MIT OR Apache-2.0,FOUND
+anstyle,1.0.14,MIT OR Apache-2.0,FOUND
+anstyle-parse,1.0.0,MIT OR Apache-2.0,FOUND
+anstyle-query,1.1.5,MIT OR Apache-2.0,FOUND
+anstyle-wincon,3.0.11,MIT OR Apache-2.0,FOUND
+anyhow,1.0.104,MIT OR Apache-2.0,FOUND
+approx,0.5.1,Apache-2.0,FOUND
+ar_archive_writer,0.5.3,Apache-2.0 WITH LLVM-exception,FOUND
+arc-swap,1.9.2,MIT OR Apache-2.0,FOUND
+arrayvec,0.7.8,MIT OR Apache-2.0,FOUND
+arrow,59.3.0,Apache-2.0,FOUND
+arrow-arith,59.3.0,Apache-2.0,FOUND
+arrow-array,59.3.0,Apache-2.0 AND MIT,FOUND
+arrow-buffer,59.3.0,Apache-2.0,FOUND
+arrow-cast,59.3.0,Apache-2.0,FOUND
+arrow-csv,59.3.0,Apache-2.0,FOUND
+arrow-data,59.3.0,Apache-2.0,FOUND
+arrow-ipc,59.3.0,Apache-2.0,FOUND
+arrow-json,59.3.0,Apache-2.0,FOUND
+arrow-ord,59.3.0,Apache-2.0,FOUND
+arrow-pyarrow,59.3.0,Apache-2.0,FOUND
+arrow-row,59.3.0,Apache-2.0,FOUND
+arrow-schema,59.3.0,Apache-2.0,FOUND
+arrow-select,59.3.0,Apache-2.0,FOUND
+arrow-string,59.3.0,Apache-2.0,FOUND
+assert-json-diff,2.0.2,MIT,FOUND
+async-channel,1.9.0,Apache-2.0 OR MIT,FOUND
+async-channel,2.5.0,Apache-2.0 OR MIT,FOUND
+async-compression,0.4.50,MIT OR Apache-2.0,FOUND
+async-executor,1.14.0,Apache-2.0 OR MIT,FOUND
+async-ffi,0.5.1,MIT,FOUND
+async-global-executor,2.4.1,Apache-2.0 OR MIT,FOUND
+async-io,2.6.0,Apache-2.0 OR MIT,FOUND
+async-lock,3.4.2,Apache-2.0 OR MIT,FOUND
+async-object-pool,0.2.0,MIT,FOUND
+async-std,1.13.2,Apache-2.0 OR MIT,FOUND
+async-stream,0.3.6,MIT,FOUND
+async-stream-impl,0.3.6,MIT,FOUND
+async-task,4.7.1,Apache-2.0 OR MIT,FOUND
+async-trait,0.1.92,MIT OR Apache-2.0,FOUND
+asyncband,0.6.7,Apache-2.0,FOUND
+asyncband,0.7.3,Apache-2.0,FOUND
+atoi,2.0.0,MIT,FOUND
+atomic-waker,1.1.2,Apache-2.0 OR MIT,FOUND
+autocfg,1.5.1,Apache-2.0 OR MIT,FOUND
+awaitable,0.4.0,MIT,FOUND
+awaitable-error,0.1.0,MIT,FOUND
+aws-config,1.12.0,Apache-2.0,FOUND
+aws-credential-types,1.3.0,Apache-2.0,FOUND
+aws-lc-rs,1.18.2,ISC AND (Apache-2.0 OR ISC),FOUND
+aws-lc-sys,0.46.0,ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0),FOUND
+aws-runtime,1.10.0,Apache-2.0,FOUND
+aws-sdk-glue,1.177.0,Apache-2.0,FOUND
+aws-sdk-sso,1.114.0,Apache-2.0,FOUND
+aws-sdk-ssooidc,1.116.0,Apache-2.0,FOUND
+aws-sdk-sts,1.119.0,Apache-2.0,FOUND
+aws-sigv4,1.6.0,Apache-2.0,FOUND
+aws-smithy-async,1.3.0,Apache-2.0,FOUND
+aws-smithy-http,0.64.1,Apache-2.0,FOUND
+aws-smithy-http-client,1.5.0,Apache-2.0,FOUND
+aws-smithy-json,0.63.1,Apache-2.0,FOUND
+aws-smithy-observability,0.3.0,Apache-2.0,FOUND
+aws-smithy-query,0.62.1,Apache-2.0,FOUND
+aws-smithy-runtime,1.16.0,Apache-2.0,FOUND
+aws-smithy-runtime-api,1.19.0,Apache-2.0,FOUND
+aws-smithy-runtime-api-macros,1.1.0,Apache-2.0,FOUND
+aws-smithy-schema,0.2.1,Apache-2.0,FOUND
+aws-smithy-types,1.8.1,Apache-2.0,FOUND
+aws-smithy-xml,0.62.1,Apache-2.0,FOUND
+aws-types,1.6.0,Apache-2.0,FOUND
+azure_core,0.21.0,MIT,FOUND
+azure_storage,0.21.0,MIT,FOUND
+azure_storage_blobs,0.21.0,MIT,FOUND
+azure_svc_blobstorage,0.21.0,MIT,FOUND
+base64,0.13.1,MIT/Apache-2.0,FOUND
+base64,0.22.1,MIT OR Apache-2.0,FOUND
+base64,0.23.1,MIT OR Apache-2.0,FOUND
+base64-simd,0.8.0,MIT,FOUND
+base64ct,1.8.3,Apache-2.0 OR MIT,FOUND
+bigdecimal,0.4.11,MIT/Apache-2.0,FOUND
+bincode,1.3.3,NOT_FOUND,MISSING
+bitflags,1.3.2,MIT/Apache-2.0,FOUND
+bitflags,2.13.2,MIT OR Apache-2.0,FOUND
+blake2,0.10.6,MIT OR Apache-2.0,FOUND
+blake3,1.8.7,CC0-1.0 OR Apache-2.0 OR Apache-2.0 WITH LLVM-exception,FOUND
+block-buffer,0.10.4,MIT OR Apache-2.0,FOUND
+block-buffer,0.12.1,MIT OR Apache-2.0,FOUND
+block-padding,0.3.3,MIT OR Apache-2.0,FOUND
+blocking,1.7.0,Apache-2.0 OR MIT,FOUND
+brotli,8.0.4,BSD-3-Clause AND MIT,FOUND
+brotli-decompressor,5.0.3,BSD-3-Clause/MIT,FOUND
+brotli-decompressor,6.0.0,BSD-3-Clause/MIT,FOUND
+bstr,1.13.1,MIT OR Apache-2.0,FOUND
+bumpalo,3.20.3,MIT OR Apache-2.0,FOUND
+buoyant_kernel,0.28.1,Apache-2.0,FOUND
+buoyant_kernel_derive,1.2.0,Apache-2.0,FOUND
+buoyant_kernel_engine,0.28.0,Apache-2.0,FOUND
+bytemuck,1.25.2,Zlib OR Apache-2.0 OR MIT,FOUND
+byteorder,1.5.0,Unlicense OR MIT,FOUND
+bytes,1.12.1,MIT,FOUND
+bytes-utils,0.1.4,Apache-2.0/MIT,FOUND
+bzip2,0.6.1,MIT OR Apache-2.0,FOUND
+cast,0.3.0,MIT OR Apache-2.0,FOUND
+cbc,0.1.2,MIT OR Apache-2.0,FOUND
+cc,1.8.0,MIT OR Apache-2.0,FOUND
+cfg-if,1.0.5,MIT OR Apache-2.0,FOUND
+cfg_aliases,0.2.2,MIT,FOUND
+chacha20,0.10.2,MIT OR Apache-2.0,FOUND
+chrono,0.4.45,MIT OR Apache-2.0,FOUND
+chrono-tz,0.10.4,MIT OR Apache-2.0,FOUND
+ciborium,0.2.2,Apache-2.0,FOUND
+ciborium-io,0.2.2,Apache-2.0,FOUND
+ciborium-ll,0.2.2,Apache-2.0,FOUND
+cipher,0.4.4,MIT OR Apache-2.0,FOUND
+clap,4.6.7,MIT OR Apache-2.0,FOUND
+clap_builder,4.6.7,MIT OR Apache-2.0,FOUND
+clap_derive,4.6.7,MIT OR Apache-2.0,FOUND
+clap_lex,1.1.1,MIT OR Apache-2.0,FOUND
+cmake,0.1.58,MIT OR Apache-2.0,FOUND
+cmov,0.5.4,Apache-2.0 OR MIT,FOUND
+colorchoice,1.0.5,MIT OR Apache-2.0,FOUND
+colored,3.1.1,MPL-2.0,FOUND
+combine,4.6.8,MIT,FOUND
+comfy-table,7.2.2,MIT,FOUND
+compression-codecs,0.4.45,MIT OR Apache-2.0,FOUND
+compression-core,0.4.33,MIT OR Apache-2.0,FOUND
+concurrent-queue,2.5.0,Apache-2.0 OR MIT,FOUND
+concurrent_arena,0.1.11,MIT,FOUND
+condtype,1.3.0,MIT OR Apache-2.0,FOUND
+const-oid,0.9.6,Apache-2.0 OR MIT,FOUND
+const-oid,0.10.2,Apache-2.0 OR MIT,FOUND
+const-random,0.1.18,MIT OR Apache-2.0,FOUND
+const-random-macro,0.1.16,MIT OR Apache-2.0,FOUND
+const-str,1.1.0,MIT,FOUND
+const_panic,0.2.17,Zlib,FOUND
+constant_time_eq,0.4.2,CC0-1.0 OR MIT-0 OR Apache-2.0,FOUND
+convert_case,0.9.0,MIT,FOUND
+core-foundation,0.9.4,MIT OR Apache-2.0,FOUND
+core-foundation,0.10.1,MIT OR Apache-2.0,FOUND
+core-foundation-sys,0.8.7,MIT OR Apache-2.0,FOUND
+core_affinity,0.8.3,NOT_FOUND,MISSING
+core_detect,1.0.0,MIT/Apache-2.0,FOUND
+countio,0.3.0,MIT,FOUND
+cpufeatures,0.2.17,MIT OR Apache-2.0,FOUND
+cpufeatures,0.3.1,MIT OR Apache-2.0,FOUND
+crc,3.4.0,MIT OR Apache-2.0,FOUND
+crc-catalog,2.5.0,MIT OR Apache-2.0,FOUND
+crc-fast,1.10.0,MIT OR Apache-2.0,FOUND
+crc32fast,1.5.2,MIT OR Apache-2.0,FOUND
+criterion,0.5.1,Apache-2.0 OR MIT,FOUND
+criterion-plot,0.5.0,MIT/Apache-2.0,FOUND
+crossbeam-channel,0.5.17,MIT OR Apache-2.0,FOUND
+crossbeam-deque,0.8.8,MIT OR Apache-2.0,FOUND
+crossbeam-epoch,0.9.21,MIT OR Apache-2.0,FOUND
+crossbeam-utils,0.8.23,MIT OR Apache-2.0,FOUND
+crunchy,0.2.4,MIT,FOUND
+crypto-common,0.1.7,MIT OR Apache-2.0,FOUND
+crypto-common,0.2.2,MIT OR Apache-2.0,FOUND
+csv,1.4.0,Unlicense/MIT,FOUND
+csv-core,0.1.13,Unlicense/MIT,FOUND
+ctor,0.10.1,Apache-2.0 OR MIT,FOUND
+ctor,0.13.1,Apache-2.0 OR MIT,FOUND
+ctor,1.0.13,Apache-2.0 OR MIT,FOUND
+ctor-proc-macro,0.0.13,Apache-2.0 OR MIT,FOUND
+ctr,0.9.2,MIT OR Apache-2.0,FOUND
+ctutils,0.4.3,Apache-2.0 OR MIT,FOUND
+darling,0.20.11,MIT,FOUND
+darling_core,0.20.11,MIT,FOUND
+darling_macro,0.20.11,MIT,FOUND
+dashmap,6.2.1,MIT,FOUND
+datafusion,55.2.0,Apache-2.0,FOUND
+datafusion-catalog,55.2.0,Apache-2.0,FOUND
+datafusion-catalog-listing,55.2.0,Apache-2.0,FOUND
+datafusion-common,55.2.0,Apache-2.0,FOUND
+datafusion-common-runtime,55.2.0,Apache-2.0,FOUND
+datafusion-datasource,55.2.0,Apache-2.0,FOUND
+datafusion-datasource-arrow,55.2.0,Apache-2.0,FOUND
+datafusion-datasource-csv,55.2.0,Apache-2.0,FOUND
+datafusion-datasource-json,55.2.0,Apache-2.0,FOUND
+datafusion-datasource-parquet,55.2.0,Apache-2.0,FOUND
+datafusion-doc,55.2.0,Apache-2.0,FOUND
+datafusion-execution,55.2.0,Apache-2.0,FOUND
+datafusion-expr,55.2.0,Apache-2.0,FOUND
+datafusion-expr-common,55.2.0,Apache-2.0,FOUND
+datafusion-ffi,55.2.0,Apache-2.0,FOUND
+datafusion-functions,55.2.0,Apache-2.0,FOUND
+datafusion-functions-aggregate,55.2.0,Apache-2.0,FOUND
+datafusion-functions-aggregate-common,55.2.0,Apache-2.0,FOUND
+datafusion-functions-nested,55.2.0,Apache-2.0,FOUND
+datafusion-functions-table,55.2.0,Apache-2.0,FOUND
+datafusion-functions-window,55.2.0,Apache-2.0,FOUND
+datafusion-functions-window-common,55.2.0,Apache-2.0,FOUND
+datafusion-macros,55.2.0,Apache-2.0,FOUND
+datafusion-optimizer,55.2.0,Apache-2.0,FOUND
+datafusion-physical-expr,55.2.0,Apache-2.0,FOUND
+datafusion-physical-expr-adapter,55.2.0,Apache-2.0,FOUND
+datafusion-physical-expr-common,55.2.0,Apache-2.0,FOUND
+datafusion-physical-optimizer,55.2.0,Apache-2.0,FOUND
+datafusion-physical-plan,55.2.0,Apache-2.0,FOUND
+datafusion-proto,55.2.0,Apache-2.0,FOUND
+datafusion-proto-common,55.2.0,Apache-2.0,FOUND
+datafusion-proto-models,55.2.0,Apache-2.0,FOUND
+datafusion-pruning,55.2.0,Apache-2.0,FOUND
+datafusion-session,55.2.0,Apache-2.0,FOUND
+datafusion-sql,55.2.0,Apache-2.0,FOUND
+datasketches,0.3.0,NOT_FOUND,MISSING
+defmt,1.1.1,MIT OR Apache-2.0,FOUND
+defmt-macros,1.1.1,MIT OR Apache-2.0,FOUND
+defmt-parser,1.0.0,MIT OR Apache-2.0,FOUND
+der,0.7.10,Apache-2.0 OR MIT,FOUND
+deranged,0.5.9,MIT OR Apache-2.0,FOUND
+derive_destructure2,0.1.3,MIT OR Apache-2.0,FOUND
+des,0.8.1,MIT OR Apache-2.0,FOUND
+diff,0.1.13,MIT OR Apache-2.0,FOUND
+digest,0.10.7,MIT OR Apache-2.0,FOUND
+digest,0.11.3,MIT OR Apache-2.0,FOUND
+dirs,6.0.0,MIT OR Apache-2.0,FOUND
+dirs-sys,0.5.0,MIT OR Apache-2.0,FOUND
+dispatch2,0.3.1,Zlib OR Apache-2.0 OR MIT,FOUND
+displaydoc,0.2.7,MIT OR Apache-2.0,FOUND
+divan,0.1.21,MIT OR Apache-2.0,FOUND
+divan-macros,0.1.21,MIT OR Apache-2.0,FOUND
+dlv-list,0.5.2,MIT OR Apache-2.0,FOUND
+dns-lookup,3.0.1,MIT/Apache-2.0,FOUND
+dotenvy,0.15.7,MIT,FOUND
+dtor,0.8.1,Apache-2.0 OR MIT,FOUND
+dtor-proc-macro,0.0.13,Apache-2.0 OR MIT,FOUND
+dunce,1.0.5,CC0-1.0 OR MIT-0 OR Apache-2.0,FOUND
+dyn-clone,1.0.20,MIT OR Apache-2.0,FOUND
+either,1.19.0,MIT OR Apache-2.0,FOUND
+encoding_rs,0.8.42,(Apache-2.0 OR MIT) AND BSD-3-Clause,FOUND
+env_filter,2.0.0,MIT OR Apache-2.0,FOUND
+env_home,0.1.0,MIT OR Apache-2.0,FOUND
+env_logger,0.10.2,MIT OR Apache-2.0,FOUND
+env_logger,0.11.11,MIT OR Apache-2.0,FOUND
+equivalent,1.0.2,Apache-2.0 OR MIT,FOUND
+errno,0.3.14,MIT OR Apache-2.0,FOUND
+event-listener,2.5.3,Apache-2.0 OR MIT,FOUND
+event-listener,5.4.2,Apache-2.0 OR MIT,FOUND
+event-listener-strategy,0.5.4,Apache-2.0 OR MIT,FOUND
+fastant,0.1.11,NOT_FOUND,MISSING
+fastpool,1.1.2,Apache-2.0,FOUND
+fastrand,1.9.0,Apache-2.0 OR MIT,FOUND
+fastrand,2.5.0,Apache-2.0 OR MIT,FOUND
+find-msvc-tools,0.1.14,MIT OR Apache-2.0,FOUND
+fixedbitset,0.5.7,MIT OR Apache-2.0,FOUND
+flatbuffers,25.12.19,Apache-2.0,FOUND
+flate2,1.1.10,MIT OR Apache-2.0,FOUND
+fnv,1.0.7,Apache-2.0 / MIT,FOUND
+foldhash,0.1.5,Zlib,FOUND
+foldhash,0.2.0,Zlib,FOUND
+foreign-types,0.3.2,MIT/Apache-2.0,FOUND
+foreign-types-shared,0.1.1,MIT/Apache-2.0,FOUND
+form_urlencoded,1.2.2,MIT OR Apache-2.0,FOUND
+foyer,0.22.6,NOT_FOUND,MISSING
+foyer-common,0.22.6,NOT_FOUND,MISSING
+foyer-intrusive-collections,0.10.0-dev,NOT_FOUND,MISSING
+foyer-memory,0.22.6,NOT_FOUND,MISSING
+foyer-storage,0.22.6,NOT_FOUND,MISSING
+foyer-tokio,0.22.6,NOT_FOUND,MISSING
+fs4,0.13.1,NOT_FOUND,MISSING
+fs_extra,1.3.0,MIT,FOUND
+futures,0.3.34,MIT OR Apache-2.0,FOUND
+futures-channel,0.3.34,MIT OR Apache-2.0,FOUND
+futures-core,0.3.34,MIT OR Apache-2.0,FOUND
+futures-executor,0.3.34,MIT OR Apache-2.0,FOUND
+futures-io,0.3.34,MIT OR Apache-2.0,FOUND
+futures-lite,1.13.0,Apache-2.0 OR MIT,FOUND
+futures-lite,2.6.1,Apache-2.0 OR MIT,FOUND
+futures-macro,0.3.34,MIT OR Apache-2.0,FOUND
+futures-rustls,0.26.0,MIT/Apache-2.0,FOUND
+futures-sink,0.3.34,MIT OR Apache-2.0,FOUND
+futures-task,0.3.34,MIT OR Apache-2.0,FOUND
+futures-timer,3.0.4,MIT/Apache-2.0,FOUND
+futures-util,0.3.34,MIT OR Apache-2.0,FOUND
+g2gen,1.2.2,MIT/Apache-2.0,FOUND
+g2p,1.2.2,MIT/Apache-2.0,FOUND
+g2poly,1.2.2,MIT/Apache-2.0,FOUND
+gearhash,0.1.4,MIT OR Apache-2.0,FOUND
+generic-array,0.14.7,MIT,FOUND
+getrandom,0.1.16,MIT OR Apache-2.0,FOUND
+getrandom,0.2.17,MIT OR Apache-2.0,FOUND
+getrandom,0.3.4,MIT OR Apache-2.0,FOUND
+getrandom,0.4.3,MIT OR Apache-2.0,FOUND
+git-version,0.3.9,BSD-2-Clause,FOUND
+git-version-macro,0.3.9,BSD-2-Clause,FOUND
+glob,0.3.4,MIT OR Apache-2.0,FOUND
+gloo-timers,0.3.0,MIT OR Apache-2.0,FOUND
+h2,0.4.20,MIT,FOUND
+half,2.7.1,MIT OR Apache-2.0,FOUND
+hashbrown,0.14.5,MIT OR Apache-2.0,FOUND
+hashbrown,0.15.5,MIT OR Apache-2.0,FOUND
+hashbrown,0.17.1,MIT OR Apache-2.0,FOUND
+hdfs-native,0.13.5,Apache-2.0,FOUND
+hdfs-native-object-store,0.16.0,Apache-2.0,FOUND
+headers,0.4.2,MIT,FOUND
+headers-core,0.3.0,MIT,FOUND
+heapify,0.2.0,MIT OR Apache-2.0,FOUND
+heck,0.5.0,MIT OR Apache-2.0,FOUND
+hermit-abi,0.5.3,MIT OR Apache-2.0,FOUND
+hex,0.4.3,MIT OR Apache-2.0,FOUND
+hf-xet,1.7.0,Apache-2.0,FOUND
+hmac,0.12.1,MIT OR Apache-2.0,FOUND
+hmac,0.13.0,MIT OR Apache-2.0,FOUND
+http,1.5.0,MIT OR Apache-2.0,FOUND
+http-body,1.1.0,MIT,FOUND
+http-body-util,0.1.5,MIT,FOUND
+http-types,2.12.0,MIT OR Apache-2.0,FOUND
+httparse,1.10.1,MIT OR Apache-2.0,FOUND
+httpdate,1.0.3,MIT OR Apache-2.0,FOUND
+httpmock,0.8.3,MIT,FOUND
+humantime,2.4.0,MIT OR Apache-2.0,FOUND
+hybrid-array,0.4.15,MIT OR Apache-2.0,FOUND
+hyper,1.12.0,MIT,FOUND
+hyper-rustls,0.27.10,Apache-2.0 OR ISC OR MIT,FOUND
+hyper-tls,0.6.0,MIT/Apache-2.0,FOUND
+hyper-util,0.1.21,MIT,FOUND
+iana-time-zone,0.1.65,MIT OR Apache-2.0,FOUND
+iana-time-zone-haiku,0.1.2,MIT OR Apache-2.0,FOUND
+icu_collections,2.3.0,Unicode-3.0,FOUND
+icu_locale_core,2.3.0,Unicode-3.0,FOUND
+icu_normalizer,2.3.0,Unicode-3.0,FOUND
+icu_normalizer_data,2.3.0,Unicode-3.0,FOUND
+icu_properties,2.3.0,Unicode-3.0,FOUND
+icu_properties_data,2.3.0,Unicode-3.0,FOUND
+icu_provider,2.3.1,Unicode-3.0,FOUND
+ident_case,1.0.1,MIT/Apache-2.0,FOUND
+idna,1.1.0,MIT OR Apache-2.0,FOUND
+idna_adapter,1.2.2,Apache-2.0 OR MIT,FOUND
+indexmap,2.14.2,Apache-2.0 OR MIT,FOUND
+infer,0.2.3,MIT,FOUND
+inout,0.1.4,MIT OR Apache-2.0,FOUND
+instant,0.1.13,BSD-3-Clause,FOUND
+io-uring,0.7.15,NOT_FOUND,MISSING
+ipnet,2.12.2,MIT OR Apache-2.0,FOUND
+is-terminal,0.4.17,MIT,FOUND
+is_terminal_polyfill,1.70.2,MIT OR Apache-2.0,FOUND
+itertools,0.10.5,MIT/Apache-2.0,FOUND
+itertools,0.14.0,MIT OR Apache-2.0,FOUND
+itertools,0.15.0,MIT OR Apache-2.0,FOUND
+itoa,1.0.18,MIT OR Apache-2.0,FOUND
+jiff,0.2.38,Unlicense OR MIT,FOUND
+jiff-core,0.1.1,Unlicense OR MIT,FOUND
+jiff-static,0.2.38,Unlicense OR MIT,FOUND
+jiff-tzdb,0.1.9,Unlicense OR MIT,FOUND
+jiff-tzdb-platform,0.1.3,Unlicense OR MIT,FOUND
+jni,0.22.4,MIT OR Apache-2.0,FOUND
+jni-macros,0.22.4,MIT OR Apache-2.0,FOUND
+jni-sys,0.4.1,MIT OR Apache-2.0,FOUND
+jni-sys-macros,0.4.1,MIT OR Apache-2.0,FOUND
+jobserver,0.1.35,MIT OR Apache-2.0,FOUND
+js-sys,0.3.106,MIT OR Apache-2.0,FOUND
+konst,0.4.3,Zlib,FOUND
+konst_proc_macros,0.4.1,Zlib,FOUND
+kv-log-macro,1.0.7,MIT OR Apache-2.0,FOUND
+lazy-regex,3.6.2,MIT,FOUND
+lazy-regex-proc_macros,3.6.2,MIT,FOUND
+lazy_static,1.5.1,MIT OR Apache-2.0,FOUND
+lexical-core,1.0.6,MIT/Apache-2.0,FOUND
+lexical-parse-float,1.0.6,MIT/Apache-2.0,FOUND
+lexical-parse-integer,1.0.6,MIT/Apache-2.0,FOUND
+lexical-util,1.0.7,MIT/Apache-2.0,FOUND
+lexical-write-float,1.0.6,MIT/Apache-2.0,FOUND
+lexical-write-integer,1.0.6,MIT/Apache-2.0,FOUND
+libbz2-rs-sys,0.2.5,bzip2-1.0.6,FOUND
+libc,0.2.190,MIT OR Apache-2.0,FOUND
+libloading,0.9.0,ISC,FOUND
+liblzma,0.4.8,MIT OR Apache-2.0,FOUND
+liblzma-sys,0.4.9,MIT OR Apache-2.0,FOUND
+libm,0.2.16,MIT,FOUND
+libmimalloc-sys,0.1.49,MIT,FOUND
+libredox,0.1.25,MIT,FOUND
+link-section,0.2.1,Apache-2.0 OR MIT,FOUND
+link-section,0.13.1,Apache-2.0 OR MIT,FOUND
+link-section,0.19.3,Apache-2.0 OR MIT,FOUND
+linktime-proc-macro,0.1.0,Apache-2.0 OR MIT,FOUND
+linktime-proc-macro,0.2.3,Apache-2.0 OR MIT,FOUND
+linux-raw-sys,0.12.1,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+litemap,0.8.3,Unicode-3.0,FOUND
+lock_api,0.4.14,MIT OR Apache-2.0,FOUND
+log,0.4.34,MIT OR Apache-2.0,FOUND
+lru-slab,0.1.3,MIT OR Apache-2.0 OR Zlib,FOUND
+lz4,1.28.1,NOT_FOUND,MISSING
+lz4-sys,1.11.1+lz4-1.10.0,NOT_FOUND,MISSING
+lz4_flex,0.13.1,MIT,FOUND
+lz4_flex,0.14.0,MIT,FOUND
+maplit,1.0.2,MIT/Apache-2.0,FOUND
+matchers,0.2.0,MIT,FOUND
+matrixmultiply,0.3.11,MIT/Apache-2.0,FOUND
+md-5,0.10.6,MIT OR Apache-2.0,FOUND
+md-5,0.11.0,MIT OR Apache-2.0,FOUND
+mea,0.6.7,Apache-2.0,FOUND
+memchr,2.8.3,Unlicense OR MIT,FOUND
+memoffset,0.9.1,NOT_FOUND,MISSING
+mimalloc,0.1.52,MIT,FOUND
+mime,0.3.17,MIT OR Apache-2.0,FOUND
+miniz_oxide,0.9.1,MIT OR Zlib OR Apache-2.0,FOUND
+mio,1.2.4,MIT,FOUND
+mixtrics,0.2.5,NOT_FOUND,MISSING
+mockito,1.7.2,MIT,FOUND
+moka,0.12.16,(MIT OR Apache-2.0) AND Apache-2.0,FOUND
+more-asserts,0.3.1,Unlicense OR MIT OR Apache-2.0 OR CC0-1.0,FOUND
+multiversion_no_op,1.0.0,Apache-2.0 OR MIT,FOUND
+native-tls,0.2.18,MIT OR Apache-2.0,FOUND
+ndarray,0.17.2,MIT OR Apache-2.0,FOUND
+ntapi,0.4.3,Apache-2.0 OR MIT,FOUND
+nu-ansi-term,0.50.3,MIT,FOUND
+num-bigint,0.4.8,MIT OR Apache-2.0,FOUND
+num-bigint,0.5.1,MIT OR Apache-2.0,FOUND
+num-bigint-dig,0.8.6,MIT/Apache-2.0,FOUND
+num-complex,0.4.6,MIT OR Apache-2.0,FOUND
+num-conv,0.2.2,MIT OR Apache-2.0,FOUND
+num-derive,0.5.1,MIT OR Apache-2.0,FOUND
+num-integer,0.1.47,MIT OR Apache-2.0,FOUND
+num-iter,0.1.46,MIT OR Apache-2.0,FOUND
+num-traits,0.2.19,MIT OR Apache-2.0,FOUND
+num_cpus,1.17.0,NOT_FOUND,MISSING
+numpy,0.29.0,BSD-2-Clause,FOUND
+objc2,0.6.5,MIT,FOUND
+objc2-core-foundation,0.3.2,Zlib OR Apache-2.0 OR MIT,FOUND
+objc2-encode,4.1.0,MIT,FOUND
+objc2-foundation,0.3.2,MIT,FOUND
+objc2-io-kit,0.3.2,Zlib OR Apache-2.0 OR MIT,FOUND
+objc2-open-directory,0.3.2,Zlib OR Apache-2.0 OR MIT,FOUND
+objc2-system-configuration,0.3.2,Zlib OR Apache-2.0 OR MIT,FOUND
+object,0.39.1,Apache-2.0 OR MIT,FOUND
+object_store,0.13.2,MIT/Apache-2.0,FOUND
+object_store_opendal,0.58.0,Apache-2.0,FOUND
+once_cell,1.21.4,MIT OR Apache-2.0,FOUND
+once_cell_polyfill,1.70.2,MIT OR Apache-2.0,FOUND
+oneshot,0.1.13,MIT OR Apache-2.0,FOUND
+oorandom,11.1.5,MIT,FOUND
+opendal,0.58.2,Apache-2.0,FOUND
+opendal-core,0.58.2,Apache-2.0,FOUND
+opendal-http-transport-reqwest,0.58.2,Apache-2.0,FOUND
+opendal-service-azblob,0.58.2,Apache-2.0,FOUND
+opendal-service-azdls,0.58.2,Apache-2.0,FOUND
+opendal-service-azure-common,0.58.2,Apache-2.0,FOUND
+opendal-service-b2,0.58.2,Apache-2.0,FOUND
+opendal-service-cos,0.58.2,Apache-2.0,FOUND
+opendal-service-fs,0.58.2,Apache-2.0,FOUND
+opendal-service-ftp,0.58.2,Apache-2.0,FOUND
+opendal-service-gcs,0.58.2,Apache-2.0,FOUND
+opendal-service-hf,0.58.2,Apache-2.0,FOUND
+opendal-service-obs,0.58.2,Apache-2.0,FOUND
+opendal-service-oss,0.58.2,Apache-2.0,FOUND
+opendal-service-s3,0.58.2,Apache-2.0,FOUND
+opendal-service-sftp,0.58.2,Apache-2.0,FOUND
+opendal-service-swift,0.58.2,Apache-2.0,FOUND
+opendal-service-tos,0.58.2,Apache-2.0,FOUND
+opendal-service-webdav,0.58.2,Apache-2.0,FOUND
+opendal-service-webhdfs,0.58.2,Apache-2.0,FOUND
+openssh,0.11.6,MIT OR Apache-2.0,FOUND
+openssh-sftp-client,0.15.10,MIT,FOUND
+openssh-sftp-client-lowlevel,0.7.3,MIT,FOUND
+openssh-sftp-error,0.5.1,MIT,FOUND
+openssh-sftp-protocol,0.25.0,MIT,FOUND
+openssh-sftp-protocol-error,0.1.1,MIT,FOUND
+openssl,0.10.81,Apache-2.0,FOUND
+openssl-macros,0.1.1,MIT/Apache-2.0,FOUND
+openssl-probe,0.2.1,MIT OR Apache-2.0,FOUND
+openssl-sys,0.9.117,MIT,FOUND
+opentelemetry,0.33.1,Apache-2.0,FOUND
+opentelemetry-http,0.33.1,Apache-2.0,FOUND
+opentelemetry-otlp,0.33.1,Apache-2.0,FOUND
+opentelemetry-proto,0.33.1,Apache-2.0,FOUND
+opentelemetry_sdk,0.33.1,Apache-2.0,FOUND
+option-ext,0.2.0,MPL-2.0,FOUND
+ordered-multimap,0.7.3,MIT,FOUND
+os_str_bytes,6.6.1,MIT OR Apache-2.0,FOUND
+outref,0.5.2,MIT,FOUND
+parking,2.2.1,Apache-2.0 OR MIT,FOUND
+parking_lot,0.12.5,MIT OR Apache-2.0,FOUND
+parking_lot_core,0.9.12,MIT OR Apache-2.0,FOUND
+parquet,59.3.0,Apache-2.0,FOUND
+parquet-variant,59.3.0,Apache-2.0,FOUND
+parquet-variant-compute,59.3.0,Apache-2.0,FOUND
+parquet-variant-json,59.3.0,Apache-2.0,FOUND
+paste,1.0.15,MIT OR Apache-2.0,FOUND
+path-tree,0.8.3,MIT OR Apache-2.0,FOUND
+pbkdf2,0.12.2,MIT OR Apache-2.0,FOUND
+pem,4.0.0,MIT,FOUND
+pem-rfc7468,0.7.0,Apache-2.0 OR MIT,FOUND
+percent-encoding,2.3.2,MIT OR Apache-2.0,FOUND
+percent-encoding-rfc3986,0.1.3,MIT/Apache-2.0,FOUND
+petgraph,0.8.3,MIT OR Apache-2.0,FOUND
+phf,0.12.1,MIT,FOUND
+phf_shared,0.12.1,MIT,FOUND
+pin-project,1.1.13,Apache-2.0 OR MIT,FOUND
+pin-project-internal,1.1.13,Apache-2.0 OR MIT,FOUND
+pin-project-lite,0.2.17,Apache-2.0 OR MIT,FOUND
+pin-utils,0.1.1,MIT OR Apache-2.0,FOUND
+piper,0.2.5,MIT OR Apache-2.0,FOUND
+pkcs1,0.7.5,Apache-2.0 OR MIT,FOUND
+pkcs5,0.7.1,Apache-2.0 OR MIT,FOUND
+pkcs8,0.10.2,Apache-2.0 OR MIT,FOUND
+pkg-config,0.3.34,MIT OR Apache-2.0,FOUND
+plain,0.2.3,MIT/Apache-2.0,FOUND
+plotters,0.3.7,MIT,FOUND
+plotters-backend,0.3.7,MIT,FOUND
+plotters-svg,0.3.7,MIT,FOUND
+polling,3.11.0,Apache-2.0 OR MIT,FOUND
+portable-atomic,1.15.0,Apache-2.0 OR MIT,FOUND
+portable-atomic-util,0.2.8,Apache-2.0 OR MIT,FOUND
+potential_utf,0.1.6,Unicode-3.0,FOUND
+powerfmt,0.2.1,MIT OR Apache-2.0,FOUND
+ppv-lite86,0.2.21,MIT OR Apache-2.0,FOUND
+pretty_assertions,1.4.1,MIT OR Apache-2.0,FOUND
+pretty_env_logger,0.5.0,MIT/Apache-2.0,FOUND
+proc-macro-crate,3.5.0,MIT OR Apache-2.0,FOUND
+proc-macro-error-attr2,2.0.0,MIT OR Apache-2.0,FOUND
+proc-macro-error2,2.0.1,MIT OR Apache-2.0,FOUND
+proc-macro2,1.0.107,MIT OR Apache-2.0,FOUND
+prost,0.14.4,Apache-2.0,FOUND
+prost-derive,0.14.4,Apache-2.0,FOUND
+prost-types,0.14.4,Apache-2.0,FOUND
+psm,0.1.32,MIT OR Apache-2.0,FOUND
+pyo3,0.29.3,MIT OR Apache-2.0,FOUND
+pyo3-arrow,0.19.0,MIT OR Apache-2.0,FOUND
+pyo3-build-config,0.29.3,MIT OR Apache-2.0,FOUND
+pyo3-ffi,0.29.3,MIT OR Apache-2.0,FOUND
+pyo3-macros,0.29.3,MIT OR Apache-2.0,FOUND
+pyo3-macros-backend,0.29.3,MIT OR Apache-2.0,FOUND
+quick-xml,0.31.0,MIT,FOUND
+quick-xml,0.39.4,MIT,FOUND
+quick-xml,0.41.0,MIT,FOUND
+quick-xml,0.42.0,MIT,FOUND
+quinn,0.11.12,MIT OR Apache-2.0,FOUND
+quinn-proto,0.11.19,MIT OR Apache-2.0,FOUND
+quinn-udp,0.5.16,MIT OR Apache-2.0,FOUND
+quote,1.0.47,MIT OR Apache-2.0,FOUND
+r-efi,5.3.0,MIT OR Apache-2.0 OR LGPL-2.1-or-later,FOUND
+r-efi,6.0.0,MIT OR Apache-2.0 OR LGPL-2.1-or-later,FOUND
+rand,0.7.3,MIT OR Apache-2.0,FOUND
+rand,0.8.8,MIT OR Apache-2.0,FOUND
+rand,0.9.5,MIT OR Apache-2.0,FOUND
+rand,0.10.3,MIT OR Apache-2.0,FOUND
+rand_chacha,0.2.2,MIT OR Apache-2.0,FOUND
+rand_chacha,0.3.1,MIT OR Apache-2.0,FOUND
+rand_chacha,0.9.0,MIT OR Apache-2.0,FOUND
+rand_core,0.5.1,MIT OR Apache-2.0,FOUND
+rand_core,0.6.4,MIT OR Apache-2.0,FOUND
+rand_core,0.9.5,MIT OR Apache-2.0,FOUND
+rand_core,0.10.1,MIT OR Apache-2.0,FOUND
+rand_hc,0.2.0,MIT/Apache-2.0,FOUND
+rand_pcg,0.10.2,MIT OR Apache-2.0,FOUND
+rawpointer,0.2.1,MIT/Apache-2.0,FOUND
+rayon,1.12.0,MIT OR Apache-2.0,FOUND
+rayon-core,1.13.0,MIT OR Apache-2.0,FOUND
+recursive,0.1.1,MIT,FOUND
+recursive-proc-macro-impl,0.1.1,MIT,FOUND
+redb,3.1.3,MIT OR Apache-2.0,FOUND
+redox_syscall,0.5.18,MIT,FOUND
+redox_syscall,0.9.4,MIT,FOUND
+redox_users,0.5.3,MIT,FOUND
+regex,1.13.1,MIT OR Apache-2.0,FOUND
+regex-automata,0.4.18,MIT OR Apache-2.0,FOUND
+regex-lite,0.1.9,MIT OR Apache-2.0,FOUND
+regex-syntax,0.8.11,MIT OR Apache-2.0,FOUND
+relative-path,1.9.3,MIT OR Apache-2.0,FOUND
+reqsign-aliyun-oss,3.2.0,Apache-2.0,FOUND
+reqsign-aws-core,3.2.0,Apache-2.0,FOUND
+reqsign-aws-v4,3.3.1,Apache-2.0,FOUND
+reqsign-azure-storage,3.3.0,Apache-2.0,FOUND
+reqsign-core,3.3.2,Apache-2.0,FOUND
+reqsign-file-read-tokio,3.0.7,Apache-2.0,FOUND
+reqsign-google,3.2.0,Apache-2.0,FOUND
+reqsign-huaweicloud-obs,3.0.7,Apache-2.0,FOUND
+reqsign-tencent-cos,3.0.7,Apache-2.0,FOUND
+reqsign-volcengine-tos,3.1.3,Apache-2.0,FOUND
+reqwest,0.12.28,MIT OR Apache-2.0,FOUND
+reqwest,0.13.5,MIT OR Apache-2.0,FOUND
+reqwest-middleware,0.5.2,MIT OR Apache-2.0,FOUND
+reqwest-retry,0.9.1,MIT OR Apache-2.0,FOUND
+retry-policies,0.5.2,MIT OR Apache-2.0,FOUND
+ring,0.17.14,Apache-2.0 AND ISC,FOUND
+roaring,0.11.5,MIT OR Apache-2.0,FOUND
+roxmltree,0.21.1,MIT OR Apache-2.0,FOUND
+rsa,0.9.10,MIT OR Apache-2.0,FOUND
+rstest,0.26.1,MIT OR Apache-2.0,FOUND
+rstest_macros,0.26.1,MIT OR Apache-2.0,FOUND
+rust-ini,0.21.3,MIT,FOUND
+rustc-hash,2.1.3,Apache-2.0 OR MIT,FOUND
+rustc_version,0.4.1,MIT OR Apache-2.0,FOUND
+rustix,1.1.5,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+rustls,0.23.45,Apache-2.0 OR ISC OR MIT,FOUND
+rustls-native-certs,0.8.5,Apache-2.0 OR ISC OR MIT,FOUND
+rustls-pki-types,1.15.1,MIT OR Apache-2.0,FOUND
+rustls-platform-verifier,0.7.1,MIT OR Apache-2.0,FOUND
+rustls-platform-verifier-android,0.2.0,MIT OR Apache-2.0,FOUND
+rustls-webpki,0.103.15,ISC,FOUND
+rustversion,1.0.23,MIT OR Apache-2.0,FOUND
+ryu,1.0.23,Apache-2.0 OR BSL-1.0,FOUND
+safe-transmute,0.11.3,MIT,FOUND
+salsa20,0.10.2,MIT OR Apache-2.0,FOUND
+same-file,1.0.6,Unlicense/MIT,FOUND
+schannel,0.1.29,MIT,FOUND
+scopeguard,1.2.0,MIT OR Apache-2.0,FOUND
+scrypt,0.11.0,MIT OR Apache-2.0,FOUND
+security-framework,3.7.0,MIT OR Apache-2.0,FOUND
+security-framework-sys,2.17.0,MIT OR Apache-2.0,FOUND
+semver,1.0.28,MIT OR Apache-2.0,FOUND
+seq-macro,0.3.6,MIT OR Apache-2.0,FOUND
+serde,1.0.229,MIT OR Apache-2.0,FOUND
+serde_core,1.0.229,MIT OR Apache-2.0,FOUND
+serde_derive,1.0.229,MIT OR Apache-2.0,FOUND
+serde_json,1.0.154,MIT OR Apache-2.0,FOUND
+serde_qs,0.8.5,MIT/Apache-2.0,FOUND
+serde_regex,1.2.0,MIT OR Apache-2.0,FOUND
+serde_repr,0.1.21,MIT OR Apache-2.0,FOUND
+serde_urlencoded,0.7.1,MIT/Apache-2.0,FOUND
+serial_test,3.5.0,MIT,FOUND
+serial_test_derive,3.5.0,MIT,FOUND
+sha1,0.10.7,MIT OR Apache-2.0,FOUND
+sha1,0.11.0,MIT OR Apache-2.0,FOUND
+sha2,0.10.9,MIT OR Apache-2.0,FOUND
+sha2,0.11.1,MIT OR Apache-2.0,FOUND
+sha2-const-stable,0.1.0,MIT OR Apache-2.0,FOUND
+sharded-slab,0.1.7,MIT,FOUND
+shell-escape,0.1.5,MIT/Apache-2.0,FOUND
+shellexpand,3.1.2,MIT/Apache-2.0,FOUND
+shlex,2.0.1,MIT OR Apache-2.0,FOUND
+signal-hook-registry,1.4.8,MIT OR Apache-2.0,FOUND
+signature,2.2.0,Apache-2.0 OR MIT,FOUND
+simd-adler32,0.3.10,MIT,FOUND
+simd_cesu8,1.2.0,Apache-2.0 OR MIT,FOUND
+simdutf8,0.1.5,MIT OR Apache-2.0,FOUND
+similar,2.7.0,Apache-2.0,FOUND
+siphasher,1.0.4,MIT OR Apache-2.0,FOUND
+slab,0.4.12,MIT,FOUND
+small_ctor,0.1.2,NOT_FOUND,MISSING
+smallvec,1.16.3,MIT OR Apache-2.0,FOUND
+snap,1.1.2,BSD-3-Clause,FOUND
+socket2,0.6.5,MIT OR Apache-2.0,FOUND
+spin,0.9.9,MIT,FOUND
+spin,0.10.1,MIT,FOUND
+spki,0.7.3,Apache-2.0 OR MIT,FOUND
+sqlparser,0.62.0,Apache-2.0,FOUND
+sqlparser_derive,0.5.0,Apache-2.0,FOUND
+ssh_format,0.14.2,MIT,FOUND
+ssh_format_error,0.1.0,MIT,FOUND
+stabby,72.1.16, EPL-2.0 OR Apache-2.0,FOUND
+stabby-abi,72.1.16, EPL-2.0 OR Apache-2.0,FOUND
+stabby-macros,72.1.16, EPL-2.0 OR Apache-2.0,FOUND
+stable_deref_trait,1.2.1,MIT OR Apache-2.0,FOUND
+stacker,0.1.25,MIT OR Apache-2.0,FOUND
+static_assertions,1.1.0,MIT OR Apache-2.0,FOUND
+statrs,0.18.0,MIT,FOUND
+stringmetrics,2.2.2,NOT_DECLARED,REVIEW
+strsim,0.11.1,MIT,FOUND
+strum,0.28.0,MIT,FOUND
+strum_macros,0.28.0,MIT,FOUND
+subtle,2.6.1,BSD-3-Clause,FOUND
+suppaftp,8.0.5,MIT OR Apache-2.0,FOUND
+symlink,0.1.0,MIT/Apache-2.0,FOUND
+syn,2.0.119,MIT OR Apache-2.0,FOUND
+syn,3.0.9,MIT OR Apache-2.0,FOUND
+sync_wrapper,1.0.2,Apache-2.0,FOUND
+synstructure,0.14.0,MIT,FOUND
+sysinfo,0.38.4,MIT,FOUND
+sysinfo,0.39.6,MIT,FOUND
+system-configuration,0.7.0,MIT OR Apache-2.0,FOUND
+system-configuration-sys,0.6.0,MIT OR Apache-2.0,FOUND
+tabwriter,1.4.1,Unlicense/MIT,FOUND
+tagptr,0.2.0,MIT/Apache-2.0,FOUND
+target-lexicon,0.13.5,Apache-2.0 WITH LLVM-exception,FOUND
+tempfile,3.27.0,MIT OR Apache-2.0,FOUND
+termcolor,1.4.1,Unlicense OR MIT,FOUND
+terminal_size,0.4.4,MIT OR Apache-2.0,FOUND
+thin-vec,0.2.21,MIT OR Apache-2.0,FOUND
+thiserror,1.0.69,MIT OR Apache-2.0,FOUND
+thiserror,2.0.21,MIT OR Apache-2.0,FOUND
+thiserror-impl,1.0.69,MIT OR Apache-2.0,FOUND
+thiserror-impl,2.0.21,MIT OR Apache-2.0,FOUND
+thread_local,1.1.10,MIT OR Apache-2.0,FOUND
+tikv-jemalloc-sys,0.7.1+5.3.1-0-g81034ce1f1373e37dc865038e1bc8eeecf559ce8,MIT/Apache-2.0,FOUND
+tikv-jemallocator,0.7.0,MIT/Apache-2.0,FOUND
+time,0.3.53,MIT OR Apache-2.0,FOUND
+time-core,0.1.9,MIT OR Apache-2.0,FOUND
+time-macros,0.2.31,MIT OR Apache-2.0,FOUND
+tiny-keccak,2.0.2,CC0-1.0,FOUND
+tinystr,0.8.4,Unicode-3.0,FOUND
+tinytemplate,1.2.1,Apache-2.0 OR MIT,FOUND
+tinyvec,1.13.3,Zlib OR Apache-2.0 OR MIT,FOUND
+tokio,1.53.3,MIT,FOUND
+tokio-io-utility,0.7.6,MIT,FOUND
+tokio-macros,2.7.2,MIT,FOUND
+tokio-native-tls,0.3.1,MIT,FOUND
+tokio-retry,0.3.2,MIT,FOUND
+tokio-rustls,0.26.6,MIT OR Apache-2.0,FOUND
+tokio-stream,0.1.19,MIT,FOUND
+tokio-test,0.4.6,MIT,FOUND
+tokio-util,0.7.20,MIT,FOUND
+tokio_with_wasm,0.8.8,MIT,FOUND
+tokio_with_wasm_proc,0.8.8,MIT,FOUND
+toml_datetime,1.1.2+spec-1.1.0,MIT OR Apache-2.0,FOUND
+toml_edit,0.25.17+spec-1.1.0,MIT OR Apache-2.0,FOUND
+toml_parser,1.1.5+spec-1.1.0,MIT OR Apache-2.0,FOUND
+tower,0.5.3,MIT,FOUND
+tower-http,0.6.11,MIT,FOUND
+tower-layer,0.3.3,MIT,FOUND
+tower-service,0.3.3,MIT,FOUND
+tracing,0.1.44,MIT,FOUND
+tracing-appender,0.2.5,MIT,FOUND
+tracing-attributes,0.1.31,MIT,FOUND
+tracing-core,0.1.36,MIT,FOUND
+tracing-log,0.2.0,MIT,FOUND
+tracing-opentelemetry,0.34.0,MIT,FOUND
+tracing-serde,0.2.0,MIT,FOUND
+tracing-subscriber,0.3.23,MIT,FOUND
+triomphe,0.1.17,MIT OR Apache-2.0,FOUND
+try-lock,0.2.5,MIT,FOUND
+twox-hash,2.1.5,MIT,FOUND
+typed-builder,0.23.2,MIT OR Apache-2.0,FOUND
+typed-builder-macro,0.23.2,MIT OR Apache-2.0,FOUND
+typenum,1.20.1,MIT OR Apache-2.0,FOUND
+typewit,1.15.2,Zlib,FOUND
+unicode-ident,1.0.27,(MIT OR Apache-2.0) AND Unicode-3.0,FOUND
+unicode-segmentation,1.13.3,MIT OR Apache-2.0,FOUND
+unicode-width,0.2.2,MIT OR Apache-2.0,FOUND
+untrusted,0.9.0,ISC,FOUND
+url,2.5.8,MIT OR Apache-2.0,FOUND
+urlencoding,2.1.3,MIT,FOUND
+utf8_iter,1.0.4,Apache-2.0 OR MIT,FOUND
+utf8parse,0.2.2,Apache-2.0 OR MIT,FOUND
+uuid,1.28.0,Apache-2.0 OR MIT,FOUND
+validator,0.19.0,MIT,FOUND
+validator_derive,0.19.0,MIT,FOUND
+valuable,0.1.1,MIT,FOUND
+value-bag,1.14.1,Apache-2.0 OR MIT,FOUND
+vcpkg,0.2.15,MIT/Apache-2.0,FOUND
+vec-strings,0.4.8,MIT,FOUND
+version_check,0.9.5,MIT/Apache-2.0,FOUND
+vsimd,0.8.0,MIT,FOUND
+waker-fn,1.2.0,Apache-2.0 OR MIT,FOUND
+walkdir,2.5.0,Unlicense/MIT,FOUND
+want,0.3.2,MIT,FOUND
+wasi,0.9.0+wasi-snapshot-preview1,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+wasi,0.11.1+wasi-snapshot-preview1,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+wasi,0.14.7+wasi-0.2.4,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+wasip2,1.0.4+wasi-0.2.12,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+wasite,0.1.0,Apache-2.0 OR BSL-1.0 OR MIT,FOUND
+wasite,1.0.2,Apache-2.0 OR BSL-1.0 OR MIT,FOUND
+wasm-bindgen,0.2.129,MIT OR Apache-2.0,FOUND
+wasm-bindgen-futures,0.4.79,MIT OR Apache-2.0,FOUND
+wasm-bindgen-macro,0.2.129,MIT OR Apache-2.0,FOUND
+wasm-bindgen-macro-support,0.2.129,MIT OR Apache-2.0,FOUND
+wasm-bindgen-shared,0.2.129,MIT OR Apache-2.0,FOUND
+wasm-streams,0.4.2,MIT OR Apache-2.0,FOUND
+wasm-streams,0.5.0,MIT OR Apache-2.0,FOUND
+wasmtimer,0.4.3,MIT,FOUND
+web-sys,0.3.106,MIT OR Apache-2.0,FOUND
+web-time,1.1.0,MIT OR Apache-2.0,FOUND
+webpki-root-certs,1.0.9,CDLA-Permissive-2.0,FOUND
+which,7.0.3,MIT,FOUND
+which,8.0.6,NOT_FOUND,MISSING
+whoami,1.6.1,Apache-2.0 OR BSL-1.0 OR MIT,FOUND
+whoami,2.1.3,Apache-2.0 OR BSL-1.0 OR MIT,FOUND
+winapi,0.3.9,MIT/Apache-2.0,FOUND
+winapi-i686-pc-windows-gnu,0.4.0,MIT/Apache-2.0,FOUND
+winapi-util,0.1.11,Unlicense OR MIT,FOUND
+winapi-x86_64-pc-windows-gnu,0.4.0,MIT/Apache-2.0,FOUND
+windows,0.62.2,MIT OR Apache-2.0,FOUND
+windows-collections,0.3.2,MIT OR Apache-2.0,FOUND
+windows-core,0.62.2,MIT OR Apache-2.0,FOUND
+windows-future,0.3.2,MIT OR Apache-2.0,FOUND
+windows-implement,0.60.2,MIT OR Apache-2.0,FOUND
+windows-interface,0.59.3,MIT OR Apache-2.0,FOUND
+windows-link,0.2.1,MIT OR Apache-2.0,FOUND
+windows-numerics,0.3.1,MIT OR Apache-2.0,FOUND
+windows-registry,0.6.1,MIT OR Apache-2.0,FOUND
+windows-result,0.4.1,MIT OR Apache-2.0,FOUND
+windows-strings,0.5.1,MIT OR Apache-2.0,FOUND
+windows-sys,0.52.0,MIT OR Apache-2.0,FOUND
+windows-sys,0.59.0,NOT_FOUND,MISSING
+windows-sys,0.60.2,MIT OR Apache-2.0,FOUND
+windows-sys,0.61.2,MIT OR Apache-2.0,FOUND
+windows-targets,0.52.6,MIT OR Apache-2.0,FOUND
+windows-targets,0.53.5,MIT OR Apache-2.0,FOUND
+windows-threading,0.2.1,MIT OR Apache-2.0,FOUND
+windows_aarch64_gnullvm,0.52.6,MIT OR Apache-2.0,FOUND
+windows_aarch64_gnullvm,0.53.1,MIT OR Apache-2.0,FOUND
+windows_aarch64_msvc,0.52.6,MIT OR Apache-2.0,FOUND
+windows_aarch64_msvc,0.53.1,MIT OR Apache-2.0,FOUND
+windows_i686_gnu,0.52.6,MIT OR Apache-2.0,FOUND
+windows_i686_gnu,0.53.1,MIT OR Apache-2.0,FOUND
+windows_i686_gnullvm,0.52.6,MIT OR Apache-2.0,FOUND
+windows_i686_gnullvm,0.53.1,MIT OR Apache-2.0,FOUND
+windows_i686_msvc,0.52.6,MIT OR Apache-2.0,FOUND
+windows_i686_msvc,0.53.1,MIT OR Apache-2.0,FOUND
+windows_x86_64_gnu,0.52.6,MIT OR Apache-2.0,FOUND
+windows_x86_64_gnu,0.53.1,MIT OR Apache-2.0,FOUND
+windows_x86_64_gnullvm,0.52.6,MIT OR Apache-2.0,FOUND
+windows_x86_64_gnullvm,0.53.1,MIT OR Apache-2.0,FOUND
+windows_x86_64_msvc,0.52.6,MIT OR Apache-2.0,FOUND
+windows_x86_64_msvc,0.53.1,MIT OR Apache-2.0,FOUND
+winnow,1.0.4,MIT,FOUND
+winsafe,0.0.19,MIT,FOUND
+wit-bindgen,0.57.1,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,FOUND
+writeable,0.6.4,Unicode-3.0,FOUND
+xattr,1.6.1,MIT OR Apache-2.0,FOUND
+xet-client,1.7.0,Apache-2.0,FOUND
+xet-core-structures,1.7.0,Apache-2.0,FOUND
+xet-data,1.7.0,Apache-2.0,FOUND
+xet-runtime,1.7.0,Apache-2.0,FOUND
+xmlparser,0.13.6,MIT/Apache-2.0,FOUND
+yansi,1.0.1,MIT OR Apache-2.0,FOUND
+yoke,0.8.3,Unicode-3.0,FOUND
+yoke-derive,0.8.4,Unicode-3.0,FOUND
+z85,3.0.7,MIT/Apache-2.0,FOUND
+zerocopy,0.8.63,BSD-2-Clause OR Apache-2.0 OR MIT,FOUND
+zerocopy-derive,0.8.63,BSD-2-Clause OR Apache-2.0 OR MIT,FOUND
+zerofrom,0.1.8,Unicode-3.0,FOUND
+zerofrom-derive,0.1.8,Unicode-3.0,FOUND
+zeroize,1.9.1,Apache-2.0 OR MIT,FOUND
+zerotrie,0.2.5,Unicode-3.0,FOUND
+zerovec,0.11.8,Unicode-3.0,FOUND
+zerovec-derive,0.11.6,Unicode-3.0,FOUND
+zlib-rs,0.6.8,Zlib,FOUND
+zmij,1.0.23,MIT,FOUND
+zstd,0.13.3,MIT,FOUND
+zstd,0.14.2,BSD-3-Clause,FOUND
+zstd-safe,7.3.0,BSD-3-Clause,FOUND
+zstd-safe,8.1.0,BSD-3-Clause,FOUND
+zstd-sys,2.1.1+zstd.1.5.7,BSD-3-Clause,FOUND

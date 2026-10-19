@@ -1,0 +1,134 @@
+[
+  {
+    "label": "prefix_native",
+    "case": "recent_control",
+    "version": 0,
+    "ok": true,
+    "rows": 20,
+    "digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+    "matches_baseline": true
+  },
+  {
+    "label": "prefix_native",
+    "case": "recent_control",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "prefix_native",
+    "case": "aged_live_dv",
+    "version": 0,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  },
+  {
+    "label": "prefix_native",
+    "case": "aged_live_dv",
+    "version": 1,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  },
+  {
+    "label": "main",
+    "case": "recent_control",
+    "version": 0,
+    "ok": true,
+    "rows": 20,
+    "digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+    "matches_baseline": true
+  },
+  {
+    "label": "main",
+    "case": "recent_control",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "main",
+    "case": "aged_live_dv",
+    "version": 0,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  },
+  {
+    "label": "main",
+    "case": "aged_live_dv",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "pr4858",
+    "case": "recent_control",
+    "version": 0,
+    "ok": true,
+    "rows": 20,
+    "digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+    "matches_baseline": true
+  },
+  {
+    "label": "pr4858",
+    "case": "recent_control",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "pr4858",
+    "case": "aged_live_dv",
+    "version": 0,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  },
+  {
+    "label": "pr4858",
+    "case": "aged_live_dv",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "spark",
+    "case": "recent_control",
+    "version": 0,
+    "ok": true,
+    "rows": 20,
+    "digest": "edc0f219dc0387bb42d8e540ae8bd9a49cae2fe415eaa3100be85d55cacea980",
+    "matches_baseline": true
+  },
+  {
+    "label": "spark",
+    "case": "recent_control",
+    "version": 1,
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "matches_baseline": true
+  },
+  {
+    "label": "spark",
+    "case": "aged_live_dv",
+    "version": 0,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  },
+  {
+    "label": "spark",
+    "case": "aged_live_dv",
+    "version": 1,
+    "ok": false,
+    "error": "Traceback (most recent call last):\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\run.py\", line 77, in <module>\n    n,h=spark_hash(spark,Path(row['table']).as_posix(),v)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\.codex\\.chatgpt-projects\\g-p-6ace69accadc8191aa0136d6b9f388a8\\f1_168_evidence_20261018\\harness\\generate.py\", line 112, in spark_hash\n    rows = spark.read.format(\"delta\").option(\"versionAsOf\", version).load(path).collect()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\sql\\readwriter.py\", line 312, in load\n    return self._df(self._jreader.load(path))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\py4j\\java_gateway.py\", line 1362, in __call__\n    return_value = get_return_value(\n                   ^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\spark\\Lib\\site-packages\\pyspark\\errors\\exceptions\\captured.py\", line 257, in deco\n    raise converted from None\npyspark.errors.exceptions.captured.AnalysisException: [DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION] Cannot time travel beyond delta.deletedFileRetentionDuration (168 HOURS) set on the table.\n"
+  }
+]

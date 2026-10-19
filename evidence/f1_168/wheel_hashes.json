@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "A0B323EB0725255CE282F234AC4D4E8D3BDEA93F1DA6B7153ADDF87062158659",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\inexact\\deltalake-1.6.5-cp311-abi3-win_amd64.whl"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "98ECB30240574B9E5A9CF7294C3F97F3A120F44A9BFC7A8560CC0388B9C5F306",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\main\\deltalake-1.6.5-cp311-abi3-win_amd64.whl"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "55A5F56EBCDCA2EB4E230F6194F019027625337B86E462DB53C3363A8EBB0F64",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\pr4858\\deltalake-1.6.5-cp311-abi3-win_amd64.whl"
+  }
+]

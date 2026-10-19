@@ -1,0 +1,406 @@
+{
+  "files_searched": 18965,
+  "hits": [
+    {
+      "path": "<LOCAL_HOME>\\Documents\\Research\\Delta_IEEE_Validation\\A1_Timestamp_Tests\\A1_result.json",
+      "sha256": "8588ce6ca4b1f05705b0329baba743f462637712d7f216812562b810fa4ca7c2",
+      "lines": [
+        {
+          "line": 2,
+          "text": "  \"test\": \"A1_timestamp_mismatch\","
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Second_Round_Review_Package (1)\\Delta_IEEE_Five_Claude_Review_Prompts.md",
+      "sha256": "ac4356c184cae6e70b8146875015e49e5cd6f81b884491f2e41e46acd7edb07c",
+      "lines": [
+        {
+          "line": 9,
+          "text": "Act as an IEEE Access experimental-methodology and statistical-review specialist. Audit the 3,200-run factorial design, paired seed and checkpoint families, Wilson confidence intervals, selection of 134 cross-check runs and 1,274 reads, independence assumptions, and denominator choices. Inspect A3: 2,696 error-free comparisons with zero differences"
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Second_Round_Review_Package (1)\\Delta_IEEE_Revision_Notes.txt",
+      "sha256": "8d1a6b2a143d9ec484d7caeeb744ae38c67f2be4b54202120887c2d8f9b71d52",
+      "lines": [
+        {
+          "line": 1,
+          "text": "Second-round review draft \u2014 not submission-ready. Changes: A1 synthetic counterexample, A2 synthetic and timestamp-adjusted checkpoint observations, A3 error-free and error-stratified execution audits, concurrency distinction, and limitations. Counts are based on user-provided PowerShell analyses, not independently re-executed in this revision. The"
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Concurrency_Evidence.zip",
+      "sha256": "40c0ce53ea9b91275d2965fd3ef4c2a0a790ab5248001614edfed1113e1d7ca2",
+      "members": 21,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass11.zip",
+      "sha256": "c2b70ae3bf48ce85f213a4bba5089c337065433b3f7de42fb4624c300da94621",
+      "members": 6,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass2.zip",
+      "sha256": "3141409f39ed34ad85554260eb7716dd2216db6f4f169485622686353a326d3f",
+      "members": 9,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass5.zip",
+      "sha256": "53ae521f834681fda9e5ef4db30cdb4c8ad000a9d45bd353ebd41fecd98eb973",
+      "members": 5,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass6 (1).zip",
+      "sha256": "f12f5932d82df325b0e2166fc74d7e0acfa8e0e810dd3c5c4f762230df385d3f",
+      "members": 8,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass6.zip",
+      "sha256": "f12f5932d82df325b0e2166fc74d7e0acfa8e0e810dd3c5c4f762230df385d3f",
+      "members": 8,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass7.zip",
+      "sha256": "79b0da9e49bc0bbb5d5ad272856df1e2e068f4dac66e7d68a59ea8d8b8791354",
+      "members": 6,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Corrections_Pass9.zip",
+      "sha256": "f198eb394bc67dea3691f8817bb17c2c489c8f6d2409422d93cbf17f97ce41ea",
+      "members": 6,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Pass8_F1_Static_Audit.zip",
+      "sha256": "a59f123503ddfabb42e09e639f04be7ffe00a4c80c2135b943d825a7dcba5537",
+      "members": 2,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Second_Round_Review_Package (1).zip",
+      "sha256": "ae9e44376439c176f9a6620cbc81e60c13ec4d2d811b6f11d8295dc6c1487b53",
+      "members": 6,
+      "hits": [
+        {
+          "member": "Delta_IEEE_Five_Claude_Review_Prompts.md",
+          "kind": "content",
+          "sha256": "ac4356c184cae6e70b8146875015e49e5cd6f81b884491f2e41e46acd7edb07c"
+        },
+        {
+          "member": "Delta_IEEE_Revision_Notes.txt",
+          "kind": "content",
+          "sha256": "8d1a6b2a143d9ec484d7caeeb744ae38c67f2be4b54202120887c2d8f9b71d52"
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_IEEE_Second_Round_Review_Package.zip",
+      "sha256": "ae9e44376439c176f9a6620cbc81e60c13ec4d2d811b6f11d8295dc6c1487b53",
+      "members": 6,
+      "hits": [
+        {
+          "member": "Delta_IEEE_Five_Claude_Review_Prompts.md",
+          "kind": "content",
+          "sha256": "ac4356c184cae6e70b8146875015e49e5cd6f81b884491f2e41e46acd7edb07c"
+        },
+        {
+          "member": "Delta_IEEE_Revision_Notes.txt",
+          "kind": "content",
+          "sha256": "8d1a6b2a143d9ec484d7caeeb744ae38c67f2be4b54202120887c2d8f9b71d52"
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_GitHub_Private_Staging.zip",
+      "sha256": "c45eae940194f74577b04bb89174454660fde3493f830910b0d182863d3c6caa",
+      "members": 57,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_GitHub_Reviewed_Private_Upload.zip",
+      "sha256": "fbe024224994bee6837d97e49c702bfd648c827f77a5e27b39e8f851796b46ca",
+      "members": 57,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_ICDE_Claude_Review_Package (1).zip",
+      "sha256": "c28cf0a453588fe52630749ef276904b4252373534b7df2bd543736937f32341",
+      "members": 15,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_ICDE_Claude_Review_Package.zip",
+      "sha256": "c28cf0a453588fe52630749ef276904b4252373534b7df2bd543736937f32341",
+      "members": 15,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_IEEE_Access_Acknowledgments_Updated.zip",
+      "sha256": "61ad16d9439e96fd527265e7526dd4e96760b2f90540c2152be79eea94f8820c",
+      "members": 2,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Paper_PDF_Download.zip",
+      "sha256": "ef4ac9bd8d2e207789a6c29255b95b47dffbce531868052f64e71c0ac22155a3",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Research_Artifact_Package.zip",
+      "sha256": "07c8112992257c7561d2723d54ed97d15aa3793dae2c65f0bc8c030a2f2bc230",
+      "members": 54,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Research_Evidence.zip",
+      "sha256": "b28673e3842c747dfe34b14561f4f4578152631ae173426b9924ae46abe13cfd",
+      "members": 113,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Publication_Candidate.zip",
+      "sha256": "da8cec77a4673a9c2585c353da332d71b29e1496b4fe28e10cdd6b3f21b05ddc",
+      "members": 226,
+      "hits": [
+        {
+          "member": "repository/ARTIFACT_LINEAGE.json",
+          "kind": "content",
+          "sha256": "4e5823ba75d13cfa25d8ffc39fe8087975e0657dc9f8995c1355108e8074940b"
+        },
+        {
+          "member": "repository/ARTIFACT_MANIFEST.json",
+          "kind": "content",
+          "sha256": "84e4eeadffe944b14e9a18940614f40cd8ff30888098c816d5389e6c6f72a4e7"
+        },
+        {
+          "member": "repository/docs/REMAINING_BLOCKERS.md",
+          "kind": "content",
+          "sha256": "1f5f84af3ed96aa2de3958225d2f38a05ec1d24cf5f200d75e12f0e21854bd2a"
+        },
+        {
+          "member": "repository/docs/REPRODUCTION.md",
+          "kind": "content",
+          "sha256": "f848cc5a4e9b109da7d9b68e3fdb991691f25b2688b3acc32914b0b597223e68"
+        },
+        {
+          "member": "repository/docs/VALIDATION_GAPS.md",
+          "kind": "content",
+          "sha256": "7f6757a996cc4734bbbd4459cabf6253a4bbea8c45cd16a72a0808ab6052a903"
+        },
+        {
+          "member": "repository/evidence/causal_restoration/source_integrity_before.json",
+          "kind": "content",
+          "sha256": "984667cd15c92ce91407892f36654f8bec60e3757013108980a0a44b877d91e1"
+        },
+        {
+          "member": "repository/evidence/f1_168/reference_manifest_before.json",
+          "kind": "content",
+          "sha256": "1d2601f9dcbf5642b527f26b09f15566b6c9549be9199536e173a04b132adec0"
+        },
+        {
+          "member": "repository/evidence/validation/A1_Timestamp_Tests/A1_result.json",
+          "kind": "name",
+          "bytes": 202
+        },
+        {
+          "member": "repository/evidence/validation/A3_STATUS.md",
+          "kind": "content",
+          "sha256": "c443d9aae5bcec6d6e92c3f31dea25098af66d8ab871ee847f523555761a493a"
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Publication_Review.zip",
+      "sha256": "d34706f6c5213879713715fff9c5498b7e1244e27dbf0dfe472f630664d657fc",
+      "members": 327,
+      "hits": [
+        {
+          "member": "repository/ARTIFACT_LINEAGE.json",
+          "kind": "content",
+          "sha256": "4e5823ba75d13cfa25d8ffc39fe8087975e0657dc9f8995c1355108e8074940b"
+        },
+        {
+          "member": "repository/ARTIFACT_MANIFEST.json",
+          "kind": "content",
+          "sha256": "84e4eeadffe944b14e9a18940614f40cd8ff30888098c816d5389e6c6f72a4e7"
+        },
+        {
+          "member": "repository/docs/REMAINING_BLOCKERS.md",
+          "kind": "content",
+          "sha256": "1f5f84af3ed96aa2de3958225d2f38a05ec1d24cf5f200d75e12f0e21854bd2a"
+        },
+        {
+          "member": "repository/docs/REPRODUCTION.md",
+          "kind": "content",
+          "sha256": "f848cc5a4e9b109da7d9b68e3fdb991691f25b2688b3acc32914b0b597223e68"
+        },
+        {
+          "member": "repository/docs/VALIDATION_GAPS.md",
+          "kind": "content",
+          "sha256": "7f6757a996cc4734bbbd4459cabf6253a4bbea8c45cd16a72a0808ab6052a903"
+        },
+        {
+          "member": "repository/evidence/causal_restoration/source_integrity_before.json",
+          "kind": "content",
+          "sha256": "984667cd15c92ce91407892f36654f8bec60e3757013108980a0a44b877d91e1"
+        },
+        {
+          "member": "repository/evidence/f1_168/reference_manifest_before.json",
+          "kind": "content",
+          "sha256": "1d2601f9dcbf5642b527f26b09f15566b6c9549be9199536e173a04b132adec0"
+        },
+        {
+          "member": "repository/evidence/validation/A1_Timestamp_Tests/A1_result.json",
+          "kind": "name",
+          "bytes": 202
+        },
+        {
+          "member": "repository/evidence/validation/A3_STATUS.md",
+          "kind": "content",
+          "sha256": "c443d9aae5bcec6d6e92c3f31dea25098af66d8ab871ee847f523555761a493a"
+        },
+        {
+          "member": "private_review/preparation_scripts/finish_review.py",
+          "kind": "content",
+          "sha256": "eb284895403e1fedbaf8c6ee6467f5983a4d37aa131f1290b03c3b65521db3ed"
+        },
+        {
+          "member": "private_review/preparation_scripts/prepare_candidate.py",
+          "kind": "content",
+          "sha256": "30bfe1623374d364a7eb8e5a8a799d75f782dad362e7b74eaee07fc1c1794286"
+        },
+        {
+          "member": "private_review/preparation_scripts/readiness_report.py",
+          "kind": "content",
+          "sha256": "16e41d2dd4c22853dd7548faabc355362ae52653a081a9ea086b842f89274b56"
+        },
+        {
+          "member": "private_review/preparation_scripts/write_docs.py",
+          "kind": "content",
+          "sha256": "2cee8090b05f7b3b597a2effdab7d6385ae9b65586125ca9ff881d81b7d672ea"
+        },
+        {
+          "member": "private_review/repository_inventory.private.json",
+          "kind": "content",
+          "sha256": "82903f018cab4a3d77501770691eb04976d7737c2e5732dd8b3fd1071e8862be"
+        },
+        {
+          "member": "private_review/source_input_hashes.private.json",
+          "kind": "content",
+          "sha256": "e29ffa4528b969088ed261ac0bd9f2cc232ffab25394d7544313728422257703"
+        },
+        {
+          "member": "private_review/preparation_scripts_final/finish_review.py",
+          "kind": "content",
+          "sha256": "eb284895403e1fedbaf8c6ee6467f5983a4d37aa131f1290b03c3b65521db3ed"
+        },
+        {
+          "member": "private_review/preparation_scripts_final/prepare_candidate.py",
+          "kind": "content",
+          "sha256": "30bfe1623374d364a7eb8e5a8a799d75f782dad362e7b74eaee07fc1c1794286"
+        },
+        {
+          "member": "private_review/preparation_scripts_final/readiness_report.py",
+          "kind": "content",
+          "sha256": "16e41d2dd4c22853dd7548faabc355362ae52653a081a9ea086b842f89274b56"
+        },
+        {
+          "member": "private_review/preparation_scripts_final/write_docs.py",
+          "kind": "content",
+          "sha256": "2cee8090b05f7b3b597a2effdab7d6385ae9b65586125ca9ff881d81b7d672ea"
+        }
+      ]
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Research_Results.zip",
+      "sha256": "4599d004398180220d87456b73bb8441a06a7e17442741c160b7d0d4904065c9",
+      "members": 23,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Supplemental_Evidence.zip",
+      "sha256": "4b449ef60e3a82ee4fc51bfbf53ae1a5ec3dd68911f9e7c506dca41390b52994",
+      "members": 4,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\icde_stage3b_real_delta.zip",
+      "sha256": "74e700c32228f9ca917f166601967ca308125a882965e54082d92d72da8fc4a2",
+      "members": 16,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\IEEE_Access_Final_Review_Source_and_Results_2026-10-17.zip",
+      "sha256": "f41d8d7421f8481ef84acdf1de37ea989e7705655e321e7e969c877dd956864d",
+      "members": 7,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\IEEE_Access_PDF_Easy_Download.zip",
+      "sha256": "977f48802516c25dc5fd74ecdfe9f0a3c22d94803778a75fe3bac15908f714d5",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Improvement2_Delta_Lake_Validation.zip",
+      "sha256": "dcda8b181143e8dc7080d80ec44ff8dd970f2b6c9f5d54649bb28d03e794347a",
+      "members": 14,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Pass10.zip",
+      "sha256": "2c6c3493c8e86f0e48ab169e20307bd78e05424494c0021b58ed1301e2bae61c",
+      "members": 21846,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Pass10_Reports.zip",
+      "sha256": "f117e1d579ed5b13fe232bd18c1de659db1d8ef50ef4ad81234b747775e5be8e",
+      "members": 18,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_IEEE_Release\\deltalake-main-windows-wheel.zip",
+      "sha256": "c6f6e9591302ccdcae27c0927c8129024d1e2a063cb56fb1f601acf761bcd613",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_IEEE_Release\\deltalake-pr4858-windows-wheel.zip",
+      "sha256": "90159d84d76fdcf4e3da2e23f4dd3b49c0b1c969dccfbfb4457e3e774a770955",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Release_Assets\\deltalake-inexact-windows-wheel.zip",
+      "sha256": "81112cf273b12c7612de20e56ab65b29757a3e2ae9cec24082f549d9365f85a9",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Release_Assets\\deltalake-main-windows-wheel.zip",
+      "sha256": "c6f6e9591302ccdcae27c0927c8129024d1e2a063cb56fb1f601acf761bcd613",
+      "members": 1,
+      "hits": []
+    },
+    {
+      "path": "<LOCAL_HOME>\\Downloads\\Delta_Lake_Release_Assets\\deltalake-pr4858-windows-wheel.zip",
+      "sha256": "90159d84d76fdcf4e3da2e23f4dd3b49c0b1c969dccfbfb4457e3e774a770955",
+      "members": 1,
+      "hits": []
+    }
+  ],
+  "errors": []
+}

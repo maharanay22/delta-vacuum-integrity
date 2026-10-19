@@ -1,0 +1,69 @@
+{
+  "kind": "new_supplemental_fixture_rerun_not_original_matrix",
+  "retention_h": 168,
+  "mode": "full",
+  "deltalake": "1.6.5",
+  "target_commit_timestamps": [
+    1791612476199,
+    1791648476199
+  ],
+  "run_now_ms": 1792375676199,
+  "cutoff_ms": 1791770876199,
+  "before_read": {
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "error": "",
+    "status": "successful_read"
+  },
+  "inventory_before": {
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791648475422000000
+    },
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791612476014000000
+    },
+    "_delta_log/00000000000000000000.json": {
+      "sha256": "255de14aa4ee70587143cde94d82453cb36ab7b543df928aaff15b0c762b98ee",
+      "mtime_ns": 1791612476199000000
+    },
+    "_delta_log/00000000000000000001.json": {
+      "sha256": "6b376442344ab36414f94898a78584654dfd6dea09414c637e1fee14a0b1932b",
+      "mtime_ns": 1791648476199000000
+    }
+  },
+  "latest_references": [
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin",
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet"
+  ],
+  "plan_raw": [],
+  "vacuum_return": [],
+  "inventory_after": {
+    "deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin": {
+      "sha256": "c8546f48f1e03590247c799f97b8ed3c05327a81adafcb47ce8bac9d0abb8ccc",
+      "mtime_ns": 1791648475422000000
+    },
+    "part-00000-9739b7df-253b-4ccc-bc9b-cd172e61c42e-c000.snappy.parquet": {
+      "sha256": "e49b9f1bc0fec2dd55433198ab4155bbe440313bff24a2d8ba05ce1aee4f6b9e",
+      "mtime_ns": 1791612476014000000
+    },
+    "_delta_log/00000000000000000000.json": {
+      "sha256": "255de14aa4ee70587143cde94d82453cb36ab7b543df928aaff15b0c762b98ee",
+      "mtime_ns": 1791612476199000000
+    },
+    "_delta_log/00000000000000000001.json": {
+      "sha256": "6b376442344ab36414f94898a78584654dfd6dea09414c637e1fee14a0b1932b",
+      "mtime_ns": 1791648476199000000
+    }
+  },
+  "deleted": [],
+  "after_read": {
+    "ok": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7",
+    "error": "",
+    "status": "successful_read"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "files_checked": 248,
+  "content_or_size_changes": [],
+  "checked_utc": "2026-10-18T19:05:24.937076+00:00",
+  "note": "SHA256 and length compared to captured baseline. Earlier PowerShell date-string comparison produced false positives due to automatic JSON datetime parsing; corrected comparison uses content hashes and lengths."
+}

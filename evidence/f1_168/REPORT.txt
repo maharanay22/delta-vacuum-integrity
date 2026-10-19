@@ -1,0 +1,61 @@
+TARGETED F1 TEST AT 168-HOUR RETENTION — 2026-10-18
+
+Conclusion: F1 reproduced with an actual live deletion-vector deletion in installed deltalake 1.6.6 FULL VACUUM at retention_hours=168. The original latest data snapshot v1 then fails in the independent reader. Spark current-snapshot outcomes appear below. This is a single synthetic history with controlled simulated aging, not an additional matrix study.
+
+Method: Spark creates 20 rows in one data file with deletion vectors enabled, then DELETE WHERE id % 5 = 0 leaves 16 rows and one active external DV. No checkpoints. Both snapshots are validated by Spark and the independent reader before aging. Each implementation/case receives a separate new copy. Recent control ages are v0=12.5 h, v1=2.5 h; aged case v0=212 h, v1=202 h. Only synthetic log timestamps and file mtimes are shifted using the copied existing aging harness. No system-clock changes. FULL VACUUM dry run, checker, actual vacuum, file diff, oracle reads, and independent post-vacuum Spark reads follow. Retention is always 168 h. Latest snapshot remains protected even when its commit is older than retention.
+
+Results (candidate count / actual deleted DV count / latest oracle readable):
+  prefix_native  recent_control  0 / 0 / True ; error=none
+  prefix_native  aged_live_dv    1 / 1 / False ; error=none
+  main           recent_control  0 / 0 / True ; error=none
+  main           aged_live_dv    0 / 0 / True ; error=none
+  pr4858         recent_control  0 / 0 / True ; error=none
+  pr4858         aged_live_dv    0 / 0 / True ; error=none
+  spark          recent_control  0 / 0 / True ; error=none
+  spark          aged_live_dv    0 / 0 / True ; error=none
+
+Spark independent snapshot reads:
+  prefix_native  recent_control  v0: readable=True, matches baseline=True
+  prefix_native  recent_control  v1: readable=True, matches baseline=True
+  prefix_native  aged_live_dv    v0: readable=False, matches baseline=False
+  prefix_native  aged_live_dv    v1: readable=False, matches baseline=False
+  main           recent_control  v0: readable=True, matches baseline=True
+  main           recent_control  v1: readable=True, matches baseline=True
+  main           aged_live_dv    v0: readable=False, matches baseline=False
+  main           aged_live_dv    v1: readable=True, matches baseline=True
+  pr4858         recent_control  v0: readable=True, matches baseline=True
+  pr4858         recent_control  v1: readable=True, matches baseline=True
+  pr4858         aged_live_dv    v0: readable=False, matches baseline=False
+  pr4858         aged_live_dv    v1: readable=True, matches baseline=True
+  spark          recent_control  v0: readable=True, matches baseline=True
+  spark          recent_control  v1: readable=True, matches baseline=True
+  spark          aged_live_dv    v0: readable=False, matches baseline=False
+  spark          aged_live_dv    v1: readable=False, matches baseline=False
+
+Interpretation: The pre-fix aged case targets exactly the active DV; checker reason is active-dv. The actual filesystem diff confirms deletion of that file and no data-file deletion. The independent reader can still read v0 (20 rows, outside the protection window); it cannot read v1 (16 logical rows before vacuum) because its DV is missing. Do not interpret the oracle rows_lost=16 field as a successful read yielding zero rows: this is an unreadable snapshot. All other primary cases preserve both snapshots and their hashes in the independent reader. Spark explicit historical reads are subject to a separate retention guard.
+
+Runtime identity: *_environment.json records actual Python/package versions. Both locally built delta-rs environments report 1.6.5, so names alone do not prove source identity. reference_environment.json records previously documented main commit 640dc8937cd6d5c49c16fbf203d72083d86c5b21 and PR4858 local rebased commit 407201ca5bb795d85e7f4b0e35a688a0a9477bdc. Native-module hashes, local wheel hashes, wheel-to-installed-module comparisons, JAR hashes and Java version are included. Spark reports its runtime version; the copied harness labels Delta 4.4.1, additionally corroborated by installed delta-spark metadata and JAR hashes.
+
+Execution caveats: Initial sandboxed Spark launches stalled and were interrupted. Initial prefix/prefix_retry disposable runs produced an unsafe plan but actual vacuum failed with Access denied before deletion. The first error capture itself encountered a Windows encoding error; corrected UTF-8 capture in prefix_retry preserves the underlying exception. prefix_native is the definitive successful actual-vacuum attempt outside the sandbox. Those earlier attempts/logs remain included and are not counted as extra independent confirmations. Main and PR4858 runs completed without errors; Spark comparison and crosscheck ran outside the sandbox. The existing harness disables delta-rs retention enforcement but explicitly passes 168 hours; Spark safety checking was re-enabled in this wrapper. No short-retention run was used.
+
+Evidence layout: histories/ is the new unaged synthetic baseline; before_vacuum/ holds exact aged pre-vacuum copies (including mtimes); tables/ holds post-vacuum states; *_inventory_before.json includes hashes and mtimes; *_plan_raw.json preserves raw candidates; primary *.json files contain normalized plans, checker verdicts, deletions and all oracle reads; spark_crosscheck.json and crosscheck.log contain independent Spark outcomes and full failures. All process stdout/stderr logs are retained. harness/ and checker/ are copied reference code, not edits to original code.
+
+Reproduce on this PC: run reproduce.ps1 -Destination <new-empty-path>. The destination must not exist. It creates only new synthetic tables and runs eight FULL/168 cases plus 16 Spark snapshot reads. Installed runtimes and dependency JARs are reused read-only. Run with permission to execute local Spark and rename/delete files inside that destination; sandbox restrictions may prevent faithful actual vacuum. New file UUIDs, timestamps, timings and generated table IDs will vary; logical row hashes and the observed behavior are the reproducible assertions.
+
+Original-data protection: No original research table was passed to VACUUM, aging, generation or deletion. No original research code, results or manuscript was edited. reference_integrity_check.json compares hashes and sizes for the original code/results, paper, and validation files. Its baseline was captured after initial read-only inspection and synthetic generation; it is not a pre-session whole-disk audit. No matrix rerun, GitHub push, publication or upload was performed. Evidence is stored under the current Codex workspace, outside both original research directories.
+
+Limitations: one deterministic history, local NTFS, single writer, unpartitioned table, external UUID-based DV, no checkpoint, no concurrency, simulated aging rather than a seven-day wait. This confirms F1 on the installed pre-fix build at 168 hours; it does not establish failure rates or general safety of any implementation.
+
+Spark current snapshot checks (no versionAsOf):
+  prefix_native  recent_control  readable=True, matches baseline=True
+  prefix_native  aged_live_dv    readable=False, matches baseline=False
+  main           recent_control  readable=True, matches baseline=True
+  main           aged_live_dv    readable=True, matches baseline=True
+  pr4858         recent_control  readable=True, matches baseline=True
+  pr4858         aged_live_dv    readable=True, matches baseline=True
+  spark          recent_control  readable=True, matches baseline=True
+  spark          aged_live_dv    readable=True, matches baseline=True
+
+Historical Spark read limitation: all six failures in spark_crosscheck.json are DELTA_UNSUPPORTED_TIME_TRAVEL_BEYOND_DELETED_FILE_RETENTION_DURATION. They are retention-policy rejections, not missing-DV evidence. VACUUM bookkeeping commits can make data version v1 historical. The separate current reads above avoid that ambiguity. Full current-read errors are in spark_current_reads.json and current_reads.log.
+
+Integrity verification: 248 original files retain identical SHA256 and size. An initial PowerShell time-string comparison incorrectly listed changes because JSON dates were automatically converted; the corrected integrity file uses hashes and sizes.

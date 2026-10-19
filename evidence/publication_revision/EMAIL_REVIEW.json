@@ -1,0 +1,7 @@
+{
+  "final_unresolved_email_matches": 0,
+  "encoded_descriptor_occurrences": 344,
+  "unique_descriptor_match_hashes": 6,
+  "initial_valid_upstream_contact_occurrences": 21,
+  "resolution": "Removed upstream user/workspace metadata only in publication derivatives; original and staged hashes retained. Compressed snapshot email-like strings were recursively verified as storageType=u pathOrInlineDv values, retained unchanged."
+}

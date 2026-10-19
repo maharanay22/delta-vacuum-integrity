@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\f1_168_evidence_20261018\run.py", line 54, in captured
+    result=fn(table,mode,retention,dry_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_HOME>\.codex\.chatgpt-projects\g-p-6ace69accadc8191aa0136d6b9f388a8\f1_168_evidence_20261018\harness\runner.py", line 48, in run
+    dt.vacuum(retention_hours=retention, dry_run=dry_run, enforce_retention_duration=False, full=mode == "full")
+  File "<LOCAL_HOME>\Documents\Research\delta-vacuum-integrity\venvs\prefix\Lib\site-packages\deltalake\table.py", line 823, in vacuum
+    return self._table.vacuum(
+           ^^^^^^^^^^^^^^^^^^^
+OSError: Generic LocalFileSystem error
+          [31m↳[0m Unable to rename file
+           [31m↳[0m Access is denied. (os error 5)
+

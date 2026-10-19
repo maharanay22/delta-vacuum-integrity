@@ -1,0 +1,87 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "cpu": "Intel(R) Core(TM) Ultra 7 255U",
+  "logical_cpus": 14,
+  "ram_gb": 31.5,
+  "filesystem": "local NTFS (Windows), single writer",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "java": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)",
+  "rustc": "rustc 1.98.0 (88d9e12ae 2026-08-18)",
+  "systems_under_test": {
+    "deltars-1.6.6": {
+      "source": "PyPI deltalake==1.6.6 (pre-fix)",
+      "packages": {
+        "deltalake": "1.6.6",
+        "pyarrow": "26.0.0",
+        "pandas": "3.0.6",
+        "psutil": "7.2.2"
+      }
+    },
+    "deltars-main": {
+      "source": "delta-io/delta-rs main, includes #4839 (merged 2026-10-13) and #4850",
+      "commit": "640dc8937cd6d5c49c16fbf203d72083d86c5b21",
+      "commit_subject": "chore(deps): upgrade opendal to 0.58",
+      "wheel": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\main",
+      "wheel_sha256": [
+        "98ecb30240574b9e5a9cf7294c3f97f3a120f44a9bfc7a8560cc0388b9c5f306"
+      ],
+      "build": "maturin build --release --target x86_64-pc-windows-gnu (rustc 1.98.0, WinLibs GCC); Cargo.lock saved next to the wheel",
+      "packages": {
+        "deltalake": "1.6.5",
+        "pyarrow": "26.0.0",
+        "pandas": "3.0.6",
+        "psutil": "7.2.2"
+      }
+    },
+    "deltars-main+4858": {
+      "source": "delta-io/delta-rs PR #4858 (branch fix-vacuum-tombstone-deletion-vectors, head 6ebfd483) rebased locally onto main 640dc893",
+      "rebased_commit": "407201ca5bb795d85e7f4b0e35a688a0a9477bdc",
+      "wheel": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\wheels\\pr4858",
+      "wheel_sha256": [
+        "55a5f56ebcdca2eb4e230f6194f019027625337b86e462db53c3363a8ebb0f64"
+      ],
+      "build": "same as deltars-main",
+      "packages": {
+        "deltalake": "1.6.5",
+        "pyarrow": "26.0.0",
+        "pandas": "3.0.6",
+        "psutil": "7.2.2"
+      }
+    },
+    "spark-4.4.1": {
+      "source": "delta-spark 4.4.1 on PySpark 4.2.0, local[2], JDK 17; jars on spark.driver.extraClassPath",
+      "packages": {
+        "pyarrow": "26.0.0",
+        "pandas": "2.3.3",
+        "psutil": "7.2.2",
+        "pyspark": "4.2.0",
+        "delta-spark": "4.4.1",
+        "matplotlib": "3.11.2"
+      },
+      "jars_sha256": {
+        "com.fasterxml.jackson.datatype_jackson-datatype-jdk8-2.13.5.jar": "e58761751fea8a00dc626aae1c5f1be38c5cfd487aeb333d933a4ab5f5a73c55",
+        "hadoop-bare-naked-local-fs-0.1.0.jar": "e0cc30fb0531eb0b59468dc0abf5b257533d2365b5e9f45e795edd707aa78c62",
+        "io.delta_delta-kernel-api-4.4.1.jar": "19c93b5e6740bb3001d3deca0b8c3fa5470197c520ffa36ffa58df98e91ae459",
+        "io.delta_delta-kernel-defaults-4.4.1.jar": "329995bbc9b2e5d74a9a7c9e968574c1e438bbb183aaf1b2c629a87ce8558fe2",
+        "io.delta_delta-kernel-unitycatalog-4.4.1.jar": "4d92b9248f8a5f9b3043fea2bb7666f0db26f5491e279c30868280be35450368",
+        "io.delta_delta-spark_4.2_2.13-4.4.1.jar": "2b1d2cd411bf0bbced64b96fe621f8ffce7bb6e394c8064ab783fc6edce449be",
+        "io.delta_delta-storage-4.4.1.jar": "f585818d646cb3625b305270ec24f3e6f0b6ea63ed9bac1ae8f340f8faaeae8f",
+        "io.unitycatalog_unitycatalog-client-0.6.0.jar": "48257499a86b801a3e2372cec55ac226ca1c1c7eabe5c118e7302f29a1fdbc19",
+        "io.unitycatalog_unitycatalog-hadoop-0.6.0.jar": "c47b63c961c87102b9e1d63809a0915ba4c86b7652f57c8d39ca3a05b441a150",
+        "org.roaringbitmap_RoaringBitmap-0.9.25.jar": "73f8e24f636a1ba6509decacbb5605c833eb5ead6db3971722ffcc2543b3e393",
+        "org.roaringbitmap_shims-0.9.25.jar": "0b82ed6cb1caf0706304b42358d568eb6faf190eadea7f2b2d365cb63156b40d"
+      },
+      "conf": {
+        "spark.hadoop.fs.file.impl": "com.globalmentor.apache.hadoop.fs.BareLocalFileSystem",
+        "spark.delta.logStore.file.impl": "io.delta.storage.LocalLogStore",
+        "spark.databricks.delta.retentionDurationCheck.enabled": "false"
+      }
+    }
+  },
+  "checker": "vacuumcheck 0.1.0 (this repository, checker/)",
+  "env": {
+    "JAVA_HOME": null,
+    "HADOOP_HOME": null
+  }
+}

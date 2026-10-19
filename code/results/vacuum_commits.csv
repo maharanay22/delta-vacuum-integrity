@@ -1,0 +1,1126 @@
+impl,family,seed,mode,retention_h,vacuum_error,commits
+deltars-main,nockpt,0,full,0,True,VACUUM START
+deltars-main,ckpt,0,full,0,True,VACUUM START
+deltars-main,nockpt,1,lite,0,True,VACUUM START
+deltars-main,nockpt,1,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,1,full,0,True,VACUUM START
+deltars-main,nockpt,1,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,1,lite,0,True,VACUUM START
+deltars-main,ckpt,1,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,1,full,0,True,VACUUM START
+deltars-main,ckpt,1,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,2,lite,0,True,VACUUM START
+deltars-main,nockpt,2,full,0,True,VACUUM START
+deltars-main,nockpt,2,full,168,False,none
+deltars-main,ckpt,2,lite,0,True,VACUUM START
+deltars-main,nockpt,3,lite,0,True,VACUUM START
+deltars-main,nockpt,3,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,3,full,0,True,VACUUM START
+deltars-main,nockpt,3,full,168,True,VACUUM START
+deltars-main,ckpt,3,lite,0,True,VACUUM START
+deltars-main,ckpt,3,lite,168,True,VACUUM START
+deltars-main,ckpt,3,full,0,True,VACUUM START
+deltars-main,ckpt,3,full,168,True,VACUUM START
+deltars-main,nockpt,4,lite,0,True,VACUUM START
+deltars-main,ckpt,4,full,0,True,VACUUM START
+deltars-main,ckpt,4,full,168,False,none
+deltars-main,nockpt,5,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,5,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,5,lite,168,True,VACUUM START
+deltars-main,ckpt,5,full,168,True,VACUUM START
+deltars-main,nockpt,6,lite,0,True,VACUUM START
+deltars-main,nockpt,6,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,6,full,0,True,VACUUM START
+deltars-main,nockpt,6,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,6,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,6,full,0,True,VACUUM START
+deltars-main,ckpt,6,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,7,lite,0,True,VACUUM START
+deltars-main,nockpt,7,full,0,True,VACUUM START
+deltars-main,nockpt,7,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,7,lite,0,True,VACUUM START
+deltars-main,ckpt,7,lite,168,True,VACUUM START
+deltars-main,ckpt,7,full,0,True,VACUUM START
+deltars-main,ckpt,7,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,8,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,8,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,8,lite,0,True,VACUUM START
+deltars-main,ckpt,8,lite,168,True,VACUUM START
+deltars-main,ckpt,8,full,0,True,VACUUM START
+deltars-main,ckpt,8,full,168,True,VACUUM START
+deltars-main,nockpt,9,lite,168,False,none
+deltars-main,nockpt,9,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,9,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,10,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,10,lite,0,False,none
+deltars-main,ckpt,10,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,11,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,11,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,12,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,12,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,13,lite,0,True,VACUUM START
+deltars-main,ckpt,13,lite,0,True,VACUUM START
+deltars-main,ckpt,13,full,0,True,VACUUM START
+deltars-main,ckpt,13,full,168,False,none
+deltars-main,nockpt,14,lite,0,True,VACUUM START
+deltars-main,nockpt,14,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,14,full,0,True,VACUUM START
+deltars-main,nockpt,14,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,14,lite,0,True,VACUUM START
+deltars-main,ckpt,14,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,14,full,0,True,VACUUM START
+deltars-main,ckpt,14,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,15,lite,0,True,VACUUM START
+deltars-main,nockpt,15,lite,168,True,VACUUM START
+deltars-main,nockpt,15,full,0,True,VACUUM START
+deltars-main,nockpt,15,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,15,lite,0,True,VACUUM START
+deltars-main,ckpt,15,lite,168,True,VACUUM START
+deltars-main,ckpt,15,full,0,True,VACUUM START
+deltars-main,ckpt,15,full,168,True,VACUUM START
+deltars-main,nockpt,16,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,16,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,17,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,17,full,0,True,VACUUM START
+deltars-main,nockpt,17,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,17,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,17,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,18,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,18,full,0,True,VACUUM START
+deltars-main,nockpt,18,full,168,True,VACUUM START
+deltars-main,ckpt,18,lite,0,True,VACUUM START
+deltars-main,ckpt,18,lite,168,True,VACUUM START
+deltars-main,ckpt,18,full,0,True,VACUUM START
+deltars-main,ckpt,18,full,168,True,VACUUM START
+deltars-main,nockpt,19,lite,0,True,VACUUM START
+deltars-main,nockpt,19,lite,168,True,VACUUM START
+deltars-main,nockpt,19,full,0,True,VACUUM START
+deltars-main,nockpt,19,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,19,lite,0,True,VACUUM START
+deltars-main,ckpt,19,lite,168,True,VACUUM START
+deltars-main,ckpt,19,full,0,True,VACUUM START
+deltars-main,ckpt,19,full,168,True,VACUUM START
+deltars-main,nockpt,20,full,168,False,none
+deltars-main,ckpt,20,full,168,False,none
+deltars-main,nockpt,21,lite,0,True,VACUUM START
+deltars-main,nockpt,21,full,0,True,VACUUM START
+deltars-main,ckpt,21,lite,0,True,VACUUM START
+deltars-main,ckpt,21,full,0,True,VACUUM START
+deltars-main,nockpt,22,full,0,True,VACUUM START
+deltars-main,ckpt,22,lite,0,True,VACUUM START
+deltars-main,ckpt,22,full,0,True,VACUUM START
+deltars-main,nockpt,23,lite,168,False,none
+deltars-main,nockpt,23,full,0,True,VACUUM START
+deltars-main,ckpt,23,lite,168,False,none
+deltars-main,ckpt,23,full,0,True,VACUUM START
+deltars-main,nockpt,24,full,0,True,VACUUM START
+deltars-main,nockpt,24,full,168,False,none
+deltars-main,ckpt,24,lite,0,True,VACUUM START
+deltars-main,ckpt,24,full,168,False,none
+deltars-main,nockpt,25,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,25,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,26,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,26,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,27,lite,0,True,VACUUM START
+deltars-main,nockpt,27,lite,168,True,VACUUM START
+deltars-main,nockpt,27,full,0,True,VACUUM START
+deltars-main,nockpt,27,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,27,lite,0,True,VACUUM START
+deltars-main,ckpt,27,lite,168,True,VACUUM START
+deltars-main,ckpt,27,full,0,True,VACUUM START
+deltars-main,ckpt,27,full,168,True,VACUUM START
+deltars-main,nockpt,28,lite,0,True,VACUUM START
+deltars-main,nockpt,28,full,0,True,VACUUM START
+deltars-main,nockpt,28,full,168,True,VACUUM START
+deltars-main,ckpt,28,lite,0,True,VACUUM START
+deltars-main,ckpt,28,lite,168,True,VACUUM START
+deltars-main,ckpt,28,full,0,True,VACUUM START
+deltars-main,ckpt,28,full,168,True,VACUUM START
+deltars-main,nockpt,29,lite,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,29,lite,168,True,VACUUM START
+deltars-main,ckpt,29,lite,0,True,VACUUM START
+deltars-main,ckpt,29,lite,168,True,VACUUM START
+deltars-main,ckpt,29,full,0,True,VACUUM START
+deltars-main,ckpt,29,full,168,True,VACUUM START
+deltars-main,nockpt,30,lite,0,False,none
+deltars-main,nockpt,30,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,31,full,0,False,VACUUM START+VACUUM END
+deltars-main,ckpt,31,full,168,False,none
+deltars-main,nockpt,32,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,32,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,32,lite,0,True,VACUUM START
+deltars-main,ckpt,32,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,32,full,0,True,VACUUM START
+deltars-main,ckpt,32,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,33,lite,0,True,VACUUM START
+deltars-main,nockpt,33,full,0,True,VACUUM START
+deltars-main,ckpt,33,lite,0,True,VACUUM START
+deltars-main,ckpt,33,full,0,True,VACUUM START
+deltars-main,nockpt,34,lite,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,35,full,168,False,none
+deltars-main,nockpt,36,lite,0,True,VACUUM START
+deltars-main,nockpt,36,full,0,True,VACUUM START
+deltars-main,ckpt,36,lite,168,False,none
+deltars-main,ckpt,36,full,0,True,VACUUM START
+deltars-main,nockpt,37,lite,0,True,VACUUM START
+deltars-main,nockpt,37,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,37,full,0,True,VACUUM START
+deltars-main,nockpt,37,full,168,True,VACUUM START
+deltars-main,ckpt,37,lite,0,True,VACUUM START
+deltars-main,ckpt,37,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,37,full,0,True,VACUUM START
+deltars-main,ckpt,37,full,168,True,VACUUM START
+deltars-main,ckpt,38,lite,0,True,VACUUM START
+deltars-main,ckpt,38,full,0,True,VACUUM START
+deltars-main,nockpt,39,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,39,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,39,lite,0,True,VACUUM START
+deltars-main,ckpt,39,lite,168,True,VACUUM START
+deltars-main,ckpt,39,full,0,True,VACUUM START
+deltars-main,ckpt,39,full,168,True,VACUUM START
+deltars-main,nockpt,40,lite,0,True,VACUUM START
+deltars-main,nockpt,40,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,40,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,40,lite,0,True,VACUUM START
+deltars-main,ckpt,40,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,40,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,42,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,42,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,42,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,42,full,0,True,VACUUM START
+deltars-main,ckpt,42,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,43,lite,168,True,VACUUM START
+deltars-main,nockpt,43,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,43,full,168,True,VACUUM START
+deltars-main,ckpt,43,lite,0,True,VACUUM START
+deltars-main,ckpt,43,lite,168,True,VACUUM START
+deltars-main,ckpt,43,full,0,True,VACUUM START
+deltars-main,ckpt,43,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,44,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,44,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,45,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,45,full,0,True,VACUUM START
+deltars-main,nockpt,45,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,45,lite,0,True,VACUUM START
+deltars-main,ckpt,45,lite,168,True,VACUUM START
+deltars-main,ckpt,45,full,0,True,VACUUM START
+deltars-main,ckpt,45,full,168,True,VACUUM START
+deltars-main,nockpt,46,lite,0,True,VACUUM START
+deltars-main,nockpt,46,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,46,full,168,False,none
+deltars-main,ckpt,46,lite,0,False,VACUUM START+VACUUM END
+deltars-main,ckpt,46,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,47,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,47,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,48,lite,0,True,VACUUM START
+deltars-main,nockpt,48,lite,168,False,none
+deltars-main,ckpt,48,lite,168,False,none
+deltars-main,ckpt,48,full,0,True,VACUUM START
+deltars-main,nockpt,49,lite,0,True,VACUUM START
+deltars-main,nockpt,49,lite,168,True,VACUUM START
+deltars-main,nockpt,49,full,0,True,VACUUM START
+deltars-main,nockpt,49,full,168,True,VACUUM START
+deltars-main,ckpt,49,lite,0,True,VACUUM START
+deltars-main,ckpt,49,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,49,full,0,True,VACUUM START
+deltars-main,ckpt,49,full,168,True,VACUUM START
+deltars-main,nockpt,50,lite,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,50,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,50,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,50,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,50,lite,0,True,VACUUM START
+deltars-main,ckpt,50,lite,168,True,VACUUM START
+deltars-main,ckpt,50,full,0,True,VACUUM START
+deltars-main,ckpt,50,full,168,True,VACUUM START
+deltars-main,ckpt,51,lite,0,True,VACUUM START
+deltars-main,ckpt,51,lite,168,False,none
+deltars-main,ckpt,51,full,0,True,VACUUM START
+deltars-main,nockpt,52,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,52,full,168,True,VACUUM START
+deltars-main,ckpt,52,lite,168,True,VACUUM START
+deltars-main,ckpt,52,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,53,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,53,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,54,lite,0,True,VACUUM START
+deltars-main,nockpt,54,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,54,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,54,lite,0,True,VACUUM START
+deltars-main,ckpt,54,lite,168,True,VACUUM START
+deltars-main,ckpt,54,full,0,True,VACUUM START
+deltars-main,ckpt,54,full,168,True,VACUUM START
+deltars-main,nockpt,55,lite,168,False,none
+deltars-main,ckpt,55,lite,168,False,none
+deltars-main,nockpt,56,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,56,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,56,lite,0,True,VACUUM START
+deltars-main,ckpt,56,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,56,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,57,lite,0,True,VACUUM START
+deltars-main,nockpt,58,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,58,full,168,True,VACUUM START
+deltars-main,ckpt,58,lite,0,True,VACUUM START
+deltars-main,ckpt,58,lite,168,True,VACUUM START
+deltars-main,ckpt,58,full,168,True,VACUUM START
+deltars-main,ckpt,59,lite,0,True,VACUUM START
+deltars-main,ckpt,59,full,0,True,VACUUM START
+deltars-main,nockpt,60,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,60,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,61,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,61,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,62,lite,0,True,VACUUM START
+deltars-main,ckpt,62,lite,0,True,VACUUM START
+deltars-main,ckpt,62,lite,168,False,none
+deltars-main,nockpt,63,lite,168,False,none
+deltars-main,nockpt,63,full,0,False,VACUUM START+VACUUM END
+deltars-main,ckpt,63,full,0,True,VACUUM START
+deltars-main,nockpt,64,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,64,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,64,lite,0,True,VACUUM START
+deltars-main,ckpt,64,lite,168,True,VACUUM START
+deltars-main,ckpt,64,full,0,True,VACUUM START
+deltars-main,ckpt,64,full,168,True,VACUUM START
+deltars-main,nockpt,65,lite,0,True,VACUUM START
+deltars-main,nockpt,65,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,65,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,65,lite,0,True,VACUUM START
+deltars-main,ckpt,65,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,65,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,66,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,66,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,67,lite,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,67,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,67,full,168,True,VACUUM START
+deltars-main,ckpt,67,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,67,full,0,True,VACUUM START
+deltars-main,ckpt,67,full,168,True,VACUUM START
+deltars-main,nockpt,68,lite,0,True,VACUUM START
+deltars-main,nockpt,68,full,0,True,VACUUM START
+deltars-main,ckpt,68,lite,0,True,VACUUM START
+deltars-main,nockpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-main,ckpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,70,lite,0,True,VACUUM START
+deltars-main,nockpt,70,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,70,full,0,True,VACUUM START
+deltars-main,nockpt,70,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,70,lite,0,True,VACUUM START
+deltars-main,ckpt,70,lite,168,True,VACUUM START
+deltars-main,ckpt,70,full,0,True,VACUUM START
+deltars-main,ckpt,70,full,168,True,VACUUM START
+deltars-main,ckpt,71,lite,0,True,VACUUM START
+deltars-main,ckpt,71,full,168,False,none
+deltars-main,nockpt,72,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,72,full,0,True,VACUUM START
+deltars-main,nockpt,72,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,72,lite,0,True,VACUUM START
+deltars-main,ckpt,72,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,72,full,0,True,VACUUM START
+deltars-main,ckpt,72,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,73,lite,0,True,VACUUM START
+deltars-main,nockpt,73,lite,168,True,VACUUM START
+deltars-main,nockpt,73,full,0,True,VACUUM START
+deltars-main,nockpt,73,full,168,True,VACUUM START
+deltars-main,ckpt,73,lite,168,True,VACUUM START
+deltars-main,ckpt,73,full,0,True,VACUUM START
+deltars-main,ckpt,73,full,168,True,VACUUM START
+deltars-main,nockpt,74,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,74,lite,0,False,VACUUM START+VACUUM END
+deltars-main,ckpt,74,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,75,lite,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,76,lite,0,True,VACUUM START
+deltars-main,nockpt,76,lite,168,True,VACUUM START
+deltars-main,nockpt,76,full,0,True,VACUUM START
+deltars-main,nockpt,76,full,168,True,VACUUM START
+deltars-main,ckpt,76,lite,0,True,VACUUM START
+deltars-main,ckpt,76,lite,168,True,VACUUM START
+deltars-main,ckpt,76,full,0,True,VACUUM START
+deltars-main,ckpt,76,full,168,True,VACUUM START
+deltars-main,nockpt,77,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,77,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,78,lite,0,True,VACUUM START
+deltars-main,nockpt,78,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,78,full,0,True,VACUUM START
+deltars-main,nockpt,78,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,78,lite,0,True,VACUUM START
+deltars-main,ckpt,78,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,78,full,0,True,VACUUM START
+deltars-main,ckpt,78,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,79,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,79,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,80,lite,0,True,VACUUM START
+deltars-main,nockpt,80,lite,168,True,VACUUM START
+deltars-main,nockpt,80,full,0,True,VACUUM START
+deltars-main,nockpt,80,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,80,lite,0,True,VACUUM START
+deltars-main,ckpt,80,lite,168,True,VACUUM START
+deltars-main,ckpt,80,full,0,True,VACUUM START
+deltars-main,ckpt,80,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,81,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,81,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,81,lite,0,True,VACUUM START
+deltars-main,ckpt,81,lite,168,True,VACUUM START
+deltars-main,ckpt,81,full,0,True,VACUUM START
+deltars-main,ckpt,81,full,168,True,VACUUM START
+deltars-main,nockpt,82,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,82,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,82,full,168,True,VACUUM START
+deltars-main,ckpt,82,lite,0,True,VACUUM START
+deltars-main,ckpt,82,lite,168,True,VACUUM START
+deltars-main,ckpt,82,full,168,True,VACUUM START
+deltars-main,ckpt,83,lite,0,False,none
+deltars-main,nockpt,84,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,84,lite,0,True,VACUUM START
+deltars-main,ckpt,84,lite,168,True,VACUUM START
+deltars-main,ckpt,84,full,0,True,VACUUM START
+deltars-main,ckpt,84,full,168,True,VACUUM START
+deltars-main,nockpt,85,lite,0,True,VACUUM START
+deltars-main,nockpt,85,full,0,True,VACUUM START
+deltars-main,ckpt,85,lite,0,True,VACUUM START
+deltars-main,ckpt,85,full,0,True,VACUUM START
+deltars-main,nockpt,86,lite,168,False,none
+deltars-main,nockpt,87,lite,0,True,VACUUM START
+deltars-main,ckpt,87,lite,0,True,VACUUM START
+deltars-main,ckpt,87,full,0,True,VACUUM START
+deltars-main,nockpt,88,lite,0,True,VACUUM START
+deltars-main,nockpt,88,full,0,True,VACUUM START
+deltars-main,ckpt,88,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,89,lite,0,True,VACUUM START
+deltars-main,nockpt,89,full,0,True,VACUUM START
+deltars-main,ckpt,89,full,0,True,VACUUM START
+deltars-main,ckpt,89,full,168,False,none
+deltars-main,nockpt,90,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,90,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,90,lite,168,True,VACUUM START
+deltars-main,ckpt,90,full,168,True,VACUUM START
+deltars-main,nockpt,91,lite,0,True,VACUUM START
+deltars-main,nockpt,91,full,0,False,VACUUM START+VACUUM END
+deltars-main,nockpt,91,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,91,lite,0,True,VACUUM START
+deltars-main,ckpt,91,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,92,lite,0,True,VACUUM START
+deltars-main,ckpt,92,full,0,True,VACUUM START
+deltars-main,nockpt,93,full,0,True,VACUUM START
+deltars-main,ckpt,93,lite,0,True,VACUUM START
+deltars-main,ckpt,93,full,0,True,VACUUM START
+deltars-main,nockpt,94,lite,0,True,VACUUM START
+deltars-main,nockpt,94,full,0,True,VACUUM START
+deltars-main,nockpt,94,full,168,False,none
+deltars-main,ckpt,94,lite,0,True,VACUUM START
+deltars-main,ckpt,94,full,0,True,VACUUM START
+deltars-main,nockpt,95,lite,0,True,VACUUM START
+deltars-main,nockpt,95,lite,168,True,VACUUM START
+deltars-main,nockpt,95,full,0,True,VACUUM START
+deltars-main,nockpt,95,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,95,lite,0,True,VACUUM START
+deltars-main,ckpt,95,lite,168,True,VACUUM START
+deltars-main,ckpt,95,full,0,True,VACUUM START
+deltars-main,ckpt,95,full,168,True,VACUUM START
+deltars-main,nockpt,96,lite,0,True,VACUUM START
+deltars-main,ckpt,96,full,0,True,VACUUM START
+deltars-main,nockpt,97,lite,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,97,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,97,lite,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,97,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,98,full,0,True,VACUUM START
+deltars-main,nockpt,98,full,168,False,VACUUM START+VACUUM END
+deltars-main,ckpt,98,full,168,False,VACUUM START+VACUUM END
+deltars-main,nockpt,99,full,0,True,VACUUM START
+deltars-main,ckpt,99,lite,0,True,VACUUM START
+deltars-main+4858,nockpt,2,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,2,full,168,False,none
+deltars-main+4858,nockpt,3,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,3,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,3,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,3,lite,168,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,4,full,168,False,none
+deltars-main+4858,ckpt,6,lite,168,False,none
+deltars-main+4858,ckpt,7,lite,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,9,lite,168,False,none
+deltars-main+4858,ckpt,10,lite,0,False,none
+deltars-main+4858,ckpt,13,full,168,False,none
+deltars-main+4858,ckpt,14,lite,168,False,none
+deltars-main+4858,ckpt,16,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,20,full,168,False,none
+deltars-main+4858,ckpt,20,full,168,False,none
+deltars-main+4858,ckpt,22,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,23,lite,168,False,none
+deltars-main+4858,nockpt,23,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,23,lite,168,False,none
+deltars-main+4858,nockpt,24,full,168,False,none
+deltars-main+4858,ckpt,24,full,168,False,none
+deltars-main+4858,nockpt,27,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,27,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,28,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,29,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,29,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,30,lite,0,False,none
+deltars-main+4858,nockpt,30,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,31,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,31,full,168,False,none
+deltars-main+4858,nockpt,34,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,35,full,168,False,none
+deltars-main+4858,ckpt,36,lite,168,False,none
+deltars-main+4858,nockpt,39,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,40,lite,168,False,none
+deltars-main+4858,ckpt,42,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,43,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,46,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,46,full,168,False,none
+deltars-main+4858,ckpt,46,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,46,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,48,lite,168,False,none
+deltars-main+4858,ckpt,48,lite,168,False,none
+deltars-main+4858,ckpt,49,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,49,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,50,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,50,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,50,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,51,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,51,lite,168,False,none
+deltars-main+4858,nockpt,52,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,53,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,54,lite,168,False,none
+deltars-main+4858,nockpt,55,lite,168,False,none
+deltars-main+4858,ckpt,55,lite,168,False,none
+deltars-main+4858,nockpt,58,lite,168,False,none
+deltars-main+4858,ckpt,62,lite,168,False,none
+deltars-main+4858,nockpt,63,lite,168,False,none
+deltars-main+4858,nockpt,63,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,65,full,168,False,none
+deltars-main+4858,nockpt,67,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,67,lite,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,70,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,71,full,168,False,none
+deltars-main+4858,nockpt,74,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,74,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,75,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,78,full,168,False,none
+deltars-main+4858,nockpt,79,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,81,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,82,lite,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,82,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,82,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,83,lite,0,False,none
+deltars-main+4858,nockpt,86,lite,168,False,none
+deltars-main+4858,nockpt,88,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,88,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,88,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,89,full,168,False,none
+deltars-main+4858,nockpt,91,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,91,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,91,full,168,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,94,lite,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,94,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,nockpt,94,full,168,False,none
+deltars-main+4858,ckpt,94,full,0,False,VACUUM START+VACUUM END
+deltars-main+4858,ckpt,98,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,0,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,0,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,1,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,1,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,1,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,1,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,1,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,1,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,1,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,1,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,2,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,2,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,2,full,168,False,none
+deltars-1.6.6,ckpt,2,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,3,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,3,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,3,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,3,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,3,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,3,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,3,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,3,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,4,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,4,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,4,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,4,full,168,False,none
+deltars-1.6.6,nockpt,5,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,5,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,5,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,5,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,5,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,5,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,6,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,6,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,6,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,6,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,6,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,6,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,6,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,6,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,7,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,7,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,7,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,7,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,7,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,7,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,7,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,7,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,8,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,8,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,8,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,8,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,8,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,8,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,8,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,8,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,9,lite,168,False,none
+deltars-1.6.6,nockpt,9,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,9,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,9,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,9,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,10,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,10,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,10,lite,0,False,none
+deltars-1.6.6,ckpt,10,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,10,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,11,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,11,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,11,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,11,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,12,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,12,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,12,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,12,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,13,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,13,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,13,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,13,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,13,full,168,False,none
+deltars-1.6.6,nockpt,14,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,14,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,14,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,14,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,14,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,14,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,14,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,15,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,15,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,15,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,15,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,15,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,15,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,15,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,15,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,16,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,16,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,16,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,16,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,17,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,17,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,17,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,17,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,17,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,17,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,18,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,18,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,18,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,18,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,18,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,18,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,18,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,19,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,19,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,19,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,19,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,19,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,19,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,19,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,20,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,20,full,168,False,none
+deltars-1.6.6,ckpt,20,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,20,full,168,False,none
+deltars-1.6.6,nockpt,21,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,21,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,21,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,22,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,22,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,22,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,22,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,23,lite,168,False,none
+deltars-1.6.6,nockpt,23,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,23,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,23,lite,168,False,none
+deltars-1.6.6,ckpt,23,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,24,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,24,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,24,full,168,False,none
+deltars-1.6.6,ckpt,24,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,24,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,24,full,168,False,none
+deltars-1.6.6,nockpt,25,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,25,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,25,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,25,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,26,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,26,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,26,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,26,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,27,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,27,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,27,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,27,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,27,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,27,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,27,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,28,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,28,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,28,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,28,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,28,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,28,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,28,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,29,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,29,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,29,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,29,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,29,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,29,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,29,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,29,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,30,lite,0,False,none
+deltars-1.6.6,nockpt,30,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,30,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,31,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,31,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,31,full,168,False,none
+deltars-1.6.6,nockpt,32,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,32,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,32,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,32,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,32,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,32,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,32,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,32,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,33,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,33,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,33,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,33,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,34,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,34,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,34,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,35,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,35,full,168,False,none
+deltars-1.6.6,ckpt,35,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,36,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,36,lite,168,False,none
+deltars-1.6.6,ckpt,36,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,37,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,37,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,37,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,37,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,37,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,37,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,37,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,38,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,38,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,39,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,39,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,39,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,39,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,39,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,39,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,39,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,40,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,40,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,40,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,40,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,40,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,40,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,41,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,41,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,42,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,42,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,42,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,42,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,42,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,42,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,43,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,43,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,43,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,43,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,43,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,43,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,43,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,44,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,44,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,44,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,44,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,45,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,45,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,45,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,45,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,45,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,45,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,45,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,45,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,46,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,46,full,168,False,none
+deltars-1.6.6,ckpt,46,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,46,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,47,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,47,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,47,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,47,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,48,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,48,lite,168,False,none
+deltars-1.6.6,nockpt,48,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,48,lite,168,False,none
+deltars-1.6.6,ckpt,48,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,49,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,49,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,49,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,49,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,49,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,49,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,49,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,49,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,50,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,50,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,50,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,50,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,50,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,50,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,50,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,50,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,51,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,51,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,51,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,51,lite,168,False,none
+deltars-1.6.6,ckpt,51,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,52,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,52,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,52,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,52,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,52,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,52,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,53,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,53,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,53,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,53,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,54,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,54,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,54,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,54,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,54,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,54,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,54,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,54,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,55,lite,168,False,none
+deltars-1.6.6,nockpt,55,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,55,lite,168,False,none
+deltars-1.6.6,ckpt,55,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,56,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,56,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,56,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,56,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,56,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,56,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,56,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,57,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,57,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,57,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,58,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,58,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,58,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,58,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,58,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,58,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,59,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,59,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,59,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,59,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,60,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,60,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,60,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,60,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,61,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,61,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,61,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,61,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,62,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,62,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,62,lite,168,False,none
+deltars-1.6.6,ckpt,62,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,63,lite,168,False,none
+deltars-1.6.6,nockpt,63,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,63,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,64,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,64,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,64,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,64,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,64,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,64,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,64,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,65,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,65,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,65,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,65,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,65,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,65,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,65,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,66,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,66,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,66,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,66,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,67,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,67,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,67,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,67,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,67,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,67,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,68,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,68,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,69,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,70,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,70,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,70,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,70,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,70,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,70,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,70,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,71,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,71,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,71,full,168,False,none
+deltars-1.6.6,nockpt,72,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,72,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,72,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,72,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,72,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,72,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,72,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,73,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,73,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,73,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,73,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,73,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,73,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,73,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,73,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,74,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,74,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,74,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,74,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,74,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,75,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,75,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,75,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,76,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,76,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,76,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,76,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,76,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,76,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,76,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,76,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,77,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,77,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,77,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,77,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,78,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,78,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,78,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,78,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,78,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,78,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,78,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,78,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,79,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,79,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,79,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,79,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,80,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,80,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,80,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,80,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,80,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,80,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,80,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,80,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,81,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,81,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,81,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,81,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,81,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,81,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,81,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,82,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,82,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,82,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,82,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,82,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,82,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,82,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,83,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,83,lite,0,False,none
+deltars-1.6.6,ckpt,83,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,84,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,84,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,84,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,84,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,84,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,84,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,85,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,85,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,85,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,85,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,86,lite,168,False,none
+deltars-1.6.6,nockpt,86,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,86,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,87,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,87,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,87,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,88,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,88,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,88,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,89,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,89,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,89,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,89,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,89,full,168,False,none
+deltars-1.6.6,nockpt,90,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,90,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,90,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,90,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,90,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,90,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,91,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,91,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,91,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,91,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,91,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,92,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,92,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,92,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,93,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,93,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,93,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,94,lite,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,94,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,94,full,168,False,none
+deltars-1.6.6,ckpt,94,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,95,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,95,lite,168,True,VACUUM START
+deltars-1.6.6,nockpt,95,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,95,full,168,True,VACUUM START
+deltars-1.6.6,ckpt,95,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,95,lite,168,True,VACUUM START
+deltars-1.6.6,ckpt,95,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,95,full,168,True,VACUUM START
+deltars-1.6.6,nockpt,96,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,96,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,96,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,97,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,97,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,97,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,97,lite,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,97,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,97,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,98,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,98,full,0,True,VACUUM START
+deltars-1.6.6,nockpt,98,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,98,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,98,full,0,False,VACUUM START+VACUUM END
+deltars-1.6.6,ckpt,98,full,168,False,VACUUM START+VACUUM END
+deltars-1.6.6,nockpt,99,lite,0,True,VACUUM START
+deltars-1.6.6,nockpt,99,full,0,True,VACUUM START
+deltars-1.6.6,ckpt,99,lite,0,True,VACUUM START
+deltars-1.6.6,ckpt,99,full,0,True,VACUUM START
+spark-4.4.1,nockpt,2,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,2,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,3,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,3,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,3,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,3,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,4,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,6,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,7,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,9,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,10,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,13,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,14,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,16,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,20,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,20,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,22,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,23,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,23,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,23,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,24,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,24,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,27,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,27,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,28,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,29,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,29,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,30,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,30,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,31,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,31,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,34,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,35,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,36,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,39,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,40,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,42,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,43,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,46,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,46,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,46,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,46,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,48,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,48,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,49,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,49,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,50,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,50,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,50,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,51,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,51,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,52,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,53,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,54,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,55,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,55,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,58,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,62,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,63,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,63,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,65,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,67,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,67,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,69,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,69,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,70,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,71,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,74,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,74,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,75,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,78,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,79,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,81,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,82,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,82,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,82,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,83,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,86,lite,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,88,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,88,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,88,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,89,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,91,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,91,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,91,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,94,lite,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,94,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,nockpt,94,full,168,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,94,full,0,False,VACUUM START+VACUUM END
+spark-4.4.1,ckpt,98,full,168,False,VACUUM START+VACUUM END

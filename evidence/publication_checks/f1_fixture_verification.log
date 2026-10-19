@@ -1,0 +1,13 @@
+{
+  "pre": {
+    "readable": true,
+    "rows": 16,
+    "digest": "1f3e17711306b5c9e2682199e33b89b3854fc0b45037e1812b6b9aaa0b02b5b7"
+  },
+  "post": {
+    "readable": false,
+    "rows": null,
+    "digest": null,
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '<LOCAL_HOME>\\\\.codex\\\\.chatgpt-projects\\\\g-p-6ace69accadc8191aa0136d6b9f388a8\\\\publication_readiness_20261018\\\\repository\\\\evidence\\\\fixtures\\\\f1_168\\\\post\\\\deletion_vector_375c1c5c-5f2e-4cf2-9607-d1d7d5a02f20.bin'"
+  }
+}

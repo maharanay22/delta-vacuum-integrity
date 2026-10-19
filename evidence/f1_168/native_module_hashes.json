@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "756E9D4C859AF6855E7E170FB28C44985E634D838F9C246351DAFF38883C48E3",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\prefix\\Lib\\site-packages\\deltalake\\_internal.pyd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0BCF6C21A455C0C6379BA12EAD846EBE0E42A16A4F594A5929EBB1732297F368",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\main\\Lib\\site-packages\\deltalake\\_internal.pyd"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C7728025C531C824AFB5FF50A305058950DA346477864B07657936D45381D239",
+    "Path": "<LOCAL_HOME>\\Documents\\Research\\delta-vacuum-integrity\\venvs\\pr4858\\Lib\\site-packages\\deltalake\\_internal.pyd"
+  }
+]
