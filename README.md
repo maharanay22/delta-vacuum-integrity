@@ -1,6 +1,6 @@
 # Delta Lake VACUUM Integrity Research Artifact
 
-Independently developed research by Maha Rana Yadavalli on deletion vectors, VACUUM and retained snapshot readability. **Proposed public repository â€” awaiting explicit owner approval.** No release or DOI is asserted.
+Independently developed research by Maha Rana Yadavalli on deletion vectors, VACUUM and retained snapshot readability. **Public research repository, published with the owner's approval.** No versioned release, tag or DOI has been created.
 
 The original matrix contains 3,200 runs, 200 paired checkpoint/non-checkpoint histories, 100 seed numbers and 2,416 versions. Path-redacted original outcome views are preserved separately from regenerated examples and later supplemental experiments. Exact original bytes remain in the private review archive, excluded from public upload.
 
@@ -20,6 +20,6 @@ See [reproduction instructions](docs/REPRODUCTION.md), [actual clean-install sco
 
 Layout: `code/` holds generator, checker, oracle, harness, analyses and original outcome views; `evidence/pass10/` holds the replay snapshot and exposure outputs; `evidence/f1_168/` and `evidence/causal_restoration/` preserve earlier supplemental observations; `evidence/publication_revision/` contains this revision's new results/logs/audits; `evidence/recovered_original_tests/` contains recovered original text; `evidence/regenerated_seed1/` remains explicitly regenerated. `deps/` records independently obtained dependencies; no runtime binaries or environments are shipped. `ARTIFACT_MANIFEST.json` hashes the final tree. `ARTIFACT_LINEAGE.json` and `REVISION_LINEAGE.json` distinguish inputs and revisions.
 
-Proposed licenses are Apache-2.0 for authored software/documentation and CC BY 4.0 for author-owned data/results/figures, with upstream exceptions in `LICENSING.md` and `NOTICE`. The 52 upstream checker fixture files and delta-rs patch retain Apache-2.0. No manuscript is included. `CITATION.cff` contains retained author/title metadata without invented identifiers.
+Licenses are Apache-2.0 for authored software/documentation and CC BY 4.0 for author-owned data/results/figures, with upstream exceptions in `LICENSING.md` and `NOTICE`. The 52 original upstream checker fixture files were verified against delta-rs; the public tree contains 31 derived fixture files after omission of 21 checksum sidecars. Those files and the delta-rs patch retain Apache-2.0. No manuscript is included. `CITATION.cff` contains retained author/title metadata without invented identifiers.
 
-All tests use small synthetic, single-writer local Windows data. Same-host clean installs passed; fresh native compilation, independent-machine execution, cloud storage and concurrency generalization remain unverified. No full matrix rerun, original-table VACUUM, system-clock change, push, publication or DOI creation occurred.
+All tests use small synthetic, single-writer local Windows data. Same-host clean installs passed; fresh native compilation, independent-machine execution, cloud storage and concurrency generalization remain unverified. Preparation did not rerun the full matrix, execute VACUUM on original tables or change the system clock. The repository was subsequently published with owner approval. No versioned release, tag or DOI has been created.

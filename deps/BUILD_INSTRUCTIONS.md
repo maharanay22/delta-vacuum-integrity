@@ -38,10 +38,10 @@ cd delta-rs
 git checkout 640dc8937cd6d5c49c16fbf203d72083d86c5b21
 ```
 
-To reconstruct the locally rebased experimental revision, apply the patch supplied at the root of this research repository:
+To reconstruct the locally rebased experimental revision, apply `deps/pr4858-rebased.patch` from this research repository. Replace the research-checkout prefix in the example with its actual location:
 
 ```bash
-git apply /path/to/pr4858-rebased.patch
+git apply /path/to/delta-vacuum-integrity/deps/pr4858-rebased.patch
 ```
 
 The patch was verified to apply cleanly against the specified main commit.

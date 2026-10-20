@@ -8,12 +8,12 @@
     },
     {
       "path": "ARTIFACT_LINEAGE.json",
-      "current_sha256": "8d8860185d0ef08ee79a04e93ea282e9c3cb1cafe9f0e8e4a513de2e6ece6d45",
+      "current_sha256": "1d80901e6e6dd5ba226188ffd84025d596a684c3a4e7f66e40d368f78d05ed87",
       "prior_candidate_sha256": "4e5823ba75d13cfa25d8ffc39fe8087975e0657dc9f8995c1355108e8074940b"
     },
     {
       "path": "CITATION.cff",
-      "current_sha256": "b8ee228500db1862f0afc03ca7e8e06282722074a7568b08967762158360ab21",
+      "current_sha256": "af0dda991fd2da9bd2d6a1f8bcd9d74dd295bb64789986a48746478a267d0c60",
       "prior_candidate_sha256": "b8ee228500db1862f0afc03ca7e8e06282722074a7568b08967762158360ab21"
     },
     {
@@ -408,7 +408,7 @@
     },
     {
       "path": "DATA_AND_FIGURES_LICENSE.md",
-      "current_sha256": "9bb930f79c7801e196cdf491051ed828a5a28c15a9b7e3d3c2145a1dde761119",
+      "current_sha256": "36b3362f38a5df2b544cf7c97c23943388f1a5ec3860dc79398bde5321037119",
       "prior_candidate_sha256": null
     },
     {
@@ -418,7 +418,7 @@
     },
     {
       "path": "deps/BUILD_INSTRUCTIONS.md",
-      "current_sha256": "fd89b53fbe3600d9b9709a73f99986dc839ec52669f15326bcd70f1124deddf6",
+      "current_sha256": "fb2c7989b266bab5c4fe52c4892c569a7733e6ae4025e4b36d20a9eaa53ffa3c",
       "prior_candidate_sha256": "fd89b53fbe3600d9b9709a73f99986dc839ec52669f15326bcd70f1124deddf6"
     },
     {
@@ -503,7 +503,7 @@
     },
     {
       "path": "deps/requirements/README.md",
-      "current_sha256": "e99e591477f57299d919be5dce71f7cefcddf16e1c5368aa7aadb24e8cbf108c",
+      "current_sha256": "b1fe57c2e3806e8db07cd7ac248e7f8221292cfd668984c4657ebdc3b86d3633",
       "prior_candidate_sha256": "e99e591477f57299d919be5dce71f7cefcddf16e1c5368aa7aadb24e8cbf108c"
     },
     {
@@ -553,17 +553,17 @@
     },
     {
       "path": "docs/OWNERSHIP_AND_LICENSE_AUDIT.md",
-      "current_sha256": "e5c06d880c1932068cb265fed6530d16959ba3e73483db5d5af6568e892914a8",
+      "current_sha256": "7d729c6d55ac85a82aa74430bec2872844b0cfd400009c402545cd8484a97848",
       "prior_candidate_sha256": null
     },
     {
       "path": "docs/PUBLICATION_READINESS.md",
-      "current_sha256": "a3ad4aab53312d2140030d390886d416dbefc6b7acf8bb53fe7d021f72b7e591",
+      "current_sha256": "5a713520f703fa0173fd2965d1e33fd4d05c6b6da6d2eb2bd62cd8555d114eaa",
       "prior_candidate_sha256": "4d6d685ac59390ae18594c011aa7aa6dff3c6430937a663ff00c472fc119e573"
     },
     {
       "path": "docs/REMAINING_BLOCKERS.md",
-      "current_sha256": "ad18501175e122c92ce7b970d62cb7a931c2876ceee3bd19e7bfe0345b70eb54",
+      "current_sha256": "eb17e1e06961a46c1bc19d86f13a39e1fddd33a9f996d986ccc12a06a1481870",
       "prior_candidate_sha256": "1f5f84af3ed96aa2de3958225d2f38a05ec1d24cf5f200d75e12f0e21854bd2a"
     },
     {
@@ -1568,7 +1568,7 @@
     },
     {
       "path": "LICENSE_PROPOSAL.md",
-      "current_sha256": "97710415e8255fbf7109d5ee0f973b0c33b64d215024ebd6a44005b13a749ae4",
+      "current_sha256": "cfce4f069da9d213b35e10dcf95df5dc5c058ac037eb437be3678a7fcc06de9d",
       "prior_candidate_sha256": "05f159c12286802457ae1f179b9c0a1dc4f0c70c0382ad1fde22ffdec4b1e7f9"
     },
     {
@@ -1583,7 +1583,7 @@
     },
     {
       "path": "LICENSING.md",
-      "current_sha256": "0248120f28a4ea271082a0114c9bb26cc67fe6131bda304894a5b21c2d33a64d",
+      "current_sha256": "ba031a07b34f8ba1035a22caccffa1be06777394ae11e9aece4a53d0a2d7dd0b",
       "prior_candidate_sha256": null
     },
     {
@@ -1593,12 +1593,12 @@
     },
     {
       "path": "NOTICE",
-      "current_sha256": "b55c333000fe9955168316f44183d4752c81918d1be003da35198401bdebe9aa",
+      "current_sha256": "7bd9a0e252837c420e99e4f693eb07e2a5c33a12c4014a77d80816648f940a7d",
       "prior_candidate_sha256": null
     },
     {
       "path": "README.md",
-      "current_sha256": "e26d1f6a9841209c66025aa243d1bc31ac1c8ba1d83de9e46b1edd09f72b3e6f",
+      "current_sha256": "7e83e25eeffd370bc9e6d2a3fc0afdab56407b6fff95b75fe017b1e8d7228bc4",
       "prior_candidate_sha256": "d673b98ed57139d644a9a5b8575ee8c27a2ccee2715d4b8a7488cf9ed2bda1bf"
     },
     {
@@ -1671,5 +1671,6 @@
       "current_sha256": "aeb41636826f2f6d52d9fda6a7aaf362840c8917a380a53056e077680597ee1b",
       "prior_candidate_sha256": "aeb41636826f2f6d52d9fda6a7aaf362840c8917a380a53056e077680597ee1b"
     }
-  ]
+  ],
+  "documentation_correction_base_commit": "0b047c401796685030e1bd82384703ad5410ee62"
 }

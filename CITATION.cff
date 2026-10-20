@@ -1,6 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this research software and identify the specific evidence package used. Release metadata is pending verification."
+message: "Please cite this research software and identify the commit SHA and evidence package used."
 type: software
+repository-code: "https://github.com/maharanay22/delta-vacuum-integrity"
+url: "https://github.com/maharanay22/delta-vacuum-integrity"
 title: "Delta Lake VACUUM Integrity Research Artifact"
 authors:
   - given-names: "Maha Rana"

@@ -1,19 +1,19 @@
-# Updated publication-readiness report
+# Publication-readiness report
 
-**HOLD FOR EXPLICIT OWNER APPROVAL.** Targeted preparation and validation are complete within the stated scope. No public action occurred. Remaining scientific and legal limits are explicit; this is not independent legal or artifact certification.
+**Status: public research repository, published with explicit owner approval. No versioned release, tag or DOI has been created.** The initial reviewed publication is commit `0b047c401796685030e1bd82384703ad5410ee62`. These documentation corrections preserve the research code and all experimental evidence.
 
-| Status | Finding | Evidence / limit |
+| Status | Finding | Evidence and limits |
 |---|---|---|
-| PASS | Original preservation | 200 original source/evidence hashes unchanged; prior 225-file candidate verified. |
-| PASS | Matrix and Pass10 | 3200 unique original outcome keys; exact replay totals match archived Pass10; original vs regenerated vs supplemental preserved. |
-| PASS | Original A1/A3 code recovered | Selected command-history here-strings extracted with line ranges and hashes; new A1 JSON equals retained result; original A3 rerun matches reported counts. |
-| PASS | F1 and causal controls | Fresh isolated installs: FULL/168 pre-fix selects/deletes DV, patched preserves; both readers corroborate; restore/remove controls pass. |
-| PASS | Checker tests | 11 passed, zero skipped with all 52 upstream fixture identities established. |
-| PASS | Source license preparation | Full scoped Apache/CC texts, NOTICE, upstream fixture mapping and dependency exclusions prepared. |
-| WARNING | Independent ownership evidence | Author independence statement and local Git provenance; no legal-title/assignment certification. |
-| WARNING | Build reproducibility | Cached artifact clean installs on same host; no fresh native build or new-machine reproduction. |
-| WARNING | Historical execution evidence | No original A1/A3 stdout, timestamps or exit status; logs here are new reruns. |
-| WARNING | Privacy and Git scope | Public tree contains no inherited Git history; heuristic scans have binary/large-object limits. Private review archives must not be published. |
-| WARNING | Release metadata | No DOI, ORCID, acceptance or release version invented. Explicit publication approval remains outstanding. |
+| PASS | Publication and licensing approval | The owner approved publication of the reviewed package. Current Apache-2.0 / CC BY 4.0 scope and upstream exceptions are recorded in LICENSING.md, LICENSE, DATA_AND_FIGURES_LICENSE.md and NOTICE. No additional legal rights are asserted. |
+| PASS | Initial public artifact integrity | Anonymous verification of the initial publication matched all 336 approved files: 335 manifest entries and the manifest itself. |
+| PASS | Documentation corrections | Approval-stage wording is current, build instructions identify deps/pr4858-rebased.patch, and current descriptions distinguish 52 verified original fixture files from 31 published derived files. Encoding damage in current-facing text and escaped documentation examples is corrected. |
+| PASS | Original results and evidence | The preserved original matrix contains 3,200 unique outcomes. Published original, regenerated and supplemental observations remain separate. Independent offline replay reproduced Pass10 totals and A3 counts. These documentation edits do not rerun an engine experiment. |
+| PASS | Previously executed targeted validation | Fresh same-host installs reproduced F1 FULL/168 pre-fix DV deletion, patched preservation and DV restoration/removal controls. The preserved final checker log reports 11 passing tests and no skips. These are historical checks, not new results from this correction. |
+| PASS | Fixture provenance and privacy | All 52 original fixture files matched upstream blobs. Publication omits 21 checksum sidecars; 31 derived files remain, with nonessential identities removed from 21 commitInfo records. Hashes and modification records are retained. |
+| WARNING | Independent ownership evidence | The author's statement and Git provenance support the scope; no independent legal-title, employer-assignment or patent certification is claimed. |
+| WARNING | Build reproducibility | Fresh native compilation and independent-machine engine reproduction remain unverified. Existing cached artifacts were used in the recorded clean-install tests. |
+| WARNING | Historical execution records | Original A1/A3 stdout, timestamps and exit status were not recovered; recovered code and clearly labelled new reruns are retained. |
+| WARNING | Security review limits | Text scans are heuristic and do not exhaustively inspect every binary encoding. Private archives and unreviewed runtime distributions must not be uploaded. |
+| WARNING | Citation and release metadata | Author and repository URLs are verified. No versioned release date, DOI or ORCID is invented. Full CFF schema validation remains unverified. |
 
-No unresolved failed acceptance check remains for the executed F1/control, matrix, Pass10 and recovered-test tasks. Fresh source compilation, historical stdout and legal-title certification remain unavailable, not passed. Full details and exact counts are in `evidence/publication_revision/VERIFICATION_RESULTS.json`; all execution attempts are retained. Source-only licensing scope and final release require the owner's approval.
+Historical candidate-state reports and logs under evidence/ describe their capture time and remain unchanged. Refer to the current README and LICENSING.md for publication status and scope. A versioned release or Zenodo action requires separate authorization.
